@@ -1,0 +1,1002 @@
+[
+  {
+    "code": "FIC-001",
+    "name": "Dark Vador",
+    "category": "Cinéma",
+    "franchise": "Star Wars",
+    "description": "Ancien Jedi devenu le bras armé de l’Empire galactique. Univers : Star Wars.",
+    "summary": "Ancien Jedi devenu le bras armé de l’Empire galactique.",
+    "symbol": "masque",
+    "rarityProposal": "Suprême"
+  },
+  {
+    "code": "FIC-002",
+    "name": "Luke Skywalker",
+    "category": "Cinéma",
+    "franchise": "Star Wars",
+    "description": "Jeune pilote de Tatooine qui apprend à maîtriser la Force et devient un Jedi. Univers : Star Wars.",
+    "summary": "Jeune pilote de Tatooine.",
+    "symbol": "épée",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-003",
+    "name": "Leia Organa",
+    "category": "Cinéma",
+    "franchise": "Star Wars",
+    "description": "Princesse d’Alderaan et dirigeante de la Rébellion opposée à l’Empire. Univers : Star Wars.",
+    "summary": "Princesse d’Alderaan et dirigeante de la Rébellion opposée à l’Empire.",
+    "symbol": "étoile",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-004",
+    "name": "Yoda",
+    "category": "Cinéma",
+    "franchise": "Star Wars",
+    "description": "Maître Jedi qui transmet son savoir sur la Force à plusieurs générations. Univers : Star Wars.",
+    "summary": "Maître Jedi.",
+    "symbol": "sage",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-005",
+    "name": "Indiana Jones",
+    "category": "Cinéma",
+    "franchise": "Indiana Jones",
+    "description": "Archéologue et aventurier qui recherche des objets anciens en affrontant de nombreux dangers. Univers : Indiana Jones.",
+    "summary": "Archéologue et aventurier.",
+    "symbol": "chapeau",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-006",
+    "name": "Ellen Ripley",
+    "category": "Cinéma",
+    "franchise": "Alien",
+    "description": "Officière du Nostromo qui lutte pour survivre face aux créatures xénomorphes. Univers : Alien.",
+    "summary": "Officière du Nostromo.",
+    "symbol": "espace",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-007",
+    "name": "Terminator T-800",
+    "category": "Cinéma",
+    "franchise": "Terminator",
+    "description": "Cyborg à endosquelette métallique dont les missions changent selon les films de la saga. Univers : Terminator.",
+    "summary": "Cyborg à endosquelette métallique dont les missions changent selon les films de la saga.",
+    "symbol": "robot",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-008",
+    "name": "Neo",
+    "category": "Cinéma",
+    "franchise": "Matrix",
+    "description": "Programmeur qui découvre la réalité de la Matrice et rejoint la résistance humaine. Univers : Matrix.",
+    "summary": "Programmeur.",
+    "symbol": "code",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-009",
+    "name": "Jack Sparrow",
+    "category": "Cinéma",
+    "franchise": "Pirates des Caraïbes",
+    "description": "Capitaine pirate imprévisible qui poursuit sa liberté et ses ambitions sur les mers. Univers : Pirates des Caraïbes.",
+    "summary": "Capitaine pirate imprévisible.",
+    "symbol": "pirate",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-010",
+    "name": "Marty McFly",
+    "category": "Cinéma",
+    "franchise": "Retour vers le futur",
+    "description": "Adolescent de Hill Valley entraîné dans des voyages temporels à bord de la DeLorean. Univers : Retour vers le futur.",
+    "summary": "Adolescent de Hill Valley entraîné dans des voyages temporels à bord de la DeLorean.",
+    "symbol": "temps",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-011",
+    "name": "Rocky Balboa",
+    "category": "Cinéma",
+    "franchise": "Rocky",
+    "description": "Boxeur de Philadelphie qui affronte des adversaires prestigieux avec une grande ténacité. Univers : Rocky.",
+    "summary": "Boxeur de Philadelphie.",
+    "symbol": "gant",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-012",
+    "name": "Shrek",
+    "category": "Cinéma",
+    "franchise": "Shrek",
+    "description": "Ogre solitaire dont la rencontre avec l’Âne et Fiona bouleverse la vie dans son marais. Univers : Shrek.",
+    "summary": "Ogre solitaire dont la rencontre avec l’Âne et Fiona bouleverse la vie dans son marais.",
+    "symbol": "ogre",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-013",
+    "name": "Elsa",
+    "category": "Cinéma",
+    "franchise": "La Reine des neiges",
+    "description": "Reine d’Arendelle capable de créer de la neige et de la glace. Univers : La Reine des neiges.",
+    "summary": "Reine d’Arendelle capable de créer de la neige et de la glace.",
+    "symbol": "glace",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-014",
+    "name": "Buzz l’Éclair",
+    "category": "Cinéma",
+    "franchise": "Toy Story",
+    "description": "Jouet de ranger de l’espace qui rejoint les autres jouets d’Andy et se lie à Woody. Univers : Toy Story.",
+    "summary": "Jouet de ranger de l’espace.",
+    "symbol": "espace",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-015",
+    "name": "Wall-E",
+    "category": "Cinéma",
+    "franchise": "WALL-E",
+    "description": "Petit robot chargé de compacter les déchets sur une Terre abandonnée par les humains. Univers : WALL-E.",
+    "summary": "Petit robot chargé de compacter les déchets sur une Terre abandonnée par les humains.",
+    "symbol": "robot",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-016",
+    "name": "Walter White",
+    "category": "Série",
+    "franchise": "Breaking Bad",
+    "description": "Professeur de chimie qui se lance dans la fabrication de méthamphétamine et devient Heisenberg. Univers : Breaking Bad.",
+    "summary": "Professeur de chimie.",
+    "symbol": "chimie",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-017",
+    "name": "Jesse Pinkman",
+    "category": "Série",
+    "franchise": "Breaking Bad",
+    "description": "Ancien élève de Walter White qui devient son partenaire dans le trafic de drogue. Univers : Breaking Bad.",
+    "summary": "Ancien élève de Walter White.",
+    "symbol": "chimie",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-018",
+    "name": "Saul Goodman",
+    "category": "Série",
+    "franchise": "Better Call Saul",
+    "description": "Avocat connu pour ses méthodes douteuses, autrefois nommé Jimmy McGill. Univers : Better Call Saul.",
+    "summary": "Avocat connu pour ses méthodes douteuses, autrefois nommé Jimmy McGill.",
+    "symbol": "balance",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-019",
+    "name": "Jon Snow",
+    "category": "Série",
+    "franchise": "Game of Thrones",
+    "description": "Jeune homme élevé à Winterfell qui rejoint la Garde de Nuit. Univers : Game of Thrones.",
+    "summary": "Jeune homme élevé à Winterfell.",
+    "symbol": "loup",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-020",
+    "name": "Daenerys Targaryen",
+    "category": "Série",
+    "franchise": "Game of Thrones",
+    "description": "Héritière de la maison Targaryen accompagnée de trois dragons dans sa quête de pouvoir. Univers : Game of Thrones.",
+    "summary": "Héritière de la maison Targaryen accompagnée de trois dragons dans sa quête de pouvoir.",
+    "symbol": "dragon",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-021",
+    "name": "Tyrion Lannister",
+    "category": "Série",
+    "franchise": "Game of Thrones",
+    "description": "Membre de la maison Lannister dont l’intelligence politique devient un atout majeur. Univers : Game of Thrones.",
+    "summary": "Membre de la maison Lannister dont l’intelligence politique devient un atout majeur.",
+    "symbol": "couronne",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-022",
+    "name": "Arya Stark",
+    "category": "Série",
+    "franchise": "Game of Thrones",
+    "description": "Fille de la maison Stark qui apprend à survivre et à manier la dissimulation. Univers : Game of Thrones.",
+    "summary": "Fille de la maison Stark.",
+    "symbol": "épée",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-023",
+    "name": "Onze",
+    "category": "Série",
+    "franchise": "Stranger Things",
+    "description": "Jeune fille dotée de pouvoirs psychiques qui se lie aux enfants de Hawkins. Univers : Stranger Things.",
+    "summary": "Jeune fille dotée de pouvoirs psychiques.",
+    "symbol": "éclair",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-024",
+    "name": "Thomas Shelby",
+    "category": "Série",
+    "franchise": "Peaky Blinders",
+    "description": "Chef des Peaky Blinders à Birmingham, engagé dans le crime et les luttes d’influence. Univers : Peaky Blinders.",
+    "summary": "Chef des Peaky Blinders à Birmingham, engagé dans le crime et les luttes d’influence.",
+    "symbol": "casquette",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-025",
+    "name": "Rick Grimes",
+    "category": "Série",
+    "franchise": "The Walking Dead",
+    "description": "Ancien policier qui cherche à protéger son groupe dans un monde peuplé de morts-vivants. Univers : The Walking Dead.",
+    "summary": "Ancien policier.",
+    "symbol": "badge",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-026",
+    "name": "Daryl Dixon",
+    "category": "Série",
+    "franchise": "The Walking Dead",
+    "description": "Survivant et pisteur qui utilise notamment une arbalète pour défendre ses compagnons. Univers : The Walking Dead.",
+    "summary": "Survivant et pisteur.",
+    "symbol": "arc",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-027",
+    "name": "Dexter Morgan",
+    "category": "Série",
+    "franchise": "Dexter",
+    "description": "Expert en traces de sang à Miami qui mène secrètement une vie de tueur en série. Univers : Dexter.",
+    "summary": "Expert en traces de sang à Miami.",
+    "symbol": "loupe",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-028",
+    "name": "Le Professeur",
+    "category": "Série",
+    "franchise": "La Casa de Papel",
+    "description": "Stratège qui prépare des braquages complexes et coordonne son équipe à distance. Univers : La Casa de Papel.",
+    "summary": "Stratège.",
+    "symbol": "masque",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-029",
+    "name": "Mercredi Addams",
+    "category": "Série",
+    "franchise": "Mercredi",
+    "description": "Adolescente de la famille Addams qui enquête sur des mystères au sein de Nevermore. Univers : Mercredi.",
+    "summary": "Adolescente de la famille Addams.",
+    "symbol": "corbeau",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-030",
+    "name": "Spock",
+    "category": "Série",
+    "franchise": "Star Trek",
+    "description": "Officier scientifique mi-humain mi-vulcain attaché à la logique et à l’exploration spatiale. Univers : Star Trek.",
+    "summary": "Officier scientifique mi-humain mi-vulcain attaché à la logique et à l’exploration spatiale.",
+    "symbol": "espace",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-031",
+    "name": "Mario",
+    "category": "Jeu vidéo",
+    "franchise": "Super Mario",
+    "description": "Héros moustachu qui parcourt le Royaume Champignon pour affronter Bowser et aider ses amis. Univers : Super Mario.",
+    "summary": "Héros moustachu.",
+    "symbol": "casquette",
+    "rarityProposal": "Suprême"
+  },
+  {
+    "code": "FIC-032",
+    "name": "Luigi",
+    "category": "Jeu vidéo",
+    "franchise": "Super Mario",
+    "description": "Frère de Mario qui participe à ses aventures et explore aussi des demeures hantées. Univers : Super Mario.",
+    "summary": "Frère de Mario.",
+    "symbol": "casquette",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-033",
+    "name": "Link",
+    "category": "Jeu vidéo",
+    "franchise": "The Legend of Zelda",
+    "description": "Héros de nombreuses époques d’Hyrule qui affronte les forces menaçant le royaume. Univers : The Legend of Zelda.",
+    "summary": "Héros de nombreuses époques d’Hyrule.",
+    "symbol": "épée",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-034",
+    "name": "Zelda",
+    "category": "Jeu vidéo",
+    "franchise": "The Legend of Zelda",
+    "description": "Princesse d’Hyrule dont les incarnations jouent un rôle central dans la lutte contre le mal. Univers : The Legend of Zelda.",
+    "summary": "Princesse d’Hyrule dont les incarnations jouent un rôle central dans la lutte contre le mal.",
+    "symbol": "couronne",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-035",
+    "name": "Samus Aran",
+    "category": "Jeu vidéo",
+    "franchise": "Metroid",
+    "description": "Chasseuse de primes en armure qui explore des mondes extraterrestres et combat les Pirates de l’espace. Univers : Metroid.",
+    "summary": "Chasseuse de primes en armure.",
+    "symbol": "espace",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-036",
+    "name": "Sonic",
+    "category": "Jeu vidéo",
+    "franchise": "Sonic the Hedgehog",
+    "description": "Hérisson bleu doté d’une grande vitesse qui s’oppose aux plans du docteur Eggman. Univers : Sonic the Hedgehog.",
+    "summary": "Hérisson bleu doté d’une grande vitesse.",
+    "symbol": "éclair",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-037",
+    "name": "Lara Croft",
+    "category": "Jeu vidéo",
+    "franchise": "Tomb Raider",
+    "description": "Aventurière et exploratrice qui enquête sur des vestiges et des légendes anciennes. Univers : Tomb Raider.",
+    "summary": "Aventurière et exploratrice.",
+    "symbol": "boussole",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-038",
+    "name": "Kratos",
+    "category": "Jeu vidéo",
+    "franchise": "God of War",
+    "description": "Guerrier spartiate dont le parcours traverse les mythologies grecque puis nordique. Univers : God of War.",
+    "summary": "Guerrier spartiate dont le parcours traverse les mythologies grecque puis nordique.",
+    "symbol": "hache",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-039",
+    "name": "Master Chief",
+    "category": "Jeu vidéo",
+    "franchise": "Halo",
+    "description": "Soldat Spartan connu sous le matricule John-117, engagé dans les conflits de l’humanité. Univers : Halo.",
+    "summary": "Soldat Spartan connu sous le matricule John-117, engagé dans les conflits de l’humanité.",
+    "symbol": "casque",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-040",
+    "name": "Solid Snake",
+    "category": "Jeu vidéo",
+    "franchise": "Metal Gear",
+    "description": "Agent spécialisé dans l’infiltration qui affronte des organisations militaires et des armes Metal Gear. Univers : Metal Gear.",
+    "summary": "Agent spécialisé dans l’infiltration.",
+    "symbol": "bandeau",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-041",
+    "name": "Cloud Strife",
+    "category": "Jeu vidéo",
+    "franchise": "Final Fantasy VII",
+    "description": "Combattant à la grande épée qui rejoint Avalanche et se retrouve opposé à Sephiroth. Univers : Final Fantasy VII.",
+    "summary": "Combattant à la grande épée.",
+    "symbol": "épée",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-042",
+    "name": "Sephiroth",
+    "category": "Jeu vidéo",
+    "franchise": "Final Fantasy VII",
+    "description": "Ancien combattant du SOLDAT devenu un adversaire majeur de Cloud et de ses alliés. Univers : Final Fantasy VII.",
+    "summary": "Ancien combattant du SOLDAT devenu un adversaire majeur de Cloud et de ses alliés.",
+    "symbol": "épée",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-043",
+    "name": "Arthur Morgan",
+    "category": "Jeu vidéo",
+    "franchise": "Red Dead Redemption 2",
+    "description": "Hors-la-loi du gang de Dutch van der Linde qui traverse le déclin de l’Ouest américain. Univers : Red Dead Redemption 2.",
+    "summary": "Hors-la-loi du gang de Dutch van der Linde.",
+    "symbol": "chapeau",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-044",
+    "name": "John Marston",
+    "category": "Jeu vidéo",
+    "franchise": "Red Dead Redemption",
+    "description": "Ancien hors-la-loi contraint de retrouver ses anciens compagnons pour protéger sa famille. Univers : Red Dead Redemption.",
+    "summary": "Ancien hors-la-loi contraint de retrouver ses anciens compagnons pour protéger sa famille.",
+    "symbol": "chapeau",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-045",
+    "name": "Nathan Drake",
+    "category": "Jeu vidéo",
+    "franchise": "Uncharted",
+    "description": "Chasseur de trésors qui explore des sites historiques avec ses proches et partenaires. Univers : Uncharted.",
+    "summary": "Chasseur de trésors.",
+    "symbol": "boussole",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-046",
+    "name": "Ellie",
+    "category": "Jeu vidéo",
+    "franchise": "The Last of Us",
+    "description": "Jeune survivante dont l’immunité à une infection joue un rôle central dans son histoire. Univers : The Last of Us.",
+    "summary": "Jeune survivante dont l’immunité à une infection joue un rôle central dans son histoire.",
+    "symbol": "feuille",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-047",
+    "name": "Joel Miller",
+    "category": "Jeu vidéo",
+    "franchise": "The Last of Us",
+    "description": "Survivant chargé d’escorter Ellie à travers des États-Unis ravagés par une épidémie. Univers : The Last of Us.",
+    "summary": "Survivant chargé d’escorter Ellie à travers des États-Unis ravagés par une épidémie.",
+    "symbol": "sac",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-048",
+    "name": "Ezio Auditore",
+    "category": "Jeu vidéo",
+    "franchise": "Assassin’s Creed",
+    "description": "Assassin florentin de la Renaissance qui affronte les Templiers et découvre l’héritage de sa confrérie. Univers : Assassin’s Creed.",
+    "summary": "Assassin florentin de la Renaissance.",
+    "symbol": "capuche",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-049",
+    "name": "Pac-Man",
+    "category": "Jeu vidéo",
+    "franchise": "Pac-Man",
+    "description": "Personnage rond qui parcourt des labyrinthes pour manger des pac-gommes en évitant les fantômes. Univers : Pac-Man.",
+    "summary": "Personnage rond.",
+    "symbol": "labyrinthe",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-050",
+    "name": "Steve",
+    "category": "Jeu vidéo",
+    "franchise": "Minecraft",
+    "description": "Avatar emblématique d’un monde de blocs où l’on peut explorer, construire et survivre. Univers : Minecraft.",
+    "summary": "Avatar emblématique d’un monde de blocs où l’on peut explorer, construire et survivre.",
+    "symbol": "pioche",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-051",
+    "name": "Tintin",
+    "category": "Bande dessinée",
+    "franchise": "Les Aventures de Tintin",
+    "description": "Jeune reporter accompagné de Milou qui mène des enquêtes et voyage à travers le monde. Univers : Les Aventures de Tintin.",
+    "summary": "Jeune reporter accompagné de Milou.",
+    "symbol": "loupe",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-052",
+    "name": "Capitaine Haddock",
+    "category": "Bande dessinée",
+    "franchise": "Les Aventures de Tintin",
+    "description": "Marin au caractère explosif qui devient un fidèle compagnon de Tintin. Univers : Les Aventures de Tintin.",
+    "summary": "Marin au caractère explosif.",
+    "symbol": "ancre",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-053",
+    "name": "Astérix",
+    "category": "Bande dessinée",
+    "franchise": "Astérix",
+    "description": "Petit guerrier gaulois qui défend son village grâce à son intelligence et à la potion magique. Univers : Astérix.",
+    "summary": "Petit guerrier gaulois.",
+    "symbol": "casque",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-054",
+    "name": "Obélix",
+    "category": "Bande dessinée",
+    "franchise": "Astérix",
+    "description": "Livreur de menhirs doté d’une force permanente depuis sa chute dans la potion magique. Univers : Astérix.",
+    "summary": "Livreur de menhirs doté d’une force permanente depuis sa chute dans la potion magique.",
+    "symbol": "rocher",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-055",
+    "name": "Lucky Luke",
+    "category": "Bande dessinée",
+    "franchise": "Lucky Luke",
+    "description": "Cow-boy solitaire qui maintient l’ordre dans un Ouest humoristique avec son cheval Jolly Jumper. Univers : Lucky Luke.",
+    "summary": "Cow-boy solitaire.",
+    "symbol": "chapeau",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-056",
+    "name": "Gaston Lagaffe",
+    "category": "Bande dessinée",
+    "franchise": "Gaston",
+    "description": "Employé inventif dont les expériences et les maladresses perturbent la vie d’un bureau de rédaction. Univers : Gaston.",
+    "summary": "Employé inventif dont les expériences et les maladresses perturbent la vie d’un bureau de rédaction.",
+    "symbol": "engrenage",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-057",
+    "name": "Spirou",
+    "category": "Bande dessinée",
+    "franchise": "Spirou et Fantasio",
+    "description": "Aventurier en tenue de groom qui affronte des dangers avec Fantasio et Spip. Univers : Spirou et Fantasio.",
+    "summary": "Aventurier en tenue de groom.",
+    "symbol": "casquette",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-058",
+    "name": "Batman",
+    "category": "Bande dessinée",
+    "franchise": "DC Comics",
+    "description": "Bruce Wayne protège Gotham en utilisant son entraînement, son intelligence et ses équipements. Univers : DC Comics.",
+    "summary": "Bruce Wayne protège Gotham en utilisant son entraînement, son intelligence et ses équipements.",
+    "symbol": "chauve-souris",
+    "rarityProposal": "Suprême"
+  },
+  {
+    "code": "FIC-059",
+    "name": "Superman",
+    "category": "Bande dessinée",
+    "franchise": "DC Comics",
+    "description": "Héros kryptonien élevé sur Terre sous le nom de Clark Kent, doté de pouvoirs extraordinaires. Univers : DC Comics.",
+    "summary": "Héros kryptonien élevé sur Terre sous le nom de Clark Kent, doté de pouvoirs extraordinaires.",
+    "symbol": "bouclier",
+    "rarityProposal": "Suprême"
+  },
+  {
+    "code": "FIC-060",
+    "name": "Spider-Man",
+    "category": "Bande dessinée",
+    "franchise": "Marvel",
+    "description": "Héros aux capacités d’araignée, notamment incarné par Peter Parker, qui protège New York. Univers : Marvel.",
+    "summary": "Héros aux capacités d’araignée, notamment incarné par Peter Parker,.",
+    "symbol": "toile",
+    "rarityProposal": "Suprême"
+  },
+  {
+    "code": "FIC-061",
+    "name": "Harry Potter",
+    "category": "Livre",
+    "franchise": "Harry Potter",
+    "description": "Jeune sorcier de Poudlard lié à Voldemort, accompagné dans ses aventures par Ron et Hermione. Univers : Harry Potter.",
+    "summary": "Jeune sorcier de Poudlard lié à Voldemort, accompagné dans ses aventures par Ron et Hermione.",
+    "symbol": "éclair",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-062",
+    "name": "Hermione Granger",
+    "category": "Livre",
+    "franchise": "Harry Potter",
+    "description": "Élève studieuse de Poudlard dont les connaissances et le courage soutiennent Harry et ses amis. Univers : Harry Potter.",
+    "summary": "Élève studieuse de Poudlard dont les connaissances et le courage soutiennent Harry et ses amis.",
+    "symbol": "livre",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-063",
+    "name": "Albus Dumbledore",
+    "category": "Livre",
+    "franchise": "Harry Potter",
+    "description": "Directeur de Poudlard et puissant sorcier qui s’oppose à Voldemort. Univers : Harry Potter.",
+    "summary": "Directeur de Poudlard et puissant sorcier.",
+    "symbol": "sage",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-064",
+    "name": "Voldemort",
+    "category": "Livre",
+    "franchise": "Harry Potter",
+    "description": "Mage noir qui cherche l’immortalité et tente de dominer le monde des sorciers. Univers : Harry Potter.",
+    "summary": "Mage noir.",
+    "symbol": "serpent",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-065",
+    "name": "Frodon Sacquet",
+    "category": "Livre",
+    "franchise": "Le Seigneur des anneaux",
+    "description": "Hobbit de la Comté chargé de porter l’Anneau unique jusqu’au Mordor. Univers : Le Seigneur des anneaux.",
+    "summary": "Hobbit de la Comté chargé de porter l’Anneau unique jusqu’au Mordor.",
+    "symbol": "anneau",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-066",
+    "name": "Gandalf",
+    "category": "Livre",
+    "franchise": "Le Hobbit et Le Seigneur des anneaux",
+    "description": "Magicien qui conseille les peuples de la Terre du Milieu dans leur lutte contre Sauron. Univers : Le Hobbit et Le Seigneur des anneaux.",
+    "summary": "Magicien.",
+    "symbol": "sage",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-067",
+    "name": "Aragorn",
+    "category": "Livre",
+    "franchise": "Le Seigneur des anneaux",
+    "description": "Rôdeur héritier d’Isildur qui accompagne la Communauté de l’Anneau. Univers : Le Seigneur des anneaux.",
+    "summary": "Rôdeur héritier d’Isildur.",
+    "symbol": "épée",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-068",
+    "name": "Gollum",
+    "category": "Livre",
+    "franchise": "Le Hobbit et Le Seigneur des anneaux",
+    "description": "Ancien porteur de l’Anneau unique, dont l’obsession influence le destin de la Terre du Milieu. Univers : Le Hobbit et Le Seigneur des anneaux.",
+    "summary": "Ancien porteur de l’Anneau unique, dont l’obsession influence le destin de la Terre du Milieu.",
+    "symbol": "anneau",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-069",
+    "name": "Sherlock Holmes",
+    "category": "Livre",
+    "franchise": "Sherlock Holmes",
+    "description": "Détective londonien qui résout des enquêtes grâce à son observation et à ses déductions. Univers : Sherlock Holmes.",
+    "summary": "Détective londonien.",
+    "symbol": "loupe",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-070",
+    "name": "Dracula",
+    "category": "Livre",
+    "franchise": "Dracula",
+    "description": "Comte vampire de Transylvanie qui tente d’étendre son influence en Angleterre. Univers : Dracula.",
+    "summary": "Comte vampire de Transylvanie.",
+    "symbol": "chauve-souris",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-071",
+    "name": "Alice",
+    "category": "Livre",
+    "franchise": "Alice au pays des merveilles",
+    "description": "Jeune fille qui traverse un monde absurde peuplé de créatures et de personnages étonnants. Univers : Alice au pays des merveilles.",
+    "summary": "Jeune fille.",
+    "symbol": "carte",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-072",
+    "name": "Le Petit Prince",
+    "category": "Livre",
+    "franchise": "Le Petit Prince",
+    "description": "Voyageur venu d’un petit astéroïde qui découvre différents mondes et rencontre un aviateur. Univers : Le Petit Prince.",
+    "summary": "Voyageur venu d’un petit astéroïde.",
+    "symbol": "étoile",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-073",
+    "name": "Katniss Everdeen",
+    "category": "Livre",
+    "franchise": "Hunger Games",
+    "description": "Jeune archère du district Douze qui devient un symbole de résistance contre le Capitole. Univers : Hunger Games.",
+    "summary": "Jeune archère du district Douze.",
+    "symbol": "arc",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-074",
+    "name": "Paul Atréides",
+    "category": "Livre",
+    "franchise": "Dune",
+    "description": "Héritier de la maison Atréides dont le destin se noue sur la planète désertique Arrakis. Univers : Dune.",
+    "summary": "Héritier de la maison Atréides dont le destin se noue sur la planète désertique Arrakis.",
+    "symbol": "désert",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-075",
+    "name": "Geralt de Riv",
+    "category": "Livre",
+    "franchise": "Le Sorceleur",
+    "description": "Sorceleur formé à combattre les monstres, confronté aux conflits politiques et aux dilemmes moraux. Univers : Le Sorceleur.",
+    "summary": "Sorceleur formé à combattre les monstres, confronté aux conflits politiques et aux dilemmes moraux.",
+    "symbol": "loup",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-076",
+    "name": "Son Goku",
+    "category": "Manga",
+    "franchise": "Dragon Ball",
+    "description": "Guerrier saiyan élevé sur Terre qui progresse en arts martiaux et protège ses proches. Univers : Dragon Ball.",
+    "summary": "Guerrier saiyan élevé sur Terre.",
+    "symbol": "boule",
+    "rarityProposal": "Suprême"
+  },
+  {
+    "code": "FIC-077",
+    "name": "Vegeta",
+    "category": "Manga",
+    "franchise": "Dragon Ball",
+    "description": "Prince saiyan d’abord opposé à Goku, devenu son rival et un allié majeur. Univers : Dragon Ball.",
+    "summary": "Prince saiyan d’abord opposé à Goku, devenu son rival et un allié majeur.",
+    "symbol": "éclair",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-078",
+    "name": "Naruto Uzumaki",
+    "category": "Manga",
+    "franchise": "Naruto",
+    "description": "Ninja de Konoha qui veut être reconnu et devenir Hokage. Univers : Naruto.",
+    "summary": "Ninja de Konoha.",
+    "symbol": "bandeau",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-079",
+    "name": "Sasuke Uchiwa",
+    "category": "Manga",
+    "franchise": "Naruto",
+    "description": "Ninja du clan Uchiwa dont les choix sont marqués par la vengeance et son lien avec Naruto. Univers : Naruto.",
+    "summary": "Ninja du clan Uchiwa dont les choix sont marqués par la vengeance et son lien avec Naruto.",
+    "symbol": "œil",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-080",
+    "name": "Kakashi Hatake",
+    "category": "Manga",
+    "franchise": "Naruto",
+    "description": "Ninja de Konoha chargé de former l’équipe de Naruto, Sasuke et Sakura. Univers : Naruto.",
+    "summary": "Ninja de Konoha chargé de former l’équipe de Naruto, Sasuke et Sakura.",
+    "symbol": "masque",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-081",
+    "name": "Monkey D. Luffy",
+    "category": "Manga",
+    "franchise": "One Piece",
+    "description": "Capitaine de l’équipage du Chapeau de paille qui rêve de devenir le roi des pirates. Univers : One Piece.",
+    "summary": "Capitaine de l’équipage du Chapeau de paille.",
+    "symbol": "chapeau",
+    "rarityProposal": "Suprême"
+  },
+  {
+    "code": "FIC-082",
+    "name": "Roronoa Zoro",
+    "category": "Manga",
+    "franchise": "One Piece",
+    "description": "Épéiste de l’équipage du Chapeau de paille qui aspire à devenir le meilleur sabreur. Univers : One Piece.",
+    "summary": "Épéiste de l’équipage du Chapeau de paille.",
+    "symbol": "épée",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-083",
+    "name": "Nami",
+    "category": "Manga",
+    "franchise": "One Piece",
+    "description": "Navigatrice du Chapeau de paille qui souhaite dessiner une carte complète du monde. Univers : One Piece.",
+    "summary": "Navigatrice du Chapeau de paille.",
+    "symbol": "boussole",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-084",
+    "name": "Ichigo Kurosaki",
+    "category": "Manga",
+    "franchise": "Bleach",
+    "description": "Adolescent capable de voir les esprits qui devient Shinigami remplaçant. Univers : Bleach.",
+    "summary": "Adolescent capable de voir les esprits.",
+    "symbol": "épée",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-085",
+    "name": "Light Yagami",
+    "category": "Manga",
+    "franchise": "Death Note",
+    "description": "Lycéen qui utilise un cahier surnaturel pour tuer et imposer sa vision de la justice. Univers : Death Note.",
+    "summary": "Lycéen.",
+    "symbol": "livre",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-086",
+    "name": "L",
+    "category": "Manga",
+    "franchise": "Death Note",
+    "description": "Détective énigmatique qui enquête sur les morts attribuées à Kira. Univers : Death Note.",
+    "summary": "Détective énigmatique.",
+    "symbol": "loupe",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-087",
+    "name": "Eren Jäger",
+    "category": "Manga",
+    "franchise": "L’Attaque des Titans",
+    "description": "Jeune habitant de l’île du Paradis dont les pouvoirs bouleversent le conflit avec les Titans. Univers : L’Attaque des Titans.",
+    "summary": "Jeune habitant de l’île du Paradis dont les pouvoirs bouleversent le conflit avec les Titans.",
+    "symbol": "mur",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-088",
+    "name": "Levi Ackerman",
+    "category": "Manga",
+    "franchise": "L’Attaque des Titans",
+    "description": "Soldat du Bataillon d’exploration reconnu pour sa maîtrise du combat contre les Titans. Univers : L’Attaque des Titans.",
+    "summary": "Soldat du Bataillon d’exploration reconnu pour sa maîtrise du combat contre les Titans.",
+    "symbol": "épée",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-089",
+    "name": "Tanjiro Kamado",
+    "category": "Manga",
+    "franchise": "Demon Slayer",
+    "description": "Jeune pourfendeur qui cherche un moyen de rendre son humanité à sa sœur Nezuko. Univers : Demon Slayer.",
+    "summary": "Jeune pourfendeur.",
+    "symbol": "épée",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-090",
+    "name": "Saitama",
+    "category": "Manga",
+    "franchise": "One-Punch Man",
+    "description": "Héros d’une puissance démesurée qui cherche un adversaire capable de lui offrir un véritable défi. Univers : One-Punch Man.",
+    "summary": "Héros d’une puissance démesurée.",
+    "symbol": "gant",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-091",
+    "name": "Pikachu",
+    "category": "Animé",
+    "franchise": "Pokémon",
+    "description": "Pokémon électrique emblématique, compagnon de Sacha dans la série animée. Univers : Pokémon.",
+    "summary": "Pokémon électrique emblématique, compagnon de Sacha dans la série animée.",
+    "symbol": "éclair",
+    "rarityProposal": "Suprême"
+  },
+  {
+    "code": "FIC-092",
+    "name": "Sacha Ketchum",
+    "category": "Animé",
+    "franchise": "Pokémon",
+    "description": "Dresseur du Bourg Palette qui voyage avec Pikachu pour rencontrer des Pokémon et relever des défis. Univers : Pokémon.",
+    "summary": "Dresseur du Bourg Palette.",
+    "symbol": "boule",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-093",
+    "name": "Totoro",
+    "category": "Animé",
+    "franchise": "Mon voisin Totoro",
+    "description": "Grande créature de la forêt rencontrée par les sœurs Satsuki et Mei. Univers : Mon voisin Totoro.",
+    "summary": "Grande créature de la forêt rencontrée par les sœurs Satsuki et Mei.",
+    "symbol": "forêt",
+    "rarityProposal": "Légendaire"
+  },
+  {
+    "code": "FIC-094",
+    "name": "Chihiro Ogino",
+    "category": "Animé",
+    "franchise": "Le Voyage de Chihiro",
+    "description": "Jeune fille qui travaille dans un établissement pour les esprits afin de libérer ses parents. Univers : Le Voyage de Chihiro.",
+    "summary": "Jeune fille.",
+    "symbol": "lanterne",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-095",
+    "name": "Princesse Mononoké",
+    "category": "Animé",
+    "franchise": "Princesse Mononoké",
+    "description": "San, élevée par des loups, défend la forêt contre l’expansion des humains. Univers : Princesse Mononoké.",
+    "summary": "San, élevée par des loups, défend la forêt contre l’expansion des humains.",
+    "symbol": "loup",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-096",
+    "name": "Spike Spiegel",
+    "category": "Animé",
+    "franchise": "Cowboy Bebop",
+    "description": "Chasseur de primes du vaisseau Bebop dont le passé criminel continue de le poursuivre. Univers : Cowboy Bebop.",
+    "summary": "Chasseur de primes du vaisseau Bebop dont le passé criminel continue de le poursuivre.",
+    "symbol": "espace",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-097",
+    "name": "Shinji Ikari",
+    "category": "Animé",
+    "franchise": "Neon Genesis Evangelion",
+    "description": "Adolescent recruté pour piloter l’Evangelion Unité-01 face aux Anges. Univers : Neon Genesis Evangelion.",
+    "summary": "Adolescent recruté pour piloter l’Evangelion Unité-01 face aux Anges.",
+    "symbol": "robot",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-098",
+    "name": "Motoko Kusanagi",
+    "category": "Animé",
+    "franchise": "Ghost in the Shell",
+    "description": "Officière cyborg de la Section 9 qui enquête sur des crimes liés aux réseaux et aux technologies. Univers : Ghost in the Shell.",
+    "summary": "Officière cyborg de la Section 9.",
+    "symbol": "code",
+    "rarityProposal": "Précieuse"
+  },
+  {
+    "code": "FIC-099",
+    "name": "Aladdin",
+    "category": "Animé",
+    "franchise": "Aladdin",
+    "description": "Jeune homme d’Agrabah dont la découverte d’une lampe magique transforme le destin. Univers : Aladdin.",
+    "summary": "Jeune homme d’Agrabah dont la découverte d’une lampe magique transforme le destin.",
+    "symbol": "lampe",
+    "rarityProposal": "Rare"
+  },
+  {
+    "code": "FIC-100",
+    "name": "Simba",
+    "category": "Animé",
+    "franchise": "Le Roi Lion",
+    "description": "Jeune lion héritier de Mufasa qui doit retrouver sa place dans la Terre des Lions. Univers : Le Roi Lion.",
+    "summary": "Jeune lion héritier de Mufasa.",
+    "symbol": "lion",
+    "rarityProposal": "Légendaire"
+  }
+]

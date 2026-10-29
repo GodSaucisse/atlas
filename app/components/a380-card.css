@@ -1,0 +1,48 @@
+
+
+.a380-card{position:relative;width:100%;height:100%;container-type:inline-size;border-radius:inherit;overflow:hidden;background:#08183c url(/designs/a380/pattern.jpg) center/100% 100% no-repeat;font-family:var(--font-atlas)}
+.a380-zn{position:absolute;width:25%;height:16.6667%;z-index:60}
+.a380-ly{position:absolute;inset:0;pointer-events:none}
+.a380-bd{position:absolute;inset:0;pointer-events:none;padding:5.714286cqw;box-sizing:border-box;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0)}
+.a380-sw{z-index:5;mix-blend-mode:screen;background:linear-gradient(115deg,rgba(255,255,255,0) 40%,rgba(255,236,180,.9) 50%,rgba(255,255,255,0) 60%);background-size:300% 100%;animation:a380-sweep 5.5s linear infinite}
+.a380-sv{z-index:5;mix-blend-mode:screen;background:linear-gradient(180deg,rgba(255,255,255,0) 30%,rgba(120,240,255,.7) 50%,rgba(255,255,255,0) 70%);background-size:100% 300%;animation:a380-sweepv 4.2s linear infinite}
+.a380-gw{z-index:4;background:radial-gradient(ellipse at 50% 105%,rgba(40,220,230,.45),rgba(40,220,230,0) 55%);animation:a380-pl 4s ease-in-out infinite}
+.a380-gf{z-index:8;mix-blend-mode:screen;background:linear-gradient(105deg,rgba(255,255,255,0) 44%,rgba(255,244,220,.4) 50%,rgba(255,255,255,0) 56%);background-size:320% 100%;animation:a380-sweep 7s linear infinite}
+.a380-orb{position:absolute;border-radius:50%;z-index:12;pointer-events:none;background:radial-gradient(circle at 32% 28%,#fff 0 12%,#aef6ff 30%,#18b8d4 70%,#06506a 100%);box-shadow:0 0 1.269841cqw 0.317460cqw rgba(60,230,250,.85);animation:a380-pu 3s ease-in-out infinite}
+.a380-rt{position:absolute;z-index:11;pointer-events:none;animation:a380-spin 14s linear infinite}
+.atlas-card[data-interacting="true"] .a380-card .a380-rt{animation-duration:3s}
+.a380-ho{z-index:40;opacity:0;mix-blend-mode:color-dodge;background:linear-gradient(115deg,rgba(40,200,230,0) 0,rgba(40,200,230,.3) 8%,rgba(255,215,110,.3) 15%,rgba(255,110,190,.28) 22%,rgba(150,130,255,.3) 29%,rgba(40,230,200,.3) 36%,rgba(40,200,230,0) 44%,rgba(40,200,230,0) 56%,rgba(255,215,110,.28) 64%,rgba(150,130,255,.28) 72%,rgba(40,200,230,0) 82%);background-size:240% 240%;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.a380-gl{z-index:41;opacity:0;mix-blend-mode:overlay;background:radial-gradient(circle at center,rgba(255,255,255,.85) 0,rgba(255,255,255,.3) 16%,rgba(255,255,255,0) 40%);background-size:220% 220%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.a380-g2{z-index:42;opacity:0;mix-blend-mode:screen;background:radial-gradient(circle at center,rgba(255,240,205,.85) 0,rgba(255,240,205,.35) 13%,rgba(255,255,255,0) 32%);background-size:170% 170%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.atlas-card[data-interacting="true"] .a380-card .a380-ho{opacity:.7}.atlas-card[data-interacting="true"] .a380-card .a380-gl{opacity:.7}.atlas-card[data-interacting="true"] .a380-card .a380-g2{opacity:.55}
+.a380-st{position:absolute;z-index:20;pointer-events:none;background:radial-gradient(circle,#fff 0,#fff 30%,rgba(255,240,200,0) 70%);clip-path:polygon(50% 0,59% 41%,100% 50%,59% 59%,50% 100%,41% 59%,0 50%,41% 41%);animation:a380-tw 2.6s ease-in-out infinite}
+.a380-gt{background:linear-gradient(180deg,#fffaf0 0,#f6dc96 42%,#b98a24 62%,#ffe9a8 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#f6dc96;filter:drop-shadow(0 0.158730cqw 0.317460cqw rgba(0,0,0,.9)) drop-shadow(0 0 1.269841cqw rgba(255,190,70,.45))}
+@keyframes a380-sweep{from{background-position:130% 0}to{background-position:-130% 0}}
+@keyframes a380-sweepv{from{background-position:0 130%}to{background-position:0 -130%}}
+@keyframes a380-pl{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes a380-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.45)}}
+@keyframes a380-spin{to{transform:rotate(360deg)}}
+@keyframes a380-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+
+.a380-rim{border-radius:4.127cqw;box-shadow:inset 0 0 0 .238cqw #ffecaae6,inset 0 0 0 .556cqw #040c28e6;z-index:7}
+.a380-photo{position:absolute;overflow:hidden;background:#b8aa98 url(/designs/a380/aircraft.jpg) center/cover no-repeat;z-index:3}
+.a380-photo-shade{box-shadow:inset 0 0 4.762cqw #0a143280}
+.a380-name-bg{position:absolute;border-radius:1.27cqw;background:linear-gradient(180deg,#06163ce6,#030a20f2);backdrop-filter:blur(.635cqw);z-index:9}
+.a380-frame{width:100%;height:100%;z-index:10;filter:drop-shadow(.159cqw .476cqw .476cqw #000a1ea6)}
+.a380-caption{position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.476cqw;z-index:14}
+.a380-title{font-weight:700;font-size:4.127cqw;letter-spacing:.079cqw;line-height:1.1;max-width:100%;text-align:center}
+.a380-divider{display:flex;align-items:center;gap:1.27cqw}.a380-divider i{width:5.397cqw;height:.238cqw;background:linear-gradient(90deg,transparent,#f4c85a)}.a380-divider i:last-child{transform:rotate(180deg)}.a380-divider b{width:.952cqw;height:.952cqw;transform:rotate(45deg);background:#7af0ff;box-shadow:0 0 .952cqw #30d0ea}
+.a380-motto{font-weight:600;font-size:1.746cqw;letter-spacing:.794cqw;color:#d8ecf4;text-shadow:0 .159cqw .317cqw #000;margin-left:.794cqw}
+.atlas-card[data-interacting="true"] .a380-ho{opacity:.7}.atlas-card[data-interacting="true"] .a380-gl{opacity:.7}.atlas-card[data-interacting="true"] .a380-g2{opacity:.55}
+.a380-ho{background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}.a380-gl,.a380-g2{background-position:var(--supreme-inverse-x,50%) var(--supreme-inverse-y,50%)}
+.a380-back-text{position:absolute;inset:0;width:100%;height:100%;z-index:15;pointer-events:none}
+.a380-back .a380-ho,.a380-back .a380-gl,.a380-back .a380-g2{z-index:14}
+
+.atlas-card[data-effects="interactive"]:not([data-interacting="true"]) .a380-card *{animation-play-state:paused}
+html[data-motion="off"] .a380-ho,html[data-motion="off"] .a380-gl,html[data-motion="off"] .a380-g2,html[data-motion="reduced"] .a380-ho,html[data-motion="reduced"] .a380-gl,html[data-motion="reduced"] .a380-g2,.atlas-card[data-effects="static"] .a380-ho,.atlas-card[data-effects="static"] .a380-gl,.atlas-card[data-effects="static"] .a380-g2{opacity:0!important}
+@media(prefers-reduced-motion:reduce){.a380-ho,.a380-gl,.a380-g2{opacity:0!important}}
+
+.a380-back-panel{position:absolute;z-index:9;border-radius:2.222cqw;background:#04152ff2;box-shadow:inset 0 0 0 1px #e5ca7b80}
+
+.atlas-card[data-design-model="AVI-026"]{box-shadow:0 4px 4px #08183c50,0 24px 36px -17px #08183cb0,0 0 0 1px #ffe4a050}
+.atlas-card[data-design-model="AVI-026"][data-reveal="true"]::before{box-shadow:0 0 45px 8px #20b8d450,0 0 70px 9px #ffe4a030}

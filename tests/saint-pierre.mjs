@@ -1,0 +1,36 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import ts from 'typescript';
+import React from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+import {createRequire} from 'node:module';
+import {createHash} from 'node:crypto';
+await import('./archive-supremes.mjs');
+const manifest=JSON.parse(await fs.readFile('app/content/saint-pierre-import.json','utf8')),designs=JSON.parse(await fs.readFile('app/content/saint-pierre-designs.json','utf8')),css=await fs.readFile('app/components/saint-pierre-card.css','utf8');
+const item=manifest[0],design=designs['CAT-006'];assert.equal(manifest.length,1);assert.equal(design.universe,'Chrétienté');assert.equal(design.rarity,'Suprême');assert.equal(design.sourceHash,createHash('sha256').update(await fs.readFile('../upload/SupremePierre.dc.html')).digest('hex'));
+assert.ok(!/<script|<iframe|\bon\w+=|javascript:|data:image|\.\/assets\//i.test(design.html));assert.ok(!/body\s*\{|:hover|\.zn\b|\.z\d\d/.test(css));
+for(const ref of new Set((css+design.html).match(/\/designs\/[^\s"')<>]+/g))){await fs.access('public'+ref);const name=path.basename(ref);assert.equal(createHash('sha256').update(await fs.readFile('public'+ref)).digest('hex'),createHash('sha256').update(await fs.readFile('../upload/'+name)).digest('hex'));}
+const {default:CardVisual}=await import(path.resolve('.sites-runtime/archive-supreme-tests/components/card-visual.mjs'));
+const card={...item,id:'stable-pierre',rarity:'Suprême',rarityStatus:'validated',rarityProposal:null,albumIds:[],status:'ready'};
+const html=renderToStaticMarkup(React.createElement('div',null,...[0,1].map(i=>React.createElement(CardVisual,{key:i,card}))));assert.ok(html.includes('data-design-model="CAT-006"'));assert.ok(html.includes('data-layout="saint-pierre-supreme"'));assert.ok(html.includes('viewBox="0 0 630 972"'));const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size);for(const m of html.matchAll(/url\(#([^)]+)\)/g))assert.ok(ids.includes(m[1]));
+console.log('PASS Saint Pierre native design, exact supplied three images, original coordinates, safe markup/scoped CSS, correct model rarity/universe gating and duplicate-instance IDs.');
+const out=path.resolve('.sites-runtime/saint-pierre'),seen=new Set();await fs.mkdir(out,{recursive:true});
+async function compile(name){if(seen.has(name))return;seen.add(name);let source=await fs.readFile('app/'+name+'.ts','utf8');source=source.replace(/from ["']cloudflare:workers["']/g,'from "./test-context.mjs"').replace(/from ["']\.\/chatgpt-auth["']/g,'from "./test-context.mjs"');for(const m of [...source.matchAll(/import (\w+) from ['"]([^'"]+\.json)['"];?/g)])source=source.replace(m[0],`const ${m[1]}=${await fs.readFile(path.resolve('app',path.dirname(name),m[2]),'utf8')};`);for(const m of [...source.matchAll(/(?:from|import\s*\()\s*['"](\.[^'"]+)['"]/g)])if(!m[1].endsWith('.mjs'))await compile(path.posix.normalize(path.posix.join(path.posix.dirname(name),m[1])));source=source.replace(/from (['"])(\.[^'"]+)\1/g,(m,q,ref)=>`from ${q}${ref.endsWith('.mjs')?ref:ref+'.mjs'}${q}`);source=source.replace(/import\((['"])(\.[^'"]+)\1\)/g,(m,q,ref)=>`import(${q}${ref.endsWith('.mjs')?ref:ref+'.mjs'}${q})`);const dest=path.join(out,name+'.mjs');await fs.mkdir(path.dirname(dest),{recursive:true});await fs.writeFile(dest,ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText);}
+
+await compile('saint-pierre-migration');
+const require=createRequire(import.meta.url),wranglerRequire=createRequire(require.resolve('wrangler/package.json')),{Miniflare}=wranglerRequire('miniflare');
+const mf=new Miniflare({modules:true,script:'export default {fetch(){return new Response("test")}}',compatibilityDate:'2026-05-15',d1Databases:['DB'],r2Buckets:['BUCKET'],cf:false});
+try{
+ const DB=await mf.getD1Database('DB'),BUCKET=await mf.getR2Bucket('BUCKET');for(const file of (await fs.readdir('drizzle')).filter(n=>n.endsWith('.sql')).sort())for(const statement of (await fs.readFile('drizzle/'+file,'utf8')).split('--> statement-breakpoint'))if(statement.trim())await DB.prepare(statement.trim()).run();
+ globalThis.__pierreEnv={DB,BUCKET,ATLAS_OWNER_EMAIL:'qa@atlas.test'};globalThis.__pierreUser={userId:'qa-pierre',email:'qa@atlas.test',fullName:'QA Pierre',displayName:'QA Pierre'};await fs.writeFile(path.join(out,'test-context.mjs'),'export const env=globalThis.__pierreEnv;export async function getChatGPTUser(){return globalThis.__pierreUser;}');
+ const server=await import(path.join(out,'server.mjs')),migration=await import(path.join(out,'saint-pierre-migration.mjs')),owner=await server.authorize();let state=await server.stateFor(owner);
+ const editionBefore=JSON.stringify(state.cards.find(c=>c.code==='EDS-009'));
+ const base=state.cards.find(c=>c.code==='CAT-006')||card,existing={...base,id:'stable-pierre',description:'Texte de découverte conservé',learningText:'Texte approfondi personnalisé',albumIds:['catholicisme','custom-pierre-album'],imageKey:'old.jpg',updatedAt:'before'};
+ await DB.prepare('DELETE FROM cards WHERE code=?').bind('CAT-006').run();await DB.prepare('INSERT INTO cards(id,code,data) VALUES(?,?,?)').bind(existing.id,existing.code,JSON.stringify(existing)).run();await DB.prepare('DELETE FROM settings WHERE id=?').bind(migration.SAINT_PIERRE_JOB).run();
+ const changes=migration.saintPierreChanges([existing],state.albums,owner.userId,'now');assert.equal(changes.cards[0].id,existing.id);assert.equal(changes.cards[0].description,existing.description);assert.equal(changes.cards[0].learningText,existing.learningText);assert.ok(changes.cards[0].albumIds.includes('custom-pierre-album'));assert.equal(changes.cards[0].rarity,'Suprême');
+ assert.throws(()=>migration.saintPierreChanges([{...existing,name:'Autre carte'}],state.albums,owner.userId,'now'),e=>e.status===409);assert.throws(()=>migration.saintPierreChanges([{...existing,status:'deleted'}],state.albums,owner.userId,'now'),e=>e.status===409);
+ await migration.applySaintPierreMigration(owner);state=await server.stateFor(owner);let imported=state.cards.filter(c=>c.code==='CAT-006');assert.equal(imported.length,1);assert.equal(imported[0].id,existing.id);assert.equal(imported[0].learningText,existing.learningText);assert.equal(imported[0].imageKey,item.imageKey);assert.equal(imported[0].rarity,'Suprême');assert.equal(imported[0].rarityStatus,'validated');assert.equal(imported[0].status,'ready');assert.ok(imported[0].albumIds.includes('custom-pierre-album'));assert.equal(JSON.stringify(state.cards.find(c=>c.code==='EDS-009')),editionBefore);
+ const revision=state.revision;await migration.applySaintPierreMigration(owner);state=await server.stateFor(owner);assert.equal(state.revision,revision);assert.ok(await DB.prepare('SELECT id FROM settings WHERE id=?').bind(migration.SAINT_PIERRE_JOB).first());assert.ok(state.logs.some(l=>l.action==='Saint Pierre Suprême · modèle original importé'));
+ console.log('PASS real D1 idempotent audited import: stable Saint Pierre identity/text/manual albums, validated Supreme, separate special edition unchanged, collision/deletion protection.');
+}finally{await mf.dispose();}

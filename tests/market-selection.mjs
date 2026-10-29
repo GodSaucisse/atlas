@@ -1,0 +1,26 @@
+import ts from 'typescript';
+import fs from 'node:fs';
+import path from 'node:path';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+const modules=new Map();
+function load(file){const absolute=path.resolve('app',file)+'.ts';if(modules.has(absolute))return modules.get(absolute);const exports={};modules.set(absolute,exports);vm.runInNewContext(ts.transpileModule(fs.readFileSync(absolute,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText,{exports,require:ref=>load(path.relative(path.resolve('app'),path.resolve(path.dirname(absolute),ref)))});return exports}
+const {selectMarketListings,marketCountdown}=load('test/market-selection');
+const now=100000,filters={query:'',rarity:'all',category:'all',price:'all',sort:'ending'};
+const card=(name,rarity='Rare',category='Char')=>({name,rarity,category,universe:'Militaire',code:'MIL-001',rarityStatus:'validated'});
+const listing=(id,extra={})=>({id,seller:'b',kind:'auction',status:'open',price:100,end:now+1000,card:card('Éclair'),...extra});
+const listings=[listing('soon'),listing('later',{price:800,end:now+10000,card:card('Mirage','Légendaire','Avion')}),listing('my',{seller:'a',price:2000,end:now+5000}),listing('outbid',{price:500,end:now+7000,watchers:['a'],bidder:'c'}),listing('expired',{end:now-1}),listing('direct',{kind:'sale',end:0,price:60}),listing('purchased',{kind:'sale',end:0,status:'sold',buyer:'a',price:70}),listing('cancelled',{seller:'a',status:'cancelled',end:now-20})];
+const select=(kind='auction',scope='open',patch={})=>Array.from(selectMarketListings(listings,'a',kind,scope,{...filters,...patch},now),l=>l.id);
+assert.deepEqual(select(),['soon','my','outbid','later']);
+assert.deepEqual(select('auction','open',{query:'eclair',price:'low'}),['soon']);
+assert.deepEqual(select('auction','open',{rarity:'Légendaire'}),['later']);
+assert.deepEqual(select('auction','open',{category:'Avion'}),['later']);
+assert.deepEqual(select('auction','open',{price:'medium'}),['outbid']);
+assert.deepEqual(select('auction','open',{sort:'price-down'}),['my','later','outbid','soon']);
+assert.deepEqual(select('auction','mine'),['cancelled','my']);
+assert.deepEqual(select('auction','bids'),['outbid']);
+assert.deepEqual(select('sale'),['direct']);
+assert.deepEqual(select('sale','bids'),['purchased']);
+assert.equal(marketCountdown(now-1,now),'00:00:00');
+assert.equal(marketCountdown(now+3661000,now),'01:01:01');
+console.log('PASS market scopes, accent-insensitive search, combined category/rarity/price filters, sorting, expired auctions, outbid history, buyer history and live countdown boundaries.');

@@ -1,0 +1,127 @@
+
+
+
+.atlas-card-face.france-card{position:relative;width:100%;height:100%;container-type:inline-size;border-radius:inherit;overflow:hidden;background:#0a1a5a url(/designs/france/pattern.jpg) center/100% 100% no-repeat;font-family:var(--font-atlas)}
+
+.france-ly{position:absolute;inset:0;pointer-events:none}
+.france-bd{position:absolute;inset:0;pointer-events:none;padding:5.714286cqw;box-sizing:border-box;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0)}
+.france-sw{z-index:5;mix-blend-mode:screen;background:linear-gradient(115deg,rgba(255,255,255,0) 40%,rgba(255,226,150,.8) 50%,rgba(255,255,255,0) 60%);background-size:300% 100%;animation:france-sweep 5.5s linear infinite}
+.france-sv{z-index:5;mix-blend-mode:screen;background:linear-gradient(180deg,rgba(255,255,255,0) 30%,rgba(230,180,70,.5) 50%,rgba(255,255,255,0) 70%);background-size:100% 300%;animation:france-sweepv 4.2s linear infinite}
+.france-gw{z-index:4;background:radial-gradient(ellipse at 50% 105%,rgba(240,190,80,.25),rgba(240,190,80,0) 55%);animation:france-pl 4s ease-in-out infinite}
+.france-gf{z-index:8;mix-blend-mode:screen;background:linear-gradient(105deg,rgba(255,255,255,0) 44%,rgba(255,236,170,.35) 50%,rgba(255,255,255,0) 56%);background-size:320% 100%;animation:france-sweep 7s linear infinite}
+.france-rt{position:absolute;z-index:11;pointer-events:none;animation:france-spin 14s linear infinite}
+.atlas-card[data-interacting="true"] .france-card .france-rt{animation-duration:3s}
+.france-ho{z-index:40;opacity:0;mix-blend-mode:color-dodge;background:linear-gradient(115deg,rgba(255,190,70,0) 0,rgba(255,190,70,.3) 8%,rgba(255,215,110,.3) 15%,rgba(210,230,255,.28) 22%,rgba(170,140,255,.3) 29%,rgba(120,235,230,.3) 36%,rgba(255,190,70,0) 44%,rgba(255,190,70,0) 56%,rgba(255,215,110,.28) 64%,rgba(170,140,255,.28) 72%,rgba(255,190,70,0) 82%);background-size:240% 240%;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.france-gl{z-index:41;opacity:0;mix-blend-mode:overlay;background:radial-gradient(circle at center,rgba(220,232,248,.8) 0,rgba(220,232,248,.28) 16%,rgba(255,255,255,0) 40%);background-size:220% 220%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.france-g2{z-index:42;opacity:0;mix-blend-mode:screen;background:radial-gradient(circle at center,rgba(255,240,205,.85) 0,rgba(255,240,205,.35) 13%,rgba(255,255,255,0) 32%);background-size:170% 170%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.atlas-card[data-interacting="true"] .france-card .france-ho{opacity:.3}.atlas-card[data-interacting="true"] .france-card .france-gl{opacity:.35}.atlas-card[data-interacting="true"] .france-card .france-g2{opacity:.3}
+.france-st{position:absolute;z-index:20;pointer-events:none;background:radial-gradient(circle,#fff 0,#fff0c0 30%,rgba(255,215,120,0) 70%);clip-path:polygon(50% 0,59% 41%,100% 50%,59% 59%,50% 100%,41% 59%,0 50%,41% 41%);animation:france-tw 2.6s ease-in-out infinite}
+.france-gt{background:linear-gradient(180deg,#fff4c8 0,#f3d47a 42%,#b98a26 62%,#ffeaa6 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#f3d47a;filter:drop-shadow(0 0.158730cqw 0.317460cqw rgba(0,10,40,.9)) drop-shadow(0 0 1.269841cqw rgba(255,200,90,.5))}
+@keyframes france-sweep{from{background-position:130% 0}to{background-position:-130% 0}}
+@keyframes france-sweepv{from{background-position:0 130%}to{background-position:0 -130%}}
+@keyframes france-pl{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes france-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.45)}}
+@keyframes france-spin{to{transform:rotate(360deg)}}
+@keyframes france-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.france-ap{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 34% 28%,#fff 0 7%,#ff9a88 18%,#e0242c 52%,#7a0812 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(80,0,10,.55);animation:france-pu 3.6s ease-in-out infinite}
+.france-ap.france-gr{background:radial-gradient(circle at 34% 28%,#fff 0 7%,#f2f59a 20%,#9bcb3e 55%,#3a6a14 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(20,50,0,.5)}
+.atlas-card[data-interacting="true"] .france-card .france-ap{animation-duration:1.2s}
+.france-wh{position:absolute;z-index:9;pointer-events:none;left:45.079365cqw;top:1.904762cqw;width:9.841270cqw;height:9.841270cqw;border-radius:50%;background:radial-gradient(circle at 30% 40%,#6b6c70 0 8%,transparent 10%),radial-gradient(circle at 66% 66%,#707174 0 6%,transparent 8%),radial-gradient(circle at 36% 30%,#fff1b8 0 24%,#e8c260 46%,#9a9a96 64%,#55565a 100%);box-shadow:inset 0 0 1.269841cqw rgba(40,30,0,.5);overflow:hidden;animation:france-wob 6s ease-in-out infinite}
+.france-wh::before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,0) 35%,rgba(255,255,255,.5) 48%,rgba(255,255,255,0) 60%);border-radius:50%}
+.france-wh::after{content:"";position:absolute;inset:0.952381cqw;border-radius:50%;border:0.158730cqw solid rgba(255,220,130,.5)}
+.atlas-card[data-interacting="true"] .france-card .france-wh{position:absolute;z-index:9;pointer-events:none;left:45.079365cqw;top:1.904762cqw;width:9.841270cqw;height:9.841270cqw;border-radius:50%;background:radial-gradient(circle at 30% 40%,#6b6c70 0 8%,transparent 10%),radial-gradient(circle at 66% 66%,#707174 0 6%,transparent 8%),radial-gradient(circle at 36% 30%,#fff1b8 0 24%,#e8c260 46%,#9a9a96 64%,#55565a 100%);box-shadow:inset 0 0 1.269841cqw rgba(40,30,0,.5);overflow:hidden;animation:france-wob 6s ease-in-out infinite}
+@keyframes france-wob{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+.france-sh{position:absolute;z-index:6;pointer-events:none;height:0.476190cqw;width:12.698413cqw;border-radius:0.317460cqw;background:linear-gradient(90deg,rgba(255,240,180,0),#fff6cc);opacity:0;filter:drop-shadow(0 0 0.793651cqw #ffd870);animation:france-cr 6s linear infinite}
+@keyframes france-cr{0%{opacity:0;transform:translate(0,0) rotate(-35deg)}6%{opacity:1}22%{opacity:0;transform:translate(25.396825cqw,-17.460317cqw) rotate(-35deg)}100%{opacity:0;transform:translate(25.396825cqw,-17.460317cqw) rotate(-35deg)}}
+.atlas-card[data-interacting="true"] .france-card .france-sh{animation-duration:2s}
+.france-bub{position:absolute;z-index:6;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 35% 30%,rgba(255,255,255,.9),rgba(255,240,190,.25) 55%,rgba(255,220,140,0) 72%);animation:france-fl 8s ease-in infinite;opacity:0}
+@keyframes france-fl{0%{opacity:0;transform:translateY(0) scale(.6)}15%{opacity:.9}100%{opacity:0;transform:translateY(-23.809524cqw) scale(1.2)}}
+.atlas-card[data-interacting="true"] .france-card .france-bub{animation-duration:3.2s}
+@keyframes france-pl{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes france-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.25)}}
+@keyframes france-spin{to{transform:rotate(360deg)}}
+@keyframes france-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+.france-cw{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 28% 30%,#9c3a1a 0 22%,transparent 23%),radial-gradient(circle at 72% 62%,#b24a22 0 27%,transparent 28%),radial-gradient(circle at 42% 84%,#9c3a1a 0 15%,transparent 16%),radial-gradient(circle at 78% 20%,#b24a22 0 12%,transparent 13%),radial-gradient(circle at 34% 26%,#fff 0 6%,#fff7ea 20%,#efe0c6 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(80,40,10,.45)}
+.france-bl{position:absolute;z-index:16;pointer-events:none;width:6.984127cqw;height:8.730159cqw;transform-origin:50% 15%;animation:france-sw 3.6s ease-in-out infinite;filter:drop-shadow(0 0.317460cqw 0.317460cqw rgba(40,20,0,.55))}
+@keyframes france-sw{0%,100%{transform:rotate(-9deg)}50%{transform:rotate(9deg)}}
+.atlas-card[data-interacting="true"] .france-card .france-bl{animation-duration:.9s}
+.france-mg{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 34% 28%,#fff 0 7%,#fff2b8 20%,#e2b13c 55%,#6a4608 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(70,40,0,.55);animation:france-pu 3.6s ease-in-out infinite}
+.atlas-card[data-interacting="true"] .france-card .france-mg{animation-duration:1.2s}
+.france-dp{position:absolute;z-index:7;pointer-events:none;width:0.952381cqw;height:1.428571cqw;margin-left:-0.476190cqw;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;background:radial-gradient(circle at 35% 30%,#fff,#9cd4ff 60%,#4a9ae0);opacity:0;animation:france-dr 4.2s ease-in infinite}
+.atlas-card[data-interacting="true"] .france-card .france-dp{animation-duration:1.6s}
+@keyframes france-dr{0%{opacity:0;transform:translateY(0)}8%{opacity:.95}70%{opacity:.9;transform:translateY(14.285714cqw)}85%{opacity:0;transform:translateY(19.047619cqw)}100%{opacity:0;transform:translateY(19.047619cqw)}}
+.france-ms{position:absolute;left:-60%;width:220%;height:30.158730cqw;pointer-events:none;z-index:2;background:radial-gradient(ellipse at 50% 50%,rgba(238,234,222,.34),rgba(238,234,222,0) 66%);filter:blur(1.111111cqw);animation:france-mist 18s ease-in-out infinite alternate}
+.atlas-card[data-interacting="true"] .france-card .france-ms{animation-duration:6s}
+@keyframes france-mist{from{transform:translateX(-14%)}to{transform:translateX(14%)}}
+
+.france-photo{position:absolute;overflow:hidden;background:#8a95a8 url(/designs/france/scene.jpg) center/cover no-repeat;z-index:3}
+.france-photo-shade{box-shadow:inset 0 0 4.127cqw #3c140059}
+.france-rim{border-radius:inherit;box-shadow:inset 0 0 0 .2381cqw #f3e0a0,inset 0 0 0 .6349cqw #8a6d2a,inset 0 0 0 .873cqw #1c1a14;z-index:7}
+.france-name-bg{position:absolute;border-radius:1.587302cqw;background:linear-gradient(180deg,#0f2a8c,#030a30);box-shadow:inset 0 0 0 .159cqw #e6be5a80;z-index:9}
+.france-frame{width:100%;height:100%;z-index:10;filter:drop-shadow(.159cqw .476cqw .476cqw #00000099)}
+.france-caption{position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.476cqw;z-index:14}
+.france-title{font-weight:700;font-size:4.444444cqw;letter-spacing:.15873cqw;line-height:1.1}
+.france-divider{display:flex;align-items:center;gap:1.27cqw}.france-divider i{width:6.35cqw;height:.238cqw;background:linear-gradient(90deg,transparent,#e8c260)}.france-divider i:last-child{transform:rotate(180deg)}.france-divider b{width:.952cqw;height:.952cqw;transform:rotate(45deg);background:#ffe8a0;box-shadow:0 0 .952cqw #e0a030}
+.france-motto{font-weight:600;font-size:1.746cqw;letter-spacing:.476cqw;color:#f1deaa;text-shadow:0 .159cqw .31746cqw #000;margin-left:.476cqw}
+.france-ho{background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}.france-gl,.france-g2{background-position:var(--supreme-inverse-x,50%) var(--supreme-inverse-y,50%)}
+.france-back-panel{position:absolute;z-index:9;border-radius:2.222cqw;background:#030a30f5;box-shadow:inset 0 0 0 1px #a67d3480}
+.france-back-text{position:absolute;inset:0;width:100%;height:100%;z-index:15;pointer-events:none}
+.france-back .france-frame{opacity:.48}.france-back .france-ho,.france-back .france-gl,.france-back .france-g2{z-index:14}
+.atlas-card[data-design-model="GEP-004"]{box-shadow:0 4px 4px #3a3b3e50,0 24px 36px -17px #3a3b3eb0,0 0 0 1px #8a6d2a50}
+.atlas-card[data-design-model="GEP-004"][data-reveal="true"]::before{box-shadow:0 0 45px 8px #ffc85a50,0 0 70px 9px #8a6d2a30}
+.atlas-card[data-effects="interactive"]:not([data-interacting="true"]) .france-card *{animation-play-state:paused}
+html[data-motion="off"] .france-ho,html[data-motion="off"] .france-gl,html[data-motion="off"] .france-g2,html[data-motion="reduced"] .france-ho,html[data-motion="reduced"] .france-gl,html[data-motion="reduced"] .france-g2,.atlas-card[data-effects="static"] .france-ho,.atlas-card[data-effects="static"] .france-gl,.atlas-card[data-effects="static"] .france-g2{opacity:0!important}
+@media(prefers-reduced-motion:reduce){.france-ho,.france-gl,.france-g2{opacity:0!important}}
+
+.france-photo{background-image:url(/designs/france/scene.jpg)}
+.france-banner{position:absolute;z-index:16;pointer-events:none;transform-origin:50% 8%;animation:france-sw 3.8s ease-in-out infinite;filter:drop-shadow(0 .5cqw .5cqw #0008)}
+.france-crown{position:absolute;z-index:11;pointer-events:none;animation:france-float 4.5s ease-in-out infinite;filter:drop-shadow(0 .5cqw .6cqw #000b) drop-shadow(0 0 1.6cqw #ffc84680)}
+.france-ember{position:absolute;z-index:6;border-radius:50%;background:#ffd966;box-shadow:0 0 1cqw #ffc23a;animation:france-rise 7s ease-out infinite;pointer-events:none}
+.france-wh{display:grid;place-items:center;background:#22093f;border:.32cqw solid #e9b52a;color:#ffd966;font-size:5cqw}
+@keyframes france-float{50%{transform:translateY(-.5cqw)}}
+@keyframes france-rise{0%{opacity:0}12%{opacity:.95}100%{opacity:0;transform:translate(3cqw,-41cqw)}}
+.atlas-card[data-interacting="true"] .france-banner{animation-duration:1s}
+.atlas-card[data-interacting="true"] .france-crown{animation-duration:1.8s}
+@media(prefers-reduced-motion:reduce){.france-card *{animation:none!important}}
+
+.france-title{font-size:4.603cqw;letter-spacing:.31746cqw}.france-ms{display:none}.france-photo:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 25%,#ffc86455,transparent 60%);animation:france-pl 6s ease-in-out infinite}
+
+.france-title{font-size:5.079cqw;letter-spacing:.952cqw;margin-left:.952cqw}.france-motto{font-size:1.587cqw;letter-spacing:.365cqw;white-space:nowrap}
+.france-divider img{width:2.222cqw;height:3.175cqw;filter:drop-shadow(0 0 .635cqw #ffb020)}
+.france-banner{border:.25cqw solid #e9b52a;clip-path:polygon(0 0,100% 0,100% 80%,50% 100%,0 80%);display:grid;place-items:center}.france-banner img{width:55%;height:52%;object-fit:contain}
+.france-wh{border:0;background:radial-gradient(circle,#fff 0 7%,#d8232f 8% 15%,#ffd34a 16% 21%,transparent 22%),repeating-conic-gradient(#ffd34a 0 11deg,#143fc4 11deg 22.5deg),#143fc4;animation:france-spin 14s linear infinite}
+.france-photo:after{background:radial-gradient(ellipse at 50% 52%,#ffbe5a6b,transparent 70%)}
+.france-lily-fall{position:absolute;z-index:13;opacity:0;pointer-events:none;animation:france-lily 19s linear infinite;filter:drop-shadow(0 0 .8cqw #ffd25ae6)}
+@keyframes france-lily{0%{opacity:0;transform:translateY(-5cqw) rotate(-15deg)}8%{opacity:.95}92%{opacity:.85}100%{opacity:0;transform:translateY(152cqw) rotate(120deg)}}
+.france-boat{position:absolute;z-index:6;left:-16%;top:80%;width:12%;height:2%;animation:france-sail 26s linear infinite}.france-boat i{position:absolute;inset:0;background:linear-gradient(#fff2c9,#d9a54a);border-radius:30%;box-shadow:0 0 2cqw #ffc86ecc}.france-boat b{position:absolute;left:12%;top:-45%;width:50%;height:65%;background:#f6e3b0}.france-boat u{position:absolute;left:-15%;top:100%;width:130%;height:250%;background:linear-gradient(#ffc8788c,transparent);filter:blur(.6cqw)}
+@keyframes france-sail{to{transform:translateX(124cqw)}}
+.france-reflections{position:absolute;left:0;right:0;top:78%;height:22%;z-index:4;mix-blend-mode:screen;background:repeating-linear-gradient(transparent 0 1.1cqw,#ffe1aa3d 1.4cqw,transparent 2.2cqw);animation:france-ripple 3.2s linear infinite;mask:linear-gradient(transparent,#000 25%)}
+@keyframes france-ripple{to{background-position:0 4.4cqw}}
+.france-firework{position:absolute;z-index:7;animation:france-burst 6.4s linear infinite}.france-firework i{position:absolute;width:.8cqw;height:.8cqw;border-radius:50%;box-shadow:0 0 1cqw currentColor;animation:france-spark 6.4s ease-out infinite;animation-delay:inherit}
+@keyframes france-spark{0%,3%,100%{opacity:0;transform:scale(.5)}6%{opacity:1}26%{opacity:1;transform:translate(var(--x),var(--y))}46%{opacity:0;transform:translate(var(--x),calc(var(--y) + 3.5cqw))}}
+@keyframes france-burst{from{}to{}}
+.atlas-card[data-interacting="true"] .france-boat{animation-duration:9s}.atlas-card[data-interacting="true"] .france-lily-fall{animation-duration:8s!important}

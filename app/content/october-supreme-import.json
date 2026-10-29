@@ -1,0 +1,200 @@
+[
+  {
+    "code": "MIL-016",
+    "name": "Commando Hubert",
+    "universe": "Militaire",
+    "category": "Unité militaire",
+    "description": "Le commando Hubert est une unité des forces spéciales de la Marine nationale. Il est particulièrement associé aux nageurs de combat et aux opérations spéciales en milieu maritime.",
+    "imageKey": "4529adb7-3967-5bd6-879a-a7350fbab37b.jpg",
+    "asset": "/designs/october-hubert/48b2bb62b10ed818e7496a2e.jpg",
+    "sourceFilename": "SupremeHubert.dc.html",
+    "sourceSha256": "8e1c44975265ac0ed34ca47a1fffa69778414232ed82d6abd8d0c45be01365ec"
+  },
+  {
+    "code": "FIC-061",
+    "name": "Harry Potter",
+    "universe": "Personnages fictifs",
+    "category": "Livre",
+    "description": "Jeune sorcier de Poudlard lié à Voldemort, accompagné dans ses aventures par Ron et Hermione. Univers : Harry Potter.",
+    "imageKey": "abe654b7-dc44-511e-a603-0f51399726cd.jpg",
+    "asset": "/designs/october-harry-potter/376dfb01f948b22c196559a5.jpg",
+    "sourceFilename": "SupremeHarryPotter.dc.html",
+    "sourceSha256": "3adbffbf58cb9858d703aa95b4a2d1c5d29473414dc53df33c0975cfe3fd8dab"
+  },
+  {
+    "code": "CAT-001",
+    "name": "Jésus-Christ",
+    "universe": "Chrétienté",
+    "category": "Catholicisme",
+    "description": "Au cœur de la foi catholique, Jésus-Christ est reconnu comme le Fils de Dieu fait homme. Les Évangiles rapportent son enseignement, sa mort sur la croix et sa résurrection, célébrée à Pâques.",
+    "imageKey": "43f10895-86cf-5816-ac9d-893926264d0b.jpg",
+    "asset": "/designs/october-jesus-christ/72949414125d42771d50f91a.jpg",
+    "sourceFilename": "SupremeJesusAscension.dc.html",
+    "sourceSha256": "b7153a29e9638c88d17d552ae27f36a55dec25835d07ee2920c6a4ceed243092"
+  },
+  {
+    "code": "FIC-081",
+    "name": "Monkey D. Luffy",
+    "universe": "Personnages fictifs",
+    "category": "Manga",
+    "description": "Capitaine de l’équipage du Chapeau de paille qui rêve de devenir le roi des pirates. Univers : One Piece.",
+    "imageKey": "76ae2539-8b81-5090-b2a0-d68cf82025d8.jpg",
+    "asset": "/designs/october-luffy/108c81b66bb4604ebfd3a6e1.jpg",
+    "sourceFilename": "SupremeLuffy.dc.html",
+    "sourceSha256": "6770ab2e568512cc351e3c7e8310fbc8bd83fe7284d6ed693b51c8be7a95684f"
+  },
+  {
+    "code": "FIC-031",
+    "name": "Mario",
+    "universe": "Personnages fictifs",
+    "category": "Jeu vidéo",
+    "description": "Héros moustachu qui parcourt le Royaume Champignon pour affronter Bowser et aider ses amis. Univers : Super Mario.",
+    "imageKey": "32d657be-83db-5408-b1b0-eb2a5988f636.jpg",
+    "asset": "/designs/october-mario/f48aec05e2638813afc25ebc.jpg",
+    "sourceFilename": "SupremeMario.dc.html",
+    "sourceSha256": "ecc5b86f737200d454bd553cbc074251389fecb87c63d7acca4926b2c8862da1"
+  },
+  {
+    "code": "FIC-054",
+    "name": "Obélix",
+    "universe": "Personnages fictifs",
+    "category": "Bande dessinée",
+    "description": "Livreur de menhirs doté d’une force permanente depuis sa chute dans la potion magique. Univers : Astérix.",
+    "imageKey": "e2ec876d-ab24-5f07-998e-402ed39af5b7.jpg",
+    "asset": "/designs/october-obelix/73b63ef9baf312a9812cdf7e.jpg",
+    "sourceFilename": "SupremeObelix.dc.html",
+    "sourceSha256": "ee42bce7fcc7ac6db6fa2f09c2017f58d35ea02c1ff79676e2146265256c4ec7"
+  },
+  {
+    "code": "FIC-076",
+    "name": "Son Goku",
+    "universe": "Personnages fictifs",
+    "category": "Manga",
+    "description": "Guerrier saiyan élevé sur Terre qui progresse en arts martiaux et protège ses proches. Univers : Dragon Ball.",
+    "imageKey": "e77d35b3-1334-5bd7-bd37-41f2d6f043f7.jpg",
+    "asset": "/designs/october-goku/4690885d26c739c4063fd370.jpg",
+    "sourceFilename": "SupremeGoku.dc.html",
+    "sourceSha256": "c60f6f6770d2df5aac70ce2031847eeeb542b992fa90ce3cd501b1d0b33357ce"
+  },
+  {
+    "code": "MIL-005",
+    "name": "13e RDP",
+    "universe": "Militaire",
+    "category": "Unité militaire",
+    "description": "Le 13e régiment de dragons parachutistes appartient aux forces spéciales Terre. Sa spécialité est la recherche du renseignement par des moyens humains, dans des milieux et des contextes variés.",
+    "imageKey": "834e95a5-accc-5e9f-be42-3816a0e161e8.jpg",
+    "asset": "/designs/october-13e-rdp/df3e59d21203f3903a109e4d.jpg",
+    "sourceFilename": "Supreme13RDP.dc.html",
+    "sourceSha256": "8a785d50cd0ec3985b146aa347e00bfe9e42ab12dff8b4a9dbd13eeeb78fc480"
+  },
+  {
+    "code": "MIL-004",
+    "name": "1er RPIMa",
+    "universe": "Militaire",
+    "category": "Unité militaire",
+    "description": "Le 1er régiment de parachutistes d’infanterie de marine est une unité des forces spéciales de l’armée de Terre. Héritier des parachutistes français du SAS, il est spécialisé dans l’action spéciale.",
+    "imageKey": "2cd76a76-ef6e-55df-94f4-659c7314ab82.jpg",
+    "asset": "/designs/october-1er-rpima/831179a3c2035b9cbb0ded5c.jpg",
+    "sourceFilename": "SupremeRPIMa.dc.html",
+    "sourceSha256": "0d052f98ebc26edc2618b84c3217d0a33a284f60c99381b1055fc857bfefaa01"
+  },
+  {
+    "code": "FIC-053",
+    "name": "Astérix",
+    "universe": "Personnages fictifs",
+    "category": "Bande dessinée",
+    "description": "Petit guerrier gaulois qui défend son village grâce à son intelligence et à la potion magique. Univers : Astérix.",
+    "imageKey": "194e808b-eac3-5d4a-ad20-9803d6bcc001.jpg",
+    "asset": "/designs/october-asterix/0fbd17c4b9601da124b6aa2f.jpg",
+    "sourceFilename": "SupremeAsterix.dc.html",
+    "sourceSha256": "92df094bb6b07c1ed2e0b40308025719f997cf1d848d8fd5317db79ee9d2f04d"
+  },
+  {
+    "code": "FIC-058",
+    "name": "Batman",
+    "universe": "Personnages fictifs",
+    "category": "Bande dessinée",
+    "description": "Bruce Wayne protège Gotham en utilisant son entraînement, son intelligence et ses équipements. Univers : DC Comics.",
+    "imageKey": "e7f98128-1379-5713-bfd5-6cdde6bf5e6b.jpg",
+    "asset": "/designs/october-batman/a3c874b8470341ec951f97c2.jpg",
+    "sourceFilename": "SupremeBatman.dc.html",
+    "sourceSha256": "514cc2dc8efc6d82fba4749efbb19ae3ec226d960b4a28f9c46dcf03db838d5a"
+  },
+  {
+    "code": "MIL-001",
+    "name": "CPA 10",
+    "universe": "Militaire",
+    "category": "Unité militaire",
+    "description": "Le commando parachutiste de l’air n° 10 est une unité des forces spéciales françaises. Il associe action au sol et intégration de moyens aériens au profit des opérations spéciales.",
+    "imageKey": "de7b1b78-5142-530e-aaee-d2ba8c50a773.jpg",
+    "asset": "/designs/october-cpa10/fe3338bcc7684e105aa5f4b9.jpg",
+    "sourceFilename": "SupremeCPA10Crepuscule.dc.html",
+    "sourceSha256": "7f7208231e685fe638aee3b72dff25e34cc61074c56bfbc539e3eb1f24db598f"
+  },
+  {
+    "code": "FIC-001",
+    "name": "Dark Vador",
+    "universe": "Personnages fictifs",
+    "category": "Cinéma",
+    "description": "Ancien Jedi devenu le bras armé de l’Empire galactique. Univers : Star Wars.",
+    "imageKey": "52ddbdd1-002e-54f2-b0e6-b798c70dd230.jpg",
+    "asset": "/designs/october-dark-vador/4fbf9a229b3b4e66babfc5a2.jpg",
+    "sourceFilename": "SupremeDarkVador.dc.html",
+    "sourceSha256": "f983482af5c1411ebcba5068de67fc3a90c1a3c0aea843ecf83a35a63a136c18"
+  },
+  {
+    "code": "CAT-101",
+    "name": "Dieu, Le Père",
+    "universe": "Chrétienté",
+    "category": "Catholicisme",
+    "description": "Dans la foi catholique, le Père est la première personne de la Trinité, avec le Fils et le Saint-Esprit. Créateur du ciel et de la terre, il est invoqué dans la prière du Notre Père. Les trois personnes sont un seul Dieu.",
+    "imageKey": "7b619f21-5362-51d8-81fc-e69a8831305b.jpg",
+    "asset": "/designs/october-dieu-pere/1e5e6f4b6a91ab8d725957fc.jpg",
+    "sourceFilename": "SupremeDieuPere.dc.html",
+    "sourceSha256": "64579666addd9587ba634b6205b613c3fa60273201d31d84bd8d5afb2e8e4c6e"
+  },
+  {
+    "code": "FIC-070",
+    "name": "Dracula",
+    "universe": "Personnages fictifs",
+    "category": "Livre",
+    "description": "Comte vampire de Transylvanie qui tente d’étendre son influence en Angleterre. Univers : Dracula.",
+    "imageKey": "f3a927a4-6c39-5663-a0fe-d4c1d358f893.jpg",
+    "asset": "/designs/october-dracula/843714ad944f8664ab557f2e.jpg",
+    "sourceFilename": "SupremeDracula.dc.html",
+    "sourceSha256": "53d55a81b01f73bbbe8a56afc009a7421fec9c51c26fa6adf9de04997085fb1d"
+  },
+  {
+    "code": "FIC-066",
+    "name": "Gandalf",
+    "universe": "Personnages fictifs",
+    "category": "Livre",
+    "description": "Magicien qui conseille les peuples de la Terre du Milieu dans leur lutte contre Sauron. Univers : Le Hobbit et Le Seigneur des anneaux.",
+    "imageKey": "95e4528d-53cf-598f-b76f-cf55f92d041e.jpg",
+    "asset": "/designs/october-gandalf/cb872afa89f578e044be0a62.jpg",
+    "sourceFilename": "SupremeGandalf.dc.html",
+    "sourceSha256": "f0c85c6f4a91d89ccfb176d68fd5215ef83ca6bdbdbcc72e00c227ca20f88f25"
+  },
+  {
+    "code": "FIC-078",
+    "name": "Naruto Uzumaki",
+    "universe": "Personnages fictifs",
+    "category": "Manga",
+    "description": "Ninja de Konoha qui veut être reconnu et devenir Hokage. Univers : Naruto.",
+    "imageKey": "0f44c5f2-1ce2-58cc-8c0e-98ba21198a79.jpg",
+    "asset": "/designs/october-naruto/bc0b02d1545c4d714c737960.jpg",
+    "sourceFilename": "SupremeNaruto2.dc.html",
+    "sourceSha256": "dfe375f670a86a390b5b37430ef8eb846faffb0e46e4f17e5ea31c3477c086e4"
+  },
+  {
+    "code": "CAT-102",
+    "name": "Le Saint-Esprit",
+    "universe": "Chrétienté",
+    "category": "Catholicisme",
+    "description": "Dans la foi catholique, le Saint-Esprit est la troisième personne de la Trinité, avec le Père et le Fils. Seigneur qui donne la vie, il est associé à la Pentecôte et représenté notamment par une colombe, le souffle ou le feu.",
+    "imageKey": "b1914ee7-901d-55ff-8ee2-501ef0afed79.jpg",
+    "asset": "/designs/october-saint-esprit/abe8a25795f6173282e5e34a.jpg",
+    "sourceFilename": "SupremeSaintEsprit.dc.html",
+    "sourceSha256": "02410bc14f86aebbc3afdda661f59bb2f661ce3d64202894b0114f322268d10a"
+  }
+]

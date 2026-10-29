@@ -1,0 +1,52 @@
+[
+  {
+    "code": "EDS-022",
+    "name": "CPA 10 — Halloween",
+    "universe": "Editions spéciales",
+    "category": "Unité de forces spéciales",
+    "description": "Une création exclusive pour Halloween Edition.",
+    "imageKey": "f3828254-2475-5649-a940-50947f2e8dcc.jpg",
+    "asset": "/designs/halloween-cpa10/embedded-2baa9d92d2d971ce.jpg",
+    "sourceFilename": "SupremeCPA10Halloween.dc.html"
+  },
+  {
+    "code": "EDS-023",
+    "name": "Commando Kieffer — Halloween",
+    "universe": "Editions spéciales",
+    "category": "Unité de commandos",
+    "description": "Une création exclusive pour Halloween Edition.",
+    "imageKey": "3f4e60e9-5046-5c6f-8964-b523dd0a346f.jpg",
+    "asset": "/designs/halloween-kieffer/6b5ab636a3a7b5bc762787e518d79c72.jpg",
+    "sourceFilename": "SupremeKieffer.dc.html"
+  },
+  {
+    "code": "EDS-024",
+    "name": "Kevin Durant — Halloween",
+    "universe": "Editions spéciales",
+    "category": "Joueur de basket-ball",
+    "description": "Une création exclusive pour Halloween Edition.",
+    "imageKey": "451167fd-d7e2-5fa6-b8a9-57fe12c5d452.jpg",
+    "asset": "/designs/halloween-durant/1a478cb647cf108af93648c468d90006.jpg",
+    "sourceFilename": "SupremeDurant.dc.html"
+  },
+  {
+    "code": "EDS-025",
+    "name": "Mimolette — Halloween",
+    "universe": "Editions spéciales",
+    "category": "Fromage à pâte pressée",
+    "description": "Une création exclusive pour Halloween Edition.",
+    "imageKey": "8485ee8b-bf98-502f-861f-98878458e272.jpg",
+    "asset": "/designs/halloween-mimolette/eba1489aca4ba3b8699919cc8a39c7d4.jpg",
+    "sourceFilename": "SupremeMimolette.dc.html"
+  },
+  {
+    "code": "EDS-026",
+    "name": "Voldemort — Halloween",
+    "universe": "Editions spéciales",
+    "category": "Personnage de fiction",
+    "description": "Une création exclusive pour Halloween Edition.",
+    "imageKey": "99771c8a-5835-5bd2-97c9-57c2fa53d9b1.jpg",
+    "asset": "/designs/halloween-voldemort/469b936e51ab63b931d305b0921cca7a.jpg",
+    "sourceFilename": "SupremeVoldemort.dc.html"
+  }
+]

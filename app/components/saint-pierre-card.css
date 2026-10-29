@@ -1,0 +1,42 @@
+/* Original Saint Pierre 630 × 972 template. Scoped native rendering, attached scripts excluded. */
+
+.saint-pierre-sp{position:relative;width:630px;height:972px;border-radius:26px;overflow:hidden;background-color:#5a0a1c;background-image:url(/designs/saint-pierre/404c61bdc558cfe256343b2451d95265.jpg);background-size:100% 100%;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','SF Pro Text','San Francisco','Helvetica Neue','Segoe UI',Roboto,Arial,sans-serif}
+.saint-pierre-msk{-webkit-mask-image:url(/designs/saint-pierre/22a9928ade0797b545aef179f82c3293.png);mask-image:url(/designs/saint-pierre/22a9928ade0797b545aef179f82c3293.png);-webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
+.saint-pierre-ly{position:absolute;inset:0;pointer-events:none}
+.saint-pierre-rail{position:absolute;top:24px;bottom:24px;width:5px;border-radius:3px;background:repeating-linear-gradient(180deg,#7a5410 0,#f5da8e 24px,#a97a1e 48px,#fff3c0 76px,#b98622 104px,#7a5410 130px,#f5da8e 160px,#a97a1e 184px,#7a5410 200px);box-shadow:0 0 6px rgba(255,225,140,.75);animation:saint-pierre-anim-rail 3.4s linear infinite;z-index:4}
+.atlas-card[data-interacting="true"] .saint-pierre-sp .saint-pierre-rail{animation-duration:1.5s;box-shadow:0 0 13px 2px rgba(255,232,150,.95)}
+.saint-pierre-st{position:absolute;z-index:20;pointer-events:none;background:radial-gradient(circle,#fff 0,#fff 30%,rgba(255,244,200,.0) 70%);clip-path:polygon(50% 0,59% 41%,100% 50%,59% 59%,50% 100%,41% 59%,0 50%,41% 41%);animation:saint-pierre-anim-tw 2.6s ease-in-out infinite}
+.saint-pierre-gt{background:linear-gradient(180deg,#fff6cf 0,#f3d27f 38%,#c18f2a 62%,#f6dc96 100%);-webkit-background-clip:text;background-clip:text;color:#f3d27f;-webkit-text-fill-color:transparent;filter:drop-shadow(0 1px 1.5px rgba(0,0,0,.85))}
+.saint-pierre-ho{z-index:40;opacity:0;mix-blend-mode:color-dodge;background:linear-gradient(115deg,rgba(255,95,210,0) 0,rgba(255,95,210,.34) 7%,rgba(255,217,95,.34) 13%,rgba(95,255,176,.34) 19%,rgba(95,200,255,.34) 25%,rgba(176,95,255,.34) 31%,rgba(255,95,210,0) 38%,rgba(255,95,210,0) 52%,rgba(255,217,95,.3) 59%,rgba(95,255,176,.3) 65%,rgba(95,200,255,.3) 71%,rgba(176,95,255,.3) 77%,rgba(255,95,210,0) 84%);background-size:240% 240%;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.saint-pierre-gl{z-index:41;opacity:0;mix-blend-mode:overlay;background:radial-gradient(circle at center,rgba(255,255,255,.85) 0,rgba(255,255,255,.3) 16%,rgba(255,255,255,0) 40%);background-size:220% 220%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.saint-pierre-g2{z-index:42;opacity:0;background:radial-gradient(circle at center,rgba(255,255,255,.95) 0,rgba(255,250,225,.6) 13%,rgba(255,255,255,0) 34%);background-size:170% 170%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.saint-pierre-g3{z-index:43;background:linear-gradient(115deg,rgba(255,255,255,0) 42%,rgba(255,255,255,.85) 50%,rgba(255,255,255,0) 58%);background-size:300% 100%;animation:saint-pierre-anim-sweep 5.5s linear infinite}
+.atlas-card[data-interacting="true"] .saint-pierre-sp .saint-pierre-ho{opacity:.5}.atlas-card[data-interacting="true"] .saint-pierre-sp .saint-pierre-gl{opacity:.5}.atlas-card[data-interacting="true"] .saint-pierre-sp .saint-pierre-g2{opacity:.85}
+@keyframes saint-pierre-anim-rail{from{background-position:0 0}to{background-position:0 200px}}
+@keyframes saint-pierre-anim-sweep{from{background-position:130% 0}to{background-position:-130% 0}}
+@keyframes saint-pierre-anim-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+
+.saint-pierre-gm{position:absolute;border-radius:50%;z-index:12;pointer-events:none;animation:saint-pierre-anim-pu 3s ease-in-out infinite}
+.saint-pierre-sa{background:radial-gradient(circle at 32% 28%,#fff 0 12%,#a8c8ff 30%,#1c4fd0 70%,#061a5a 100%);box-shadow:0 0 0 2px #d8a83a,0 0 9px 2px rgba(80,140,255,.85)}
+.saint-pierre-ru{background:radial-gradient(circle at 32% 28%,#fff 0 12%,#ffb4bc 30%,#d01030 70%,#4a0010 100%);box-shadow:0 0 0 2px #d8a83a,0 0 9px 2px rgba(255,60,80,.8)}
+.saint-pierre-cs{position:absolute;z-index:20;pointer-events:none;width:15px;height:15px;margin:-7.5px 0 0 -7.5px;background:radial-gradient(circle,#fff 0,#fff3c0 35%,rgba(255,226,140,0) 72%);clip-path:polygon(50% 0,58% 42%,100% 50%,58% 58%,50% 100%,42% 58%,0 50%,42% 42%);animation:saint-pierre-anim-tw 2.8s ease-in-out infinite;filter:drop-shadow(0 0 3px #ffe9a0)}
+.atlas-card[data-interacting="true"] .saint-pierre-sp .saint-pierre-cs{animation-duration:1.1s}
+.saint-pierre-ry{position:absolute;left:275px;top:-48px;width:220px;height:220px;border-radius:50%;z-index:4;pointer-events:none;mix-blend-mode:screen;opacity:.4;background:repeating-conic-gradient(from 0deg,rgba(255,240,190,.95) 0 1deg,rgba(255,240,190,0) 2.4deg 7.5deg);-webkit-mask:radial-gradient(circle,transparent 0,transparent 24px,#000 34px,rgba(0,0,0,.5) 70px,transparent 110px);mask:radial-gradient(circle,transparent 0,transparent 24px,#000 34px,rgba(0,0,0,.5) 70px,transparent 110px);animation:saint-pierre-anim-spin 60s linear infinite,saint-pierre-anim-pl 5s ease-in-out infinite}
+.atlas-card[data-interacting="true"] .saint-pierre-sp .saint-pierre-ry{opacity:.95;animation-duration:14s,2s}
+.saint-pierre-hg{position:absolute;left:285px;top:-38px;width:200px;height:200px;border-radius:50%;z-index:4;pointer-events:none;mix-blend-mode:screen;background:radial-gradient(circle,rgba(255,238,180,.55) 0,rgba(255,220,140,.22) 38%,rgba(255,220,140,0) 70%);animation:saint-pierre-anim-pl 4s ease-in-out infinite}
+.atlas-card[data-interacting="true"] .saint-pierre-sp .saint-pierre-hg{animation-duration:1.8s}
+@keyframes saint-pierre-anim-spin{to{transform:rotate(360deg)}}
+@keyframes saint-pierre-anim-pl{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes saint-pierre-anim-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.45)}}
+.saint-pierre-kg{position:absolute;z-index:12;pointer-events:none;width:90px;height:90px;margin:-45px 0 0 -45px;border-radius:50%;mix-blend-mode:screen;background:radial-gradient(circle,rgba(255,235,160,.75),rgba(255,200,90,.25) 40%,rgba(255,200,90,0) 70%);animation:saint-pierre-anim-pl 3s ease-in-out infinite}
+.atlas-card[data-interacting="true"] .saint-pierre-sp .saint-pierre-kg{animation-duration:1.2s}
+.saint-pierre-sh{filter:blur(8px);position:absolute;left:300px;top:20px;width:260px;height:900px;z-index:4;pointer-events:none;mix-blend-mode:screen;transform-origin:50% 0;transform:rotate(18deg);background:linear-gradient(180deg,rgba(255,240,190,.3),rgba(255,240,190,.07) 55%,rgba(255,240,190,0));clip-path:polygon(35% 0,65% 0,100% 100%,0 100%);animation:saint-pierre-anim-sh 7s ease-in-out infinite alternate}
+.saint-pierre-sh.saint-pierre-b{left:200px;transform:rotate(28deg);width:200px;animation-duration:9s;animation-delay:-3s;opacity:.7}
+@keyframes saint-pierre-anim-sh{from{opacity:.2;transform:rotate(16deg)}to{opacity:.7;transform:rotate(22deg)}}
+.atlas-card[data-interacting="true"] .saint-pierre-sp .saint-pierre-sh{animation-duration:2.5s}
+.saint-pierre-dv{position:absolute;z-index:12;pointer-events:none;width:3px;height:3px;border-radius:50%;background:#fff1b8;box-shadow:0 0 6px 2px rgba(255,220,120,.85);opacity:0;animation:saint-pierre-anim-dv var(--d) ease-out infinite}
+@keyframes saint-pierre-anim-dv{0%{opacity:0;transform:translate(0,0)}15%{opacity:1}100%{opacity:0;transform:translate(var(--dx),-260px)}}
+.atlas-card[data-interacting="true"] .saint-pierre-sp .saint-pierre-dv{animation-duration:2s}
+
+.saint-pierre-ho{background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}
+.saint-pierre-gl,.saint-pierre-g2{background-position:var(--supreme-inverse-x,50%) var(--supreme-inverse-y,50%)}

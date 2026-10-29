@@ -1,0 +1,86 @@
+
+
+
+.camembert-card{position:relative;width:100%;height:100%;container-type:inline-size;border-radius:inherit;overflow:hidden;background:#7a5230 url(/designs/camembert/pattern.jpg) center/100% 100% no-repeat;font-family:var(--font-atlas)}
+
+.camembert-ly{position:absolute;inset:0;pointer-events:none}
+.camembert-bd{position:absolute;inset:0;pointer-events:none;padding:5.714286cqw;box-sizing:border-box;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0)}
+.camembert-sw{z-index:5;mix-blend-mode:screen;background:linear-gradient(115deg,rgba(255,255,255,0) 40%,rgba(255,244,190,.95) 50%,rgba(255,255,255,0) 60%);background-size:300% 100%;animation:camembert-sweep 5.5s linear infinite}
+.camembert-sv{z-index:5;mix-blend-mode:screen;background:linear-gradient(180deg,rgba(255,255,255,0) 30%,rgba(255,176,80,.65) 50%,rgba(255,255,255,0) 70%);background-size:100% 300%;animation:camembert-sweepv 4.2s linear infinite}
+.camembert-gw{z-index:4;background:radial-gradient(ellipse at 50% 105%,rgba(255,200,90,.2),rgba(255,200,90,0) 55%);animation:camembert-pl 4s ease-in-out infinite}
+.camembert-gf{z-index:8;mix-blend-mode:screen;background:linear-gradient(105deg,rgba(255,255,255,0) 44%,rgba(255,240,200,.45) 50%,rgba(255,255,255,0) 56%);background-size:320% 100%;animation:camembert-sweep 7s linear infinite}
+.camembert-rt{position:absolute;z-index:11;pointer-events:none;animation:camembert-spin 14s linear infinite}
+.atlas-card[data-interacting="true"] .camembert-card .camembert-rt{animation-duration:3s}
+.camembert-ho{z-index:40;opacity:0;mix-blend-mode:color-dodge;background:linear-gradient(115deg,rgba(255,190,80,0) 0,rgba(255,190,80,.3) 8%,rgba(255,215,110,.3) 15%,rgba(255,140,110,.28) 22%,rgba(255,120,150,.3) 29%,rgba(170,230,90,.3) 36%,rgba(255,190,80,0) 44%,rgba(255,190,80,0) 56%,rgba(255,215,110,.28) 64%,rgba(255,120,150,.28) 72%,rgba(255,190,80,0) 82%);background-size:240% 240%;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.camembert-gl{z-index:41;opacity:0;mix-blend-mode:overlay;background:radial-gradient(circle at center,rgba(255,255,255,.85) 0,rgba(255,255,255,.3) 16%,rgba(255,255,255,0) 40%);background-size:220% 220%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.camembert-g2{z-index:42;opacity:0;mix-blend-mode:screen;background:radial-gradient(circle at center,rgba(255,240,205,.85) 0,rgba(255,240,205,.35) 13%,rgba(255,255,255,0) 32%);background-size:170% 170%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.atlas-card[data-interacting="true"] .camembert-card .camembert-ho{opacity:.3}.atlas-card[data-interacting="true"] .camembert-card .camembert-gl{opacity:.35}.atlas-card[data-interacting="true"] .camembert-card .camembert-g2{opacity:.3}
+.camembert-st{position:absolute;z-index:20;pointer-events:none;background:radial-gradient(circle,#fff 0,#fff3b8 30%,rgba(255,230,140,0) 70%);clip-path:polygon(50% 0,59% 41%,100% 50%,59% 59%,50% 100%,41% 59%,0 50%,41% 41%);animation:camembert-tw 2.6s ease-in-out infinite}
+.camembert-gt{background:linear-gradient(180deg,#8a5418 0,#5a300c 45%,#3e2008 70%,#7a4a14 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#5a300c;filter:drop-shadow(0 0.158730cqw 0 rgba(255,255,255,.7))}
+@keyframes camembert-sweep{from{background-position:130% 0}to{background-position:-130% 0}}
+@keyframes camembert-sweepv{from{background-position:0 130%}to{background-position:0 -130%}}
+@keyframes camembert-pl{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes camembert-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.45)}}
+@keyframes camembert-spin{to{transform:rotate(360deg)}}
+@keyframes camembert-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.camembert-ap{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 34% 28%,#fff 0 7%,#ff9a88 18%,#e0242c 52%,#7a0812 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(80,0,10,.55);animation:camembert-pu 3.6s ease-in-out infinite}
+.camembert-ap.camembert-gr{background:radial-gradient(circle at 34% 28%,#fff 0 7%,#f2f59a 20%,#9bcb3e 55%,#3a6a14 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(20,50,0,.5)}
+.atlas-card[data-interacting="true"] .camembert-card .camembert-ap{animation-duration:1.2s}
+.camembert-wh{position:absolute;z-index:9;pointer-events:none;left:45.079365cqw;top:1.904762cqw;width:9.841270cqw;height:9.841270cqw;border-radius:50%;background:radial-gradient(circle,#fffbee 0 52%,#f5e5b0 68%,#dcb96a 86%,#a67d34 100%);box-shadow:inset 0 0 1.269841cqw rgba(120,80,10,.5);overflow:hidden;animation:camembert-wob 6s ease-in-out infinite}
+.camembert-wh::before{content:"";position:absolute;inset:0;background:conic-gradient(from 18deg,#eec24c 0 52deg,rgba(0,0,0,0) 52deg);border-radius:50%;opacity:.9}
+.camembert-wh::after{content:"";position:absolute;inset:1.111111cqw;border-radius:50%;border:0.158730cqw dashed rgba(190,150,70,.55)}
+.atlas-card[data-interacting="true"] .camembert-card .camembert-wh{animation-duration:1.6s}
+@keyframes camembert-wob{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+.camembert-sh{position:absolute;z-index:6;pointer-events:none;height:0.476190cqw;width:12.698413cqw;border-radius:0.317460cqw;background:linear-gradient(90deg,rgba(255,240,180,0),#fff6cc);opacity:0;filter:drop-shadow(0 0 0.793651cqw #ffd870);animation:camembert-cr 6s linear infinite}
+@keyframes camembert-cr{0%{opacity:0;transform:translate(0,0) rotate(-35deg)}6%{opacity:1}22%{opacity:0;transform:translate(25.396825cqw,-17.460317cqw) rotate(-35deg)}100%{opacity:0;transform:translate(25.396825cqw,-17.460317cqw) rotate(-35deg)}}
+.atlas-card[data-interacting="true"] .camembert-card .camembert-sh{animation-duration:2s}
+.camembert-bub{position:absolute;z-index:6;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 35% 30%,rgba(255,255,255,.9),rgba(255,240,190,.25) 55%,rgba(255,220,140,0) 72%);animation:camembert-fl 8s ease-in infinite;opacity:0}
+@keyframes camembert-fl{0%{opacity:0;transform:translateY(0) scale(.6)}15%{opacity:.9}100%{opacity:0;transform:translateY(-23.809524cqw) scale(1.2)}}
+.atlas-card[data-interacting="true"] .camembert-card .camembert-bub{animation-duration:3.2s}
+@keyframes camembert-pl{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes camembert-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.25)}}
+@keyframes camembert-spin{to{transform:rotate(360deg)}}
+@keyframes camembert-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+
+.camembert-photo{position:absolute;overflow:hidden;background:#6a6a70 url(/designs/camembert/cheese.jpg) center/cover no-repeat;z-index:3}
+.camembert-photo-shade{box-shadow:inset 0 0 4.127cqw #3c140059}
+.camembert-rim{border-radius:inherit;box-shadow:inset 0 0 0 .2381cqw #fff0b8,inset 0 0 0 .6349cqw #c98a1e,inset 0 0 0 .873cqw #6b4208;z-index:7}
+.camembert-name-bg{position:absolute;border-radius:4.762cqw;background:linear-gradient(180deg,#fff6d2,#f6dc8a);box-shadow:inset 0 0 0 .159cqw #be821473,inset 0 -.952cqw 1.905cqw #c88c1440;z-index:9}
+.camembert-frame{width:100%;height:100%;z-index:10;filter:drop-shadow(.159cqw .476cqw .476cqw #3c140099)}
+.camembert-caption{position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.476cqw;z-index:14}
+.camembert-title{font-weight:700;font-size:4.762cqw;letter-spacing:.159cqw;line-height:1.1}
+.camembert-divider{display:flex;align-items:center;gap:1.27cqw}.camembert-divider i{width:6.35cqw;height:.238cqw;background:linear-gradient(90deg,transparent,#b87818)}.camembert-divider i:last-child{transform:rotate(180deg)}.camembert-divider b{width:.952cqw;height:.952cqw;transform:rotate(45deg);background:#c8861c;box-shadow:0 0 .635cqw #e8a030}
+.camembert-motto{font-weight:600;font-size:1.746cqw;letter-spacing:.476cqw;color:#6a3c0e;text-shadow:0 .159cqw 0 #ffffff99;margin-left:.476cqw}
+.camembert-ho{background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}.camembert-gl,.camembert-g2{background-position:var(--supreme-inverse-x,50%) var(--supreme-inverse-y,50%)}
+.camembert-back-panel{position:absolute;z-index:9;border-radius:2.222cqw;background:#fff8e8f7;box-shadow:inset 0 0 0 1px #a67d3480}
+.camembert-back-text{position:absolute;inset:0;width:100%;height:100%;z-index:15;pointer-events:none}
+.camembert-back .camembert-frame{opacity:.48}.camembert-back .camembert-ho,.camembert-back .camembert-gl,.camembert-back .camembert-g2{z-index:14}
+.atlas-card[data-design-model="FRO-003"]{box-shadow:0 4px 4px #7a523050,0 24px 36px -17px #7a5230b0,0 0 0 1px #c98a1e50}
+.atlas-card[data-design-model="FRO-003"][data-reveal="true"]::before{box-shadow:0 0 45px 8px #ffc85a50,0 0 70px 9px #c98a1e30}
+.atlas-card[data-effects="interactive"]:not([data-interacting="true"]) .camembert-card *{animation-play-state:paused}
+html[data-motion="off"] .camembert-ho,html[data-motion="off"] .camembert-gl,html[data-motion="off"] .camembert-g2,html[data-motion="reduced"] .camembert-ho,html[data-motion="reduced"] .camembert-gl,html[data-motion="reduced"] .camembert-g2,.atlas-card[data-effects="static"] .camembert-ho,.atlas-card[data-effects="static"] .camembert-gl,.atlas-card[data-effects="static"] .camembert-g2{opacity:0!important}
+@media(prefers-reduced-motion:reduce){.camembert-ho,.camembert-gl,.camembert-g2{opacity:0!important}}

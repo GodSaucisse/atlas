@@ -1,0 +1,902 @@
+[
+  {
+    "code": "HIS-001",
+    "name": "Napoléon Ier",
+    "wikiTitle": "Napoleon",
+    "category": "Personne · Souverain",
+    "rarityProposal": "Suprême",
+    "summary": "Empereur français et réformateur du XIXe siècle.",
+    "description": "Né en 1769, Napoléon Bonaparte devient empereur des Français en 1804. Ses campagnes bouleversent l’Europe ; le Code civil de 1804 marque durablement le droit. Il meurt à Sainte-Hélène en 1821."
+  },
+  {
+    "code": "HIS-002",
+    "name": "Jules César",
+    "wikiTitle": "Julius Caesar",
+    "category": "Personne · Dirigeant",
+    "rarityProposal": "Légendaire",
+    "summary": "Général romain devenu dictateur de la République.",
+    "description": "Jules César (100–44 av. J.-C.) conquiert la Gaule avant de s’imposer à Rome au terme d’une guerre civile. Nommé dictateur à vie, il est assassiné aux ides de mars, en 44 av. J.-C."
+  },
+  {
+    "code": "HIS-003",
+    "name": "Cléopâtre VII",
+    "wikiTitle": "Cleopatra",
+    "category": "Personne · Souveraine",
+    "rarityProposal": "Légendaire",
+    "summary": "Dernière souveraine de la dynastie lagide égyptienne.",
+    "description": "Cléopâtre VII (69–30 av. J.-C.) règne sur l’Égypte à partir de 51 av. J.-C. Alliée de César puis de Marc Antoine, elle tente de préserver son royaume face à la puissance romaine."
+  },
+  {
+    "code": "HIS-004",
+    "name": "Alexandre le Grand",
+    "wikiTitle": "Alexander the Great",
+    "category": "Personne · Conquérant",
+    "rarityProposal": "Légendaire",
+    "summary": "Roi macédonien conquérant de l’Empire perse achéménide.",
+    "description": "Roi de Macédoine de 336 à 323 av. J.-C., Alexandre conquiert l’Empire perse et mène ses armées jusqu’à l’Indus. Ses conquêtes favorisent la diffusion de la culture grecque dans l’Orient méditerranéen."
+  },
+  {
+    "code": "HIS-005",
+    "name": "Auguste",
+    "wikiTitle": "Augustus",
+    "category": "Personne · Souverain",
+    "rarityProposal": "Précieuse",
+    "summary": "Premier empereur romain et fondateur du principat.",
+    "description": "Né Octave en 63 av. J.-C., Auguste devient le premier empereur romain en 27 av. J.-C. Son règne, achevé en 14 apr. J.-C., stabilise un pouvoir impérial conservant les formes républicaines."
+  },
+  {
+    "code": "HIS-006",
+    "name": "Charlemagne",
+    "wikiTitle": "Charlemagne",
+    "category": "Personne · Souverain",
+    "rarityProposal": "Légendaire",
+    "summary": "Roi des Francs couronné empereur en Occident.",
+    "description": "Roi des Francs à partir de 768, Charlemagne étend son autorité sur une large partie de l’Europe occidentale. Il est couronné empereur à Rome en 800 et meurt à Aix-la-Chapelle en 814."
+  },
+  {
+    "code": "HIS-007",
+    "name": "Louis XIV",
+    "wikiTitle": "Louis XIV",
+    "category": "Personne · Souverain",
+    "rarityProposal": "Légendaire",
+    "summary": "Roi français associé à Versailles et l’absolutisme.",
+    "description": "Louis XIV (1638–1715) règne sur la France de 1643 à 1715. Son gouvernement personnel, commencé en 1661, renforce l’autorité monarchique ; Versailles devient le centre de sa cour."
+  },
+  {
+    "code": "HIS-008",
+    "name": "Élisabeth Ire",
+    "wikiTitle": "Elizabeth I",
+    "category": "Personne · Souveraine",
+    "rarityProposal": "Précieuse",
+    "summary": "Reine d’Angleterre pendant la Renaissance anglaise.",
+    "description": "Élisabeth Ire (1533–1603) règne sur l’Angleterre de 1558 à 1603. Son époque est marquée par la consolidation du protestantisme anglais, l’essor culturel élisabéthain et la rivalité maritime avec l’Espagne."
+  },
+  {
+    "code": "HIS-009",
+    "name": "Gengis Khan",
+    "wikiTitle": "Genghis Khan",
+    "category": "Personne · Conquérant",
+    "rarityProposal": "Légendaire",
+    "summary": "Fondateur de l’Empire mongol au XIIIe siècle.",
+    "description": "Gengis Khan, mort en 1227, unifie les tribus mongoles et reçoit ce titre en 1206. Ses conquêtes et celles de ses successeurs font naître un immense empire eurasiatique, au prix de destructions considérables."
+  },
+  {
+    "code": "HIS-010",
+    "name": "Saladin",
+    "wikiTitle": "Saladin",
+    "category": "Personne · Souverain",
+    "rarityProposal": "Précieuse",
+    "summary": "Sultan ayyoubide ayant repris Jérusalem aux croisés.",
+    "description": "Saladin (1137 ou 1138–1193) fonde la dynastie ayyoubide et réunit l’Égypte et une partie du Levant. Après sa victoire à Hattin en 1187, il reprend Jérusalem aux croisés."
+  },
+  {
+    "code": "HIS-011",
+    "name": "Mansa Moussa",
+    "wikiTitle": "Mansa Musa",
+    "category": "Personne · Souverain",
+    "rarityProposal": "Précieuse",
+    "summary": "Souverain malien célèbre pour son pèlerinage fastueux.",
+    "description": "Mansa Moussa règne sur l’Empire du Mali au XIVe siècle. Son pèlerinage à La Mecque, en 1324–1325, rend célèbre la richesse de son royaume, lié aux échanges transsahariens et à l’or ouest-africain."
+  },
+  {
+    "code": "HIS-012",
+    "name": "Qin Shi Huang",
+    "wikiTitle": "Qin Shi Huang",
+    "category": "Personne · Souverain",
+    "rarityProposal": "Légendaire",
+    "summary": "Premier empereur ayant unifié la Chine impériale.",
+    "description": "Qin Shi Huang (259–210 av. J.-C.) unifie les royaumes chinois en 221 av. J.-C. Son pouvoir centralise l’administration et normalise notamment l’écriture et les mesures. Son mausolée abrite l’armée de terre cuite."
+  },
+  {
+    "code": "HIS-013",
+    "name": "Ashoka",
+    "wikiTitle": "Ashoka",
+    "category": "Personne · Souverain",
+    "rarityProposal": "Rare",
+    "summary": "Empereur maurya ayant soutenu la diffusion bouddhiste.",
+    "description": "Ashoka règne sur l’Empire maurya au IIIe siècle av. J.-C. Après la guerre du Kalinga, ses édits promeuvent une conduite morale et la tolérance religieuse. Il joue un rôle majeur dans le soutien au bouddhisme."
+  },
+  {
+    "code": "HIS-014",
+    "name": "Soliman le Magnifique",
+    "wikiTitle": "Suleiman the Magnificent",
+    "category": "Personne · Souverain",
+    "rarityProposal": "Précieuse",
+    "summary": "Sultan ottoman associé aux conquêtes et réformes.",
+    "description": "Soliman Ier (1494–1566) dirige l’Empire ottoman de 1520 à 1566. Son règne conjugue expansion militaire, codification juridique et mécénat architectural, notamment à Constantinople."
+  },
+  {
+    "code": "HIS-015",
+    "name": "Akbar",
+    "wikiTitle": "Akbar",
+    "category": "Personne · Souverain",
+    "rarityProposal": "Rare",
+    "summary": "Empereur moghol ayant consolidé un vaste royaume.",
+    "description": "Akbar (1542–1605) règne sur l’Empire moghol à partir de 1556. Il étend ses territoires dans le sous-continent indien et développe une administration impériale intégrant diverses élites religieuses et régionales."
+  },
+  {
+    "code": "HIS-016",
+    "name": "Simón Bolívar",
+    "wikiTitle": "Simón Bolívar",
+    "category": "Personne · Dirigeant",
+    "rarityProposal": "Précieuse",
+    "summary": "Chef indépendantiste de plusieurs nations sud-américaines.",
+    "description": "Simón Bolívar (1783–1830) conduit des campagnes décisives contre la domination espagnole en Amérique du Sud. Il participe à l’indépendance de plusieurs États et porte le projet politique de la Grande Colombie."
+  },
+  {
+    "code": "HIS-017",
+    "name": "Abraham Lincoln",
+    "wikiTitle": "Abraham Lincoln",
+    "category": "Personne · Dirigeant",
+    "rarityProposal": "Précieuse",
+    "summary": "Président américain pendant la guerre de Sécession.",
+    "description": "Abraham Lincoln (1809–1865) préside les États-Unis à partir de 1861. Il défend le maintien de l’Union pendant la guerre de Sécession et proclame l’émancipation des esclaves des territoires en rébellion en 1863."
+  },
+  {
+    "code": "HIS-018",
+    "name": "Charles de Gaulle",
+    "wikiTitle": "Charles de Gaulle",
+    "category": "Personne · Dirigeant",
+    "rarityProposal": "Légendaire",
+    "summary": "Chef de la France libre puis président.",
+    "description": "Charles de Gaulle (1890–1970) lance l’appel du 18 juin 1940 et dirige la France libre. Il revient au pouvoir en 1958, participe à la fondation de la Ve République et en devient le premier président."
+  },
+  {
+    "code": "HIS-019",
+    "name": "Winston Churchill",
+    "wikiTitle": "Winston Churchill",
+    "category": "Personne · Dirigeant",
+    "rarityProposal": "Précieuse",
+    "summary": "Premier ministre britannique pendant la Seconde Guerre mondiale.",
+    "description": "Winston Churchill (1874–1965) devient Premier ministre britannique en mai 1940. Il dirige le Royaume-Uni pendant l’essentiel de la Seconde Guerre mondiale, puis exerce de nouveau cette fonction de 1951 à 1955."
+  },
+  {
+    "code": "HIS-020",
+    "name": "Mahatma Gandhi",
+    "wikiTitle": "Mahatma Gandhi",
+    "category": "Personne · Militant",
+    "rarityProposal": "Précieuse",
+    "summary": "Figure de l’indépendance indienne par la non-violence.",
+    "description": "Mohandas Gandhi (1869–1948) fait de la désobéissance civile non violente un instrument de lutte contre la domination britannique en Inde. La marche du sel de 1930 devient l’une de ses actions les plus célèbres."
+  },
+  {
+    "code": "HIS-021",
+    "name": "Nelson Mandela",
+    "wikiTitle": "Nelson Mandela",
+    "category": "Personne · Dirigeant",
+    "rarityProposal": "Précieuse",
+    "summary": "Militant anti-apartheid devenu président de l’Afrique du Sud.",
+    "description": "Nelson Mandela (1918–2013) combat l’apartheid et passe vingt-sept ans en prison. Libéré en 1990, il participe à la transition démocratique puis préside l’Afrique du Sud de 1994 à 1999."
+  },
+  {
+    "code": "HIS-022",
+    "name": "Marie Curie",
+    "wikiTitle": "Marie Curie",
+    "category": "Personne · Scientifique",
+    "rarityProposal": "Légendaire",
+    "summary": "Scientifique pionnière des recherches sur la radioactivité.",
+    "description": "Marie Curie (1867–1934) étudie la radioactivité et découvre avec Pierre Curie le polonium et le radium en 1898. Elle reçoit le prix Nobel de physique en 1903 puis celui de chimie en 1911."
+  },
+  {
+    "code": "HIS-023",
+    "name": "Léonard de Vinci",
+    "wikiTitle": "Leonardo da Vinci",
+    "category": "Personne · Artiste",
+    "rarityProposal": "Légendaire",
+    "summary": "Artiste et inventeur de la Renaissance italienne.",
+    "description": "Léonard de Vinci (1452–1519) associe peinture, observation scientifique et projets techniques. Auteur de La Joconde et de La Cène, il laisse de nombreux carnets consacrés notamment à l’anatomie, aux machines et au vol."
+  },
+  {
+    "code": "HIS-024",
+    "name": "Johannes Gutenberg",
+    "wikiTitle": "Johannes Gutenberg",
+    "category": "Personne · Inventeur",
+    "rarityProposal": "Précieuse",
+    "summary": "Imprimeur ayant développé les caractères mobiles européens.",
+    "description": "Johannes Gutenberg, mort en 1468, met au point à Mayence un système d’impression à caractères métalliques mobiles. Sa Bible, produite vers 1455, accompagne une transformation majeure de la circulation des écrits en Europe."
+  },
+  {
+    "code": "HIS-025",
+    "name": "Olympe de Gouges",
+    "wikiTitle": "Olympe de Gouges",
+    "category": "Personne · Écrivaine",
+    "rarityProposal": "Rare",
+    "summary": "Autrice révolutionnaire défendant les droits des femmes.",
+    "description": "Olympe de Gouges (1748–1793) publie en 1791 la Déclaration des droits de la femme et de la citoyenne. Ses écrits défendent l’égalité politique et critiquent l’esclavage. Elle est guillotinée pendant la Révolution."
+  },
+  {
+    "code": "HIS-026",
+    "name": "Toussaint Louverture",
+    "wikiTitle": "Toussaint Louverture",
+    "category": "Personne · Dirigeant",
+    "rarityProposal": "Précieuse",
+    "summary": "Chef révolutionnaire de Saint-Domingue face à l’esclavage.",
+    "description": "Toussaint Louverture, né vers 1743, devient une figure majeure de la révolution de Saint-Domingue. Arrêté par les forces françaises en 1802, il meurt emprisonné au fort de Joux en 1803, avant l’indépendance haïtienne."
+  },
+  {
+    "code": "HIS-027",
+    "name": "Rosa Parks",
+    "wikiTitle": "Rosa Parks",
+    "category": "Personne · Militante",
+    "rarityProposal": "Rare",
+    "summary": "Militante américaine contre la ségrégation dans les transports.",
+    "description": "Rosa Parks (1913–2005) refuse de céder son siège à un passager blanc dans un autobus de Montgomery en décembre 1955. Son arrestation contribue au déclenchement d’un boycott majeur du mouvement des droits civiques."
+  },
+  {
+    "code": "HIS-028",
+    "name": "Ibn Battûta",
+    "wikiTitle": "Ibn Battuta",
+    "category": "Personne · Voyageur",
+    "rarityProposal": "Rare",
+    "summary": "Voyageur marocain témoin du monde médiéval musulman.",
+    "description": "Ibn Battûta (1304–vers 1368 ou 1369) parcourt une vaste partie de l’Afrique et de l’Asie au XIVe siècle. Le récit de ses voyages, la Rihla, constitue une source importante sur les sociétés qu’il décrit."
+  },
+  {
+    "code": "HIS-029",
+    "name": "Ada Lovelace",
+    "wikiTitle": "Ada Lovelace",
+    "category": "Personne · Scientifique",
+    "rarityProposal": "Rare",
+    "summary": "Mathématicienne pionnière des idées de programmation informatique.",
+    "description": "Ada Lovelace (1815–1852) travaille sur la machine analytique de Charles Babbage. Ses notes de 1843 comprennent un algorithme destiné à cette machine et envisagent des usages dépassant le simple calcul numérique."
+  },
+  {
+    "code": "HIS-030",
+    "name": "Hammurabi",
+    "wikiTitle": "Hammurabi",
+    "category": "Personne · Souverain",
+    "rarityProposal": "Rare",
+    "summary": "Roi babylonien associé à un célèbre recueil juridique.",
+    "description": "Hammurabi règne à Babylone au XVIIIe siècle av. J.-C., selon la chronologie moyenne. Son nom est associé à une stèle rassemblant des décisions juridiques et affirmant le rôle du souverain comme garant de la justice."
+  },
+  {
+    "code": "HIS-031",
+    "name": "Empire romain",
+    "wikiTitle": "Roman Empire",
+    "category": "Entité · Empire",
+    "rarityProposal": "Légendaire",
+    "summary": "Puissance antique centrée sur le bassin méditerranéen.",
+    "description": "Né du pouvoir d’Auguste en 27 av. J.-C., l’Empire romain organise un vaste espace autour de la Méditerranée. L’Empire d’Occident disparaît en 476 ; sa partie orientale se prolonge jusqu’en 1453."
+  },
+  {
+    "code": "HIS-032",
+    "name": "République romaine",
+    "wikiTitle": "Roman Republic",
+    "category": "Entité · République",
+    "rarityProposal": "Précieuse",
+    "summary": "Régime romain précédant l’établissement du pouvoir impérial.",
+    "description": "Traditionnellement datée de 509 à 27 av. J.-C., la République romaine repose sur des magistratures, le Sénat et des assemblées. Son expansion méditerranéenne s’accompagne de conflits sociaux puis de guerres civiles."
+  },
+  {
+    "code": "HIS-033",
+    "name": "Égypte antique",
+    "wikiTitle": "Ancient Egypt",
+    "category": "Entité · Civilisation",
+    "rarityProposal": "Légendaire",
+    "summary": "Civilisation ancienne organisée autour de la vallée nilotique.",
+    "description": "L’Égypte antique se développe le long du Nil pendant plusieurs millénaires. L’unification royale est généralement située vers 3100 av. J.-C. Les dynasties pharaoniques laissent temples, pyramides et une riche tradition écrite."
+  },
+  {
+    "code": "HIS-034",
+    "name": "Empire perse achéménide",
+    "wikiTitle": "Achaemenid Empire",
+    "category": "Entité · Empire",
+    "rarityProposal": "Précieuse",
+    "summary": "Empire antique reliant l’Iran au monde méditerranéen.",
+    "description": "Fondé par Cyrus le Grand au VIe siècle av. J.-C., l’Empire achéménide s’étend de l’Anatolie et de l’Égypte à l’Asie centrale. Il disparaît lors des conquêtes d’Alexandre au IVe siècle av. J.-C."
+  },
+  {
+    "code": "HIS-035",
+    "name": "Empire byzantin",
+    "wikiTitle": "Byzantine Empire",
+    "category": "Entité · Empire",
+    "rarityProposal": "Précieuse",
+    "summary": "Empire romain oriental gouverné depuis Constantinople.",
+    "description": "L’Empire byzantin prolonge l’Empire romain en Orient, avec Constantinople pour capitale. Sa culture associe héritage romain, langue grecque et christianisme. La conquête ottomane de Constantinople, en 1453, marque sa fin."
+  },
+  {
+    "code": "HIS-036",
+    "name": "Empire carolingien",
+    "wikiTitle": "Carolingian Empire",
+    "category": "Entité · Empire",
+    "rarityProposal": "Rare",
+    "summary": "Empire franc constitué autour de Charlemagne et héritiers.",
+    "description": "L’Empire carolingien naît du couronnement de Charlemagne en 800. Il domine une large partie de l’Europe occidentale avant les partages entre ses héritiers, notamment celui du traité de Verdun en 843."
+  },
+  {
+    "code": "HIS-037",
+    "name": "Empire mongol",
+    "wikiTitle": "Mongol Empire",
+    "category": "Entité · Empire",
+    "rarityProposal": "Légendaire",
+    "summary": "Immense empire eurasiatique fondé par les conquérants mongols.",
+    "description": "Formé au début du XIIIe siècle sous Gengis Khan, l’Empire mongol relie de vastes territoires d’Asie et d’Europe. Il se fragmente progressivement en khanats, tout en intensifiant certains échanges à travers l’Eurasie."
+  },
+  {
+    "code": "HIS-038",
+    "name": "Empire ottoman",
+    "wikiTitle": "Ottoman Empire",
+    "category": "Entité · Empire",
+    "rarityProposal": "Précieuse",
+    "summary": "Empire multiconfessionnel reliant Balkans, Anatolie et Proche-Orient.",
+    "description": "Apparu en Anatolie à la fin du XIIIe siècle, l’Empire ottoman conquiert Constantinople en 1453. Il domine durablement les Balkans et le Proche-Orient avant son démantèlement après la Première Guerre mondiale."
+  },
+  {
+    "code": "HIS-039",
+    "name": "Empire du Mali",
+    "wikiTitle": "Mali Empire",
+    "category": "Entité · Empire",
+    "rarityProposal": "Rare",
+    "summary": "Empire ouest-africain prospérant grâce aux échanges transsahariens.",
+    "description": "L’Empire du Mali se développe à partir du XIIIe siècle en Afrique de l’Ouest. Le contrôle des échanges, notamment de l’or, soutient sa puissance ; les règnes de Soundiata Keïta et de Mansa Moussa en sont des repères majeurs."
+  },
+  {
+    "code": "HIS-040",
+    "name": "Empire inca",
+    "wikiTitle": "Inca Empire",
+    "category": "Entité · Empire",
+    "rarityProposal": "Précieuse",
+    "summary": "Empire andin organisé autour de sa capitale Cuzco.",
+    "description": "L’Empire inca connaît une forte expansion dans les Andes au XVe siècle. Son administration, ses routes et ses réseaux de stockage relient des milieux très divers. La conquête espagnole commence dans les années 1530."
+  },
+  {
+    "code": "HIS-041",
+    "name": "Civilisation maya",
+    "wikiTitle": "Maya civilization",
+    "category": "Entité · Civilisation",
+    "rarityProposal": "Rare",
+    "summary": "Civilisation mésoaméricaine connue pour ses cités et écriture.",
+    "description": "La civilisation maya se développe en Mésoamérique, avec des cités particulièrement puissantes durant la période classique, vers 250–900. Elle possède une écriture élaborée et des connaissances calendaires ; les peuples mayas existent toujours."
+  },
+  {
+    "code": "HIS-042",
+    "name": "Civilisation de l’Indus",
+    "wikiTitle": "Indus Valley Civilisation",
+    "category": "Entité · Civilisation",
+    "rarityProposal": "Rare",
+    "summary": "Civilisation urbaine ancienne du nord-ouest du sous-continent indien.",
+    "description": "La civilisation de l’Indus connaît sa phase urbaine majeure vers 2600–1900 av. J.-C. Harappa et Mohenjo-daro révèlent une organisation planifiée et d’importants échanges. Son écriture n’est pas déchiffrée de manière consensuelle."
+  },
+  {
+    "code": "HIS-043",
+    "name": "Dynastie Han",
+    "wikiTitle": "Han dynasty",
+    "category": "Entité · Dynastie",
+    "rarityProposal": "Rare",
+    "summary": "Dynastie chinoise majeure de l’Antiquité impériale asiatique.",
+    "description": "La dynastie Han gouverne la Chine de 206 av. J.-C. à 220 apr. J.-C., avec une interruption. Elle consolide l’État impérial et développe les échanges vers l’Asie centrale, associés aux routes de la soie."
+  },
+  {
+    "code": "HIS-044",
+    "name": "Dynastie Tang",
+    "wikiTitle": "Tang dynasty",
+    "category": "Entité · Dynastie",
+    "rarityProposal": "Rare",
+    "summary": "Dynastie chinoise associée à un grand essor culturel.",
+    "description": "La dynastie Tang règne sur la Chine de 618 à 907. Sa capitale Chang’an devient un grand centre cosmopolite. La poésie, les arts et les échanges à travers l’Asie connaissent un rayonnement remarquable."
+  },
+  {
+    "code": "HIS-045",
+    "name": "Empire moghol",
+    "wikiTitle": "Mughal Empire",
+    "category": "Entité · Empire",
+    "rarityProposal": "Rare",
+    "summary": "Empire du sous-continent indien fondé par Babur.",
+    "description": "Fondé par Babur en 1526, l’Empire moghol domine une large partie du sous-continent indien. Il développe une culture de cour et une architecture majeures, avant un déclin progressif et sa suppression formelle en 1857."
+  },
+  {
+    "code": "HIS-046",
+    "name": "Saint-Empire romain germanique",
+    "wikiTitle": "Holy Roman Empire",
+    "category": "Entité · Empire",
+    "rarityProposal": "Précieuse",
+    "summary": "Ensemble politique européen réunissant de nombreux territoires impériaux.",
+    "description": "Le Saint-Empire se structure autour du couronnement d’Otton Ier en 962. Ses territoires conservent une grande diversité politique. L’empereur François II renonce à la couronne impériale en 1806, mettant fin à l’ensemble."
+  },
+  {
+    "code": "HIS-047",
+    "name": "République de Venise",
+    "wikiTitle": "Republic of Venice",
+    "category": "Entité · République",
+    "rarityProposal": "Rare",
+    "summary": "République maritime commerçante de l’Adriatique et Méditerranée.",
+    "description": "La République de Venise construit sa puissance sur le commerce maritime et un réseau de possessions méditerranéennes. Gouvernée par un doge et des institutions patriciennes, elle perd son indépendance en 1797."
+  },
+  {
+    "code": "HIS-048",
+    "name": "Ligue hanséatique",
+    "wikiTitle": "Hanseatic League",
+    "category": "Entité · Ligue commerciale",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Réseau de villes marchandes du nord européen.",
+    "description": "La Ligue hanséatique associe au Moyen Âge des villes commerçantes des mers du Nord et Baltique. Lübeck joue un rôle central dans ce réseau, fondé sur les privilèges commerciaux et la protection des échanges."
+  },
+  {
+    "code": "HIS-049",
+    "name": "Carthage",
+    "wikiTitle": "Ancient Carthage",
+    "category": "Entité · Cité-État",
+    "rarityProposal": "Rare",
+    "summary": "Puissance maritime punique rivale de la République romaine.",
+    "description": "Fondée par des Phéniciens sur la côte de l’actuelle Tunisie, Carthage domine un réseau maritime de Méditerranée occidentale. Ses affrontements avec Rome, les guerres puniques, s’achèvent par sa destruction en 146 av. J.-C."
+  },
+  {
+    "code": "HIS-050",
+    "name": "Athènes classique",
+    "wikiTitle": "Classical Athens",
+    "category": "Entité · Cité-État",
+    "rarityProposal": "Rare",
+    "summary": "Cité grecque associée à la démocratie antique.",
+    "description": "Aux Ve et IVe siècles av. J.-C., Athènes développe une démocratie réservée aux citoyens masculins libres. Sa puissance maritime, ses monuments et ses productions intellectuelles marquent durablement l’histoire grecque."
+  },
+  {
+    "code": "HIS-051",
+    "name": "Tour Eiffel",
+    "wikiTitle": "Eiffel Tower",
+    "category": "Bâtiment · Monument",
+    "rarityProposal": "Légendaire",
+    "summary": "Tour métallique parisienne construite pour l’exposition universelle.",
+    "description": "Construite de 1887 à 1889 par l’entreprise de Gustave Eiffel, la tour est inaugurée pour l’Exposition universelle de Paris. D’abord contestée, cette structure métallique devient un symbole majeur de la capitale française."
+  },
+  {
+    "code": "HIS-052",
+    "name": "Colisée",
+    "wikiTitle": "Colosseum",
+    "category": "Bâtiment · Amphithéâtre",
+    "rarityProposal": "Légendaire",
+    "summary": "Amphithéâtre romain monumental accueillant les spectacles publics.",
+    "description": "Le Colisée est construit à Rome sous les empereurs flaviens et inauguré en 80 apr. J.-C. Ses gradins accueillent notamment les combats de gladiateurs. L’édifice illustre l’ampleur des équipements de spectacle romains."
+  },
+  {
+    "code": "HIS-053",
+    "name": "Pyramide de Khéops",
+    "wikiTitle": "Great Pyramid of Giza",
+    "category": "Bâtiment · Tombeau",
+    "rarityProposal": "Légendaire",
+    "summary": "Pyramide monumentale édifiée pour le pharaon Khéops.",
+    "description": "Édifiée à Gizeh au IIIe millénaire av. J.-C., la grande pyramide sert de tombeau au pharaon Khéops. Elle témoigne des capacités d’organisation et de construction de l’Ancien Empire égyptien."
+  },
+  {
+    "code": "HIS-054",
+    "name": "Parthénon",
+    "wikiTitle": "Parthenon",
+    "category": "Bâtiment · Temple",
+    "rarityProposal": "Précieuse",
+    "summary": "Temple athénien consacré à la déesse Athéna.",
+    "description": "Construit au Ve siècle av. J.-C. sur l’Acropole d’Athènes, le Parthénon est consacré à Athéna. Ses transformations successives et ses destructions témoignent des changements religieux et politiques du monde méditerranéen."
+  },
+  {
+    "code": "HIS-055",
+    "name": "Panthéon de Rome",
+    "wikiTitle": "Pantheon, Rome",
+    "category": "Bâtiment · Temple",
+    "rarityProposal": "Rare",
+    "summary": "Ancien temple romain doté d’une immense coupole.",
+    "description": "Reconstruit sous Hadrien au IIe siècle apr. J.-C., le Panthéon de Rome possède une grande coupole percée d’un oculus. Sa conversion en église au VIIe siècle contribue à la conservation exceptionnelle du monument."
+  },
+  {
+    "code": "HIS-056",
+    "name": "Château de Versailles",
+    "wikiTitle": "Palace of Versailles",
+    "category": "Bâtiment · Palais",
+    "rarityProposal": "Légendaire",
+    "summary": "Palais royal français associé à Louis XIV.",
+    "description": "Transformé sous Louis XIV au XVIIe siècle, Versailles accueille durablement la cour à partir de 1682. Le palais et ses jardins mettent en scène la monarchie française et son organisation politique et artistique."
+  },
+  {
+    "code": "HIS-057",
+    "name": "Château de Chambord",
+    "wikiTitle": "Château de Chambord",
+    "category": "Bâtiment · Château",
+    "rarityProposal": "Rare",
+    "summary": "Château Renaissance commandé par le roi François Ier.",
+    "description": "Le chantier de Chambord commence en 1519 sous François Ier. Ses tours, terrasses et son escalier à double révolution en font un grand monument de la Renaissance française, mêlant traditions médiévales et nouveautés architecturales."
+  },
+  {
+    "code": "HIS-058",
+    "name": "Tour de Londres",
+    "wikiTitle": "Tower of London",
+    "category": "Bâtiment · Forteresse",
+    "rarityProposal": "Rare",
+    "summary": "Forteresse londonienne devenue palais, prison et trésor.",
+    "description": "La Tour de Londres se développe à partir de la conquête normande de 1066. La Tour Blanche en constitue le noyau monumental. L’ensemble sert notamment de résidence royale, de prison et de lieu de conservation des joyaux."
+  },
+  {
+    "code": "HIS-059",
+    "name": "Alhambra",
+    "wikiTitle": "Alhambra",
+    "category": "Bâtiment · Palais fortifié",
+    "rarityProposal": "Précieuse",
+    "summary": "Ensemble palatial nasride dominant la ville de Grenade.",
+    "description": "L’Alhambra rassemble palais et fortifications sur les hauteurs de Grenade. Son architecture se développe surtout sous la dynastie nasride, aux XIIIe et XIVe siècles, et conserve un remarquable décor de stuc et de céramique."
+  },
+  {
+    "code": "HIS-060",
+    "name": "Taj Mahal",
+    "wikiTitle": "Taj Mahal",
+    "category": "Bâtiment · Mausolée",
+    "rarityProposal": "Légendaire",
+    "summary": "Mausolée moghol construit en mémoire de Mumtaz Mahal.",
+    "description": "Édifié au XVIIe siècle à Agra sur ordre de Shah Jahan, le Taj Mahal abrite le tombeau de Mumtaz Mahal. Le marbre blanc, les jardins et la composition symétrique caractérisent ce grand monument de l’architecture moghole."
+  },
+  {
+    "code": "HIS-061",
+    "name": "Cité interdite",
+    "wikiTitle": "Forbidden City",
+    "category": "Bâtiment · Palais",
+    "rarityProposal": "Légendaire",
+    "summary": "Ancien palais impérial au cœur de Pékin.",
+    "description": "Construite au début du XVe siècle, la Cité interdite abrite les empereurs des dynasties Ming puis Qing. Ses cours et pavillons organisent l’espace du pouvoir impérial au centre de Pékin."
+  },
+  {
+    "code": "HIS-062",
+    "name": "Grande Muraille de Chine",
+    "wikiTitle": "Great Wall of China",
+    "category": "Bâtiment · Fortification",
+    "rarityProposal": "Légendaire",
+    "summary": "Ensemble de fortifications protégeant les frontières chinoises septentrionales.",
+    "description": "La Grande Muraille réunit des ouvrages construits à différentes époques le long des frontières septentrionales de la Chine. Les sections monumentales aujourd’hui les plus connues datent principalement de la dynastie Ming."
+  },
+  {
+    "code": "HIS-063",
+    "name": "Angkor Vat",
+    "wikiTitle": "Angkor Wat",
+    "category": "Bâtiment · Temple",
+    "rarityProposal": "Précieuse",
+    "summary": "Grand temple khmer bâti près de Siem Reap.",
+    "description": "Angkor Vat est construit au XIIe siècle sous le roi khmer Suryavarman II. D’abord consacré à Vishnou puis utilisé dans le cadre du bouddhisme, il associe galeries sculptées, tours et vastes douves."
+  },
+  {
+    "code": "HIS-064",
+    "name": "Borobudur",
+    "wikiTitle": "Borobudur",
+    "category": "Bâtiment · Temple",
+    "rarityProposal": "Rare",
+    "summary": "Monument bouddhique javanais organisé en terrasses sculptées.",
+    "description": "Édifié aux VIIIe et IXe siècles dans le centre de Java, Borobudur organise un parcours de terrasses et de stupas. Ses nombreux reliefs accompagnent une lecture symbolique de l’univers et de la voie bouddhique."
+  },
+  {
+    "code": "HIS-065",
+    "name": "Château de Himeji",
+    "wikiTitle": "Himeji Castle",
+    "category": "Bâtiment · Château",
+    "rarityProposal": "Rare",
+    "summary": "Château japonais célèbre pour son grand donjon blanc.",
+    "description": "Le château de Himeji conserve un important ensemble défensif développé principalement au début du XVIIe siècle. Ses enceintes et son donjon blanc illustrent l’architecture castrale japonaise à l’époque des premiers shoguns Tokugawa."
+  },
+  {
+    "code": "HIS-066",
+    "name": "Palais de l’Alcazar de Séville",
+    "wikiTitle": "Alcázar of Seville",
+    "category": "Bâtiment · Palais",
+    "rarityProposal": "Rare",
+    "summary": "Palais sévillan mêlant traditions islamiques et chrétiennes.",
+    "description": "L’Alcazar de Séville est un ensemble palatial développé sur plusieurs siècles. Le palais de Pierre Ier, au XIVe siècle, en est un repère majeur, avec un décor mudéjar associant techniques et traditions artistiques variées."
+  },
+  {
+    "code": "HIS-067",
+    "name": "Porte de Brandebourg",
+    "wikiTitle": "Brandenburg Gate",
+    "category": "Bâtiment · Monument",
+    "rarityProposal": "Rare",
+    "summary": "Porte monumentale berlinoise devenue symbole de réunification.",
+    "description": "Achevée en 1791 à Berlin, la porte de Brandebourg s’inspire des modèles antiques. Située près du mur pendant la division de la ville, elle devient en 1989 un symbole de la fin de cette séparation."
+  },
+  {
+    "code": "HIS-068",
+    "name": "Arc de triomphe de l’Étoile",
+    "wikiTitle": "Arc de Triomphe",
+    "category": "Bâtiment · Monument",
+    "rarityProposal": "Précieuse",
+    "summary": "Monument parisien honorant les armées et combattants français.",
+    "description": "Commandé par Napoléon en 1806 et inauguré en 1836, l’Arc de triomphe domine la place de l’Étoile. Il abrite depuis 1921 la tombe du Soldat inconnu ; la flamme du souvenir y est allumée en 1923."
+  },
+  {
+    "code": "HIS-069",
+    "name": "Pont du Gard",
+    "wikiTitle": "Pont du Gard",
+    "category": "Bâtiment · Aqueduc",
+    "rarityProposal": "Rare",
+    "summary": "Pont-aqueduc romain franchissant le Gardon près de Nîmes.",
+    "description": "Construit au Ier siècle apr. J.-C., le Pont du Gard appartient à l’aqueduc alimentant Nîmes. Ses trois niveaux d’arches franchissent le Gardon et témoignent de la maîtrise romaine des ouvrages hydrauliques."
+  },
+  {
+    "code": "HIS-070",
+    "name": "Pont de Forth",
+    "wikiTitle": "Forth Bridge",
+    "category": "Bâtiment · Pont",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Grand pont ferroviaire écossais à structure métallique.",
+    "description": "Inauguré en 1890, le pont de Forth franchit l’estuaire du Forth en Écosse. Sa structure métallique en porte-à-faux constitue une réalisation majeure de l’ingénierie ferroviaire de la fin du XIXe siècle."
+  },
+  {
+    "code": "HIS-071",
+    "name": "Palais des Doges",
+    "wikiTitle": "Doge's Palace",
+    "category": "Bâtiment · Palais",
+    "rarityProposal": "Rare",
+    "summary": "Palais vénitien abritant les institutions de la République.",
+    "description": "Le palais des Doges accueille pendant des siècles le doge et les institutions de la République de Venise. Son architecture gothique et ses salles de pouvoir reflètent le prestige politique et maritime de la cité."
+  },
+  {
+    "code": "HIS-072",
+    "name": "Hôtel des Invalides",
+    "wikiTitle": "Les Invalides",
+    "category": "Bâtiment · Ensemble monumental",
+    "rarityProposal": "Rare",
+    "summary": "Ensemble parisien fondé pour accueillir les soldats invalides.",
+    "description": "Fondés par Louis XIV en 1670, les Invalides accueillent les militaires blessés ou âgés. Leur dôme devient au XIXe siècle le lieu du tombeau de Napoléon Ier. L’ensemble abrite aujourd’hui plusieurs institutions et musées."
+  },
+  {
+    "code": "HIS-073",
+    "name": "Palais de Westminster",
+    "wikiTitle": "Palace of Westminster",
+    "category": "Bâtiment · Parlement",
+    "rarityProposal": "Rare",
+    "summary": "Siège du Parlement britannique au bord de Tamise.",
+    "description": "Le palais de Westminster accueille le Parlement britannique. Après l’incendie de 1834, il est largement reconstruit dans un style néogothique au XIXe siècle. Sa tour horloge devient l’un des repères de Londres."
+  },
+  {
+    "code": "HIS-074",
+    "name": "Statue de la Liberté",
+    "wikiTitle": "Statue of Liberty",
+    "category": "Bâtiment · Monument",
+    "rarityProposal": "Précieuse",
+    "summary": "Statue new-yorkaise offerte par la France aux États-Unis.",
+    "description": "Inaugurée en 1886 dans le port de New York, la statue de la Liberté est conçue par Bartholdi avec une structure interne réalisée par l’entreprise Eiffel. Elle devient un symbole de liberté et d’accueil des migrants."
+  },
+  {
+    "code": "HIS-075",
+    "name": "Ziggurat d’Ur",
+    "wikiTitle": "Ziggurat of Ur",
+    "category": "Bâtiment · Temple",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Tour-temple mésopotamienne élevée dans l’ancienne cité d’Ur.",
+    "description": "La ziggurat d’Ur est construite à la fin du IIIe millénaire av. J.-C., sous la troisième dynastie d’Ur. Cette plateforme monumentale en briques appartient à un ensemble religieux consacré au dieu lunaire Nanna."
+  },
+  {
+    "code": "HIS-076",
+    "name": "Bataille de Marathon",
+    "wikiTitle": "Battle of Marathon",
+    "category": "Événement · Bataille",
+    "rarityProposal": "Rare",
+    "summary": "Victoire athénienne contre une expédition perse en Grèce.",
+    "description": "En 490 av. J.-C., les Athéniens et leurs alliés de Platées affrontent une armée perse à Marathon. Leur victoire marque une étape des guerres médiques entre les cités grecques et l’Empire achéménide."
+  },
+  {
+    "code": "HIS-077",
+    "name": "Bataille de Gaugamèles",
+    "wikiTitle": "Battle of Gaugamela",
+    "category": "Événement · Bataille",
+    "rarityProposal": "Rare",
+    "summary": "Victoire décisive d’Alexandre sur le roi Darius III.",
+    "description": "En 331 av. J.-C., Alexandre le Grand bat Darius III à Gaugamèles, dans l’actuel nord de l’Irak. Cette victoire ouvre l’accès aux principaux centres du pouvoir perse et accélère l’effondrement achéménide."
+  },
+  {
+    "code": "HIS-078",
+    "name": "Bataille d’Alésia",
+    "wikiTitle": "Battle of Alesia",
+    "category": "Événement · Siège",
+    "rarityProposal": "Précieuse",
+    "summary": "Siège victorieux de César contre les forces gauloises.",
+    "description": "En 52 av. J.-C., César assiège Vercingétorix à Alésia et repousse une armée de secours gauloise. La reddition qui suit constitue un tournant décisif de la conquête romaine de la Gaule."
+  },
+  {
+    "code": "HIS-079",
+    "name": "Éruption du Vésuve de 79",
+    "wikiTitle": "Eruption of Mount Vesuvius in 79 AD",
+    "category": "Événement · Catastrophe",
+    "rarityProposal": "Rare",
+    "summary": "Éruption antique ayant enseveli Pompéi et Herculanum.",
+    "description": "En 79 apr. J.-C., une éruption du Vésuve détruit plusieurs villes de la baie de Naples, dont Pompéi et Herculanum. Les dépôts volcaniques préservent de nombreux vestiges de la vie quotidienne romaine."
+  },
+  {
+    "code": "HIS-080",
+    "name": "Traité de Verdun",
+    "wikiTitle": "Treaty of Verdun",
+    "category": "Événement · Traité",
+    "rarityProposal": "Rare",
+    "summary": "Partage de l’Empire carolingien entre trois héritiers.",
+    "description": "En 843, le traité de Verdun partage l’Empire carolingien entre les petits-fils de Charlemagne : Lothaire, Louis et Charles. Ce règlement met fin à leur guerre et distingue trois grands ensembles territoriaux."
+  },
+  {
+    "code": "HIS-081",
+    "name": "Bataille de Hastings",
+    "wikiTitle": "Battle of Hastings",
+    "category": "Événement · Bataille",
+    "rarityProposal": "Rare",
+    "summary": "Victoire normande ouvrant la conquête de l’Angleterre.",
+    "description": "Le 14 octobre 1066, Guillaume de Normandie bat le roi Harold à Hastings. Cette victoire ouvre la conquête normande de l’Angleterre et transforme durablement son aristocratie, ses institutions et ses liens avec le continent."
+  },
+  {
+    "code": "HIS-082",
+    "name": "Magna Carta",
+    "wikiTitle": "Magna Carta",
+    "category": "Événement · Charte",
+    "rarityProposal": "Précieuse",
+    "summary": "Charte anglaise limitant certains pouvoirs du souverain.",
+    "description": "En 1215, le roi Jean d’Angleterre accepte une charte imposée par des barons révoltés. Révisée plusieurs fois, la Magna Carta devient une référence historique dans les débats sur les limites du pouvoir royal."
+  },
+  {
+    "code": "HIS-083",
+    "name": "Prise de Constantinople",
+    "wikiTitle": "Fall of Constantinople",
+    "category": "Événement · Siège",
+    "rarityProposal": "Légendaire",
+    "summary": "Conquête ottomane mettant fin à l’Empire byzantin.",
+    "description": "Le 29 mai 1453, les forces ottomanes de Mehmed II prennent Constantinople après un siège. La mort de Constantin XI et la chute de la capitale mettent fin à l’Empire byzantin."
+  },
+  {
+    "code": "HIS-084",
+    "name": "Voyage de Colomb de 1492",
+    "wikiTitle": "Voyages of Christopher Columbus",
+    "category": "Événement · Exploration",
+    "rarityProposal": "Précieuse",
+    "summary": "Traversée atlantique inaugurant des contacts coloniaux durables.",
+    "description": "En 1492, Christophe Colomb atteint les Caraïbes au service des souverains espagnols. Ce voyage ouvre une période de contacts transatlantiques durables, de conquêtes et de bouleversements majeurs pour les peuples autochtones des Amériques."
+  },
+  {
+    "code": "HIS-085",
+    "name": "Réforme protestante",
+    "wikiTitle": "Reformation",
+    "category": "Événement · Mouvement religieux",
+    "rarityProposal": "Rare",
+    "summary": "Mouvement religieux transformant le christianisme occidental moderne.",
+    "description": "La Réforme protestante se développe au XVIe siècle, notamment après les critiques formulées par Luther en 1517. Elle entraîne la formation de nouvelles Églises et transforme les équilibres politiques et religieux européens."
+  },
+  {
+    "code": "HIS-086",
+    "name": "Paix de Westphalie",
+    "wikiTitle": "Peace of Westphalia",
+    "category": "Événement · Traités",
+    "rarityProposal": "Rare",
+    "summary": "Traités de paix européens signés au XVIIe siècle.",
+    "description": "Les traités de Westphalie de 1648 mettent notamment fin à la guerre de Trente Ans. Ils réorganisent des rapports territoriaux, politiques et confessionnels en Europe, sans créer d’un seul coup le système international moderne."
+  },
+  {
+    "code": "HIS-087",
+    "name": "Prise de la Bastille",
+    "wikiTitle": "Storming of the Bastille",
+    "category": "Événement · Révolution",
+    "rarityProposal": "Légendaire",
+    "summary": "Insurrection parisienne devenue symbole de la Révolution française.",
+    "description": "Le 14 juillet 1789, des insurgés parisiens s’emparent de la Bastille, forteresse et prison royale. L’événement intervient dans une crise politique majeure et devient un symbole durable de la Révolution française."
+  },
+  {
+    "code": "HIS-088",
+    "name": "Déclaration des droits de l’homme de 1789",
+    "wikiTitle": "Declaration of the Rights of Man and of the Citizen",
+    "category": "Événement · Déclaration",
+    "rarityProposal": "Légendaire",
+    "summary": "Texte révolutionnaire proclamant des droits et libertés fondamentaux.",
+    "description": "Adoptée le 26 août 1789, la Déclaration des droits de l’homme et du citoyen affirme notamment l’égalité en droits et la souveraineté nationale. L’application concrète de ces principes reste alors limitée et contestée."
+  },
+  {
+    "code": "HIS-089",
+    "name": "Indépendance d’Haïti",
+    "wikiTitle": "Haitian Declaration of Independence",
+    "category": "Événement · Indépendance",
+    "rarityProposal": "Précieuse",
+    "summary": "Proclamation d’indépendance issue d’une révolution contre l’esclavage.",
+    "description": "Le 1er janvier 1804, Jean-Jacques Dessalines proclame l’indépendance d’Haïti. Elle conclut une longue révolution contre l’esclavage et la domination coloniale française, faisant naître un État indépendant dans l’ancienne Saint-Domingue."
+  },
+  {
+    "code": "HIS-090",
+    "name": "Bataille d’Austerlitz",
+    "wikiTitle": "Battle of Austerlitz",
+    "category": "Événement · Bataille",
+    "rarityProposal": "Précieuse",
+    "summary": "Victoire napoléonienne contre les armées austro-russes coalisées.",
+    "description": "Le 2 décembre 1805, Napoléon remporte à Austerlitz une victoire contre les forces autrichiennes et russes. Cette bataille de la troisième coalition renforce temporairement la domination française en Europe centrale."
+  },
+  {
+    "code": "HIS-091",
+    "name": "Bataille de Waterloo",
+    "wikiTitle": "Battle of Waterloo",
+    "category": "Événement · Bataille",
+    "rarityProposal": "Précieuse",
+    "summary": "Défaite finale de Napoléon pendant les Cent-Jours.",
+    "description": "Le 18 juin 1815, Napoléon affronte les armées de Wellington et de Blücher près de Waterloo. Sa défaite met fin aux Cent-Jours et conduit à sa seconde abdication, puis à son exil à Sainte-Hélène."
+  },
+  {
+    "code": "HIS-092",
+    "name": "Abolition française de l’esclavage en 1848",
+    "wikiTitle": "Abolition of slavery in France",
+    "category": "Événement · Abolition",
+    "rarityProposal": "Précieuse",
+    "summary": "Décret abolissant l’esclavage dans les colonies françaises.",
+    "description": "Le décret du 27 avril 1848 abolit l’esclavage dans les colonies françaises. Porté par le gouvernement provisoire de la IIe République, il intervient après l’abolition de 1794 puis le rétablissement décidé en 1802."
+  },
+  {
+    "code": "HIS-093",
+    "name": "Ouverture du canal de Suez",
+    "wikiTitle": "Suez Canal",
+    "category": "Événement · Inauguration",
+    "rarityProposal": "Rare",
+    "summary": "Canal reliant la Méditerranée à la mer Rouge.",
+    "description": "Inauguré le 17 novembre 1869, le canal de Suez relie la Méditerranée à la mer Rouge. Il raccourcit la route maritime entre l’Europe et l’Asie et devient rapidement un enjeu économique et stratégique majeur."
+  },
+  {
+    "code": "HIS-094",
+    "name": "Armistice du 11 novembre 1918",
+    "wikiTitle": "Armistice of 11 November 1918",
+    "category": "Événement · Armistice",
+    "rarityProposal": "Légendaire",
+    "summary": "Accord mettant fin aux combats du front occidental.",
+    "description": "Signé le 11 novembre 1918 dans la forêt de Compiègne, l’armistice suspend les combats entre l’Allemagne et les Alliés sur le front occidental. Il ne constitue pas encore le traité de paix, signé à Versailles en 1919."
+  },
+  {
+    "code": "HIS-095",
+    "name": "Débarquement de Normandie",
+    "wikiTitle": "Normandy landings",
+    "category": "Événement · Opération militaire",
+    "rarityProposal": "Légendaire",
+    "summary": "Débarquement allié ouvrant un front en France occupée.",
+    "description": "Le 6 juin 1944, les Alliés débarquent sur cinq plages de Normandie, appuyés par des opérations aéroportées. Cette phase initiale de l’opération Overlord ouvre un nouveau front contre l’Allemagne nazie en Europe occidentale."
+  },
+  {
+    "code": "HIS-096",
+    "name": "Libération de Paris",
+    "wikiTitle": "Liberation of Paris",
+    "category": "Événement · Libération",
+    "rarityProposal": "Précieuse",
+    "summary": "Fin de l’occupation allemande de Paris en 1944.",
+    "description": "En août 1944, l’insurrection parisienne et l’arrivée des forces alliées, dont la 2e division blindée française, conduisent à la libération de Paris. La garnison allemande capitule le 25 août."
+  },
+  {
+    "code": "HIS-097",
+    "name": "Conférence de Bandung",
+    "wikiTitle": "Bandung Conference",
+    "category": "Événement · Conférence",
+    "rarityProposal": "Rare",
+    "summary": "Rencontre afro-asiatique marquante dans le contexte des décolonisations.",
+    "description": "En avril 1955, des délégations de vingt-neuf pays d’Asie et d’Afrique se réunissent à Bandung, en Indonésie. Elles discutent de coopération, de décolonisation et de coexistence dans un monde structuré par la guerre froide."
+  },
+  {
+    "code": "HIS-098",
+    "name": "Premier pas sur la Lune",
+    "wikiTitle": "Apollo 11",
+    "category": "Événement · Exploration spatiale",
+    "rarityProposal": "Suprême",
+    "summary": "Mission spatiale permettant les premiers pas humains lunaires.",
+    "description": "En juillet 1969, Apollo 11 conduit Neil Armstrong et Buzz Aldrin sur la Lune, tandis que Michael Collins reste en orbite. Armstrong pose le pied sur le sol lunaire le 21 juillet en temps universel."
+  },
+  {
+    "code": "HIS-099",
+    "name": "Chute du mur de Berlin",
+    "wikiTitle": "Fall of the Berlin Wall",
+    "category": "Événement · Transition politique",
+    "rarityProposal": "Légendaire",
+    "summary": "Ouverture des passages du mur divisant Berlin.",
+    "description": "Le 9 novembre 1989, l’ouverture des passages du mur de Berlin permet aux habitants de circuler entre les deux parties de la ville. L’événement accélère la fin de la division allemande et la réunification de 1990."
+  },
+  {
+    "code": "HIS-100",
+    "name": "Indépendance de l’Inde",
+    "wikiTitle": "Indian Independence Act 1947",
+    "category": "Événement · Indépendance",
+    "rarityProposal": "Précieuse",
+    "summary": "Fin de la domination britannique et partition territoriale.",
+    "description": "En août 1947, l’Inde et le Pakistan deviennent indépendants de la domination britannique. La partition s’accompagne de déplacements massifs de populations et de violences communautaires, qui marquent durablement la région."
+  }
+]

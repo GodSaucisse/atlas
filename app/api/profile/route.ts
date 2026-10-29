@@ -1,0 +1,5 @@
+import {authorizePlayer,protectWrite,errorResponse,HttpError} from '../../server';
+import {profileFor,savePlayerProfile} from '../../profile-server';
+export const dynamic='force-dynamic';
+export async function GET(request:Request){try{const actor=await authorizePlayer(request);return Response.json({profile:await profileFor(actor.userId,actor.name)},{headers:{'Cache-Control':'no-store'}});}catch(error){return errorResponse(error);}}
+export async function POST(request:Request){try{protectWrite(request);const actor=await authorizePlayer(request);if(!request.headers.get('content-type')?.includes('application/json'))throw new HttpError(415,'Format JSON attendu.');const raw=await request.text();if(raw.length>8000)throw new HttpError(413,'Profil trop volumineux.');let input;try{input=JSON.parse(raw);}catch{throw new HttpError(400,'JSON invalide.');}return Response.json({profile:await savePlayerProfile(actor.userId,actor.name,input)},{headers:{'Cache-Control':'no-store'}});}catch(error){return errorResponse(error);}}

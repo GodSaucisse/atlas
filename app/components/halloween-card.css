@@ -1,0 +1,380 @@
+
+
+
+.halloween-cpa10-cp-sp{position:relative;width:630px;height:972px;border-radius:26px;overflow:hidden;background:#04070f;font-family:var(--font-atlas)}
+.halloween-cpa10-cp-zn{position:absolute;width:25%;height:16.6667%;z-index:60}
+.halloween-cpa10-cp-ly{position:absolute;inset:0;pointer-events:none}
+.halloween-cpa10-cp-ph{position:absolute;left:38px;top:38px;width:554px;height:896px;overflow:hidden;background:#04070f;z-index:3;border-radius:5px}
+.halloween-cpa10-cp-im{position:absolute;left:-12px;top:-12px;width:578px;height:920px;object-fit:cover;object-position:50% 50%;filter:contrast(1.08) saturate(1.05);animation:halloween-cpa10-cp-dr 12s ease-in-out infinite alternate}
+@keyframes halloween-cpa10-cp-dr{from{transform:translate(-4px,3px) scale(1.01)}to{transform:translate(5px,-4px) scale(1.035)}}
+@keyframes halloween-cpa10-cp-sp{to{transform:rotate(360deg)}}
+@keyframes halloween-cpa10-cp-spr{to{transform:rotate(-360deg)}}
+.halloween-cpa10-cp-tw{position:absolute;z-index:12;pointer-events:none;margin:-8px;background:radial-gradient(circle,#fff 0,var(--c) 28%,rgba(255,255,255,0) 62%);clip-path:polygon(50% 0,58% 42%,100% 50%,58% 58%,50% 100%,42% 58%,0 50%,42% 42%);opacity:0;animation:halloween-cpa10-cp-tws var(--d) ease-in-out infinite}
+@keyframes halloween-cpa10-cp-tws{0%,100%{opacity:0;transform:scale(.2) rotate(0)}50%{opacity:1;transform:scale(1.5) rotate(45deg)}}
+.halloween-cpa10-cp-w{position:absolute;width:960px;height:960px;margin:-480px 0 0 -480px;pointer-events:none;mix-blend-mode:screen;z-index:4}
+.halloween-cpa10-cp-w1{left:318px;top:318px;background:repeating-conic-gradient(from 0deg,rgba(255,130,30,.2) 0 1.3deg,rgba(0,0,0,0) 1.3deg 10deg);-webkit-mask:radial-gradient(circle,rgba(0,0,0,0) 0,rgba(0,0,0,0) 15.6%,#000 18.6%,rgba(0,0,0,.55) 24%,rgba(0,0,0,0) 54%);mask:radial-gradient(circle,rgba(0,0,0,0) 0,rgba(0,0,0,0) 15.6%,#000 18.6%,rgba(0,0,0,.55) 24%,rgba(0,0,0,0) 54%);animation:halloween-cpa10-cp-sp 70s linear infinite}
+.halloween-cpa10-cp-w2{left:318px;top:318px;background:repeating-conic-gradient(from 7deg,rgba(190,110,255,.18) 0 .9deg,rgba(0,0,0,0) .9deg 8deg);-webkit-mask:radial-gradient(circle,rgba(0,0,0,0) 0,rgba(0,0,0,0) 15.6%,#000 18.6%,rgba(0,0,0,.4) 20%,rgba(0,0,0,0) 44%);mask:radial-gradient(circle,rgba(0,0,0,0) 0,rgba(0,0,0,0) 15.6%,#000 18.6%,rgba(0,0,0,.4) 20%,rgba(0,0,0,0) 44%);animation:halloween-cpa10-cp-spr 46s linear infinite}
+.halloween-cpa10-cp-hg{position:absolute;z-index:5;left:318px;top:318px;width:520px;height:520px;margin:calc(520px/-2) 0 0 calc(520px/-2);border-radius:50%;mix-blend-mode:screen;pointer-events:none;background:radial-gradient(circle,rgba(0,0,0,0) 0,rgba(0,0,0,0) 58%,rgba(255,120,30,.22) 70%,rgba(0,0,0,0) 70%);animation:halloween-cpa10-cp-pu 3.8s ease-in-out infinite}
+@keyframes halloween-cpa10-cp-pu{0%,100%{opacity:.55;transform:scale(.92)}50%{opacity:1;transform:scale(1.12)}}
+.halloween-cpa10-cp-mt{position:absolute;z-index:8;bottom:-8px;border-radius:50%;pointer-events:none;background:#ffe3a3;box-shadow:0 0 8px 2px rgba(255,180,70,.95);opacity:0;animation:halloween-cpa10-cp-mv var(--d) ease-out infinite}
+@keyframes halloween-cpa10-cp-mv{0%{opacity:0;transform:translate(0,0)}12%{opacity:1}100%{opacity:0;transform:translate(var(--dx),calc(var(--h)*-1))}}
+.halloween-cpa10-cp-sh{z-index:7;mix-blend-mode:overlay;background:linear-gradient(115deg,rgba(255,255,255,0) 40%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 60%);background-size:300% 100%;animation:halloween-cpa10-cp-shm 5.5s linear infinite}
+@keyframes halloween-cpa10-cp-shm{from{background-position:130% 0}to{background-position:-130% 0}}
+.halloween-cpa10-cp-vg{z-index:10;box-shadow:inset 0 0 70px 10px rgba(8,2,12,.93)}
+.halloween-cpa10-cp-gr{z-index:8;mix-blend-mode:overlay;opacity:.2;background:repeating-linear-gradient(0deg,rgba(255,255,255,.04) 0 1px,rgba(0,0,0,.07) 1px 3px);animation:halloween-cpa10-cp-grm .4s steps(2) infinite}
+@keyframes halloween-cpa10-cp-grm{to{transform:translateY(3px)}}
+.halloween-cpa10-cp-ed{animation:halloween-cpa10-cp-edm 3.8s ease-in-out infinite}
+@keyframes halloween-cpa10-cp-edm{0%,100%{opacity:.8}20%{opacity:1}30%{opacity:.55}34%{opacity:1}70%{opacity:.9}}
+.atlas-card[data-interacting="true"] .halloween-cpa10-cp-sp .halloween-cpa10-cp-ed{animation-duration:1s}
+.halloween-cpa10-cp-pl{position:absolute;left:159px;top:787px;width:312px;height:84px;z-index:11;background:linear-gradient(180deg,#2e1048,#08030e);clip-path:polygon(14px 0,298px 0,312px 14px,312px 70px,298px 84px,14px 84px,0 70px,0 14px)}
+.halloween-cpa10-cp-pb{position:absolute;left:159px;top:787px;z-index:12;pointer-events:none;filter:drop-shadow(0 0 6px rgba(252,184,68,.7))}
+.halloween-cpa10-cp-run{stroke-dasharray:60 420;animation:halloween-cpa10-cp-rn 4s linear infinite}
+@keyframes halloween-cpa10-cp-rn{to{stroke-dashoffset:-480}}
+.halloween-cpa10-cp-nm{position:absolute;left:159px;top:787px;width:312px;height:84px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;z-index:15}
+.halloween-cpa10-cp-gt{font-weight:800;font-size:23px;letter-spacing:2.6px;line-height:1.1;margin-left:2px;margin-top:5px;text-transform:uppercase;white-space:nowrap;background:linear-gradient(180deg,#fff8e0 0,#ffe3a3 45%,#fcb844 62%,#fff0c4 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#ffe3a3;filter:drop-shadow(0 1px 1px #000) drop-shadow(0 0 7px rgba(252,170,50,.75))}
+.halloween-cpa10-cp-bk{position:absolute;z-index:14;top:808px;width:42px;height:42px;pointer-events:none;animation:halloween-cpa10-cp-sp 9s linear infinite;filter:drop-shadow(0 0 7px rgba(252,184,68,.7))}
+.atlas-card[data-interacting="true"] .halloween-cpa10-cp-sp .halloween-cpa10-cp-bk{animation-duration:1.8s}
+.halloween-cpa10-cp-ho{z-index:40;opacity:0;mix-blend-mode:color-dodge;background:linear-gradient(115deg,rgba(255,255,255,0) 0,rgba(255,190,90,.32) 10%,rgba(255,255,255,.3) 18%,rgba(190,100,255,.3) 28%,rgba(255,255,255,0) 40%,rgba(255,255,255,0) 58%,rgba(255,255,255,.26) 68%,rgba(255,190,90,.32) 76%,rgba(255,255,255,0) 88%);background-size:240% 240%;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.halloween-cpa10-cp-gl{z-index:41;opacity:0;mix-blend-mode:overlay;background:radial-gradient(circle at center,rgba(255,250,235,.85) 0,rgba(255,250,235,.3) 16%,rgba(255,255,255,0) 40%);background-size:220% 220%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.halloween-cpa10-cp-g2{z-index:42;opacity:0;mix-blend-mode:screen;background:radial-gradient(circle at center,rgba(190,100,255,.3) 0,rgba(255,190,90,.32) 13%,rgba(255,255,255,0) 32%);background-size:170% 170%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.atlas-card[data-interacting="true"] .halloween-cpa10-cp-sp .halloween-cpa10-cp-ho{opacity:.45}.atlas-card[data-interacting="true"] .halloween-cpa10-cp-sp .halloween-cpa10-cp-gl{opacity:.45}.atlas-card[data-interacting="true"] .halloween-cpa10-cp-sp .halloween-cpa10-cp-g2{opacity:.4}
+.halloween-cpa10-cp-ct{position:absolute;z-index:11;pointer-events:none;animation:halloween-cpa10-cp-pu 4.2s ease-in-out infinite}
+.halloween-cpa10-cp-fan{transform-box:fill-box;transform-origin:center;animation:halloween-cpa10-cp-fn 3.4s ease-in-out infinite}
+@keyframes halloween-cpa10-cp-fn{0%,100%{filter:brightness(1)}50%{filter:brightness(1.45) drop-shadow(0 0 4px #fff)}}
+.halloween-cpa10-cp-gem{animation:halloween-cpa10-cp-gm 3s ease-in-out infinite}
+@keyframes halloween-cpa10-cp-gm{0%,100%{filter:brightness(1)}50%{filter:brightness(1.6) drop-shadow(0 0 5px #fff)}}
+
+.halloween-cpa10-cp-bm{position:absolute;top:-30px;height:900px;transform-origin:50% 0;mix-blend-mode:screen;z-index:4;clip-path:polygon(44% 0,56% 0,100% 100%,0 100%);background:linear-gradient(180deg,var(--bc),rgba(0,0,0,0) 85%);animation:halloween-cpa10-cp-bmm var(--d) ease-in-out infinite alternate;opacity:.4}
+@keyframes halloween-cpa10-cp-bmm{from{transform:rotate(var(--r));opacity:.2}to{transform:rotate(var(--s));opacity:.5}}
+
+.halloween-cpa10-cp-vg{box-shadow:inset 0 0 120px 34px rgba(8,2,12,.93)}
+.halloween-cpa10-cp-as{position:absolute;z-index:4;pointer-events:none;mix-blend-mode:screen;opacity:.4;-webkit-mask:radial-gradient(circle,rgba(0,0,0,0) 0,rgba(0,0,0,0) 150px,#000 200px);mask:radial-gradient(circle,rgba(0,0,0,0) 0,rgba(0,0,0,0) 150px,#000 200px);animation:halloween-cpa10-cp-sp 110s linear infinite;filter:drop-shadow(0 0 6px rgba(252,184,68,.8))}
+.halloween-cpa10-cp-fg{position:absolute;z-index:8;left:0;width:520px;height:130px;border-radius:50%;pointer-events:none;background:radial-gradient(ellipse,rgba(130,230,110,.28),rgba(130,230,110,0) 70%);mix-blend-mode:screen;animation:halloween-cpa10-cp-fgm var(--d) linear infinite}
+@keyframes halloween-cpa10-cp-fgm{from{transform:translateX(-520px)}to{transform:translateX(560px)}}
+.halloween-cpa10-cp-ln{position:absolute;z-index:9;width:90px;height:34px;margin:-17px -45px;border-radius:50%;pointer-events:none;mix-blend-mode:screen;background:radial-gradient(ellipse,#fff 0,rgba(255,235,160,.85) 22%,rgba(255,190,70,.35) 52%,rgba(0,0,0,0) 72%);animation:halloween-cpa10-cp-lnm 2.8s ease-in-out infinite}
+@keyframes halloween-cpa10-cp-lnm{0%,100%{opacity:.6;transform:scale(.85,.8)}50%{opacity:1;transform:scale(1.25,1)}}
+.halloween-cpa10-cp-nv{position:absolute;z-index:9;width:34px;height:34px;margin:-17px;border-radius:50%;pointer-events:none;mix-blend-mode:screen;background:radial-gradient(circle,rgba(210,255,180,.95) 0,rgba(110,255,60,.55) 35%,rgba(0,0,0,0) 70%);animation:halloween-cpa10-cp-nvm 3.2s ease-in-out infinite}
+@keyframes halloween-cpa10-cp-nvm{0%,100%{opacity:.35}50%{opacity:.95}}
+.halloween-cpa10-cp-tp{position:absolute;left:205px;top:-42px;width:220px;height:220px;z-index:30;pointer-events:none}
+.halloween-cpa10-cp-tr,.halloween-cpa10-cp-tr2{position:absolute;left:0;top:0;filter:drop-shadow(0 0 6px rgba(252,184,68,.8))}
+.halloween-cpa10-cp-tr{animation:halloween-cpa10-cp-sp 26s linear infinite;opacity:.8}
+.halloween-cpa10-cp-tr2{animation:halloween-cpa10-cp-spr 40s linear infinite}
+.halloween-cpa10-cp-cw{position:absolute;left:46px;top:46px;width:128px;height:128px;filter:drop-shadow(0 0 10px rgba(252,184,68,.6))}
+.halloween-cpa10-cp-co{position:relative;width:128px;height:128px;animation:halloween-cpa10-cp-fl 3.6s ease-in-out infinite}
+.halloween-cpa10-cp-cf{position:absolute;inset:0;width:128px;height:128px;}
+.halloween-cpa10-cp-cbk{transform:rotateY(180deg)}
+@keyframes halloween-cpa10-cp-fl{0%,100%{transform:scaleX(1)}25%{transform:scaleX(.04)}50%{transform:scaleX(1)}75%{transform:scaleX(.04)}}
+.atlas-card[data-interacting="true"] .halloween-cpa10-cp-sp .halloween-cpa10-cp-co{animation-duration:2s}
+.halloween-cpa10-cp-bg{position:absolute;left:240px;top:670px;width:150px;height:150px;z-index:16;pointer-events:none}
+.halloween-cpa10-cp-br{position:absolute;inset:0;animation:halloween-cpa10-cp-sp 30s linear infinite;filter:drop-shadow(0 0 5px rgba(252,184,68,.8))}
+.halloween-cpa10-cp-bi{position:absolute;left:25px;top:25px;width:100px;height:100px;filter:drop-shadow(0 2px 4px #000) drop-shadow(0 0 10px rgba(252,184,68,.7));animation:halloween-cpa10-cp-bf 4s ease-in-out infinite}
+@keyframes halloween-cpa10-cp-bf{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+.halloween-cpa10-cp-bs{position:absolute;left:25px;top:25px;width:100px;height:100px;border-radius:50%;mix-blend-mode:overlay;background:linear-gradient(115deg,rgba(255,255,255,0) 40%,rgba(255,255,255,.85) 50%,rgba(255,255,255,0) 60%);background-size:300% 100%;animation:halloween-cpa10-cp-shm 4.5s linear infinite}
+
+.halloween-cpa10-cp-ch{stroke-dasharray:60 940;animation:halloween-cpa10-cp-chm 6s linear infinite}
+@keyframes halloween-cpa10-cp-chm{to{stroke-dashoffset:-1000}}
+.halloween-cpa10-cp-as2{position:absolute;z-index:4;pointer-events:none;mix-blend-mode:screen;opacity:.35;-webkit-mask:radial-gradient(circle,rgba(0,0,0,0) 0,rgba(0,0,0,0) 120px,#000 150px);mask:radial-gradient(circle,rgba(0,0,0,0) 0,rgba(0,0,0,0) 120px,#000 150px);animation:halloween-cpa10-cp-spr 60s linear infinite;filter:drop-shadow(0 0 5px rgba(190,110,255,.9))}
+.halloween-cpa10-cp-tr3{position:absolute;z-index:9;left:-200px;width:130px;height:2px;pointer-events:none;mix-blend-mode:screen;background:linear-gradient(90deg,rgba(255,200,90,0),#ffe3a3 80%,#fff);box-shadow:0 0 8px 1px rgba(255,170,50,.9);transform:rotate(var(--a));opacity:0;animation:halloween-cpa10-cp-trm var(--d) linear infinite}
+@keyframes halloween-cpa10-cp-trm{0%{opacity:0;transform:translateX(0) rotate(var(--a))}8%{opacity:1}30%{opacity:0;transform:translateX(900px) rotate(var(--a))}100%{opacity:0;transform:translateX(900px) rotate(var(--a))}}
+.halloween-cpa10-cp-ws{position:absolute;z-index:8;left:-260px;height:1.5px;pointer-events:none;mix-blend-mode:screen;background:linear-gradient(90deg,rgba(200,220,255,0),rgba(200,220,255,.6),rgba(200,220,255,0));animation:halloween-cpa10-cp-wsm var(--d) linear infinite}
+@keyframes halloween-cpa10-cp-wsm{from{transform:translateX(0)}to{transform:translateX(1000px)}}
+.halloween-cpa10-cp-fr{position:absolute;z-index:9;bottom:80px;width:14px;height:14px;margin-left:-7px;border-radius:50%;pointer-events:none;mix-blend-mode:screen;background:radial-gradient(circle,#fff 0,#ffe9a0 35%,rgba(255,170,60,.0) 70%);box-shadow:0 0 30px 14px rgba(255,190,90,.45);opacity:0;animation:halloween-cpa10-cp-frm var(--d) ease-out infinite}
+@keyframes halloween-cpa10-cp-frm{0%{opacity:0;transform:translateY(0) scale(.5)}10%{opacity:1;transform:translateY(-60px) scale(1.2)}70%{opacity:.8}100%{opacity:0;transform:translateY(-640px) translateX(30px) scale(1)}}
+.halloween-cpa10-cp-lz{position:absolute;z-index:9;width:26px;height:26px;margin:-13px;border-radius:50%;pointer-events:none;mix-blend-mode:screen;background:radial-gradient(circle,#fff 0,#ff3b3b 25%,rgba(255,40,40,.35) 50%,rgba(0,0,0,0) 70%);animation:halloween-cpa10-cp-lzm 1.4s ease-in-out infinite}
+@keyframes halloween-cpa10-cp-lzm{0%,100%{opacity:.3;transform:scale(.7)}50%{opacity:1;transform:scale(1.3)}}
+.halloween-cpa10-cp-fgl{position:absolute;left:294px;top:877px;width:42px;height:28px;z-index:17;pointer-events:none;filter:drop-shadow(0 2px 3px #000) drop-shadow(0 0 5px rgba(255,255,255,.35))}
+.halloween-cpa10-cp-fw{animation:halloween-cpa10-cp-fwm 1.3s ease-in-out infinite}
+@keyframes halloween-cpa10-cp-fwm{0%,100%{transform:translateY(-1.8px)}50%{transform:translateY(1.8px)}}
+.halloween-cpa10-cp-fsh{position:absolute;inset:2px 0;background:linear-gradient(100deg,rgba(0,0,0,.28),rgba(255,255,255,.35) 30%,rgba(0,0,0,.25) 55%,rgba(255,255,255,.3) 80%,rgba(0,0,0,.3));background-size:200% 100%;mix-blend-mode:overlay;animation:halloween-cpa10-cp-fsm 1.3s linear infinite}
+@keyframes halloween-cpa10-cp-fsm{from{background-position:0 0}to{background-position:-200% 0}}
+
+.halloween-cpa10-cp-ht{position:absolute;left:0;width:630px;top:949px;text-align:center;z-index:19;pointer-events:none;font-weight:700;font-size:8px;letter-spacing:4.5px;color:#ffb060;text-shadow:0 0 6px rgba(255,120,20,.9),0 1px 1px #000}
+.halloween-cpa10-cp-bt{position:absolute;left:-60px;z-index:9;pointer-events:none;transform:scale(var(--s));animation:halloween-cpa10-cp-btm var(--d) linear infinite}
+@keyframes halloween-cpa10-cp-btm{from{margin-left:0}to{margin-left:700px}}
+.halloween-cpa10-cp-bw{transform-box:fill-box;transform-origin:50% 100%;animation:halloween-cpa10-cp-bwm .28s ease-in-out infinite alternate}
+@keyframes halloween-cpa10-cp-bwm{from{transform:scaleY(1)}to{transform:scaleY(.45)}}
+.halloween-cpa10-cp-wp{position:absolute;z-index:9;width:26px;height:26px;margin:-13px;border-radius:50%;pointer-events:none;mix-blend-mode:screen;background:radial-gradient(circle,rgba(210,255,190,.9),rgba(110,255,80,.35) 45%,rgba(0,0,0,0) 70%);animation:halloween-cpa10-cp-wpm 5s ease-in-out infinite;animation-delay:var(--dl)}
+@keyframes halloween-cpa10-cp-wpm{0%,100%{opacity:.15;transform:translate(0,0) scale(.7)}50%{opacity:.9;transform:translate(14px,-26px) scale(1.2)}}
+
+.atlas-card[data-interacting="true"] .halloween-cpa10-cp-g2{opacity:.35;background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}
+.atlas-card[data-interacting="true"] .halloween-cpa10-cp-ho{opacity:.35;background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}
+.atlas-card[data-interacting="true"] .halloween-cpa10-cp-gl{opacity:.35;background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}
+
+
+.halloween-kieffer-ck-sp2{position:relative;width:630px;height:972px;border-radius:26px;overflow:hidden;background:#05080b;font-family:var(--font-atlas)}
+.halloween-kieffer-ck-zn{position:absolute;width:25%;height:16.6667%;z-index:60}
+.halloween-kieffer-ck-ly{position:absolute;inset:0;pointer-events:none}
+.halloween-kieffer-ck-ph{position:absolute;left:38px;top:38px;width:554px;height:896px;overflow:hidden;background:#04070a;z-index:3;border-radius:6px}
+.halloween-kieffer-ck-im{position:absolute;left:-6px;top:-6px;width:566px;height:908px;filter:brightness(.66) contrast(1.15);animation:halloween-kieffer-ckrm 7s ease-in-out infinite}
+@keyframes halloween-kieffer-ckrm{0%,100%{transform:translate(0,0)}20%{transform:translate(0,0)}21%{transform:translate(2px,2px)}22%{transform:translate(-2px,-1px)}23%{transform:translate(0,0)}}
+.halloween-kieffer-ck-gh{position:absolute;left:-6px;top:-6px;width:566px;height:908px;mix-blend-mode:screen;opacity:.2;filter:blur(1.5px) brightness(1.5);animation:halloween-kieffer-ckgh 8s ease-in-out infinite}
+@keyframes halloween-kieffer-ckgh{0%,100%{transform:translate(-14px,-4px);opacity:.1}50%{transform:translate(16px,2px);opacity:.3}}
+.halloween-kieffer-ck-nz{animation:halloween-kieffer-cknz 3.6s ease-in-out infinite}.halloween-kieffer-ck-pu{animation:halloween-kieffer-cknz 1.5s ease-in-out infinite}
+@keyframes halloween-kieffer-cknz{0%,100%{opacity:.7}20%{opacity:1}30%{opacity:.5}35%{opacity:1}70%{opacity:.85}}
+.atlas-card[data-interacting="true"] .halloween-kieffer-ck-sp2 .halloween-kieffer-ck-nz{animation-duration:1s}
+.halloween-kieffer-ck-ey{position:absolute;z-index:6;pointer-events:none;width:20px;height:13px;margin:-6px 0 0 -10px;border-radius:50%;background:radial-gradient(ellipse,#fff 0,#bfe4ff 22%,rgba(60,150,255,.85) 48%,rgba(60,150,255,0) 78%);filter:drop-shadow(0 0 4px #4aa8ff);animation:halloween-kieffer-ckey 4s ease-in-out infinite}
+@keyframes halloween-kieffer-ckey{0%,100%{opacity:.5;transform:scale(.8)}20%{opacity:1;transform:scale(1.3)}28%{opacity:.1}32%{opacity:1}70%{opacity:.85}}
+.atlas-card[data-interacting="true"] .halloween-kieffer-ck-sp2 .halloween-kieffer-ck-ey{animation-duration:1.2s}
+.halloween-kieffer-ck-fc{position:absolute;left:0;top:0;z-index:5;mix-blend-mode:screen;pointer-events:none;filter:blur(4px) drop-shadow(0 0 12px #ff2a2a);animation:halloween-kieffer-ckfc 2.6s ease-in-out infinite;opacity:.8}
+@keyframes halloween-kieffer-ckfc{0%,100%{opacity:.35}30%{opacity:1}38%{opacity:.45}50%{opacity:1}}
+.atlas-card[data-interacting="true"] .halloween-kieffer-ck-sp2 .halloween-kieffer-ck-fc{animation-duration:1s}
+.halloween-kieffer-ck-sl{position:absolute;top:-40px;width:140px;height:1000px;z-index:5;pointer-events:none;mix-blend-mode:screen;transform-origin:50% 0;background:linear-gradient(180deg,rgba(210,235,255,.65),rgba(210,235,255,.18) 55%,rgba(210,235,255,0));clip-path:polygon(42% 0,58% 0,100% 100%,0 100%);animation:halloween-kieffer-cksl ease-in-out infinite alternate}
+@keyframes halloween-kieffer-cksl{from{transform:rotate(var(--r0))}to{transform:rotate(var(--r1))}}
+.atlas-card[data-interacting="true"] .halloween-kieffer-ck-sp2 .halloween-kieffer-ck-sl{animation-duration:3s!important}
+.halloween-kieffer-ck-fg{position:absolute;z-index:6;pointer-events:none;left:-300px;width:1200px;height:260px;filter:blur(18px);mix-blend-mode:screen;background:radial-gradient(ellipse at 30% 55%,rgba(150,190,220,.32),rgba(150,190,220,0) 62%),radial-gradient(ellipse at 75% 45%,rgba(190,210,230,.24),rgba(190,210,230,0) 62%);animation:halloween-kieffer-ckfg 18s ease-in-out infinite alternate}
+@keyframes halloween-kieffer-ckfg{from{transform:translateX(-100px)}to{transform:translateX(110px)}}
+.halloween-kieffer-ck-fg.halloween-kieffer-a{top:640px}.halloween-kieffer-ck-fg.halloween-kieffer-b{top:780px;opacity:.9;animation-duration:13s}.halloween-kieffer-ck-fg.halloween-kieffer-c{top:300px;opacity:.4;animation-duration:27s;animation-direction:alternate-reverse}
+.halloween-kieffer-ck-tr{position:absolute;left:-120px;width:90px;height:2px;border-radius:2px;z-index:7;pointer-events:none;opacity:0;transform:rotate(var(--ang));animation:halloween-kieffer-cktr var(--d) linear infinite}
+@keyframes halloween-kieffer-cktr{0%,60%{opacity:0;transform:translateX(0) rotate(var(--ang))}62%{opacity:1}72%{opacity:1}74%,100%{opacity:0;transform:translateX(820px) rotate(var(--ang))}}
+.atlas-card[data-interacting="true"] .halloween-kieffer-ck-sp2 .halloween-kieffer-ck-tr{animation-duration:1.6s}
+.halloween-kieffer-ck-fr{position:absolute;top:-30px;width:16px;height:16px;border-radius:50%;z-index:7;pointer-events:none;background:radial-gradient(circle,#fff,#ffe9a8 35%,rgba(255,200,100,.4) 60%,rgba(255,200,100,0) 75%);box-shadow:0 0 40px 20px rgba(255,220,150,.45);animation:halloween-kieffer-ckfr var(--d) ease-in infinite;opacity:0}
+@keyframes halloween-kieffer-ckfr{0%{opacity:0;transform:translate(0,0)}6%{opacity:1}40%{opacity:1}60%{opacity:.8;transform:translate(26px,520px)}80%,100%{opacity:0;transform:translate(40px,820px)}}
+.halloween-kieffer-ck-ex{position:absolute;left:0;right:0;top:0;bottom:0;z-index:5;pointer-events:none;mix-blend-mode:screen;background:radial-gradient(ellipse at 20% 100%,rgba(255,170,70,.75),rgba(255,100,20,0) 45%),radial-gradient(ellipse at 85% 100%,rgba(255,150,60,.6),rgba(255,100,20,0) 40%);opacity:0;animation:halloween-kieffer-ckex 6.5s linear infinite}
+@keyframes halloween-kieffer-ckex{0%,35%{opacity:0}36%{opacity:.9}38%{opacity:.15}40%{opacity:.7}46%,100%{opacity:0}}
+.halloween-kieffer-ck-sp{position:absolute;bottom:0;width:3px;height:3px;border-radius:50%;z-index:7;pointer-events:none;background:#ffb860;box-shadow:0 0 6px 2px rgba(255,120,30,.8);opacity:0;animation:halloween-kieffer-cksp var(--d) ease-out infinite}
+@keyframes halloween-kieffer-cksp{0%{opacity:0;transform:translate(0,0)}12%{opacity:1}100%{opacity:0;transform:translate(var(--dx),-420px)}}
+.halloween-kieffer-ck-skf{position:absolute;left:240px;top:290px;z-index:7;pointer-events:none;opacity:0;mix-blend-mode:screen;filter:blur(1px);animation:halloween-kieffer-cksk 10s steps(1) infinite}
+@keyframes halloween-kieffer-cksk{0%,70%,100%{opacity:0}70.4%{opacity:.35}71%{opacity:0}71.6%{opacity:.2}72%{opacity:0}}
+.halloween-kieffer-ck-vg{z-index:10;box-shadow:inset 0 0 80px 14px rgba(0,3,8,.85)}
+.halloween-kieffer-ck-gr{z-index:8;mix-blend-mode:overlay;opacity:.35;background:repeating-linear-gradient(0deg,rgba(255,255,255,.04) 0 1px,rgba(0,0,0,.08) 1px 3px);animation:halloween-kieffer-ckgr .4s steps(2) infinite}
+@keyframes halloween-kieffer-ckgr{to{transform:translateY(3px)}}
+.halloween-kieffer-ck-wh{position:absolute;z-index:12;pointer-events:none;left:284px;top:12px;width:62px;height:62px;animation:halloween-kieffer-cksw 36s linear infinite reverse;filter:drop-shadow(0 0 5px rgba(150,190,230,.6))}
+.halloween-kieffer-ck-lo{position:absolute;z-index:13;pointer-events:none;left:284px;top:12px;width:62px;height:62px;filter:drop-shadow(0 0 7px rgba(255,60,60,.85));animation:halloween-kieffer-cknz 2s ease-in-out infinite}
+@keyframes halloween-kieffer-cksw{to{transform:rotate(360deg)}}
+.atlas-card[data-interacting="true"] .halloween-kieffer-ck-sp2 .halloween-kieffer-ck-wh{animation-duration:6s}
+.halloween-kieffer-ck-pl{position:absolute;left:159px;top:787px;width:312px;height:84px;z-index:11;background:linear-gradient(180deg,#101a22,#04070a);clip-path:polygon(14px 0,298px 0,312px 14px,312px 70px,298px 84px,14px 84px,0 70px,0 14px)}
+.halloween-kieffer-ck-pb{position:absolute;left:159px;top:787px;z-index:12;pointer-events:none;filter:drop-shadow(0 0 5px rgba(255,60,60,.6)) drop-shadow(0 0 4px rgba(100,170,255,.5))}
+.halloween-kieffer-ck-lm{position:absolute;z-index:14;pointer-events:none;top:797px;width:8px;height:30px;border-radius:4px}
+.halloween-kieffer-ck-lm.halloween-kieffer-b{background:linear-gradient(180deg,#d8ecff,#5aa0ff);box-shadow:0 0 14px 4px rgba(90,160,255,.8);animation:halloween-kieffer-cknz 1.8s ease-in-out infinite}
+.halloween-kieffer-ck-lm.halloween-kieffer-r{background:linear-gradient(180deg,#ffd8d8,#ff3b3b);box-shadow:0 0 14px 4px rgba(255,60,60,.8);animation:halloween-kieffer-cknz 2.1s ease-in-out infinite}
+.halloween-kieffer-ck-bg{position:absolute;z-index:13;pointer-events:none;width:90px;height:90px;border-radius:50%;mix-blend-mode:screen;animation:halloween-kieffer-cknz 1.4s ease-in-out infinite}
+.halloween-kieffer-ck-nm{position:absolute;left:159px;top:787px;width:312px;height:84px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;z-index:15}
+.halloween-kieffer-ck-gt{font-weight:800;font-size:25px;letter-spacing:3px;line-height:1.1;margin-left:3px;margin-top:6px;text-transform:uppercase;white-space:nowrap;background:linear-gradient(180deg,#ffffff 0,#cfdce8 45%,#7d93a8 62%,#e6f0f8 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#cfdce8;filter:drop-shadow(0 1px 1px #000) drop-shadow(0 0 7px rgba(100,170,255,.75));animation:halloween-kieffer-ckgt 6s linear infinite}
+@keyframes halloween-kieffer-ckgt{0%,100%{opacity:1}60%{opacity:1}61%{opacity:.6}62%{opacity:1}63%{opacity:.7}64%{opacity:1}}
+.halloween-kieffer-ck-he{position:absolute;left:0;right:0;top:945px;z-index:17;pointer-events:none;text-align:center;line-height:1}
+.halloween-kieffer-ck-he span{display:inline-block;padding:2px 9px;background:#05080b;font-weight:700;font-size:8px;letter-spacing:3.4px;text-transform:uppercase;color:#ff7a7a;text-shadow:0 0 3px #ff3b3b,0 0 8px #ff2a2a,0 0 14px #ff2a2a;animation:halloween-kieffer-ckhe 3.2s linear infinite}
+@keyframes halloween-kieffer-ckhe{0%,100%{opacity:.95}6%{opacity:.6}8%{opacity:1}50%{opacity:.85}52%{opacity:.5}54%{opacity:1}}
+.halloween-kieffer-ck-ho{z-index:40;opacity:0;mix-blend-mode:color-dodge;background:linear-gradient(115deg,rgba(100,170,255,0) 0,rgba(100,170,255,.3) 10%,rgba(230,240,255,.3) 18%,rgba(255,70,70,.26) 28%,rgba(100,170,255,0) 40%,rgba(100,170,255,0) 58%,rgba(230,240,255,.26) 68%,rgba(100,170,255,.26) 76%,rgba(100,170,255,0) 88%);background-size:240% 240%;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.halloween-kieffer-ck-gl{z-index:41;opacity:0;mix-blend-mode:overlay;background:radial-gradient(circle at center,rgba(230,245,255,.8) 0,rgba(230,245,255,.28) 16%,rgba(255,255,255,0) 40%);background-size:220% 220%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.halloween-kieffer-ck-g2{z-index:42;opacity:0;mix-blend-mode:screen;background:radial-gradient(circle at center,rgba(150,200,255,.8) 0,rgba(100,170,255,.3) 13%,rgba(255,255,255,0) 32%);background-size:170% 170%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.atlas-card[data-interacting="true"] .halloween-kieffer-ck-sp2 .halloween-kieffer-ck-ho{opacity:.3}.atlas-card[data-interacting="true"] .halloween-kieffer-ck-sp2 .halloween-kieffer-ck-gl{opacity:.35}.atlas-card[data-interacting="true"] .halloween-kieffer-ck-sp2 .halloween-kieffer-ck-g2{opacity:.3}
+
+.atlas-card[data-interacting="true"] .halloween-kieffer-ck-gl{opacity:.35;background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}
+.atlas-card[data-interacting="true"] .halloween-kieffer-ck-g2{opacity:.35;background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}
+.atlas-card[data-interacting="true"] .halloween-kieffer-ck-ho{opacity:.35;background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}
+
+
+.halloween-durant-kd-sp{position:relative;width:630px;height:972px;border-radius:26px;overflow:hidden;background:#060102;font-family:var(--font-atlas)}
+.halloween-durant-kd-zn{position:absolute;width:25%;height:16.6667%;z-index:60}
+.halloween-durant-kd-ly{position:absolute;inset:0;pointer-events:none}
+.halloween-durant-kd-ph{position:absolute;left:38px;top:38px;width:554px;height:896px;overflow:hidden;background:#050102 url(/designs/halloween-durant/1a478cb647cf108af93648c468d90006.jpg) center/100% 100% no-repeat;z-index:3;border-radius:6px;animation:halloween-durant-kdsh 9s linear infinite}
+@keyframes halloween-durant-kdsh{0%,100%{filter:brightness(1)}90%{filter:brightness(1)}91%{filter:brightness(1.7)}92%{filter:brightness(1.05)}93.5%{filter:brightness(1.5)}96%{filter:brightness(1)}}
+.halloween-durant-kd-nz{animation:halloween-durant-kdnz 2.6s ease-in-out infinite}
+@keyframes halloween-durant-kdnz{0%,100%{opacity:.65}12%{opacity:1}24%{opacity:.7}36%{opacity:1}60%{opacity:.7}}
+.atlas-card[data-interacting="true"] .halloween-durant-kd-sp .halloween-durant-kd-nz{animation-duration:1s}
+.halloween-durant-kd-hb{z-index:9;box-shadow:inset 0 0 70px 14px rgba(190,10,30,.65);animation:halloween-durant-kdhb 1.6s ease-in-out infinite}
+@keyframes halloween-durant-kdhb{0%,100%{opacity:.25}10%{opacity:1}20%{opacity:.35}30%{opacity:.85}50%{opacity:.25}}
+.atlas-card[data-interacting="true"] .halloween-durant-kd-sp .halloween-durant-kd-hb{animation-duration:.7s}
+.halloween-durant-kd-vg{z-index:8;box-shadow:inset 0 0 90px 12px rgba(0,0,0,.8)}
+.halloween-durant-kd-fg{position:absolute;z-index:4;pointer-events:none;left:-300px;top:480px;width:1200px;height:300px;filter:blur(18px);mix-blend-mode:screen;background:radial-gradient(ellipse at 30% 55%,rgba(220,30,40,.42),rgba(220,30,40,0) 62%),radial-gradient(ellipse at 75% 45%,rgba(255,90,70,.3),rgba(255,90,70,0) 62%);animation:halloween-durant-kdfg 17s ease-in-out infinite alternate}
+.halloween-durant-kd-fg.halloween-durant-b{top:230px;opacity:.7;animation-duration:25s;animation-direction:alternate-reverse}
+.halloween-durant-kd-fg.halloween-durant-c{top:700px;opacity:.9;animation-duration:13s}
+@keyframes halloween-durant-kdfg{from{transform:translateX(-110px)}to{transform:translateX(120px)}}
+.halloween-durant-kd-bl{position:absolute;z-index:5;left:312px;top:48px;width:100px;height:100px;border-radius:50%;pointer-events:none;mix-blend-mode:screen;background:radial-gradient(circle,rgba(255,150,120,.7),rgba(255,40,50,.35) 40%,rgba(255,30,40,0) 72%);animation:halloween-durant-kdbl 1.6s ease-in-out infinite}
+@keyframes halloween-durant-kdbl{0%,100%{opacity:.5;transform:scale(.9)}15%{opacity:1;transform:scale(1.2)}30%{opacity:.6}45%{opacity:1;transform:scale(1.1)}}
+.halloween-durant-kd-re{position:absolute;z-index:6;pointer-events:none;width:26px;height:26px;margin:-13px 0 0 -13px;border-radius:50%;mix-blend-mode:screen;background:radial-gradient(circle,#fff 0,#ff5050 18%,rgba(255,20,30,.7) 40%,rgba(255,20,30,0) 72%);animation:halloween-durant-kdre 4s ease-in-out infinite}
+@keyframes halloween-durant-kdre{0%,100%{opacity:.5;transform:scale(.8)}20%{opacity:1;transform:scale(1.25)}28%{opacity:.1}32%{opacity:1}70%{opacity:.8}}
+.atlas-card[data-interacting="true"] .halloween-durant-kd-sp .halloween-durant-kd-re{animation-duration:1.2s}
+.halloween-durant-kd-fd{position:absolute;top:-40px;z-index:7;width:2px;border-radius:2px;pointer-events:none;background:linear-gradient(180deg,rgba(255,40,50,0),#e0102a);animation:halloween-durant-kdfd var(--d) linear infinite}
+@keyframes halloween-durant-kdfd{from{transform:translateY(0)}to{transform:translateY(960px)}}
+.halloween-durant-kd-em{position:absolute;z-index:7;width:3px;height:3px;border-radius:50%;pointer-events:none;background:#ffc0a0;box-shadow:0 0 6px 2px rgba(255,60,40,.9);opacity:0;animation:halloween-durant-kdem var(--d) ease-out infinite}
+@keyframes halloween-durant-kdem{0%{opacity:0;transform:translate(0,0)}15%{opacity:1}100%{opacity:0;transform:translate(var(--dx),-240px)}}
+.halloween-durant-kd-cr{position:absolute;z-index:7;left:-60px;pointer-events:none;animation:halloween-durant-kdcr var(--d) linear infinite}
+@keyframes halloween-durant-kdcr{0%{transform:translate(0,0)}30%{transform:translate(190px,-26px)}60%{transform:translate(380px,18px)}100%{transform:translate(740px,-12px)}}
+.halloween-durant-kd-cw{animation:halloween-durant-kdfl .3s ease-in-out infinite alternate}
+@keyframes halloween-durant-kdfl{from{transform:scaleY(1)}to{transform:scaleY(.3)}}
+.halloween-durant-kd-sl{position:absolute;z-index:11;left:-250px;top:100px;width:1100px;height:7px;transform:rotate(38deg);transform-origin:0 50%;pointer-events:none;opacity:0;background:linear-gradient(90deg,rgba(255,255,255,0),#fff 45%,#ff6070 70%,rgba(255,30,50,0));filter:drop-shadow(0 0 10px #ff1a2e) drop-shadow(0 0 22px #ff1a2e);animation:halloween-durant-kdsl 7s ease-in infinite}
+@keyframes halloween-durant-kdsl{0%,70%{opacity:0;transform:rotate(38deg) translateX(-300px)}72%{opacity:1}79%{opacity:1;transform:rotate(38deg) translateX(700px)}86%,100%{opacity:0;transform:rotate(38deg) translateX(700px)}}
+.halloween-durant-kd-ct{position:absolute;z-index:11;left:60px;top:180px;width:760px;height:3px;transform:rotate(38deg);transform-origin:0 50%;pointer-events:none;opacity:0;background:linear-gradient(90deg,rgba(255,30,50,0),#ff2040 20%,#fff 50%,#ff2040 80%,rgba(255,30,50,0));filter:drop-shadow(0 0 8px #ff1a2e);animation:halloween-durant-kdct 7s linear infinite}
+@keyframes halloween-durant-kdct{0%,76%{opacity:0}79%{opacity:1}90%{opacity:.5}100%{opacity:0}}
+.atlas-card[data-interacting="true"] .halloween-durant-kd-sp .halloween-durant-kd-sl,.atlas-card[data-interacting="true"] .halloween-durant-kd-sp .halloween-durant-kd-ct{animation-duration:3s}
+.halloween-durant-kd-ls{z-index:10;mix-blend-mode:screen;background:radial-gradient(ellipse at 50% 20%,rgba(255,210,200,.85),rgba(255,60,60,.4) 50%,rgba(255,60,60,0) 85%);opacity:0;animation:halloween-durant-kdls 9s linear infinite}
+@keyframes halloween-durant-kdls{0%,90%{opacity:0}91%{opacity:.75}92%{opacity:.05}93.5%{opacity:.55}96%,100%{opacity:0}}
+.halloween-durant-kd-fl{position:absolute;left:0;right:0;bottom:0;height:120px;z-index:6;pointer-events:none;mix-blend-mode:screen;background:linear-gradient(0deg,rgba(255,40,50,.42),rgba(255,40,50,0));animation:halloween-durant-kdnz 3s ease-in-out infinite}
+.halloween-durant-kd-dp{position:absolute;top:30px;z-index:11;pointer-events:none;transform-origin:50% 0;animation:halloween-durant-kddp var(--d) ease-in infinite;filter:drop-shadow(0 0 4px rgba(255,20,40,.8))}
+@keyframes halloween-durant-kddp{0%{transform:scaleY(.15);opacity:0}12%{opacity:1}70%{transform:scaleY(1);opacity:1}90%{transform:scaleY(1) translateY(30px);opacity:0}100%{opacity:0;transform:scaleY(.15)}}
+.halloween-durant-kd-wh{position:absolute;z-index:12;pointer-events:none;left:284px;top:12px;width:62px;height:62px;animation:halloween-durant-kdsp 18s linear infinite;filter:drop-shadow(0 0 6px rgba(255,40,60,.85))}
+.halloween-durant-kd-sk{position:absolute;z-index:13;pointer-events:none;left:284px;top:12px;width:62px;height:62px;filter:drop-shadow(0 0 5px rgba(255,30,50,.8))}
+.halloween-durant-kd-ey{animation:halloween-durant-kdey 2.2s ease-in-out infinite}
+@keyframes halloween-durant-kdey{0%,100%{opacity:.55}20%{opacity:1}30%{opacity:.2}34%{opacity:1}}
+.atlas-card[data-interacting="true"] .halloween-durant-kd-sp .halloween-durant-kd-wh{animation-duration:4s}
+@keyframes halloween-durant-kdsp{to{transform:rotate(360deg)}}
+.halloween-durant-kd-pl{position:absolute;left:159px;top:787px;width:312px;height:84px;z-index:11;background:linear-gradient(180deg,#1c050a,#050102);clip-path:polygon(14px 0,298px 0,312px 14px,312px 70px,298px 84px,14px 84px,0 70px,0 14px)}
+.halloween-durant-kd-pb{position:absolute;left:159px;top:787px;z-index:12;pointer-events:none;filter:drop-shadow(0 0 5px rgba(255,30,50,.8))}
+.halloween-durant-kd-pd{position:absolute;z-index:12;top:868px;width:6px;pointer-events:none;transform-origin:50% 0;animation:halloween-durant-kddp var(--d) ease-in infinite}
+.halloween-durant-kd-nm{position:absolute;left:159px;top:787px;width:312px;height:84px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;z-index:15}
+.halloween-durant-kd-gt{font-weight:800;font-size:29px;letter-spacing:4px;line-height:1.1;margin-left:4px;margin-top:6px;text-transform:uppercase;white-space:nowrap;color:#f4ebd8;text-shadow:0 0 6px rgba(255,30,50,.95),0 0 18px rgba(255,30,50,.6),0 1px 2px #000;animation:halloween-durant-kdgt 4s linear infinite}
+@keyframes halloween-durant-kdgt{0%,100%{opacity:1}40%{opacity:1}41%{opacity:.7}43%{opacity:1}}
+.halloween-durant-kd-he{position:absolute;left:0;right:0;top:945px;z-index:17;pointer-events:none;text-align:center;line-height:1}
+.halloween-durant-kd-he span{display:inline-block;padding:2px 9px;background:#070102;font-weight:700;font-size:8px;letter-spacing:3.4px;text-transform:uppercase;color:#f4ebd8;text-shadow:0 0 3px #ff4a5a,0 0 8px #ff1a2e,0 0 14px #ff1a2e;animation:halloween-durant-kdhe 3.2s linear infinite}
+@keyframes halloween-durant-kdhe{0%,100%{opacity:.95}6%{opacity:.6}8%{opacity:1}50%{opacity:.85}52%{opacity:.5}54%{opacity:1}}
+.halloween-durant-kd-ho{z-index:40;opacity:0;mix-blend-mode:color-dodge;background:linear-gradient(115deg,rgba(255,30,50,0) 0,rgba(255,30,50,.34) 10%,rgba(255,200,190,.3) 18%,rgba(255,90,40,.3) 28%,rgba(255,30,50,0) 40%,rgba(255,30,50,0) 58%,rgba(255,200,190,.26) 68%,rgba(255,30,50,.28) 76%,rgba(255,30,50,0) 88%);background-size:240% 240%;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.halloween-durant-kd-gl{z-index:41;opacity:0;mix-blend-mode:overlay;background:radial-gradient(circle at center,rgba(255,225,220,.8) 0,rgba(255,225,220,.28) 16%,rgba(255,255,255,0) 40%);background-size:220% 220%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.halloween-durant-kd-g2{z-index:42;opacity:0;mix-blend-mode:screen;background:radial-gradient(circle at center,rgba(255,120,120,.8) 0,rgba(255,30,50,.3) 13%,rgba(255,255,255,0) 32%);background-size:170% 170%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.atlas-card[data-interacting="true"] .halloween-durant-kd-sp .halloween-durant-kd-ho{opacity:.3}.atlas-card[data-interacting="true"] .halloween-durant-kd-sp .halloween-durant-kd-gl{opacity:.35}.atlas-card[data-interacting="true"] .halloween-durant-kd-sp .halloween-durant-kd-g2{opacity:.3}
+
+.atlas-card[data-interacting="true"] .halloween-durant-kd-ho{opacity:.35;background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}
+.atlas-card[data-interacting="true"] .halloween-durant-kd-gl{opacity:.35;background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}
+.atlas-card[data-interacting="true"] .halloween-durant-kd-g2{opacity:.35;background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}
+
+
+.halloween-mimolette-mm-sp{position:relative;width:630px;height:972px;border-radius:26px;overflow:hidden;background:#08040c;font-family:var(--font-atlas)}
+.halloween-mimolette-mm-zn{position:absolute;width:25%;height:16.6667%;z-index:60}
+.halloween-mimolette-mm-ly{position:absolute;inset:0;pointer-events:none}
+.halloween-mimolette-mm-ph{position:absolute;left:38px;top:38px;width:554px;height:896px;overflow:hidden;background:#0a0408;z-index:3;border-radius:6px}
+.halloween-mimolette-mm-im{position:absolute;left:-6px;top:-6px;width:566px;height:908px;filter:saturate(1.25) contrast(1.1) brightness(.88);animation:halloween-mimolette-mmim 8s ease-in-out infinite alternate}
+@keyframes halloween-mimolette-mmim{from{transform:scale(1.01)}to{transform:scale(1.03) translateY(-3px)}}
+.halloween-mimolette-mm-nz{animation:halloween-mimolette-mmnz 3.6s ease-in-out infinite}.halloween-mimolette-mm-pu,.halloween-mimolette-mm-pf{animation:halloween-mimolette-mmnz 1.4s ease-in-out infinite}
+@keyframes halloween-mimolette-mmnz{0%,100%{opacity:.75}20%{opacity:1}30%{opacity:.5}35%{opacity:1}70%{opacity:.85}}
+.atlas-card[data-interacting="true"] .halloween-mimolette-mm-sp .halloween-mimolette-mm-nz{animation-duration:1s}
+.halloween-mimolette-mm-moon{position:absolute;left:20px;top:30px;width:110px;height:110px;border-radius:50%;z-index:4;background:radial-gradient(circle at 38% 36%,#fff2c0,#ffb030 45%,#e06a00 80%);box-shadow:0 0 50px 20px rgba(255,140,20,.55);animation:halloween-mimolette-mgmo 5s ease-in-out infinite alternate}
+@keyframes halloween-mimolette-mgmo{from{box-shadow:0 0 40px 14px rgba(255,140,20,.4)}to{box-shadow:0 0 70px 28px rgba(255,150,30,.7)}}
+.halloween-mimolette-mm-bwh{position:absolute;left:-545px;top:-515px;width:1200px;height:1200px;z-index:4;mix-blend-mode:screen;pointer-events:none;transform-origin:600px 600px;-webkit-mask:radial-gradient(circle at 600px 600px,#000 0,transparent 600px);mask:radial-gradient(circle at 600px 600px,#000 0,transparent 600px);background:repeating-conic-gradient(from 0deg at 600px 600px,rgba(255,150,30,.3) 0 5deg,rgba(255,150,30,0) 5deg 14deg,rgba(168,107,255,.2) 14deg 17deg,rgba(255,150,30,0) 17deg 30deg);animation:halloween-mimolette-mgsp 60s linear infinite}
+.halloween-mimolette-mm-bwh.halloween-mimolette-b{animation-direction:reverse;animation-duration:95s;opacity:.6}
+.atlas-card[data-interacting="true"] .halloween-mimolette-mm-sp .halloween-mimolette-mm-bwh{animation-duration:12s}
+@keyframes halloween-mimolette-mgsp{to{transform:rotate(360deg)}}
+.halloween-mimolette-mm-face{position:absolute;left:0;top:0;z-index:5;pointer-events:none}
+.halloween-mimolette-mm-fl{animation:halloween-mimolette-mmfl 2.2s ease-in-out infinite}.halloween-mimolette-mm-fl2{animation:halloween-mimolette-mmfl 2.2s ease-in-out infinite;transform-origin:250px 640px}
+@keyframes halloween-mimolette-mmfl{0%,100%{opacity:.8}15%{opacity:1}25%{opacity:.6}40%{opacity:1}55%{opacity:.7}75%{opacity:1}}
+.halloween-mimolette-mm-face{animation:halloween-mimolette-mmgrin 8s linear infinite;transform-origin:250px 640px}
+@keyframes halloween-mimolette-mmgrin{0%,86%,100%{transform:scale(1);filter:none}88%{transform:scale(1.06,1.14);filter:brightness(1.6) drop-shadow(0 0 20px #ff9000)}91%{transform:scale(1.02);filter:brightness(1.2)}93%{transform:scale(1)}}
+.atlas-card[data-interacting="true"] .halloween-mimolette-mm-sp .halloween-mimolette-mm-face{animation-duration:2.5s}
+.halloween-mimolette-mm-gl2{position:absolute;left:150px;top:300px;width:400px;height:380px;z-index:4;mix-blend-mode:screen;pointer-events:none;background:radial-gradient(ellipse at 45% 55%,rgba(255,150,30,.5),rgba(255,100,0,0) 65%);animation:halloween-mimolette-mmfl 3s ease-in-out infinite}
+.halloween-mimolette-mm-sl{position:absolute;left:150px;top:110px;width:320px;height:330px;z-index:4;mix-blend-mode:screen;pointer-events:none;background:radial-gradient(ellipse at 50% 50%,rgba(255,170,40,.55),rgba(255,100,0,0) 65%);animation:halloween-mimolette-mmfl 2.6s ease-in-out infinite}
+.halloween-mimolette-mm-pk{display:block;filter:drop-shadow(0 0 10px rgba(255,120,0,.9))}
+.halloween-mimolette-mm-fp{position:absolute;z-index:6;pointer-events:none;animation:halloween-mimolette-mmfp var(--d) ease-in-out infinite alternate}
+@keyframes halloween-mimolette-mmfp{from{transform:translate(-8px,-10px) rotate(-6deg)}to{transform:translate(10px,12px) rotate(7deg)}}
+.atlas-card[data-interacting="true"] .halloween-mimolette-mm-sp .halloween-mimolette-mm-fp{animation-duration:1.6s}
+.halloween-mimolette-mm-bt{position:absolute;z-index:8;left:-60px;pointer-events:none;animation:halloween-mimolette-mmbt var(--d) linear infinite}
+@keyframes halloween-mimolette-mmbt{0%{transform:translate(0,0)}30%{transform:translate(190px,-30px)}60%{transform:translate(380px,22px)}100%{transform:translate(740px,-14px)}}
+.halloween-mimolette-mm-bw{animation:halloween-mimolette-mmbf .28s ease-in-out infinite alternate}
+@keyframes halloween-mimolette-mmbf{from{transform:scaleY(1)}to{transform:scaleY(.3)}}
+.halloween-mimolette-mm-spw{position:absolute;top:-300px;z-index:8;pointer-events:none;width:20px;animation:halloween-mimolette-mmsp var(--d) ease-in-out infinite alternate}
+.halloween-mimolette-mm-th{position:absolute;left:9.5px;bottom:10px;width:1px;height:300px;background:rgba(220,210,235,.6)}
+.halloween-mimolette-mm-spb{position:absolute;left:0;top:300px}
+@keyframes halloween-mimolette-mmsp{from{transform:translateY(calc(300px + 20px))}to{transform:translateY(calc(300px + var(--L)))}}
+.halloween-mimolette-mm-em{position:absolute;z-index:7;border-radius:50%;pointer-events:none;background:#ffc060;box-shadow:0 0 6px 2px rgba(255,120,20,.9);opacity:0;animation:halloween-mimolette-mmem var(--d) ease-out infinite}
+@keyframes halloween-mimolette-mmem{0%{opacity:0;transform:translate(0,0)}12%{opacity:1}100%{opacity:0;transform:translate(var(--dx),-340px)}}
+.atlas-card[data-interacting="true"] .halloween-mimolette-mm-sp .halloween-mimolette-mm-em{animation-duration:2.2s}
+.halloween-mimolette-mm-fg{position:absolute;z-index:6;pointer-events:none;left:-300px;width:1200px;height:240px;filter:blur(18px);mix-blend-mode:screen;background:radial-gradient(ellipse at 30% 55%,rgba(255,130,30,.35),rgba(255,130,30,0) 62%),radial-gradient(ellipse at 75% 45%,rgba(168,107,255,.28),rgba(168,107,255,0) 62%);animation:halloween-mimolette-mmfg 14s ease-in-out infinite alternate}
+@keyframes halloween-mimolette-mmfg{from{transform:translateX(-110px)}to{transform:translateX(120px)}}
+.halloween-mimolette-mm-fg.halloween-mimolette-a{top:700px}.halloween-mimolette-mm-fg.halloween-mimolette-b{top:800px;opacity:.9;animation-duration:9s}.halloween-mimolette-mm-fg.halloween-mimolette-c{top:420px;opacity:.5;animation-duration:20s;animation-direction:alternate-reverse}
+.halloween-mimolette-mm-vg{z-index:10;box-shadow:inset 0 0 80px 14px rgba(10,0,16,.8)}
+.halloween-mimolette-mm-gr{z-index:8;mix-blend-mode:overlay;opacity:.3;background:repeating-linear-gradient(0deg,rgba(255,255,255,.04) 0 1px,rgba(0,0,0,.08) 1px 3px);animation:halloween-mimolette-mmgr .4s steps(2) infinite}
+@keyframes halloween-mimolette-mmgr{to{transform:translateY(3px)}}
+.halloween-mimolette-mm-wh{position:absolute;z-index:12;pointer-events:none;left:284px;top:12px;width:62px;height:62px;animation:halloween-mimolette-mgsp 32s linear infinite;filter:drop-shadow(0 0 5px rgba(255,150,30,.7))}
+.halloween-mimolette-mm-mp{position:absolute;z-index:13;pointer-events:none;left:296px;top:25px;width:38px}
+.atlas-card[data-interacting="true"] .halloween-mimolette-mm-sp .halloween-mimolette-mm-wh{animation-duration:5s}
+.halloween-mimolette-mm-pl{position:absolute;left:159px;top:787px;width:312px;height:84px;z-index:11;background:linear-gradient(180deg,#22102c,#07030a);clip-path:polygon(14px 0,298px 0,312px 14px,312px 70px,298px 84px,14px 84px,0 70px,0 14px)}
+.halloween-mimolette-mm-pb{position:absolute;left:159px;top:787px;z-index:12;pointer-events:none;filter:drop-shadow(0 0 5px rgba(255,120,0,.75))}
+.halloween-mimolette-mm-lm{position:absolute;z-index:14;pointer-events:none;top:792px}
+.halloween-mimolette-mm-bg{position:absolute;z-index:13;pointer-events:none;width:90px;height:90px;border-radius:50%;mix-blend-mode:screen;background:radial-gradient(circle,rgba(255,120,0,.45),rgba(255,120,0,0) 70%);animation:halloween-mimolette-mmnz 1.3s ease-in-out infinite}
+.halloween-mimolette-mm-nm{position:absolute;left:159px;top:787px;width:312px;height:84px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;z-index:15}
+.halloween-mimolette-mm-gt{font-weight:800;font-size:28px;letter-spacing:4px;line-height:1.1;margin-left:4px;margin-top:6px;text-transform:uppercase;white-space:nowrap;background:linear-gradient(180deg,#fff3c0 0,#ffc23a 40%,#ff7a00 62%,#ffd080 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#ffc23a;filter:drop-shadow(0 1px 1px #000) drop-shadow(0 0 7px rgba(255,110,0,.85));animation:halloween-mimolette-mmgt 3.5s ease-in-out infinite}
+@keyframes halloween-mimolette-mmgt{0%,100%{filter:drop-shadow(0 1px 1px #000) drop-shadow(0 0 5px rgba(255,110,0,.6))}50%{filter:drop-shadow(0 1px 1px #000) drop-shadow(0 0 12px rgba(255,150,20,1))}}
+.halloween-mimolette-mm-he{position:absolute;left:0;right:0;top:945px;z-index:17;pointer-events:none;text-align:center;line-height:1}
+.halloween-mimolette-mm-he span{display:inline-block;padding:2px 9px;background:#08040c;font-weight:700;font-size:8px;letter-spacing:3.4px;text-transform:uppercase;color:#e6c8ff;text-shadow:0 0 3px #d8a8ff,0 0 8px #a86bff,0 0 14px #a86bff;animation:halloween-mimolette-mmhe 3.2s linear infinite}
+@keyframes halloween-mimolette-mmhe{0%,100%{opacity:.95}6%{opacity:.6}8%{opacity:1}50%{opacity:.85}52%{opacity:.5}54%{opacity:1}}
+.halloween-mimolette-mm-ho{z-index:40;opacity:0;mix-blend-mode:color-dodge;background:linear-gradient(115deg,rgba(255,120,0,0) 0,rgba(255,120,0,.3) 10%,rgba(255,230,160,.3) 18%,rgba(168,107,255,.28) 28%,rgba(255,120,0,0) 40%,rgba(255,120,0,0) 58%,rgba(255,230,160,.26) 68%,rgba(255,120,0,.26) 76%,rgba(255,120,0,0) 88%);background-size:240% 240%;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.halloween-mimolette-mm-gl{z-index:41;opacity:0;mix-blend-mode:overlay;background:radial-gradient(circle at center,rgba(255,240,210,.8) 0,rgba(255,240,210,.28) 16%,rgba(255,255,255,0) 40%);background-size:220% 220%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.halloween-mimolette-mm-g2{z-index:42;opacity:0;mix-blend-mode:screen;background:radial-gradient(circle at center,rgba(255,190,100,.8) 0,rgba(255,120,0,.3) 13%,rgba(255,255,255,0) 32%);background-size:170% 170%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.atlas-card[data-interacting="true"] .halloween-mimolette-mm-sp .halloween-mimolette-mm-ho{opacity:.3}.atlas-card[data-interacting="true"] .halloween-mimolette-mm-sp .halloween-mimolette-mm-gl{opacity:.35}.atlas-card[data-interacting="true"] .halloween-mimolette-mm-sp .halloween-mimolette-mm-g2{opacity:.3}
+
+.atlas-card[data-interacting="true"] .halloween-mimolette-mm-gl{opacity:.35;background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}
+.atlas-card[data-interacting="true"] .halloween-mimolette-mm-ho{opacity:.35;background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}
+.atlas-card[data-interacting="true"] .halloween-mimolette-mm-g2{opacity:.35;background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}
+
+
+.halloween-voldemort-vd-mk{display:block;background:url(/designs/halloween-voldemort/embedded-0928fa4140c038d3.png) center/contain no-repeat;pointer-events:none}
+.halloween-voldemort-vd-cm{position:absolute;z-index:11;width:34px;height:34px;border-radius:50%;background:#030805;border:1.2px solid rgba(200,214,207,.75);display:flex;align-items:center;justify-content:center;pointer-events:none}
+.halloween-voldemort-vd-cm .halloween-voldemort-vd-mk{width:11px;height:26px;filter:drop-shadow(0 0 4px rgba(93,255,122,.9));animation:halloween-voldemort-vdce 2.4s ease-in-out infinite}
+.halloween-voldemort-vd-dm .halloween-voldemort-vd-mk{filter:drop-shadow(0 0 10px rgba(93,255,122,.95)) drop-shadow(0 0 22px rgba(93,255,122,.6))}
+.halloween-voldemort-vd-ck .halloween-voldemort-vd-mk{filter:drop-shadow(0 0 4px rgba(93,255,122,.9))}
+.halloween-voldemort-vd-sk{position:absolute;z-index:14;top:770px;width:40px;height:118px;background:url(/designs/halloween-voldemort/embedded-04fa9d1ad549755d.png) center/contain no-repeat;pointer-events:none;filter:drop-shadow(0 0 6px rgba(93,255,122,.85));animation:halloween-voldemort-vdsk2 3.6s ease-in-out infinite}
+.halloween-voldemort-vd-sk.halloween-voldemort-r{transform:scaleX(-1);animation-name:halloween-voldemort-vdsk3}
+@keyframes halloween-voldemort-vdsk2{0%,100%{transform:translateY(0) skewY(0deg);filter:drop-shadow(0 0 5px rgba(93,255,122,.6))}50%{transform:translateY(-3px) skewY(3deg);filter:drop-shadow(0 0 10px rgba(93,255,122,1))}}
+@keyframes halloween-voldemort-vdsk3{0%,100%{transform:scaleX(-1) translateY(0) skewY(0deg);filter:drop-shadow(0 0 5px rgba(93,255,122,.6))}50%{transform:scaleX(-1) translateY(-3px) skewY(3deg);filter:drop-shadow(0 0 10px rgba(93,255,122,1))}}
+
+.halloween-voldemort-vd-sp{position:relative;width:630px;height:972px;border-radius:26px;overflow:hidden;background:#020504;font-family:var(--font-atlas)}
+.halloween-voldemort-vd-zn{position:absolute;width:25%;height:16.6667%;z-index:60}
+.halloween-voldemort-vd-ly{position:absolute;inset:0;pointer-events:none}
+.halloween-voldemort-vd-ph{position:absolute;left:38px;top:38px;width:554px;height:896px;overflow:hidden;background:#020604;z-index:3;border-radius:6px}
+.halloween-voldemort-vd-im{position:absolute;left:-8px;top:-8px;width:570px;height:912px;animation:halloween-voldemort-vddr 10s ease-in-out infinite alternate}
+@keyframes halloween-voldemort-vddr{from{transform:translate(-4px,2px) scale(1.01)}to{transform:translate(5px,-4px) scale(1.035)}}
+.halloween-voldemort-vd-ghm{position:absolute;left:-8px;top:-8px;width:570px;height:912px;mix-blend-mode:screen;opacity:.0;filter:blur(2px) hue-rotate(40deg) saturate(2) brightness(1.4);animation:halloween-voldemort-vdgh 6s ease-in-out infinite}
+@keyframes halloween-voldemort-vdgh{0%,100%{opacity:0;transform:translate(0,0) scale(1.02)}50%{opacity:.3;transform:translate(20px,-18px) scale(1.06)}}
+.halloween-voldemort-vd-nz{animation:halloween-voldemort-vdnz 3.6s ease-in-out infinite}
+@keyframes halloween-voldemort-vdnz{0%,100%{opacity:.7}20%{opacity:1}30%{opacity:.4}34%{opacity:1}70%{opacity:.85}}
+.atlas-card[data-interacting="true"] .halloween-voldemort-vd-sp .halloween-voldemort-vd-nz{animation-duration:1s}
+.halloween-voldemort-vd-ce{animation:halloween-voldemort-vdce 2.4s ease-in-out infinite}
+@keyframes halloween-voldemort-vdce{0%,100%{opacity:.5}50%{opacity:1}}
+.halloween-voldemort-vd-tg{animation:halloween-voldemort-vdtg .8s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:0 50%}
+@keyframes halloween-voldemort-vdtg{from{transform:scaleX(.4)}to{transform:scaleX(1.3)}}
+.halloween-voldemort-vd-sna,.halloween-voldemort-vd-snb{animation-name:halloween-voldemort-vdsn;animation-timing-function:linear;animation-iteration-count:infinite;stroke-dashoffset:190}
+@keyframes halloween-voldemort-vdsn{from{stroke-dashoffset:190}to{stroke-dashoffset:-1010}}
+.halloween-voldemort-vd-hd{position:absolute;left:0;top:0;z-index:13;pointer-events:none;offset-rotate:auto;animation-name:halloween-voldemort-vdhd;animation-timing-function:linear;animation-iteration-count:infinite;margin:-7px 0 0 -11px;filter:drop-shadow(0 0 5px rgba(93,255,122,.9))}
+@keyframes halloween-voldemort-vdhd{from{offset-distance:0%}to{offset-distance:119%}}
+.halloween-voldemort-vd-eye{position:absolute;z-index:6;pointer-events:none;width:44px;height:30px;margin:-15px 0 0 -22px;border-radius:50%;mix-blend-mode:screen;background:radial-gradient(ellipse,#fff 0,#ff8a8a 14%,rgba(255,30,30,.85) 36%,rgba(255,0,0,0) 70%);animation:halloween-voldemort-vdey 3.8s ease-in-out infinite}
+@keyframes halloween-voldemort-vdey{0%,100%{opacity:.55;transform:scale(.8)}18%{opacity:1;transform:scale(1.3)}26%{opacity:.15}30%{opacity:1}70%{opacity:.9}}
+.atlas-card[data-interacting="true"] .halloween-voldemort-vd-sp .halloween-voldemort-vd-eye{animation-duration:1s}
+.halloween-voldemort-vd-bms{position:absolute;left:250px;top:330px;width:0;height:0;z-index:2;animation:halloween-voldemort-vdbs 70s linear infinite}
+@keyframes halloween-voldemort-vdbs{to{transform:rotate(360deg)}}
+.halloween-voldemort-vd-bm{position:absolute;left:-14px;top:-640px;width:28px;height:640px;transform-origin:50% 100%;transform:rotate(var(--r));background:linear-gradient(0deg,rgba(93,255,122,.55),rgba(93,255,122,0));clip-path:polygon(40% 100%,60% 100%,100% 0,0 0);opacity:calc(var(--o)*.35);mix-blend-mode:screen}
+.halloween-voldemort-vd-bm{width:90px;left:-45px;clip-path:polygon(42% 100%,58% 100%,100% 0,0 0)}
+.halloween-voldemort-vd-dm{position:absolute;z-index:7;left:30px;top:52px;pointer-events:none;animation:halloween-voldemort-vddm 4.5s ease-in-out infinite;transform-origin:50% 50%}
+@keyframes halloween-voldemort-vddm{0%,100%{opacity:.55;transform:scale(.92) translateY(0)}50%{opacity:1;transform:scale(1.04) translateY(-6px)}}
+.halloween-voldemort-vd-dm2{left:auto;right:30px;top:470px;animation-delay:-2s}
+.halloween-voldemort-vd-bl{opacity:0;animation:halloween-voldemort-vdbl 7s linear infinite}
+@keyframes halloween-voldemort-vdbl{0%,100%{opacity:0}3%{opacity:1}4%{opacity:.2}5%{opacity:1}7%{opacity:0}}
+.halloween-voldemort-vd-fl{z-index:9;mix-blend-mode:screen;background:radial-gradient(ellipse at 70% 50%,rgba(150,255,170,.9),rgba(60,200,90,.35) 50%,rgba(0,0,0,0) 85%);opacity:0;animation:halloween-voldemort-vdfl 7s linear infinite}
+@keyframes halloween-voldemort-vdfl{0%,100%{opacity:0}3%{opacity:.7}4%{opacity:.1}5%{opacity:.5}8%{opacity:0}}
+.halloween-voldemort-vd-fg{position:absolute;z-index:6;pointer-events:none;left:-300px;top:650px;width:1200px;height:260px;filter:blur(18px);mix-blend-mode:screen;background:radial-gradient(ellipse at 30% 55%,rgba(70,200,100,.3),rgba(70,200,100,0) 62%),radial-gradient(ellipse at 75% 45%,rgba(110,170,130,.22),rgba(110,170,130,0) 62%);animation:halloween-voldemort-vdfg 17s ease-in-out infinite alternate}
+.halloween-voldemort-vd-fg.halloween-voldemort-b{top:380px;opacity:.5;z-index:2;animation-duration:27s;animation-direction:alternate-reverse}
+.halloween-voldemort-vd-fg.halloween-voldemort-c{top:770px;opacity:.9;animation-duration:13s}
+@keyframes halloween-voldemort-vdfg{from{transform:translateX(-100px)}to{transform:translateX(110px)}}
+.halloween-voldemort-vd-as{position:absolute;z-index:7;border-radius:50%;pointer-events:none;background:#1a1f1c;box-shadow:0 0 3px rgba(200,230,210,.5);opacity:0;animation:halloween-voldemort-vdas var(--d) ease-out infinite}
+@keyframes halloween-voldemort-vdas{0%{opacity:0;transform:translate(0,0)}15%{opacity:.9}100%{opacity:0;transform:translate(var(--dx),var(--dy)) rotate(200deg)}}
+.halloween-voldemort-vd-so{position:absolute;z-index:7;width:30px;height:30px;border-radius:50%;pointer-events:none;filter:blur(5px);background:radial-gradient(circle,rgba(190,255,200,.7),rgba(93,255,122,.25) 50%,rgba(93,255,122,0) 75%);opacity:0;animation:halloween-voldemort-vdso var(--d) ease-in-out infinite}
+@keyframes halloween-voldemort-vdso{0%{opacity:0;transform:translate(0,0) scale(.6)}30%{opacity:.8}100%{opacity:0;transform:translate(var(--dx),-380px) scale(1.8)}}
+.halloween-voldemort-vd-em{position:absolute;z-index:8;bottom:-6px;width:4px;height:4px;border-radius:50%;pointer-events:none;background:#9bffae;box-shadow:0 0 7px 2px rgba(93,255,122,.9);opacity:0;animation:halloween-voldemort-vdem var(--d) ease-out infinite}
+@keyframes halloween-voldemort-vdem{0%{opacity:0;transform:translate(0,0)}12%{opacity:1}100%{opacity:0;transform:translate(var(--dx),-520px)}}
+.halloween-voldemort-vd-skf{position:absolute;left:225px;top:70px;filter:brightness(1.8) drop-shadow(0 0 14px #5dff7a);z-index:7;pointer-events:none;opacity:0;mix-blend-mode:screen;animation:halloween-voldemort-vdsk 8s steps(1) infinite}
+@keyframes halloween-voldemort-vdsk{0%,61%{opacity:0}61.3%{opacity:.5}61.8%{opacity:0}62.4%{opacity:.3}62.8%,100%{opacity:0}}
+.atlas-card[data-interacting="true"] .halloween-voldemort-vd-sp .halloween-voldemort-vd-skf{animation-duration:2.5s}
+.halloween-voldemort-vd-ls{z-index:9;mix-blend-mode:multiply;background:radial-gradient(ellipse at 45% 42%,rgba(0,0,0,0) 20%,rgba(0,0,0,.6) 75%);}
+.halloween-voldemort-vd-hb{z-index:10;box-shadow:inset 0 0 90px 24px rgba(120,0,0,.0);animation:halloween-voldemort-vdhb 2.6s ease-in-out infinite}
+@keyframes halloween-voldemort-vdhb{0%,100%{box-shadow:inset 0 0 90px 24px rgba(110,0,0,0)}12%{box-shadow:inset 0 0 90px 24px rgba(110,0,0,.5)}24%{box-shadow:inset 0 0 90px 24px rgba(110,0,0,0)}34%{box-shadow:inset 0 0 90px 24px rgba(110,0,0,.35)}48%{box-shadow:inset 0 0 90px 24px rgba(110,0,0,0)}}
+.halloween-voldemort-vd-vg{z-index:10;box-shadow:inset 0 0 80px 14px rgba(0,4,2,.9)}
+.halloween-voldemort-vd-gr{z-index:8;mix-blend-mode:overlay;opacity:.35;background:repeating-linear-gradient(0deg,rgba(255,255,255,.04) 0 1px,rgba(0,0,0,.08) 1px 3px);animation:halloween-voldemort-vdgr .4s steps(2) infinite}
+@keyframes halloween-voldemort-vdgr{to{transform:translateY(3px)}}
+.halloween-voldemort-vd-wh{position:absolute;z-index:12;pointer-events:none;left:284px;top:12px;width:62px;height:62px;animation:halloween-voldemort-vdsp 28s linear infinite reverse;filter:drop-shadow(0 0 6px rgba(93,255,122,.7))}
+.halloween-voldemort-vd-ck{position:absolute;z-index:13;pointer-events:none;left:284px;top:12px;width:62px;height:62px;filter:drop-shadow(0 0 6px rgba(93,255,122,.8));animation:halloween-voldemort-vdpu 3s ease-in-out infinite}
+@keyframes halloween-voldemort-vdpu{0%,100%{transform:scale(1)}50%{transform:scale(1.07)}}
+.atlas-card[data-interacting="true"] .halloween-voldemort-vd-sp .halloween-voldemort-vd-wh{animation-duration:5s}
+@keyframes halloween-voldemort-vdsp{to{transform:rotate(360deg)}}
+.halloween-voldemort-vd-pl{position:absolute;left:159px;top:787px;width:312px;height:84px;z-index:11;background:linear-gradient(180deg,#0a1710,#020504);clip-path:polygon(14px 0,298px 0,312px 14px,312px 70px,298px 84px,14px 84px,0 70px,0 14px)}
+.halloween-voldemort-vd-pb{position:absolute;left:159px;top:787px;z-index:12;pointer-events:none;filter:drop-shadow(0 0 6px rgba(93,255,122,.7))}
+.halloween-voldemort-vd-nm{position:absolute;left:159px;top:787px;width:312px;height:84px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;z-index:15}
+.halloween-voldemort-vd-gt{font-weight:800;font-size:28px;letter-spacing:4px;line-height:1.1;margin-left:4px;margin-top:6px;text-transform:uppercase;white-space:nowrap;background:linear-gradient(180deg,#ffffff 0,#cfe3d6 45%,#7fa28b 62%,#e3f3e8 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#cfe3d6;filter:drop-shadow(0 1px 1px #000) drop-shadow(0 0 8px rgba(93,255,122,.8));animation:halloween-voldemort-vdgt 5s linear infinite}
+@keyframes halloween-voldemort-vdgt{0%,100%{opacity:1}60%{opacity:1}61%{opacity:.55}62%{opacity:1}63%{opacity:.7}64%{opacity:1}}
+.halloween-voldemort-vd-he{position:absolute;left:0;right:0;top:945px;z-index:17;pointer-events:none;text-align:center;line-height:1}
+.halloween-voldemort-vd-he span{display:inline-block;padding:2px 9px;background:#020604;font-weight:700;font-size:8px;letter-spacing:3.4px;text-transform:uppercase;color:#e4ffe9;text-shadow:0 0 3px #e4ffe9,0 0 8px #5dff7a,0 0 14px #5dff7a;animation:halloween-voldemort-vdhe 3.2s linear infinite}
+@keyframes halloween-voldemort-vdhe{0%,100%{opacity:.95}6%{opacity:.6}8%{opacity:1}50%{opacity:.85}52%{opacity:.5}54%{opacity:1}}
+.halloween-voldemort-vd-ho{z-index:40;opacity:0;mix-blend-mode:color-dodge;background:linear-gradient(115deg,rgba(93,255,122,0) 0,rgba(93,255,122,.3) 10%,rgba(220,255,230,.3) 18%,rgba(255,60,60,.24) 28%,rgba(93,255,122,0) 40%,rgba(93,255,122,0) 58%,rgba(220,255,230,.26) 68%,rgba(93,255,122,.26) 76%,rgba(93,255,122,0) 88%);background-size:240% 240%;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.halloween-voldemort-vd-gl{z-index:41;opacity:0;mix-blend-mode:overlay;background:radial-gradient(circle at center,rgba(225,255,235,.8) 0,rgba(225,255,235,.28) 16%,rgba(255,255,255,0) 40%);background-size:220% 220%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.halloween-voldemort-vd-g2{z-index:42;opacity:0;mix-blend-mode:screen;background:radial-gradient(circle at center,rgba(120,255,150,.8) 0,rgba(93,255,122,.3) 13%,rgba(255,255,255,0) 32%);background-size:170% 170%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.atlas-card[data-interacting="true"] .halloween-voldemort-vd-sp .halloween-voldemort-vd-ho{opacity:.3}.atlas-card[data-interacting="true"] .halloween-voldemort-vd-sp .halloween-voldemort-vd-gl{opacity:.35}.atlas-card[data-interacting="true"] .halloween-voldemort-vd-sp .halloween-voldemort-vd-g2{opacity:.3}
+
+.atlas-card[data-interacting="true"] .halloween-voldemort-vd-gl{opacity:.35;background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}
+.atlas-card[data-interacting="true"] .halloween-voldemort-vd-ho{opacity:.35;background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}
+.atlas-card[data-interacting="true"] .halloween-voldemort-vd-g2{opacity:.35;background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}

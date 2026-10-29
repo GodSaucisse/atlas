@@ -1,0 +1,357 @@
+{
+  "flags": [
+    {
+      "transform": "translate(7.3,144.7) rotate(-21.8)",
+      "color": "#1c6fd6",
+      "delay": -0.72
+    },
+    {
+      "transform": "translate(33.9,134.0) rotate(-22.0)",
+      "color": "#f7f7f7",
+      "delay": -0.9
+    },
+    {
+      "transform": "translate(60.6,123.2) rotate(-22.2)",
+      "color": "#e0302a",
+      "delay": -1.48
+    },
+    {
+      "transform": "translate(87.3,112.3) rotate(-22.4)",
+      "color": "#1f9d4a",
+      "delay": -0.75
+    },
+    {
+      "transform": "translate(114.1,101.2) rotate(-22.6)",
+      "color": "#f4c20d",
+      "delay": -0.81
+    },
+    {
+      "transform": "translate(141.0,90.0) rotate(-22.7)",
+      "color": "#1c6fd6",
+      "delay": -0.94
+    },
+    {
+      "transform": "translate(167.9,78.7) rotate(-22.9)",
+      "color": "#f7f7f7",
+      "delay": -0.3
+    },
+    {
+      "transform": "translate(195.0,67.2) rotate(-23.1)",
+      "color": "#e0302a",
+      "delay": -0.82
+    },
+    {
+      "transform": "translate(222.0,55.6) rotate(-23.3)",
+      "color": "#1f9d4a",
+      "delay": -1.01
+    },
+    {
+      "transform": "translate(249.2,43.9) rotate(-23.5)",
+      "color": "#f4c20d",
+      "delay": -1.27
+    },
+    {
+      "transform": "translate(276.4,32.0) rotate(-23.7)",
+      "color": "#1c6fd6",
+      "delay": -0.15
+    },
+    {
+      "transform": "translate(622.7,144.7) rotate(-158.2)",
+      "color": "#e0302a",
+      "delay": -0.49
+    },
+    {
+      "transform": "translate(596.1,134.0) rotate(-158.0)",
+      "color": "#1f9d4a",
+      "delay": -0.15
+    },
+    {
+      "transform": "translate(569.4,123.2) rotate(-157.8)",
+      "color": "#f4c20d",
+      "delay": -1.3
+    },
+    {
+      "transform": "translate(542.7,112.3) rotate(-157.6)",
+      "color": "#1c6fd6",
+      "delay": -1.11
+    },
+    {
+      "transform": "translate(515.9,101.2) rotate(-157.4)",
+      "color": "#f7f7f7",
+      "delay": -0.07
+    },
+    {
+      "transform": "translate(489.0,90.0) rotate(-157.3)",
+      "color": "#e0302a",
+      "delay": -1.57
+    },
+    {
+      "transform": "translate(462.1,78.7) rotate(-157.1)",
+      "color": "#1f9d4a",
+      "delay": -1.54
+    },
+    {
+      "transform": "translate(435.0,67.2) rotate(-156.9)",
+      "color": "#f4c20d",
+      "delay": -1.05
+    },
+    {
+      "transform": "translate(408.0,55.6) rotate(-156.7)",
+      "color": "#1c6fd6",
+      "delay": -0.98
+    },
+    {
+      "transform": "translate(380.8,43.9) rotate(-156.5)",
+      "color": "#f7f7f7",
+      "delay": -0.25
+    },
+    {
+      "transform": "translate(353.6,32.0) rotate(-156.3)",
+      "color": "#e0302a",
+      "delay": -0.02
+    },
+    {
+      "transform": "translate(54.3,696.3) rotate(20.1)",
+      "color": "#f7f7f7",
+      "delay": -0.85
+    },
+    {
+      "transform": "translate(86.9,707.5) rotate(17.4)",
+      "color": "#e0302a",
+      "delay": -0.1
+    },
+    {
+      "transform": "translate(119.5,717.0) rotate(14.7)",
+      "color": "#1f9d4a",
+      "delay": -0.3
+    },
+    {
+      "transform": "translate(152.1,724.9) rotate(11.9)",
+      "color": "#f4c20d",
+      "delay": -0.39
+    },
+    {
+      "transform": "translate(184.6,731.0) rotate(9.0)",
+      "color": "#1c6fd6",
+      "delay": -0.05
+    },
+    {
+      "transform": "translate(217.2,735.4) rotate(6.0)",
+      "color": "#f7f7f7",
+      "delay": -0.74
+    },
+    {
+      "transform": "translate(249.8,738.2) rotate(3.0)",
+      "color": "#e0302a",
+      "delay": -0.7
+    },
+    {
+      "transform": "translate(282.4,739.2) rotate(0.0)",
+      "color": "#1f9d4a",
+      "delay": -1.35
+    },
+    {
+      "transform": "translate(315.0,738.5) rotate(-2.9)",
+      "color": "#f4c20d",
+      "delay": -0.83
+    },
+    {
+      "transform": "translate(347.6,736.1) rotate(-5.9)",
+      "color": "#1c6fd6",
+      "delay": -1.02
+    },
+    {
+      "transform": "translate(380.2,732.0) rotate(-8.9)",
+      "color": "#f7f7f7",
+      "delay": -0.8
+    },
+    {
+      "transform": "translate(412.8,726.3) rotate(-11.8)",
+      "color": "#e0302a",
+      "delay": -1.06
+    },
+    {
+      "transform": "translate(445.4,718.8) rotate(-14.6)",
+      "color": "#1f9d4a",
+      "delay": -0.73
+    },
+    {
+      "transform": "translate(477.9,709.6) rotate(-17.4)",
+      "color": "#f4c20d",
+      "delay": -0.45
+    },
+    {
+      "transform": "translate(510.5,698.7) rotate(-20.0)",
+      "color": "#1c6fd6",
+      "delay": -1.6
+    },
+    {
+      "transform": "translate(543.1,686.1) rotate(-22.6)",
+      "color": "#f7f7f7",
+      "delay": -1.59
+    },
+    {
+      "transform": "translate(575.7,671.8) rotate(-25.1)",
+      "color": "#e0302a",
+      "delay": -1.34
+    }
+  ],
+  "snow": [
+    [
+      270.0,
+      5.0,
+      14.8,
+      -8.2
+    ],
+    [
+      40.0,
+      3.0,
+      13.1,
+      -1.7
+    ],
+    [
+      120.0,
+      5.0,
+      11.5,
+      -15.3
+    ],
+    [
+      10.0,
+      4.0,
+      9.9,
+      -14.6
+    ],
+    [
+      491.0,
+      6.0,
+      16.8,
+      -6.4
+    ],
+    [
+      84.0,
+      4.0,
+      15.0,
+      -4.3
+    ],
+    [
+      99.0,
+      5.0,
+      11.0,
+      -15.4
+    ],
+    [
+      130.0,
+      4.0,
+      10.2,
+      -1.6
+    ],
+    [
+      71.0,
+      6.0,
+      15.2,
+      -2.8
+    ],
+    [
+      582.0,
+      4.0,
+      12.0,
+      -3.1
+    ],
+    [
+      144.0,
+      6.0,
+      13.8,
+      -1.9
+    ],
+    [
+      440.0,
+      4.0,
+      8.0,
+      -13.8
+    ],
+    [
+      321.0,
+      3.0,
+      9.9,
+      -6.3
+    ],
+    [
+      600.0,
+      3.0,
+      8.4,
+      -2.3
+    ],
+    [
+      462.0,
+      5.0,
+      8.1,
+      -9.8
+    ],
+    [
+      313.0,
+      6.0,
+      8.7,
+      -1.4
+    ],
+    [
+      606.0,
+      4.0,
+      8.1,
+      -5.9
+    ],
+    [
+      474.0,
+      4.0,
+      16.6,
+      -7.7
+    ],
+    [
+      598.0,
+      4.0,
+      15.8,
+      -2.9
+    ],
+    [
+      167.0,
+      5.0,
+      16.2,
+      -13.1
+    ],
+    [
+      265.0,
+      4.0,
+      9.4,
+      -10.1
+    ],
+    [
+      577.0,
+      4.0,
+      14.2,
+      -6.2
+    ],
+    [
+      504.0,
+      3.0,
+      11.8,
+      -1.7
+    ],
+    [
+      49.0,
+      5.0,
+      10.1,
+      -11.3
+    ],
+    [
+      273.0,
+      6.0,
+      15.4,
+      -9.5
+    ],
+    [
+      310.0,
+      4.0,
+      16.4,
+      -15.6
+    ]
+  ]
+}

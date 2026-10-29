@@ -1,0 +1,106 @@
+
+
+.atlas-card-face.marie-card{position:relative;width:100%;height:100%;container-type:inline-size;border-radius:inherit;overflow:hidden;background:#050c2a url(/designs/marie/pattern.jpg) center/100% 100% no-repeat;font-family:var(--font-atlas)}
+
+.marie-ly{position:absolute;inset:0;pointer-events:none}
+.marie-bd{position:absolute;inset:0;pointer-events:none;padding:5.714286cqw;box-sizing:border-box;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0)}
+.marie-sw{z-index:5;mix-blend-mode:screen;background:linear-gradient(115deg,rgba(255,255,255,0) 40%,rgba(215,232,255,.95) 50%,rgba(255,255,255,0) 60%);background-size:300% 100%;animation:marie-sweep 5.5s linear infinite}
+.marie-sv{z-index:5;mix-blend-mode:screen;background:linear-gradient(180deg,rgba(255,255,255,0) 30%,rgba(255,196,96,.75) 50%,rgba(255,255,255,0) 70%);background-size:100% 300%;animation:marie-sweepv 4.2s linear infinite}
+.marie-gw{z-index:4;background:radial-gradient(ellipse at 50% 105%,rgba(255,190,90,.38),rgba(255,190,90,0) 55%);animation:marie-pl 4s ease-in-out infinite}
+.marie-gf{z-index:8;mix-blend-mode:screen;background:linear-gradient(105deg,rgba(255,255,255,0) 44%,rgba(255,244,220,.4) 50%,rgba(255,255,255,0) 56%);background-size:320% 100%;animation:marie-sweep 7s linear infinite}
+.marie-orb{position:absolute;border-radius:50%;z-index:12;pointer-events:none;background:radial-gradient(circle at 32% 28%,#fff 0 12%,#cfe0ff 30%,#3e6ef0 70%,#0a1c70 100%);box-shadow:0 0 1.269841cqw 0.317460cqw rgba(120,170,255,.85);animation:marie-pu 3s ease-in-out infinite}
+.marie-rt{position:absolute;z-index:11;pointer-events:none;animation:marie-spin 14s linear infinite}
+.atlas-card[data-interacting="true"] .marie-card .marie-rt{animation-duration:3s}
+.marie-ho{z-index:40;opacity:0;mix-blend-mode:color-dodge;background:linear-gradient(115deg,rgba(70,160,255,0) 0,rgba(70,160,255,.3) 8%,rgba(255,215,110,.3) 15%,rgba(255,110,190,.28) 22%,rgba(150,130,255,.3) 29%,rgba(255,220,120,.3) 36%,rgba(70,160,255,0) 44%,rgba(70,160,255,0) 56%,rgba(255,215,110,.28) 64%,rgba(150,130,255,.28) 72%,rgba(70,160,255,0) 82%);background-size:240% 240%;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.marie-gl{z-index:41;opacity:0;mix-blend-mode:overlay;background:radial-gradient(circle at center,rgba(255,255,255,.85) 0,rgba(255,255,255,.3) 16%,rgba(255,255,255,0) 40%);background-size:220% 220%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.marie-g2{z-index:42;opacity:0;mix-blend-mode:screen;background:radial-gradient(circle at center,rgba(255,240,205,.85) 0,rgba(255,240,205,.35) 13%,rgba(255,255,255,0) 32%);background-size:170% 170%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.atlas-card[data-interacting="true"] .marie-card .marie-ho{opacity:.25}.atlas-card[data-interacting="true"] .marie-card .marie-gl{opacity:.22}.atlas-card[data-interacting="true"] .marie-card .marie-g2{opacity:.2}
+.marie-st{position:absolute;z-index:20;pointer-events:none;background:radial-gradient(circle,#fff 0,#fff 30%,rgba(220,235,255,0) 70%);clip-path:polygon(50% 0,59% 41%,100% 50%,59% 59%,50% 100%,41% 59%,0 50%,41% 41%);animation:marie-tw 2.6s ease-in-out infinite}
+.marie-gt{background:linear-gradient(180deg,#ffffff 0,#cfdcf5 42%,#7f93b8 62%,#eef4ff 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#f6dc96;filter:drop-shadow(0 0.158730cqw 0.317460cqw rgba(0,0,0,.9)) drop-shadow(0 0 1.269841cqw rgba(255,200,110,.5))}
+@keyframes marie-sweep{from{background-position:130% 0}to{background-position:-130% 0}}
+@keyframes marie-sweepv{from{background-position:0 130%}to{background-position:0 -130%}}
+@keyframes marie-pl{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes marie-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.45)}}
+@keyframes marie-spin{to{transform:rotate(360deg)}}
+@keyframes marie-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.marie-tr{z-index:6;mix-blend-mode:screen;pointer-events:none;background-size:100% 100%}
+.marie-t1{background-image:url(/designs/marie/flash-1.png);animation:marie-fl1 3.1s steps(1,end) infinite}
+.marie-t2{background-image:url(/designs/marie/flash-2.png);animation:marie-fl2 2.3s steps(1,end) infinite}
+.atlas-card[data-interacting="true"] .marie-card .marie-t1{animation-duration:.9s}.atlas-card[data-interacting="true"] .marie-card .marie-t2{animation-duration:.7s}
+@keyframes marie-fl1{0%{opacity:0}8%{opacity:.95}14%{opacity:.2}22%{opacity:.85}30%{opacity:0}62%{opacity:0}68%{opacity:.9}74%{opacity:.1}80%{opacity:.7}86%{opacity:0}100%{opacity:0}}
+@keyframes marie-fl2{0%{opacity:.6}12%{opacity:0}34%{opacity:0}40%{opacity:1}46%{opacity:.2}54%{opacity:.8}60%{opacity:0}85%{opacity:0}92%{opacity:.9}100%{opacity:.6}}
+.marie-rd{position:absolute;z-index:12;pointer-events:none;border-radius:50%;background:radial-gradient(circle,#c8102e 0 22%,#f4f4f4 23% 44%,#1b3a8a 45% 70%,#f4f4f4 71% 78%,#c8102e 79% 100%);box-shadow:0 0 0 0.238095cqw #3a2a08,0 0 1.269841cqw 0.158730cqw rgba(255,170,50,.8);animation:marie-pu 3s ease-in-out infinite}
+.marie-dl{position:absolute;z-index:12;pointer-events:none;border-radius:50%;background:radial-gradient(circle,#e8c060 0 8%,#14120a 9% 100%);box-shadow:0 0 0 0.238095cqw #a07a2c,0 0 1.269841cqw rgba(255,170,50,.6)}
+.marie-dl i{position:absolute;left:50%;top:50%;width:0.238095cqw;height:42%;background:#ff7a2a;transform-origin:50% 0;box-shadow:0 0 0.634921cqw #ff9a3a;animation:marie-spin 6s linear infinite;margin-left:-0.119048cqw}
+.atlas-card[data-interacting="true"] .marie-card .marie-dl i{animation-duration:1.1s}
+
+.marie-co{position:absolute;left:16.666667cqw;top:46.984127cqw;width:66.666667cqw;height:66.666667cqw;border-radius:50%;z-index:5;pointer-events:none;mix-blend-mode:screen;opacity:.4;
+background:repeating-conic-gradient(from 0deg,rgba(255,238,200,.95) 0 .7deg,rgba(255,238,200,0) 1.8deg 5deg),repeating-conic-gradient(from 2deg,rgba(255,200,120,.8) 0 .5deg,rgba(255,200,120,0) 1.4deg 7deg);
+-webkit-mask:radial-gradient(circle,transparent 0,transparent 23.809524cqw,#000 25.714286cqw,#000 27.936508cqw,transparent 33.015873cqw);mask:radial-gradient(circle,transparent 0,transparent 23.809524cqw,#000 25.714286cqw,#000 27.936508cqw,transparent 33.015873cqw);animation:marie-spin 40s linear infinite,marie-pl 4.5s ease-in-out infinite}
+.atlas-card[data-interacting="true"] .marie-card .marie-co{opacity:.9;animation-duration:8s,1.6s}
+.marie-cg{position:absolute;left:16.666667cqw;top:46.984127cqw;width:66.666667cqw;height:66.666667cqw;border-radius:50%;z-index:5;pointer-events:none;mix-blend-mode:screen;background:radial-gradient(circle,rgba(255,200,110,0) 0,rgba(255,200,110,0) 23.492063cqw,rgba(255,214,140,.55) 25.396825cqw,rgba(255,170,70,.22) 29.365079cqw,rgba(255,170,70,0) 33.333333cqw);animation:marie-pl 5s ease-in-out infinite}
+.atlas-card[data-interacting="true"] .marie-card .marie-cg{animation-duration:2s}
+.marie-dr{position:absolute;z-index:6;pointer-events:none;left:66.666667cqw;top:61.269841cqw;width:5.396825cqw;height:5.396825cqw;background:radial-gradient(circle,#fff 0,#fff 20%,rgba(255,236,190,.8) 34%,rgba(255,200,110,0) 70%);clip-path:polygon(50% 0,56% 44%,100% 50%,56% 56%,50% 100%,44% 56%,0 50%,44% 44%);animation:marie-tw 3.2s ease-in-out infinite;filter:drop-shadow(0 0 0.952381cqw #ffdf9a)}
+.atlas-card[data-interacting="true"] .marie-card .marie-dr{animation-duration:1s;transform:scale(1.4)}
+.marie-mp{position:absolute;z-index:12;pointer-events:none;width:5.396825cqw;height:5.396825cqw;border-radius:50%;overflow:hidden;background:radial-gradient(circle at 35% 30%,#fff 0,#dfe8f8 40%,#8fa2c4 100%);box-shadow:0 0 0 0.238095cqw #90a4c8,0 0 1.428571cqw rgba(200,225,255,.7)}
+.marie-mp i{position:absolute;top:-0.317460cqw;left:-6.031746cqw;width:6.031746cqw;height:6.031746cqw;border-radius:50%;background:#030612;animation:marie-ph 12s ease-in-out infinite;box-shadow:0 0 0.952381cqw 0.317460cqw #030612}
+.atlas-card[data-interacting="true"] .marie-card .marie-mp i{animation-duration:3s}
+@keyframes marie-ph{0%{transform:translateX(0)}50%{transform:translateX(11.746032cqw)}100%{transform:translateX(0)}}
+.marie-ec{position:absolute;z-index:12;pointer-events:none;left:47.142857cqw;top:3.968254cqw;width:5.714286cqw;height:5.714286cqw;border-radius:50%;background:radial-gradient(circle,#010208 0 50%,#fff6dc 56%,#ffbf5a 68%,rgba(255,170,60,0) 100%);box-shadow:0 0 1.587302cqw 0.317460cqw rgba(255,200,110,.75);animation:marie-pu 3s ease-in-out infinite}
+.marie-ec::after{content:"";position:absolute;inset:-2.222222cqw;border-radius:50%;background:repeating-conic-gradient(rgba(255,230,170,.9) 0 .6deg,rgba(255,230,170,0) 1.6deg 8deg);-webkit-mask:radial-gradient(circle,transparent 0,transparent 2.698413cqw,#000 3.015873cqw,transparent 5.079365cqw);mask:radial-gradient(circle,transparent 0,transparent 2.698413cqw,#000 3.015873cqw,transparent 5.079365cqw);animation:marie-spin 20s linear infinite}
+.marie-cm{position:absolute;z-index:12;pointer-events:none;left:47.142857cqw;top:3.968254cqw;width:5.714286cqw;height:5.714286cqw;border-radius:50%;background:radial-gradient(circle,#0a1640,#020618);overflow:hidden;box-shadow:0 0 1.587302cqw 0.317460cqw rgba(160,200,255,.7)}
+.marie-cm i{position:absolute;left:1.269841cqw;top:0.952381cqw;width:3.492063cqw;height:3.492063cqw;border-radius:50%;box-shadow:inset -1.111111cqw -0.476190cqw 0 0 #eef4ff,0 0 1.269841cqw rgba(200,225,255,.9);transform:rotate(-20deg);animation:marie-pu 4s ease-in-out infinite}
+.marie-cm::after{content:"";position:absolute;right:0.952381cqw;top:1.111111cqw;width:0.634921cqw;height:0.634921cqw;background:#fff;clip-path:polygon(50% 0,60% 40%,100% 50%,60% 60%,50% 100%,40% 60%,0 50%,40% 40%);animation:marie-tw 2.4s ease-in-out infinite}
+.marie-sc{position:absolute;z-index:20;pointer-events:none;width:3.015873cqw;height:3.015873cqw;margin:-1.507937cqw 0 0 -1.507937cqw;background:radial-gradient(circle,#fff 0,#e6f0ff 35%,rgba(170,205,255,0) 72%);clip-path:polygon(50% 0,58% 42%,100% 50%,58% 58%,50% 100%,42% 58%,0 50%,42% 42%);animation:marie-tw 2.8s ease-in-out infinite;filter:drop-shadow(0 0 0.634921cqw #a8c8ff)}
+.atlas-card[data-interacting="true"] .marie-card .marie-sc{animation-duration:1.1s}
+.marie-mh{position:absolute;left:27.619048cqw;top:24.603175cqw;width:42.857143cqw;height:42.857143cqw;border-radius:50%;z-index:4;pointer-events:none;mix-blend-mode:screen;background:radial-gradient(circle,rgba(150,190,255,.28) 0,rgba(120,160,255,.12) 45%,rgba(120,160,255,0) 70%);animation:marie-pl 5s ease-in-out infinite}
+.atlas-card[data-interacting="true"] .marie-card .marie-mh{animation-duration:2s}
+.marie-sh{position:absolute;z-index:6;pointer-events:none;height:0.317460cqw;width:14.285714cqw;background:linear-gradient(90deg,rgba(255,255,255,0),#fff);transform:rotate(28deg);opacity:0;filter:drop-shadow(0 0 0.634921cqw #bcd4ff)}
+.marie-s1{left:11.111111cqw;top:12.698413cqw;animation:marie-sh1 7s linear infinite}.marie-s2{left:52.380952cqw;top:19.047619cqw;animation:marie-sh1 9s linear infinite;animation-delay:-4s}
+.atlas-card[data-interacting="true"] .marie-card .marie-s1{animation-duration:2.4s}.atlas-card[data-interacting="true"] .marie-card .marie-s2{animation-duration:3s}
+@keyframes marie-sh1{0%{opacity:0;transform:translate(0,0) rotate(28deg)}4%{opacity:1}14%{opacity:0;transform:translate(31.746032cqw,16.825397cqw) rotate(28deg)}100%{opacity:0;transform:translate(31.746032cqw,16.825397cqw) rotate(28deg)}}
+
+.marie-photo{position:absolute;overflow:hidden;background:#050a1e url(/designs/marie/mary.jpg) center/cover no-repeat;z-index:3}
+.marie-photo-shade{box-shadow:inset 0 0 4.762cqw #00041480}
+.marie-rim{border-radius:inherit;box-shadow:inset 0 0 0 .238095cqw #dce8ffe6,inset 0 0 0 .555556cqw #020614e6;z-index:7}
+.marie-name-bg{position:absolute;border-radius:1.26984cqw;background:linear-gradient(180deg,#080e22eb,#020510f5);backdrop-filter:blur(.63492cqw);z-index:9}
+.marie-frame{width:100%;height:100%;z-index:10;filter:drop-shadow(.159cqw .476cqw .476cqw #000000b3)}
+.marie-caption{position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.476cqw;z-index:14}
+.marie-title{font-weight:700;font-size:3.968254cqw;letter-spacing:.079365cqw;line-height:1.1}
+.marie-divider{display:flex;align-items:center;gap:1.27cqw}.marie-divider i{width:5.396825cqw;height:.238cqw;background:linear-gradient(90deg,transparent,#f4c85a)}.marie-divider i:last-child{transform:rotate(180deg)}.marie-divider b{width:.952cqw;height:.952cqw;transform:rotate(45deg);background:#ffd27a;box-shadow:0 0 .952cqw #ffb040}
+.marie-motto{font-weight:600;font-size:1.746032cqw;letter-spacing:.952381cqw;color:#dfe9fb;text-shadow:0 .159cqw .31746cqw #000;margin-left:.793651cqw}
+.marie-ho{background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}.marie-gl,.marie-g2{background-position:var(--supreme-inverse-x,50%) var(--supreme-inverse-y,50%)}
+.marie-back-panel{position:absolute;z-index:9;border-radius:2.222cqw;background:#050c2af5;box-shadow:inset 0 0 0 1px #a67d3480}
+.marie-back-text{position:absolute;inset:0;width:100%;height:100%;z-index:15;pointer-events:none}
+.marie-back .marie-frame{opacity:.48}.marie-back .marie-ho,.marie-back .marie-gl,.marie-back .marie-g2{z-index:14}
+.atlas-card[data-design-model="CAT-002"]{box-shadow:0 4px 4px #050c2a50,0 24px 36px -17px #050c2ab0,0 0 0 1px #a0c8ff50}
+.atlas-card[data-design-model="CAT-002"][data-reveal="true"]::before{box-shadow:0 0 45px 8px #ffc85a50,0 0 70px 9px #a0c8ff30}
+.atlas-card[data-effects="interactive"]:not([data-interacting="true"]) .marie-card *{animation-play-state:paused}
+html[data-motion="off"] .marie-ho,html[data-motion="off"] .marie-gl,html[data-motion="off"] .marie-g2,html[data-motion="reduced"] .marie-ho,html[data-motion="reduced"] .marie-gl,html[data-motion="reduced"] .marie-g2,.atlas-card[data-effects="static"] .marie-ho,.atlas-card[data-effects="static"] .marie-gl,.atlas-card[data-effects="static"] .marie-g2{opacity:0!important}
+@media(prefers-reduced-motion:reduce){.marie-ho,.marie-gl,.marie-g2{opacity:0!important}}

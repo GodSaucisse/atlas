@@ -1,0 +1,902 @@
+[
+  {
+    "code": "ANI-001",
+    "name": "Lion",
+    "universe": "Animaux",
+    "summary": "Grand félin vivant en groupes familiaux."
+  },
+  {
+    "code": "ANI-002",
+    "name": "Tigre",
+    "universe": "Animaux",
+    "summary": "Grand félin asiatique au pelage rayé."
+  },
+  {
+    "code": "ANI-003",
+    "name": "Léopard",
+    "universe": "Animaux",
+    "summary": "Félin tacheté, agile grimpeur et chasseur solitaire."
+  },
+  {
+    "code": "ANI-004",
+    "name": "Jaguar",
+    "universe": "Animaux",
+    "summary": "Grand félin américain à la mâchoire puissante."
+  },
+  {
+    "code": "ANI-005",
+    "name": "Guépard",
+    "universe": "Animaux",
+    "summary": "Félin élancé, spécialiste des courses très rapides."
+  },
+  {
+    "code": "ANI-006",
+    "name": "Lynx boréal",
+    "universe": "Animaux",
+    "summary": "Félin forestier eurasiatique aux oreilles ornées de pinceaux."
+  },
+  {
+    "code": "ANI-007",
+    "name": "Panthère des neiges",
+    "universe": "Animaux",
+    "summary": "Félin des hautes montagnes froides d’Asie centrale."
+  },
+  {
+    "code": "ANI-008",
+    "name": "Loup gris",
+    "universe": "Animaux",
+    "summary": "Canidé sauvage chassant généralement au sein d’une meute."
+  },
+  {
+    "code": "ANI-009",
+    "name": "Renard roux",
+    "universe": "Animaux",
+    "summary": "Canidé omnivore au pelage roux et museau pointu."
+  },
+  {
+    "code": "ANI-010",
+    "name": "Ours brun",
+    "universe": "Animaux",
+    "summary": "Grand ursidé omnivore d’Eurasie et d’Amérique du Nord."
+  },
+  {
+    "code": "ANI-011",
+    "name": "Ours blanc",
+    "universe": "Animaux",
+    "summary": "Grand ours carnivore adapté à la banquise arctique."
+  },
+  {
+    "code": "ANI-012",
+    "name": "Panda géant",
+    "universe": "Animaux",
+    "summary": "Ours chinois se nourrissant principalement de bambou."
+  },
+  {
+    "code": "ANI-013",
+    "name": "Girafe",
+    "universe": "Animaux",
+    "summary": "Grand ruminant africain au cou particulièrement allongé."
+  },
+  {
+    "code": "ANI-014",
+    "name": "Rhinocéros blanc",
+    "universe": "Animaux",
+    "summary": "Grand rhinocéros africain à deux cornes."
+  },
+  {
+    "code": "ANI-015",
+    "name": "Rhinocéros indien",
+    "universe": "Animaux",
+    "summary": "Rhinocéros asiatique reconnaissable à sa corne unique."
+  },
+  {
+    "code": "ANI-016",
+    "name": "Bison d’Europe",
+    "universe": "Animaux",
+    "summary": "Grand bovidé sauvage des forêts européennes."
+  },
+  {
+    "code": "ANI-017",
+    "name": "Bison d’Amérique du Nord",
+    "universe": "Animaux",
+    "summary": "Grand bovidé sauvage des plaines nord-américaines."
+  },
+  {
+    "code": "ANI-018",
+    "name": "Renne",
+    "universe": "Animaux",
+    "summary": "Cervidé des régions arctiques et subarctiques."
+  },
+  {
+    "code": "ANI-019",
+    "name": "Cerf élaphe",
+    "universe": "Animaux",
+    "summary": "Grand cervidé des forêts et milieux ouverts tempérés."
+  },
+  {
+    "code": "ANI-020",
+    "name": "Sanglier",
+    "universe": "Animaux",
+    "summary": "Suidé sauvage omnivore fouillant le sol."
+  },
+  {
+    "code": "ANI-021",
+    "name": "Gorille de l’Ouest",
+    "universe": "Animaux",
+    "summary": "Grand singe des forêts d’Afrique équatoriale occidentale."
+  },
+  {
+    "code": "ANI-022",
+    "name": "Chimpanzé commun",
+    "universe": "Animaux",
+    "summary": "Grand singe africain aux comportements sociaux élaborés."
+  },
+  {
+    "code": "ANI-023",
+    "name": "Orang-outan de Bornéo",
+    "universe": "Animaux",
+    "summary": "Grand singe arboricole des forêts de Bornéo."
+  },
+  {
+    "code": "ANI-024",
+    "name": "Mandrill",
+    "universe": "Animaux",
+    "summary": "Primate africain au visage vivement coloré."
+  },
+  {
+    "code": "ANI-025",
+    "name": "Suricate",
+    "universe": "Animaux",
+    "summary": "Petite mangouste sociale des régions arides africaines."
+  },
+  {
+    "code": "ANI-026",
+    "name": "Koala",
+    "universe": "Animaux",
+    "summary": "Marsupial arboricole australien se nourrissant de feuilles d’eucalyptus."
+  },
+  {
+    "code": "ANI-027",
+    "name": "Ornithorynque",
+    "universe": "Animaux",
+    "summary": "Mammifère australien semi-aquatique qui pond des œufs."
+  },
+  {
+    "code": "ANI-028",
+    "name": "Castor d’Europe",
+    "universe": "Animaux",
+    "summary": "Grand rongeur semi-aquatique bâtisseur de barrages."
+  },
+  {
+    "code": "ANI-029",
+    "name": "Loutre d’Europe",
+    "universe": "Animaux",
+    "summary": "Mustélidé semi-aquatique chassant notamment les poissons."
+  },
+  {
+    "code": "ANI-030",
+    "name": "Baleine bleue",
+    "universe": "Animaux",
+    "summary": "Cétacé à fanons, plus grand animal vivant."
+  },
+  {
+    "code": "ANI-031",
+    "name": "Pygargue à tête blanche",
+    "universe": "Animaux",
+    "summary": "Grand rapace nord-américain à la tête blanche."
+  },
+  {
+    "code": "ANI-032",
+    "name": "Faucon pèlerin",
+    "universe": "Animaux",
+    "summary": "Rapace chasseur d’oiseaux, très rapide en piqué."
+  },
+  {
+    "code": "ANI-033",
+    "name": "Vautour fauve",
+    "universe": "Animaux",
+    "summary": "Grand rapace charognard au long cou dénudé."
+  },
+  {
+    "code": "ANI-034",
+    "name": "Condor des Andes",
+    "universe": "Animaux",
+    "summary": "Grand oiseau charognard des montagnes des Andes."
+  },
+  {
+    "code": "ANI-035",
+    "name": "Grand-duc d’Europe",
+    "universe": "Animaux",
+    "summary": "Grand rapace nocturne aux aigrettes bien visibles."
+  },
+  {
+    "code": "ANI-036",
+    "name": "Chouette effraie",
+    "universe": "Animaux",
+    "summary": "Rapace nocturne au disque facial en cœur."
+  },
+  {
+    "code": "ANI-037",
+    "name": "Harfang des neiges",
+    "universe": "Animaux",
+    "summary": "Rapace des régions arctiques au plumage clair."
+  },
+  {
+    "code": "ANI-038",
+    "name": "Manchot empereur",
+    "universe": "Animaux",
+    "summary": "Grand manchot antarctique, adapté au froid extrême."
+  },
+  {
+    "code": "ANI-039",
+    "name": "Manchot royal",
+    "universe": "Animaux",
+    "summary": "Grand manchot des îles des régions subantarctiques."
+  },
+  {
+    "code": "ANI-040",
+    "name": "Autruche d’Afrique",
+    "universe": "Animaux",
+    "summary": "Grand oiseau africain coureur, incapable de voler."
+  },
+  {
+    "code": "ANI-041",
+    "name": "Émeu d’Australie",
+    "universe": "Animaux",
+    "summary": "Grand oiseau coureur australien, incapable de voler."
+  },
+  {
+    "code": "ANI-042",
+    "name": "Casoar à casque",
+    "universe": "Animaux",
+    "summary": "Grand oiseau forestier tropical portant un casque osseux."
+  },
+  {
+    "code": "ANI-043",
+    "name": "Flamant rose",
+    "universe": "Animaux",
+    "summary": "Grand échassier rose filtrant sa nourriture dans l’eau."
+  },
+  {
+    "code": "ANI-044",
+    "name": "Pélican blanc",
+    "universe": "Animaux",
+    "summary": "Grand oiseau aquatique au bec muni d’une poche."
+  },
+  {
+    "code": "ANI-045",
+    "name": "Cigogne blanche",
+    "universe": "Animaux",
+    "summary": "Grand échassier migrateur au plumage blanc et noir."
+  },
+  {
+    "code": "ANI-046",
+    "name": "Héron cendré",
+    "universe": "Animaux",
+    "summary": "Grand échassier gris fréquentant les milieux humides."
+  },
+  {
+    "code": "ANI-047",
+    "name": "Martin-pêcheur d’Europe",
+    "universe": "Animaux",
+    "summary": "Petit oiseau pêcheur au plumage bleu orangé."
+  },
+  {
+    "code": "ANI-048",
+    "name": "Huppe fasciée",
+    "universe": "Animaux",
+    "summary": "Oiseau insectivore reconnaissable à sa huppe déployable."
+  },
+  {
+    "code": "ANI-049",
+    "name": "Pic épeiche",
+    "universe": "Animaux",
+    "summary": "Oiseau forestier tambourinant sur les troncs d’arbres."
+  },
+  {
+    "code": "ANI-050",
+    "name": "Cygne tuberculé",
+    "universe": "Animaux",
+    "summary": "Grand oiseau aquatique blanc au long cou."
+  },
+  {
+    "code": "ANI-051",
+    "name": "Crocodile du Nil",
+    "universe": "Animaux",
+    "summary": "Grand reptile prédateur des eaux douces africaines."
+  },
+  {
+    "code": "ANI-052",
+    "name": "Crocodile marin",
+    "universe": "Animaux",
+    "summary": "Grand crocodile fréquentant les eaux douces et saumâtres."
+  },
+  {
+    "code": "ANI-053",
+    "name": "Alligator d’Amérique",
+    "universe": "Animaux",
+    "summary": "Grand crocodilien des zones humides américaines."
+  },
+  {
+    "code": "ANI-054",
+    "name": "Gavial du Gange",
+    "universe": "Animaux",
+    "summary": "Crocodilien asiatique au museau très long et fin."
+  },
+  {
+    "code": "ANI-055",
+    "name": "Dragon de Komodo",
+    "universe": "Animaux",
+    "summary": "Grand lézard carnivore des îles indonésiennes."
+  },
+  {
+    "code": "ANI-056",
+    "name": "Iguane vert",
+    "universe": "Animaux",
+    "summary": "Grand lézard arboricole principalement herbivore d’Amérique tropicale."
+  },
+  {
+    "code": "ANI-057",
+    "name": "Gecko léopard",
+    "universe": "Animaux",
+    "summary": "Petit lézard nocturne à la peau tachetée."
+  },
+  {
+    "code": "ANI-058",
+    "name": "Tortue verte",
+    "universe": "Animaux",
+    "summary": "Grande tortue marine principalement herbivore à l’âge adulte."
+  },
+  {
+    "code": "ANI-059",
+    "name": "Tortue luth",
+    "universe": "Animaux",
+    "summary": "Grande tortue marine à carapace souple et coriace."
+  },
+  {
+    "code": "ANI-060",
+    "name": "Tortue caouanne",
+    "universe": "Animaux",
+    "summary": "Tortue marine à grosse tête et mâchoires puissantes."
+  },
+  {
+    "code": "ANI-061",
+    "name": "Tortue d’Hermann",
+    "universe": "Animaux",
+    "summary": "Petite tortue terrestre des régions méditerranéennes."
+  },
+  {
+    "code": "ANI-062",
+    "name": "Python royal",
+    "universe": "Animaux",
+    "summary": "Python africain adoptant une posture défensive en boule."
+  },
+  {
+    "code": "ANI-063",
+    "name": "Python réticulé",
+    "universe": "Animaux",
+    "summary": "Grand serpent constricteur des régions tropicales asiatiques."
+  },
+  {
+    "code": "ANI-064",
+    "name": "Taïpan du désert",
+    "universe": "Animaux",
+    "summary": "Serpent australien au venin particulièrement puissant."
+  },
+  {
+    "code": "ANI-065",
+    "name": "Axolotl",
+    "universe": "Animaux",
+    "summary": "Salamandre mexicaine conservant généralement ses caractères larvaires."
+  },
+  {
+    "code": "ANI-066",
+    "name": "Salamandre tachetée",
+    "universe": "Animaux",
+    "summary": "Amphibien terrestre noir marqué de taches jaunes."
+  },
+  {
+    "code": "ANI-067",
+    "name": "Triton crêté",
+    "universe": "Animaux",
+    "summary": "Amphibien dont le mâle développe une crête nuptiale."
+  },
+  {
+    "code": "ANI-068",
+    "name": "Grenouille rousse",
+    "universe": "Animaux",
+    "summary": "Grenouille des milieux frais et humides européens."
+  },
+  {
+    "code": "ANI-069",
+    "name": "Grenouille agile",
+    "universe": "Animaux",
+    "summary": "Grenouille européenne aux longues pattes propices aux bonds."
+  },
+  {
+    "code": "ANI-070",
+    "name": "Crapaud commun",
+    "universe": "Animaux",
+    "summary": "Amphibien terrestre à peau verruqueuse, généralement nocturne."
+  },
+  {
+    "code": "ANI-071",
+    "name": "Crapaud calamite",
+    "universe": "Animaux",
+    "summary": "Crapaud reconnaissable à sa ligne dorsale claire."
+  },
+  {
+    "code": "ANI-072",
+    "name": "Rainette verte",
+    "universe": "Animaux",
+    "summary": "Petite rainette arboricole munie de doigts adhésifs."
+  },
+  {
+    "code": "ANI-073",
+    "name": "Grenouille taureau",
+    "universe": "Animaux",
+    "summary": "Grande grenouille nord-américaine au chant particulièrement sonore."
+  },
+  {
+    "code": "ANI-074",
+    "name": "Xénope lisse",
+    "universe": "Animaux",
+    "summary": "Grenouille africaine aquatique utilisée en recherche biologique."
+  },
+  {
+    "code": "ANI-075",
+    "name": "Grand requin blanc",
+    "universe": "Animaux",
+    "summary": "Grand requin prédateur des eaux côtières tempérées."
+  },
+  {
+    "code": "ANI-076",
+    "name": "Requin pèlerin",
+    "universe": "Animaux",
+    "summary": "Grand requin filtrant le plancton marin."
+  },
+  {
+    "code": "ANI-077",
+    "name": "Raie manta océanique",
+    "universe": "Animaux",
+    "summary": "Grande raie pélagique se nourrissant de plancton."
+  },
+  {
+    "code": "ANI-078",
+    "name": "Raie manta de récif",
+    "universe": "Animaux",
+    "summary": "Grande raie planctonophage fréquentant les récifs tropicaux."
+  },
+  {
+    "code": "ANI-079",
+    "name": "Hippocampe moucheté",
+    "universe": "Animaux",
+    "summary": "Poisson marin dont le mâle porte les œufs."
+  },
+  {
+    "code": "ANI-080",
+    "name": "Poisson-clown à trois bandes",
+    "universe": "Animaux",
+    "summary": "Poisson tropical vivant en association avec les anémones."
+  },
+  {
+    "code": "ANI-081",
+    "name": "Thon rouge de l’Atlantique",
+    "universe": "Animaux",
+    "summary": "Grand poisson pélagique migrateur à nage rapide."
+  },
+  {
+    "code": "ANI-082",
+    "name": "Saumon atlantique",
+    "universe": "Animaux",
+    "summary": "Poisson migrateur remontant les rivières pour se reproduire."
+  },
+  {
+    "code": "ANI-083",
+    "name": "Truite fario",
+    "universe": "Animaux",
+    "summary": "Poisson des rivières fraîches et bien oxygénées."
+  },
+  {
+    "code": "ANI-084",
+    "name": "Silure glane",
+    "universe": "Animaux",
+    "summary": "Grand poisson prédateur d’eau douce muni de barbillons."
+  },
+  {
+    "code": "ANI-085",
+    "name": "Esturgeon européen",
+    "universe": "Animaux",
+    "summary": "Poisson migrateur anciennement répandu dans les fleuves européens."
+  },
+  {
+    "code": "ANI-086",
+    "name": "Anguille d’Europe",
+    "universe": "Animaux",
+    "summary": "Poisson migrateur au corps allongé et serpentiforme."
+  },
+  {
+    "code": "ANI-087",
+    "name": "Carpe commune",
+    "universe": "Animaux",
+    "summary": "Poisson d’eau douce omnivore muni de barbillons."
+  },
+  {
+    "code": "ANI-088",
+    "name": "Poisson combattant",
+    "universe": "Animaux",
+    "summary": "Petit poisson asiatique territorial respirant aussi l’air."
+  },
+  {
+    "code": "ANI-089",
+    "name": "Monarque (papillon)",
+    "universe": "Animaux",
+    "summary": "Papillon orange et noir connu pour ses migrations."
+  },
+  {
+    "code": "ANI-090",
+    "name": "Paon-du-jour",
+    "universe": "Animaux",
+    "summary": "Papillon aux ailes ornées de grands ocelles."
+  },
+  {
+    "code": "ANI-091",
+    "name": "Coccinelle à sept points",
+    "universe": "Animaux",
+    "summary": "Coléoptère prédateur de pucerons, rouge à points noirs."
+  },
+  {
+    "code": "ANI-092",
+    "name": "Lucane cerf-volant",
+    "universe": "Animaux",
+    "summary": "Grand coléoptère dont le mâle porte d’imposantes mandibules."
+  },
+  {
+    "code": "ANI-093",
+    "name": "Mante religieuse",
+    "universe": "Animaux",
+    "summary": "Insecte prédateur aux pattes antérieures ravisseuses."
+  },
+  {
+    "code": "ANI-094",
+    "name": "Scarabée sacré",
+    "universe": "Animaux",
+    "summary": "Coléoptère coprophage façonnant des boules de déjections."
+  },
+  {
+    "code": "ANI-095",
+    "name": "Épeire diadème",
+    "universe": "Animaux",
+    "summary": "Araignée tissant une toile circulaire de capture."
+  },
+  {
+    "code": "ANI-096",
+    "name": "Veuve noire",
+    "universe": "Animaux",
+    "summary": "Araignée venimeuse au corps généralement noir et luisant."
+  },
+  {
+    "code": "ANI-097",
+    "name": "Poulpe commun",
+    "universe": "Animaux",
+    "summary": "Mollusque marin à huit bras munis de ventouses."
+  },
+  {
+    "code": "ANI-098",
+    "name": "Seiche commune",
+    "universe": "Animaux",
+    "summary": "Mollusque marin capable de changer rapidement de couleur."
+  },
+  {
+    "code": "ANI-099",
+    "name": "Baleine à bosse",
+    "universe": "Animaux",
+    "summary": "Grande baleine connue pour ses chants élaborés."
+  },
+  {
+    "code": "ANI-100",
+    "name": "Orque",
+    "universe": "Animaux",
+    "summary": "Dauphin prédateur vivant en groupes familiaux."
+  },
+  {
+    "code": "NBA-131",
+    "name": "Chris Paul",
+    "universe": "NBA",
+    "summary": "Meneur américain, spécialiste des passes décisives."
+  },
+  {
+    "code": "NBA-132",
+    "name": "Russell Westbrook",
+    "universe": "NBA",
+    "summary": "Meneur américain, célèbre pour ses triples-doubles."
+  },
+  {
+    "code": "NBA-133",
+    "name": "Damian Lillard",
+    "universe": "NBA",
+    "summary": "Meneur américain, spécialiste du tir longue distance."
+  },
+  {
+    "code": "NBA-134",
+    "name": "Klay Thompson",
+    "universe": "NBA",
+    "summary": "Arrière américain, spécialiste du tir longue distance."
+  },
+  {
+    "code": "NBA-135",
+    "name": "Kyrie Irving",
+    "universe": "NBA",
+    "summary": "Meneur américain reconnu pour ses dribbles."
+  },
+  {
+    "code": "NBA-136",
+    "name": "Derrick Rose",
+    "universe": "NBA",
+    "summary": "Meneur américain, plus jeune MVP NBA."
+  },
+  {
+    "code": "NBA-137",
+    "name": "Kevin Love",
+    "universe": "NBA",
+    "summary": "Intérieur américain, réputé pour ses rebonds."
+  },
+  {
+    "code": "NBA-138",
+    "name": "DeMar DeRozan",
+    "universe": "NBA",
+    "summary": "Arrière américain, spécialiste du tir à mi-distance."
+  },
+  {
+    "code": "NBA-139",
+    "name": "Shawn Marion",
+    "universe": "NBA",
+    "summary": "Ailier américain, défenseur polyvalent et athlétique."
+  },
+  {
+    "code": "NBA-140",
+    "name": "Amar'e Stoudemire",
+    "universe": "NBA",
+    "summary": "Intérieur américain, puissant finisseur près du panier."
+  },
+  {
+    "code": "NBA-141",
+    "name": "Chauncey Billups",
+    "universe": "NBA",
+    "summary": "Meneur américain, champion NBA avec Detroit."
+  },
+  {
+    "code": "NBA-142",
+    "name": "Rasheed Wallace",
+    "universe": "NBA",
+    "summary": "Ailier fort américain, champion NBA avec Detroit."
+  },
+  {
+    "code": "NBA-143",
+    "name": "Chris Webber",
+    "universe": "NBA",
+    "summary": "Ailier fort américain, figure des Kings."
+  },
+  {
+    "code": "NBA-144",
+    "name": "Tim Hardaway",
+    "universe": "NBA",
+    "summary": "Meneur américain, célèbre pour son crossover."
+  },
+  {
+    "code": "NBA-145",
+    "name": "Mitch Richmond",
+    "universe": "NBA",
+    "summary": "Arrière américain, grand marqueur des Kings."
+  },
+  {
+    "code": "NBA-146",
+    "name": "Shawn Kemp",
+    "universe": "NBA",
+    "summary": "Ailier fort américain, dunkeur emblématique de Seattle."
+  },
+  {
+    "code": "NBA-147",
+    "name": "Brad Daugherty",
+    "universe": "NBA",
+    "summary": "Pivot américain, figure des Cavaliers de Cleveland."
+  },
+  {
+    "code": "NBA-148",
+    "name": "Dan Majerle",
+    "universe": "NBA",
+    "summary": "Arrière américain, réputé pour son tir extérieur."
+  },
+  {
+    "code": "NBA-149",
+    "name": "Byron Scott",
+    "universe": "NBA",
+    "summary": "Arrière américain, triple champion NBA aux Lakers."
+  },
+  {
+    "code": "NBA-150",
+    "name": "Kevin McHale",
+    "universe": "NBA",
+    "summary": "Ailier fort américain, technicien du jeu intérieur."
+  },
+  {
+    "code": "NBA-151",
+    "name": "Dennis Johnson",
+    "universe": "NBA",
+    "summary": "Meneur américain, défenseur et champion NBA."
+  },
+  {
+    "code": "NBA-152",
+    "name": "Danny Ainge",
+    "universe": "NBA",
+    "summary": "Arrière américain, double champion NBA avec Boston."
+  },
+  {
+    "code": "NBA-153",
+    "name": "Bob Cousy",
+    "universe": "NBA",
+    "summary": "Meneur américain, pionnier du jeu de passes."
+  },
+  {
+    "code": "NBA-154",
+    "name": "John Havlicek",
+    "universe": "NBA",
+    "summary": "Ailier américain, huit fois champion NBA."
+  },
+  {
+    "code": "NBA-155",
+    "name": "Dave Cowens",
+    "universe": "NBA",
+    "summary": "Pivot américain, double champion NBA avec Boston."
+  },
+  {
+    "code": "NBA-156",
+    "name": "Bob Pettit",
+    "universe": "NBA",
+    "summary": "Ailier fort américain, double MVP de NBA."
+  },
+  {
+    "code": "NBA-157",
+    "name": "Willis Reed",
+    "universe": "NBA",
+    "summary": "Pivot américain, double champion NBA des Knicks."
+  },
+  {
+    "code": "NBA-158",
+    "name": "Pete Maravich",
+    "universe": "NBA",
+    "summary": "Arrière américain, célèbre pour son inventivité offensive."
+  },
+  {
+    "code": "NBA-159",
+    "name": "Rick Barry",
+    "universe": "NBA",
+    "summary": "Ailier américain, champion NBA avec Golden State."
+  },
+  {
+    "code": "NBA-160",
+    "name": "Spencer Haywood",
+    "universe": "NBA",
+    "summary": "Ailier fort américain, champion olympique en 1968."
+  },
+  {
+    "code": "NBA-161",
+    "name": "Bernard King (basket-ball, 1956)",
+    "universe": "NBA",
+    "summary": "Ailier américain, redoutable marqueur près du panier."
+  },
+  {
+    "code": "NBA-162",
+    "name": "Adrian Dantley",
+    "universe": "NBA",
+    "summary": "Ailier américain, double meilleur marqueur de NBA."
+  },
+  {
+    "code": "NBA-163",
+    "name": "Dražen Petrović",
+    "universe": "NBA",
+    "summary": "Arrière croate, pionnier européen en NBA."
+  },
+  {
+    "code": "NBA-164",
+    "name": "Toni Kukoč",
+    "universe": "NBA",
+    "summary": "Ailier croate, triple champion NBA avec Chicago."
+  },
+  {
+    "code": "NBA-165",
+    "name": "Arvydas Sabonis",
+    "universe": "NBA",
+    "summary": "Pivot lituanien, technicien et passeur exceptionnel."
+  },
+  {
+    "code": "NBA-166",
+    "name": "Serge Ibaka",
+    "universe": "NBA",
+    "summary": "Intérieur congolo-espagnol, spécialiste des contres défensifs."
+  },
+  {
+    "code": "NBA-167",
+    "name": "Luis Scola",
+    "universe": "NBA",
+    "summary": "Ailier fort argentin, champion olympique en 2004."
+  },
+  {
+    "code": "NBA-168",
+    "name": "Lamar Odom",
+    "universe": "NBA",
+    "summary": "Ailier américain polyvalent, double champion aux Lakers."
+  },
+  {
+    "code": "NBA-169",
+    "name": "Andrew Bogut",
+    "universe": "NBA",
+    "summary": "Pivot australien, champion NBA avec Golden State."
+  },
+  {
+    "code": "NBA-170",
+    "name": "Andrew Bynum",
+    "universe": "NBA",
+    "summary": "Pivot américain, double champion NBA aux Lakers."
+  },
+  {
+    "code": "NBA-171",
+    "name": "Joe Johnson (basket-ball)",
+    "universe": "NBA",
+    "summary": "Arrière américain, spécialiste du jeu en isolation."
+  },
+  {
+    "code": "NBA-172",
+    "name": "LaMarcus Aldridge",
+    "universe": "NBA",
+    "summary": "Intérieur américain, spécialiste du tir à mi-distance."
+  },
+  {
+    "code": "NBA-173",
+    "name": "Rajon Rondo",
+    "universe": "NBA",
+    "summary": "Meneur américain, passeur créatif et champion NBA."
+  },
+  {
+    "code": "NBA-174",
+    "name": "Deron Williams",
+    "universe": "NBA",
+    "summary": "Meneur américain, double champion olympique de basketball."
+  },
+  {
+    "code": "NBA-175",
+    "name": "DeAndre Jordan",
+    "universe": "NBA",
+    "summary": "Pivot américain, spécialiste des rebonds et contres."
+  },
+  {
+    "code": "NBA-176",
+    "name": "Al Horford",
+    "universe": "NBA",
+    "summary": "Intérieur dominicain, polyvalent en attaque et défense."
+  },
+  {
+    "code": "NBA-177",
+    "name": "Gordon Hayward",
+    "universe": "NBA",
+    "summary": "Ailier américain, créateur offensif et marqueur polyvalent."
+  },
+  {
+    "code": "NBA-178",
+    "name": "Kyle Lowry",
+    "universe": "NBA",
+    "summary": "Meneur américain, champion NBA avec Toronto."
+  },
+  {
+    "code": "NBA-179",
+    "name": "Jason Terry",
+    "universe": "NBA",
+    "summary": "Arrière américain, champion NBA avec Dallas."
+  },
+  {
+    "code": "NBA-180",
+    "name": "Shane Battier",
+    "universe": "NBA",
+    "summary": "Ailier américain, défenseur et champion avec Miami."
+  }
+]

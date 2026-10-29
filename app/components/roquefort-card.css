@@ -1,0 +1,95 @@
+
+
+
+.atlas-card-face.roquefort-card{position:relative;width:100%;height:100%;container-type:inline-size;border-radius:inherit;overflow:hidden;background:#5c6a80 url(/designs/roquefort/pattern.jpg) center/100% 100% no-repeat;font-family:var(--font-atlas)}
+
+.roquefort-ly{position:absolute;inset:0;pointer-events:none}
+.roquefort-bd{position:absolute;inset:0;pointer-events:none;padding:5.714286cqw;box-sizing:border-box;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0)}
+.roquefort-sw{z-index:5;mix-blend-mode:screen;background:linear-gradient(115deg,rgba(255,255,255,0) 40%,rgba(150,185,225,.8) 50%,rgba(255,255,255,0) 60%);background-size:300% 100%;animation:roquefort-sweep 5.5s linear infinite}
+.roquefort-sv{z-index:5;mix-blend-mode:screen;background:linear-gradient(180deg,rgba(255,255,255,0) 30%,rgba(70,140,215,.55) 50%,rgba(255,255,255,0) 70%);background-size:100% 300%;animation:roquefort-sweepv 4.2s linear infinite}
+.roquefort-gw{z-index:4;background:radial-gradient(ellipse at 50% 105%,rgba(130,200,255,.28),rgba(130,200,255,0) 55%);animation:roquefort-pl 4s ease-in-out infinite}
+.roquefort-gf{z-index:8;mix-blend-mode:screen;background:linear-gradient(105deg,rgba(255,255,255,0) 44%,rgba(190,215,245,.35) 50%,rgba(255,255,255,0) 56%);background-size:320% 100%;animation:roquefort-sweep 7s linear infinite}
+.roquefort-rt{position:absolute;z-index:11;pointer-events:none;animation:roquefort-spin 14s linear infinite}
+.atlas-card[data-interacting="true"] .roquefort-card .roquefort-rt{animation-duration:3s}
+.roquefort-ho{z-index:40;opacity:0;mix-blend-mode:color-dodge;background:linear-gradient(115deg,rgba(90,170,255,0) 0,rgba(90,170,255,.3) 8%,rgba(255,215,110,.3) 15%,rgba(210,230,255,.28) 22%,rgba(170,140,255,.3) 29%,rgba(120,235,230,.3) 36%,rgba(90,170,255,0) 44%,rgba(90,170,255,0) 56%,rgba(255,215,110,.28) 64%,rgba(170,140,255,.28) 72%,rgba(90,170,255,0) 82%);background-size:240% 240%;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.roquefort-gl{z-index:41;opacity:0;mix-blend-mode:overlay;background:radial-gradient(circle at center,rgba(220,232,248,.8) 0,rgba(220,232,248,.28) 16%,rgba(255,255,255,0) 40%);background-size:220% 220%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.roquefort-g2{z-index:42;opacity:0;mix-blend-mode:screen;background:radial-gradient(circle at center,rgba(255,240,205,.85) 0,rgba(255,240,205,.35) 13%,rgba(255,255,255,0) 32%);background-size:170% 170%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.atlas-card[data-interacting="true"] .roquefort-card .roquefort-ho{opacity:.3}.atlas-card[data-interacting="true"] .roquefort-card .roquefort-gl{opacity:.35}.atlas-card[data-interacting="true"] .roquefort-card .roquefort-g2{opacity:.3}
+.roquefort-st{position:absolute;z-index:20;pointer-events:none;background:radial-gradient(circle,#fff 0,#dff0ff 30%,rgba(170,215,255,0) 70%);clip-path:polygon(50% 0,59% 41%,100% 50%,59% 59%,50% 100%,41% 59%,0 50%,41% 41%);animation:roquefort-tw 2.6s ease-in-out infinite}
+.roquefort-gt{background:linear-gradient(180deg,#e4ecf6 0,#aebfd6 42%,#5f7ca8 62%,#d3e0f0 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#d6e6fb;filter:drop-shadow(0 0.158730cqw 0.317460cqw rgba(0,10,40,.9)) drop-shadow(0 0 1.269841cqw rgba(120,190,255,.5))}
+@keyframes roquefort-sweep{from{background-position:130% 0}to{background-position:-130% 0}}
+@keyframes roquefort-sweepv{from{background-position:0 130%}to{background-position:0 -130%}}
+@keyframes roquefort-pl{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes roquefort-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.45)}}
+@keyframes roquefort-spin{to{transform:rotate(360deg)}}
+@keyframes roquefort-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.roquefort-ap{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 34% 28%,#fff 0 7%,#ff9a88 18%,#e0242c 52%,#7a0812 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(80,0,10,.55);animation:roquefort-pu 3.6s ease-in-out infinite}
+.roquefort-ap.roquefort-gr{background:radial-gradient(circle at 34% 28%,#fff 0 7%,#f2f59a 20%,#9bcb3e 55%,#3a6a14 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(20,50,0,.5)}
+.atlas-card[data-interacting="true"] .roquefort-card .roquefort-ap{animation-duration:1.2s}
+.roquefort-wh{position:absolute;z-index:9;pointer-events:none;left:45.079365cqw;top:1.904762cqw;width:9.841270cqw;height:9.841270cqw;border-radius:50%;background:radial-gradient(circle at 30% 40%,#2a7ca8 0 7%,transparent 9%),radial-gradient(circle at 62% 30%,#2f8db0 0 5%,transparent 7%),radial-gradient(circle at 55% 68%,#1f6a98 0 8%,transparent 10%),radial-gradient(circle at 76% 58%,#38a0b8 0 4%,transparent 6%),radial-gradient(circle at 36% 78%,#2a7ca8 0 4%,transparent 6%),radial-gradient(circle at 38% 32%,#dfe7f1 0 20%,#a9b8cc 60%,#7488a6 100%);box-shadow:inset 0 0 1.269841cqw rgba(30,60,100,.5);overflow:hidden;animation:roquefort-wob 6s ease-in-out infinite}
+.roquefort-wh::before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,0) 35%,rgba(255,255,255,.5) 48%,rgba(255,255,255,0) 60%);border-radius:50%}
+.roquefort-wh::after{content:"";position:absolute;inset:0.952381cqw;border-radius:50%;border:0.158730cqw solid rgba(120,160,210,.5)}
+.atlas-card[data-interacting="true"] .roquefort-card .roquefort-wh{position:absolute;z-index:9;pointer-events:none;left:45.079365cqw;top:1.904762cqw;width:9.841270cqw;height:9.841270cqw;border-radius:50%;background:radial-gradient(circle at 30% 40%,#2a7ca8 0 7%,transparent 9%),radial-gradient(circle at 62% 30%,#2f8db0 0 5%,transparent 7%),radial-gradient(circle at 55% 68%,#1f6a98 0 8%,transparent 10%),radial-gradient(circle at 76% 58%,#38a0b8 0 4%,transparent 6%),radial-gradient(circle at 36% 78%,#2a7ca8 0 4%,transparent 6%),radial-gradient(circle at 38% 32%,#dfe7f1 0 20%,#a9b8cc 60%,#7488a6 100%);box-shadow:inset 0 0 1.269841cqw rgba(30,60,100,.5);overflow:hidden;animation:roquefort-wob 6s ease-in-out infinite}
+@keyframes roquefort-wob{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+.roquefort-sh{position:absolute;z-index:6;pointer-events:none;height:0.476190cqw;width:12.698413cqw;border-radius:0.317460cqw;background:linear-gradient(90deg,rgba(255,240,180,0),#fff6cc);opacity:0;filter:drop-shadow(0 0 0.793651cqw #ffd870);animation:roquefort-cr 6s linear infinite}
+@keyframes roquefort-cr{0%{opacity:0;transform:translate(0,0) rotate(-35deg)}6%{opacity:1}22%{opacity:0;transform:translate(25.396825cqw,-17.460317cqw) rotate(-35deg)}100%{opacity:0;transform:translate(25.396825cqw,-17.460317cqw) rotate(-35deg)}}
+.atlas-card[data-interacting="true"] .roquefort-card .roquefort-sh{animation-duration:2s}
+.roquefort-bub{position:absolute;z-index:6;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 35% 30%,rgba(255,255,255,.9),rgba(255,240,190,.25) 55%,rgba(255,220,140,0) 72%);animation:roquefort-fl 8s ease-in infinite;opacity:0}
+@keyframes roquefort-fl{0%{opacity:0;transform:translateY(0) scale(.6)}15%{opacity:.9}100%{opacity:0;transform:translateY(-23.809524cqw) scale(1.2)}}
+.atlas-card[data-interacting="true"] .roquefort-card .roquefort-bub{animation-duration:3.2s}
+@keyframes roquefort-pl{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes roquefort-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.25)}}
+@keyframes roquefort-spin{to{transform:rotate(360deg)}}
+@keyframes roquefort-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+.roquefort-cw{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 28% 30%,#9c3a1a 0 22%,transparent 23%),radial-gradient(circle at 72% 62%,#b24a22 0 27%,transparent 28%),radial-gradient(circle at 42% 84%,#9c3a1a 0 15%,transparent 16%),radial-gradient(circle at 78% 20%,#b24a22 0 12%,transparent 13%),radial-gradient(circle at 34% 26%,#fff 0 6%,#fff7ea 20%,#efe0c6 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(80,40,10,.45)}
+.roquefort-bl{position:absolute;z-index:16;pointer-events:none;width:6.984127cqw;height:8.730159cqw;transform-origin:50% 15%;animation:roquefort-sw 3.6s ease-in-out infinite;filter:drop-shadow(0 0.317460cqw 0.317460cqw rgba(40,20,0,.55))}
+@keyframes roquefort-sw{0%,100%{transform:rotate(-9deg)}50%{transform:rotate(9deg)}}
+.atlas-card[data-interacting="true"] .roquefort-card .roquefort-bl{animation-duration:.9s}
+.roquefort-mg{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 34% 28%,#fff 0 7%,#9fe6ee 20%,#1f8fb0 55%,#0a3a68 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(0,30,70,.55);animation:roquefort-pu 3.6s ease-in-out infinite}
+.atlas-card[data-interacting="true"] .roquefort-card .roquefort-mg{animation-duration:1.2s}
+.roquefort-dp{position:absolute;z-index:7;pointer-events:none;width:0.952381cqw;height:1.428571cqw;margin-left:-0.476190cqw;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;background:radial-gradient(circle at 35% 30%,#fff,#9cd4ff 60%,#4a9ae0);opacity:0;animation:roquefort-dr 4.2s ease-in infinite}
+.atlas-card[data-interacting="true"] .roquefort-card .roquefort-dp{animation-duration:1.6s}
+@keyframes roquefort-dr{0%{opacity:0;transform:translateY(0)}8%{opacity:.95}70%{opacity:.9;transform:translateY(14.285714cqw)}85%{opacity:0;transform:translateY(19.047619cqw)}100%{opacity:0;transform:translateY(19.047619cqw)}}
+
+.roquefort-photo{position:absolute;overflow:hidden;background:#8a95a8 url(/designs/roquefort/cheese.jpg) center/cover no-repeat;z-index:3}
+.roquefort-photo-shade{box-shadow:inset 0 0 4.127cqw #3c140059}
+.roquefort-rim{border-radius:inherit;box-shadow:inset 0 0 0 .2381cqw #9fd070,inset 0 0 0 .6349cqw #3f7a26,inset 0 0 0 .873cqw #12300e;z-index:7}
+.roquefort-name-bg{position:absolute;border-radius:1.587302cqw;background:linear-gradient(180deg,#1c2a44,#0b1424);box-shadow:inset 0 0 0 .159cqw #a0cdff66;z-index:9}
+.roquefort-frame{width:100%;height:100%;z-index:10;filter:drop-shadow(.159cqw .476cqw .476cqw #00140099)}
+.roquefort-caption{position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.476cqw;z-index:14}
+.roquefort-title{font-weight:700;font-size:4.762cqw;letter-spacing:.238095cqw;line-height:1.1}
+.roquefort-divider{display:flex;align-items:center;gap:1.27cqw}.roquefort-divider i{width:6.35cqw;height:.238cqw;background:linear-gradient(90deg,transparent,#bcd8ff)}.roquefort-divider i:last-child{transform:rotate(180deg)}.roquefort-divider b{width:.952cqw;height:.952cqw;transform:rotate(45deg);background:#cfe6ff;box-shadow:0 0 .952cqw #6ab4ff}
+.roquefort-motto{font-weight:600;font-size:1.746cqw;letter-spacing:.476cqw;color:#d9e9ff;text-shadow:0 .159cqw .31746cqw #000;margin-left:.476cqw}
+.roquefort-ho{background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}.roquefort-gl,.roquefort-g2{background-position:var(--supreme-inverse-x,50%) var(--supreme-inverse-y,50%)}
+.roquefort-back-panel{position:absolute;z-index:9;border-radius:2.222cqw;background:#0b1424f5;box-shadow:inset 0 0 0 1px #a67d3480}
+.roquefort-back-text{position:absolute;inset:0;width:100%;height:100%;z-index:15;pointer-events:none}
+.roquefort-back .roquefort-frame{opacity:.48}.roquefort-back .roquefort-ho,.roquefort-back .roquefort-gl,.roquefort-back .roquefort-g2{z-index:14}
+.atlas-card[data-design-model="FRO-002"]{box-shadow:0 4px 4px #5c6a8050,0 24px 36px -17px #5c6a80b0,0 0 0 1px #3f7a2650}
+.atlas-card[data-design-model="FRO-002"][data-reveal="true"]::before{box-shadow:0 0 45px 8px #ffc85a50,0 0 70px 9px #3f7a2630}
+.atlas-card[data-effects="interactive"]:not([data-interacting="true"]) .roquefort-card *{animation-play-state:paused}
+html[data-motion="off"] .roquefort-ho,html[data-motion="off"] .roquefort-gl,html[data-motion="off"] .roquefort-g2,html[data-motion="reduced"] .roquefort-ho,html[data-motion="reduced"] .roquefort-gl,html[data-motion="reduced"] .roquefort-g2,.atlas-card[data-effects="static"] .roquefort-ho,.atlas-card[data-effects="static"] .roquefort-gl,.atlas-card[data-effects="static"] .roquefort-g2{opacity:0!important}
+@media(prefers-reduced-motion:reduce){.roquefort-ho,.roquefort-gl,.roquefort-g2{opacity:0!important}}

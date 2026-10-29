@@ -1,0 +1,118 @@
+/* ATLAS materials. Motion is transform/opacity only; photographs never sit under the foil. */
+.atlas-card{--tilt-x:0deg;--tilt-y:0deg;--light-x:0px;--light-y:0px;width:100%;max-width:440px;aspect-ratio:5/7;margin-inline:auto;border-radius:13px;background:var(--card-shadow,#464e59);overflow:visible;position:relative;isolation:isolate;text-align:left;transform:perspective(1100px) rotateX(var(--tilt-x)) rotateY(var(--tilt-y));transition:transform .22s ease-out,box-shadow .3s ease;box-shadow:0 3px 3px #080d1a30,0 16px 25px -12px #080d1a80,0 1px 0 1px color-mix(in srgb,var(--card-light,#d7dde4) 35%,transparent)}
+.atlas-card-face{display:block;width:100%;height:100%;overflow:visible;transform-origin:center;pointer-events:none}
+.atlas-card[data-material="rare"]{box-shadow:0 13px 25px -12px #102d6080,0 0 13px -7px #347fd080}
+.atlas-card[data-material="legendary"]{box-shadow:0 3px 4px #50310f50,0 20px 31px -16px #50310fa0,0 0 0 1px #ffe7a030}
+.atlas-card[data-material="supreme"]{box-shadow:0 4px 4px #49081f50,0 24px 36px -17px #49081fb0,0 0 19px -11px #e86aae90}
+.atlas-card[data-interacting="true"]{transition:transform .1s linear;box-shadow:0 25px 35px -14px color-mix(in srgb,var(--card-shadow) 65%,transparent),0 0 16px -8px color-mix(in srgb,var(--card-light) 55%,transparent)}
+.finish-pointerlight{transform:translate(var(--light-x),var(--light-y));opacity:0;transition:opacity .4s ease,transform .2s ease-out}
+.atlas-card[data-interacting="true"] .finish-pointerlight{opacity:1}
+/* Common: brushed steel, static. */
+.finish-bloom,.finish-sweep,.finish-prism,.finish-edge,.finish-glints,.finish-rim-flow{transform-box:view-box;transform-origin:180px 252px}
+.atlas-card[data-material="common"] .finish-prism{opacity:.07}.atlas-card[data-material="common"] .finish-sweep{opacity:.11}
+/* Emerald: a quiet angle polish, with a long rest between passes. */
+.atlas-card[data-material="uncommon"] .finish-sweep{animation:atlas-emerald-polish 18s ease-in-out infinite}
+@keyframes atlas-emerald-polish{0%,45%,100%{transform:translate(-170px,50px);opacity:.08}68%{transform:translate(35px,-10px);opacity:.34}85%{transform:translate(240px,-60px);opacity:.12}}
+/* Sapphire: a breathing depth plus an occasional glacial reflection. */
+.atlas-card[data-material="rare"] .finish-bloom{animation:atlas-sapphire-depth 12s ease-in-out infinite alternate}
+.atlas-card[data-material="rare"] .finish-sweep{animation:atlas-sapphire-reflection 14s ease-in-out infinite}
+@keyframes atlas-sapphire-depth{from{transform:translate(-25px,25px);opacity:.45}to{transform:translate(35px,-20px);opacity:1}}
+@keyframes atlas-sapphire-reflection{0%,35%{transform:translate(-220px,40px);opacity:.08}65%{opacity:.47}100%{transform:translate(280px,-50px);opacity:.08}}
+/* Amethyst: two crossed, slow lavender planes. */
+.atlas-card[data-material="precious"] .finish-prism{animation:atlas-amethyst-prism 10s ease-in-out infinite alternate}
+.atlas-card[data-material="precious"] .finish-bloom{animation:atlas-amethyst-light 11.5s ease-in-out infinite alternate-reverse}
+.atlas-card[data-material="precious"] .finish-sweep{opacity:.25}
+@keyframes atlas-amethyst-prism{from{transform:translate(-60px,18px) rotate(-7deg);opacity:.23}to{transform:translate(55px,-22px) rotate(5deg);opacity:.65}}
+@keyframes atlas-amethyst-light{from{transform:translate(30px,-15px);opacity:.4}to{transform:translate(-20px,20px);opacity:.95}}
+/* Gold: heavy polished metal and a champagne sweep, rather than yellow light. */
+.atlas-card[data-material="legendary"] .finish-sweep{animation:atlas-gold-metal 8s cubic-bezier(.4,0,.25,1) infinite alternate}
+.atlas-card[data-material="legendary"] .finish-bloom{animation:atlas-gold-depth 10s ease-in-out infinite alternate-reverse}
+.atlas-card[data-material="legendary"] .finish-prism{opacity:.12}
+.atlas-card[data-material="legendary"] .finish-rim-flow{animation:atlas-gold-rim 7.3s ease-in-out infinite alternate-reverse}
+@keyframes atlas-gold-rim{from{transform:translate(-110px,25px);opacity:.4}to{transform:translate(190px,-35px);opacity:.95}}
+@keyframes atlas-gold-metal{0%{transform:translate(-140px,35px);opacity:.3}45%{opacity:.85}100%{transform:translate(190px,-45px);opacity:.48}}
+@keyframes atlas-gold-depth{from{transform:translate(-10px,12px);opacity:.42}to{transform:translate(40px,-20px);opacity:.88}}
+/* Supreme: independent ruby, magenta, lavender and pearl layers. Their periods do not align. */
+.atlas-card[data-material="supreme"] .finish-bloom{animation:atlas-ruby-heart 8.7s ease-in-out infinite alternate}
+.atlas-card[data-material="supreme"] .finish-prism{animation:atlas-ruby-prism 11.3s ease-in-out infinite alternate-reverse}
+.atlas-card[data-material="supreme"] .finish-sweep{animation:atlas-ruby-foil 7.1s cubic-bezier(.4,0,.3,1) infinite alternate}
+.atlas-card[data-material="supreme"] .finish-edge{animation:atlas-ruby-edge 5.9s ease-in-out infinite alternate}
+.atlas-card[data-material="supreme"] .finish-glints{animation:atlas-ruby-glints 9.7s ease-in-out infinite}
+.atlas-card[data-material="supreme"] .finish-rim-flow{animation:atlas-ruby-rim 6.7s ease-in-out infinite alternate-reverse}
+@keyframes atlas-ruby-rim{from{transform:translate(-150px,35px);opacity:.6}to{transform:translate(180px,-40px);opacity:1}}
+@keyframes atlas-ruby-heart{0%{transform:translate(-25px,10px) scale(.94);opacity:.55}55%{opacity:1}100%{transform:translate(45px,-20px) scale(1.12);opacity:.8}}
+@keyframes atlas-ruby-prism{0%{transform:translate(-100px,20px) rotate(-6deg);opacity:.42}48%{opacity:.9}100%{transform:translate(90px,-35px) rotate(7deg);opacity:.65}}
+@keyframes atlas-ruby-foil{0%{transform:translate(-185px,55px);opacity:.3}42%{opacity:.95}75%{opacity:.68}100%{transform:translate(210px,-55px);opacity:.5}}
+@keyframes atlas-ruby-edge{from{opacity:.4}to{opacity:1}}
+@keyframes atlas-ruby-glints{0%,35%,100%{opacity:.13}48%{opacity:.95}65%{opacity:.25}80%{opacity:.6}}
+/* Reveals are opt-in; future booster views can use the same prop. No player module is opened. */
+.atlas-card[data-reveal="true"] .atlas-card-face{animation:atlas-card-arrival .85s cubic-bezier(.15,.65,.25,1) both}
+.atlas-card[data-material="supreme"][data-reveal="true"]:before{content:"";position:absolute;inset:2px;border-radius:13px;z-index:-1;box-shadow:0 0 45px 8px #c6394770,0 0 70px 9px #b870ec30;animation:atlas-ruby-arrival 1.8s ease-out both;pointer-events:none}
+.atlas-card[data-material="supreme"][data-reveal="true"] .finish-reveal-stroke{stroke-dasharray:280 1550;animation:atlas-reveal-edge 1.6s ease-out .15s both}
+@keyframes atlas-card-arrival{from{opacity:0;transform:translateY(14px) scale(.94) rotateY(-8deg)}to{opacity:1;transform:none}}
+@keyframes atlas-ruby-arrival{0%{opacity:0;transform:scale(.95)}40%{opacity:1}100%{opacity:0;transform:scale(1.035)}}
+@keyframes atlas-reveal-edge{0%{stroke-dashoffset:1830;opacity:0}30%{opacity:1}100%{stroke-dashoffset:0;opacity:0}}
+.atlas-card[data-material="supreme"][data-reveal="true"] .finish-reveal-sweep{animation:atlas-reveal-sweep 1.9s ease-out .35s both}
+@keyframes atlas-reveal-sweep{0%{transform:translate(-210px,55px);opacity:0}35%{opacity:1}100%{transform:translate(280px,-60px);opacity:0}}
+/* Compact collections keep the material but do not run dozens of idle animations. */
+.atlas-card.compact .atlas-card-face:not(.archive-supreme-card):not(.a380-card):not(.b747-card):not(.concorde-card):not(.rafale-card):not(.stuka-card):not(.blackbird-card):not(.spitfire-card):not(.camembert-card):not(.comte-card):not(.reef-card):not(.marie-card):not(.everest-card):not(.roquefort-card):not(.nectaire-card):not(.charlemagne-card):not(.chine-card):not(.cia-card):not(.france-card):not(.cesar-card):not(.louis-card):not(.mossad-card):not(.napoleon-card) *{animation:none!important}
+.atlas-card.compact .finish-sweep{opacity:.28}.atlas-card.compact .finish-prism{opacity:.3}.atlas-card.compact .finish-glints{opacity:.3}
+.gallery-card:hover .atlas-card{transform:translateY(-3px);box-shadow:0 18px 28px -13px color-mix(in srgb,var(--card-shadow) 70%,transparent)}
+.atlas-card[data-effects="interactive"]:not([data-interacting="true"]) .atlas-card-face *{animation-play-state:paused}
+/* Local still previews and all global accessibility preferences are authoritative. */
+.atlas-card[data-effects="static"] .atlas-card-face *{animation:none!important;transition:none!important}
+.atlas-card[data-effects="static"]{transform:none!important}
+html[data-motion="off"] *,html[data-motion="off"] *:before,html[data-motion="off"] *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+html[data-motion="off"] .atlas-card,html[data-motion="reduced"] .atlas-card{transform:none!important}
+html[data-motion="reduced"] .atlas-card *,html[data-motion="reduced"] .atlas-card:before{animation:none!important;transition:none!important}
+html[data-motion="off"] .finish-pointerlight,html[data-motion="reduced"] .finish-pointerlight{opacity:0!important}
+html[data-motion="off"] .finish-reveal-stroke,html[data-motion="reduced"] .finish-reveal-stroke,html[data-motion="off"] .atlas-card:before,html[data-motion="reduced"] .atlas-card:before{opacity:0!important}
+@media(prefers-reduced-motion:reduce){.atlas-card,.atlas-card *,.atlas-card:before{animation:none!important;transition:none!important;transform:none!important}.finish-pointerlight,.finish-reveal-stroke,.atlas-card:before{opacity:0!important}}
+/* Administrative material studio. It is a read-only view of the existing illustration. */
+.finish-studio{background:#eeeee8;border:1px solid #dedfd5;border-radius:9px;overflow:hidden}
+.finish-studio-intro{display:flex;justify-content:space-between;gap:25px;align-items:center;padding:30px 30px 24px;border-bottom:1px solid #d9ddcf;background:#f6f6f0}
+.finish-studio-intro h2{font-family:var(--font-atlas);font-size:30px;font-weight:400;letter-spacing:-.7px;margin:11px 0}
+.finish-studio-intro p{font-size:12px;color:#6b7964;max-width:620px;line-height:1.7}
+.finish-demo-tag{font-size:9px;text-transform:uppercase;letter-spacing:1.4px;border:1px solid #d4dac9;color:#68775e;padding:9px 12px;white-space:nowrap;border-radius:3px}
+.finish-tools{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:22px 25px 10px;flex-wrap:wrap}
+.finish-modes{display:flex;gap:4px;padding:4px;background:#e2e6db;border:1px solid #d4dbca;border-radius:6px;flex-wrap:wrap}
+.finish-modes button{display:flex;gap:7px;align-items:center;font-size:10px;padding:10px 12px;border-radius:4px;background:none;color:#697b5d}
+.finish-modes button.active{background:#fff;color:#354a2d;box-shadow:0 2px 3px #27332e10}
+.finish-tools>label{display:flex;align-items:center;gap:10px;font-size:10px;color:#64735d}
+.finish-tools select{background:#fff;border:1px solid #d3dcc8;padding:10px 12px;border-radius:4px;font-size:11px;max-width:220px;color:#3b5031}
+.finish-mode-hint{font-size:11px;line-height:1.7;color:#758369;padding:0 27px 16px}
+.finish-comparison{display:grid;grid-template-columns:repeat(6,minmax(225px,1fr));gap:24px;overflow-x:auto;padding:16px 28px 30px;scroll-snap-type:x proximity;align-items:start;background:radial-gradient(ellipse at 50% 20%,#ffffff80,transparent 70%)}
+.finish-sample{min-width:0;scroll-snap-align:center}
+.finish-sample-label{display:flex;align-items:center;gap:10px;margin-bottom:15px}
+.finish-sample-label>span{color:var(--sample-color);font-family:var(--font-atlas);font-size:14px;width:20px}
+.finish-sample-label h3{font-size:12px;font-weight:500;color:#3f4e37}
+.finish-sample>p{font-size:10px;color:#6c7b60;margin:18px 0 5px;letter-spacing:.3px}
+.finish-sample>.text-button{font-size:9px;color:#778666;font-weight:400}
+.finish-studio-foot{padding:19px 28px;background:#f6f6f0;border-top:1px solid #dce1d1;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:10px;color:#6c7c5e}
+.finish-studio-foot>p{font-size:10px;line-height:1.6;color:#899579}
+.finish-hero{display:grid;grid-template-columns:minmax(150px,1fr) minmax(270px,450px) minmax(160px,1fr);gap:35px;align-items:center;padding:26px 35px 45px;background:radial-gradient(ellipse at center,#fff9,transparent 68%)}
+.finish-hero-selector{align-self:start;padding-top:12px}
+.finish-hero-selector>.eyebrow{font-size:8px;display:block;margin-bottom:20px}
+.finish-hero-selector>button{display:flex;align-items:center;gap:11px;background:none;border:1px solid transparent;border-radius:5px;padding:12px 10px;width:100%;text-align:left;margin-bottom:4px}
+.finish-hero-selector>button.selected{border-color:#d1d8c6;background:#f8faf4}
+.finish-hero-selector i{width:8px;height:8px;background:var(--sample-color);transform:rotate(45deg);flex-shrink:0}
+.finish-hero-selector>button>span{font-size:11px;color:#566b47}.finish-hero-selector small{display:block;font-size:9px;margin-top:5px;color:#859574}
+.finish-hero-notes h3{font-family:var(--font-atlas);font-size:26px;font-weight:400;margin:14px 0;color:#4d5d43}
+.finish-hero-notes>p{font-size:12px;line-height:1.9;color:#748467;margin-bottom:23px}
+.finish-hero-notes>small{display:block;font-size:9px;line-height:1.8;margin-top:15px;color:#8a987b}
+.finish-phone{width:375px;max-width:100%;padding:17px 16px 27px;background:#e0e4da;border:5px solid #677262;border-radius:36px;box-shadow:0 15px 30px -20px #26341c80;position:relative}
+.phone-status{display:flex;justify-content:space-between;font-size:8px;color:#68745e;letter-spacing:1px;padding:5px 3px 20px}.phone-status>span{font-size:6px}.phone-home{position:absolute;bottom:9px;width:80px;height:3px;background:#8b9680;left:50%;transform:translateX(-50%);border-radius:3px}
+@media(min-width:1900px){.finish-comparison{grid-template-columns:repeat(6,minmax(0,1fr));gap:19px}}
+@media(max-width:1200px){.finish-hero{grid-template-columns:minmax(120px,1fr) minmax(230px,380px);gap:25px;padding:20px 25px 35px}.finish-hero-notes{grid-column:1/-1;max-width:600px}.finish-hero-notes>p{margin-bottom:15px}}
+@media(max-width:760px){.finish-studio-intro{padding:22px 18px;display:block}.finish-studio-intro h2{font-size:27px}.finish-demo-tag{display:inline-block;margin-top:18px}.finish-tools{padding:17px 14px 10px}.finish-modes{width:100%;gap:2px}.finish-modes button{font-size:9px;padding:9px 7px;gap:4px;flex:1;justify-content:center}.finish-modes button svg{width:12px}.finish-tools>label{width:100%;justify-content:space-between}.finish-tools select{max-width:70%}.finish-mode-hint{padding:0 18px 10px;font-size:10px}.finish-comparison{grid-template-columns:repeat(6,minmax(240px,78vw));gap:23px;padding:15px 24px 27px}.finish-hero{display:flex;flex-direction:column;padding:12px 18px 30px;gap:24px}.finish-hero-selector{padding:0;width:100%;display:grid;grid-template-columns:repeat(3,1fr);gap:4px}.finish-hero-selector>.eyebrow{grid-column:1/-1;margin:3px 0 9px}.finish-hero-selector>button{padding:9px 6px;gap:7px;margin:0}.finish-hero-selector>button>span{font-size:9px}.finish-hero-selector small{display:none}.finish-hero-card{width:100%;max-width:440px}.finish-hero-notes{width:100%}.finish-hero-notes h3{font-size:25px}.finish-studio-foot{padding:17px 18px;gap:9px}.finish-phone{width:375px}}
+.sidebar{overflow-y:auto;overscroll-behavior:contain}
+/* Verso metal responds to the pointer only; no idle animation over reading text. */
+.atlas-card[data-side="back"]:not([data-material="supreme"])::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;background:linear-gradient(112deg,transparent 24%,#fff8 43%,#fff 49%,#ffffff70 55%,transparent 72%);background-size:220% 180%;background-position:calc(50% + var(--light-x)) calc(50% + var(--light-y));mix-blend-mode:soft-light;transition:opacity .25s ease;}
+.atlas-card[data-side="back"][data-interacting="true"]:not([data-material="supreme"])::after{opacity:.55}
+.atlas-card[data-effects="static"]::after,html[data-motion="off"] .atlas-card::after,html[data-motion="reduced"] .atlas-card::after{opacity:0!important}
+@media(prefers-reduced-motion:reduce){.atlas-card::after{opacity:0!important;transition:none!important}}
+/* Pointer sheen on all five standard rarities. */
+.atlas-card[data-side="front"]:is([data-material="common"],[data-material="uncommon"],[data-material="rare"],[data-material="precious"],[data-material="legendary"])::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;background:linear-gradient(112deg,transparent 24%,#fff8 43%,#fff 49%,#ffffff70 55%,transparent 72%);background-size:220% 180%;background-position:calc(50% + var(--light-x)) calc(50% + var(--light-y));mix-blend-mode:soft-light;transition:opacity .25s ease;}
+.atlas-card[data-side="front"]:is(:hover,[data-interacting="true"]):is([data-material="common"],[data-material="uncommon"],[data-material="rare"],[data-material="precious"],[data-material="legendary"])::after{opacity:.55}
+.atlas-card[data-effects="static"]::after,html[data-motion="off"] .atlas-card::after,html[data-motion="reduced"] .atlas-card::after{opacity:0!important}
+@media(prefers-reduced-motion:reduce){.atlas-card::after{opacity:0!important;transition:none!important}}

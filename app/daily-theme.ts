@@ -1,0 +1,2 @@
+import {UNIVERSES} from './model';
+export function dailyTheme(now=Date.now(),available:readonly string[]=UNIVERSES){const day=Math.floor(now/86400000);const pool=available.length?available:UNIVERSES;const start=((day-20753)*3%pool.length+pool.length)%pool.length;const names=Array.from({length:Math.min(3,pool.length)},(_,i)=>pool[(start+i)%pool.length]);return {name:names[0],names,resetsAt:(day+1)*86400000};}

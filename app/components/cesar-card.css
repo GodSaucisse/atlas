@@ -1,0 +1,113 @@
+
+
+
+.atlas-card-face.cesar-card{position:relative;width:100%;height:100%;container-type:inline-size;border-radius:inherit;overflow:hidden;background:#0a1a5a url(/designs/cesar/pattern.jpg) center/100% 100% no-repeat;font-family:var(--font-atlas)}
+
+.cesar-ly{position:absolute;inset:0;pointer-events:none}
+.cesar-bd{position:absolute;inset:0;pointer-events:none;padding:5.714286cqw;box-sizing:border-box;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0)}
+.cesar-sw{z-index:5;mix-blend-mode:screen;background:linear-gradient(115deg,rgba(255,255,255,0) 40%,rgba(255,226,150,.8) 50%,rgba(255,255,255,0) 60%);background-size:300% 100%;animation:cesar-sweep 5.5s linear infinite}
+.cesar-sv{z-index:5;mix-blend-mode:screen;background:linear-gradient(180deg,rgba(255,255,255,0) 30%,rgba(230,180,70,.5) 50%,rgba(255,255,255,0) 70%);background-size:100% 300%;animation:cesar-sweepv 4.2s linear infinite}
+.cesar-gw{z-index:4;background:radial-gradient(ellipse at 50% 105%,rgba(240,190,80,.25),rgba(240,190,80,0) 55%);animation:cesar-pl 4s ease-in-out infinite}
+.cesar-gf{z-index:8;mix-blend-mode:screen;background:linear-gradient(105deg,rgba(255,255,255,0) 44%,rgba(255,236,170,.35) 50%,rgba(255,255,255,0) 56%);background-size:320% 100%;animation:cesar-sweep 7s linear infinite}
+.cesar-rt{position:absolute;z-index:11;pointer-events:none;animation:cesar-spin 14s linear infinite}
+.atlas-card[data-interacting="true"] .cesar-card .cesar-rt{animation-duration:3s}
+.cesar-ho{z-index:40;opacity:0;mix-blend-mode:color-dodge;background:linear-gradient(115deg,rgba(255,190,70,0) 0,rgba(255,190,70,.3) 8%,rgba(255,215,110,.3) 15%,rgba(210,230,255,.28) 22%,rgba(170,140,255,.3) 29%,rgba(120,235,230,.3) 36%,rgba(255,190,70,0) 44%,rgba(255,190,70,0) 56%,rgba(255,215,110,.28) 64%,rgba(170,140,255,.28) 72%,rgba(255,190,70,0) 82%);background-size:240% 240%;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.cesar-gl{z-index:41;opacity:0;mix-blend-mode:overlay;background:radial-gradient(circle at center,rgba(220,232,248,.8) 0,rgba(220,232,248,.28) 16%,rgba(255,255,255,0) 40%);background-size:220% 220%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.cesar-g2{z-index:42;opacity:0;mix-blend-mode:screen;background:radial-gradient(circle at center,rgba(255,240,205,.85) 0,rgba(255,240,205,.35) 13%,rgba(255,255,255,0) 32%);background-size:170% 170%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.atlas-card[data-interacting="true"] .cesar-card .cesar-ho{opacity:.3}.atlas-card[data-interacting="true"] .cesar-card .cesar-gl{opacity:.35}.atlas-card[data-interacting="true"] .cesar-card .cesar-g2{opacity:.3}
+.cesar-st{position:absolute;z-index:20;pointer-events:none;background:radial-gradient(circle,#fff 0,#fff0c0 30%,rgba(255,215,120,0) 70%);clip-path:polygon(50% 0,59% 41%,100% 50%,59% 59%,50% 100%,41% 59%,0 50%,41% 41%);animation:cesar-tw 2.6s ease-in-out infinite}
+.cesar-gt{background:linear-gradient(180deg,#fff4c8 0,#f3d47a 42%,#b98a26 62%,#ffeaa6 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#f3d47a;filter:drop-shadow(0 0.158730cqw 0.317460cqw rgba(0,10,40,.9)) drop-shadow(0 0 1.269841cqw rgba(255,200,90,.5))}
+@keyframes cesar-sweep{from{background-position:130% 0}to{background-position:-130% 0}}
+@keyframes cesar-sweepv{from{background-position:0 130%}to{background-position:0 -130%}}
+@keyframes cesar-pl{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes cesar-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.45)}}
+@keyframes cesar-spin{to{transform:rotate(360deg)}}
+@keyframes cesar-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cesar-ap{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 34% 28%,#fff 0 7%,#ff9a88 18%,#e0242c 52%,#7a0812 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(80,0,10,.55);animation:cesar-pu 3.6s ease-in-out infinite}
+.cesar-ap.cesar-gr{background:radial-gradient(circle at 34% 28%,#fff 0 7%,#f2f59a 20%,#9bcb3e 55%,#3a6a14 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(20,50,0,.5)}
+.atlas-card[data-interacting="true"] .cesar-card .cesar-ap{animation-duration:1.2s}
+.cesar-wh{position:absolute;z-index:9;pointer-events:none;left:45.079365cqw;top:1.904762cqw;width:9.841270cqw;height:9.841270cqw;border-radius:50%;background:radial-gradient(circle at 30% 40%,#6b6c70 0 8%,transparent 10%),radial-gradient(circle at 66% 66%,#707174 0 6%,transparent 8%),radial-gradient(circle at 36% 30%,#fff1b8 0 24%,#e8c260 46%,#9a9a96 64%,#55565a 100%);box-shadow:inset 0 0 1.269841cqw rgba(40,30,0,.5);overflow:hidden;animation:cesar-wob 6s ease-in-out infinite}
+.cesar-wh::before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,0) 35%,rgba(255,255,255,.5) 48%,rgba(255,255,255,0) 60%);border-radius:50%}
+.cesar-wh::after{content:"";position:absolute;inset:0.952381cqw;border-radius:50%;border:0.158730cqw solid rgba(255,220,130,.5)}
+.atlas-card[data-interacting="true"] .cesar-card .cesar-wh{position:absolute;z-index:9;pointer-events:none;left:45.079365cqw;top:1.904762cqw;width:9.841270cqw;height:9.841270cqw;border-radius:50%;background:radial-gradient(circle at 30% 40%,#6b6c70 0 8%,transparent 10%),radial-gradient(circle at 66% 66%,#707174 0 6%,transparent 8%),radial-gradient(circle at 36% 30%,#fff1b8 0 24%,#e8c260 46%,#9a9a96 64%,#55565a 100%);box-shadow:inset 0 0 1.269841cqw rgba(40,30,0,.5);overflow:hidden;animation:cesar-wob 6s ease-in-out infinite}
+@keyframes cesar-wob{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+.cesar-sh{position:absolute;z-index:6;pointer-events:none;height:0.476190cqw;width:12.698413cqw;border-radius:0.317460cqw;background:linear-gradient(90deg,rgba(255,240,180,0),#fff6cc);opacity:0;filter:drop-shadow(0 0 0.793651cqw #ffd870);animation:cesar-cr 6s linear infinite}
+@keyframes cesar-cr{0%{opacity:0;transform:translate(0,0) rotate(-35deg)}6%{opacity:1}22%{opacity:0;transform:translate(25.396825cqw,-17.460317cqw) rotate(-35deg)}100%{opacity:0;transform:translate(25.396825cqw,-17.460317cqw) rotate(-35deg)}}
+.atlas-card[data-interacting="true"] .cesar-card .cesar-sh{animation-duration:2s}
+.cesar-bub{position:absolute;z-index:6;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 35% 30%,rgba(255,255,255,.9),rgba(255,240,190,.25) 55%,rgba(255,220,140,0) 72%);animation:cesar-fl 8s ease-in infinite;opacity:0}
+@keyframes cesar-fl{0%{opacity:0;transform:translateY(0) scale(.6)}15%{opacity:.9}100%{opacity:0;transform:translateY(-23.809524cqw) scale(1.2)}}
+.atlas-card[data-interacting="true"] .cesar-card .cesar-bub{animation-duration:3.2s}
+@keyframes cesar-pl{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes cesar-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.25)}}
+@keyframes cesar-spin{to{transform:rotate(360deg)}}
+@keyframes cesar-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+.cesar-cw{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 28% 30%,#9c3a1a 0 22%,transparent 23%),radial-gradient(circle at 72% 62%,#b24a22 0 27%,transparent 28%),radial-gradient(circle at 42% 84%,#9c3a1a 0 15%,transparent 16%),radial-gradient(circle at 78% 20%,#b24a22 0 12%,transparent 13%),radial-gradient(circle at 34% 26%,#fff 0 6%,#fff7ea 20%,#efe0c6 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(80,40,10,.45)}
+.cesar-bl{position:absolute;z-index:16;pointer-events:none;width:6.984127cqw;height:8.730159cqw;transform-origin:50% 15%;animation:cesar-sw 3.6s ease-in-out infinite;filter:drop-shadow(0 0.317460cqw 0.317460cqw rgba(40,20,0,.55))}
+@keyframes cesar-sw{0%,100%{transform:rotate(-9deg)}50%{transform:rotate(9deg)}}
+.atlas-card[data-interacting="true"] .cesar-card .cesar-bl{animation-duration:.9s}
+.cesar-mg{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 34% 28%,#fff 0 7%,#fff2b8 20%,#e2b13c 55%,#6a4608 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(70,40,0,.55);animation:cesar-pu 3.6s ease-in-out infinite}
+.atlas-card[data-interacting="true"] .cesar-card .cesar-mg{animation-duration:1.2s}
+.cesar-dp{position:absolute;z-index:7;pointer-events:none;width:0.952381cqw;height:1.428571cqw;margin-left:-0.476190cqw;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;background:radial-gradient(circle at 35% 30%,#fff,#9cd4ff 60%,#4a9ae0);opacity:0;animation:cesar-dr 4.2s ease-in infinite}
+.atlas-card[data-interacting="true"] .cesar-card .cesar-dp{animation-duration:1.6s}
+@keyframes cesar-dr{0%{opacity:0;transform:translateY(0)}8%{opacity:.95}70%{opacity:.9;transform:translateY(14.285714cqw)}85%{opacity:0;transform:translateY(19.047619cqw)}100%{opacity:0;transform:translateY(19.047619cqw)}}
+.cesar-ms{position:absolute;left:-60%;width:220%;height:30.158730cqw;pointer-events:none;z-index:2;background:radial-gradient(ellipse at 50% 50%,rgba(238,234,222,.34),rgba(238,234,222,0) 66%);filter:blur(1.111111cqw);animation:cesar-mist 18s ease-in-out infinite alternate}
+.atlas-card[data-interacting="true"] .cesar-card .cesar-ms{animation-duration:6s}
+@keyframes cesar-mist{from{transform:translateX(-14%)}to{transform:translateX(14%)}}
+
+.cesar-photo{position:absolute;overflow:hidden;background:#8a95a8 url(/designs/cesar/portrait.jpg) center/cover no-repeat;z-index:3}
+.cesar-photo-shade{box-shadow:inset 0 0 4.127cqw #3c140059}
+.cesar-rim{border-radius:inherit;box-shadow:inset 0 0 0 .2381cqw #f3e0a0,inset 0 0 0 .6349cqw #8a6d2a,inset 0 0 0 .873cqw #1c1a14;z-index:7}
+.cesar-name-bg{position:absolute;border-radius:1.587302cqw;background:linear-gradient(180deg,#6a0814,#220106);box-shadow:inset 0 0 0 .159cqw #e6be5a80;z-index:9}
+.cesar-frame{width:100%;height:100%;z-index:10;filter:drop-shadow(.159cqw .476cqw .476cqw #00000099)}
+.cesar-caption{position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.476cqw;z-index:14}
+.cesar-title{font-weight:700;font-size:4.444444cqw;letter-spacing:.15873cqw;line-height:1.1}
+.cesar-divider{display:flex;align-items:center;gap:1.27cqw}.cesar-divider i{width:6.35cqw;height:.238cqw;background:linear-gradient(90deg,transparent,#e8c260)}.cesar-divider i:last-child{transform:rotate(180deg)}.cesar-divider b{width:.952cqw;height:.952cqw;transform:rotate(45deg);background:#ffe8a0;box-shadow:0 0 .952cqw #e0a030}
+.cesar-motto{font-weight:600;font-size:1.746cqw;letter-spacing:.476cqw;color:#f1deaa;text-shadow:0 .159cqw .31746cqw #000;margin-left:.476cqw}
+.cesar-ho{background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}.cesar-gl,.cesar-g2{background-position:var(--supreme-inverse-x,50%) var(--supreme-inverse-y,50%)}
+.cesar-back-panel{position:absolute;z-index:9;border-radius:2.222cqw;background:#220106f5;box-shadow:inset 0 0 0 1px #a67d3480}
+.cesar-back-text{position:absolute;inset:0;width:100%;height:100%;z-index:15;pointer-events:none}
+.cesar-back .cesar-frame{opacity:.48}.cesar-back .cesar-ho,.cesar-back .cesar-gl,.cesar-back .cesar-g2{z-index:14}
+.atlas-card[data-design-model="HIS-002"]{box-shadow:0 4px 4px #3a3b3e50,0 24px 36px -17px #3a3b3eb0,0 0 0 1px #8a6d2a50}
+.atlas-card[data-design-model="HIS-002"][data-reveal="true"]::before{box-shadow:0 0 45px 8px #ffc85a50,0 0 70px 9px #8a6d2a30}
+.atlas-card[data-effects="interactive"]:not([data-interacting="true"]) .cesar-card *{animation-play-state:paused}
+html[data-motion="off"] .cesar-ho,html[data-motion="off"] .cesar-gl,html[data-motion="off"] .cesar-g2,html[data-motion="reduced"] .cesar-ho,html[data-motion="reduced"] .cesar-gl,html[data-motion="reduced"] .cesar-g2,.atlas-card[data-effects="static"] .cesar-ho,.atlas-card[data-effects="static"] .cesar-gl,.atlas-card[data-effects="static"] .cesar-g2{opacity:0!important}
+@media(prefers-reduced-motion:reduce){.cesar-ho,.cesar-gl,.cesar-g2{opacity:0!important}}
+
+.cesar-photo{background-image:url(/designs/cesar/portrait.jpg)}
+.cesar-banner{position:absolute;z-index:16;pointer-events:none;transform-origin:50% 8%;animation:cesar-sw 3.8s ease-in-out infinite;filter:drop-shadow(0 .5cqw .5cqw #0008)}
+.cesar-crown{position:absolute;z-index:11;pointer-events:none;animation:cesar-float 4.5s ease-in-out infinite;filter:drop-shadow(0 .5cqw .6cqw #000b) drop-shadow(0 0 1.6cqw #ffc84680)}
+.cesar-ember{position:absolute;z-index:6;border-radius:50%;background:#ffd966;box-shadow:0 0 1cqw #ffc23a;animation:cesar-rise 7s ease-out infinite;pointer-events:none}
+.cesar-wh{display:grid;place-items:center;background:#22093f;border:.32cqw solid #e9b52a;color:#ffd966;font-size:5cqw}
+@keyframes cesar-float{50%{transform:translateY(-.5cqw)}}
+@keyframes cesar-rise{0%{opacity:0}12%{opacity:.95}100%{opacity:0;transform:translate(3cqw,-41cqw)}}
+.atlas-card[data-interacting="true"] .cesar-banner{animation-duration:1s}
+.atlas-card[data-interacting="true"] .cesar-crown{animation-duration:1.8s}
+@media(prefers-reduced-motion:reduce){.cesar-card *{animation:none!important}}
+
+.cesar-title{font-size:4.603cqw;letter-spacing:.31746cqw}.cesar-ms{display:none}.cesar-photo:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 25%,#ffc86455,transparent 60%);animation:cesar-pl 6s ease-in-out infinite}
+
+.cesar-title{font-size:4.603cqw;letter-spacing:.476cqw}.cesar-motto{letter-spacing:.635cqw;white-space:nowrap}.cesar-wh{border:0;background:repeating-conic-gradient(#e9b52a 0 10deg,#7a0612 10deg 20deg);animation:cesar-spin 18s linear infinite}.cesar-seal{position:absolute;left:46.984%;top:2.469%;width:6.032%;height:3.909%;border-radius:50%;z-index:9;background:radial-gradient(circle at 35% 30%,#e03040,#7a0612 70%);box-shadow:inset 0 0 0 .317cqw #e9b52a;display:grid;place-items:center;font:700 1.587cqw var(--font-atlas);color:#ffe9a0}.cesar-eagle-shine{position:absolute;z-index:12;pointer-events:none;mask:url(/designs/cesar/eagle.png) center/100% 100% no-repeat;background:linear-gradient(105deg,transparent 40%,#fffffff2 50%,transparent 60%) -120% 0/60% 100% no-repeat;mix-blend-mode:color-dodge;animation:cesar-eagle 5s ease-in-out infinite}@keyframes cesar-eagle{0%,55%{background-position:-120% 0}100%{background-position:260% 0}}

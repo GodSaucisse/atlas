@@ -1,0 +1,12 @@
+[
+  {
+    "code": "CAT-006",
+    "name": "Saint Pierre",
+    "description": "Pêcheur de Galilée et l’un des Douze, Pierre tient une place centrale dans les Évangiles et les Actes des Apôtres. La tradition catholique le reconnaît comme le premier évêque de Rome.",
+    "category": "Catholicisme",
+    "universe": "Chrétienté",
+    "imageKey": "a4932e36-c83d-5ed5-b064-d46ee933d7f7.jpg",
+    "asset": "/designs/saint-pierre/bb8e343c03fb5e27c741acc39d7e1e78.jpg",
+    "sourceSha256": "94915922d61c1b3f40dd69561c5def282127ec3c6e1f46c8d5c984d99bc071cc"
+  }
+]

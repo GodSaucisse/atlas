@@ -1,0 +1,804 @@
+[
+  {
+    "code": "AVI-001",
+    "expectedDescription": "Constructeur : Wright brothers. Premier vol le 17 décembre 1903. Exemplaire construit en 1903. Le 17 décembre 1903, les frères Wright font voler cet appareil motorisé à Kill Devil Hills, en Caroline du Nord. Ses ailes biplanes et son système de contrôle sur trois axes ouvrent une nouvelle ère de l’aviation.",
+    "description": "Le 17 décembre 1903, les frères Wright font voler cet appareil motorisé à Kill Devil Hills, en Caroline du Nord. Ses ailes biplanes et son système de contrôle sur trois axes ouvrent une nouvelle ère de l’aviation. (1903 – 1903)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wright_Flyer"
+    ]
+  },
+  {
+    "code": "AVI-002",
+    "expectedDescription": "Constructeur : Blériot Aéronautique. Premier vol en 1909 ; traversée de la Manche le 25 juillet 1909. Construction dès les années 1900 et durant les années 1910. Avec son monoplan léger, Louis Blériot traverse la Manche en 1909. Le Blériot XI démontre qu’un avion peut relier deux pays séparés par la mer et devient l’un des appareils marquants des débuts de l’aviation.",
+    "description": "Avec son monoplan léger, Louis Blériot traverse la Manche en 1909. Le Blériot XI démontre qu’un avion peut relier deux pays séparés par la mer et devient l’un des appareils marquants des débuts de l’aviation. (1909 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bl%C3%A9riot_XI"
+    ]
+  },
+  {
+    "code": "AVI-003",
+    "expectedDescription": "Constructeur : Alberto Santos-Dumont. Premier vol en 1906. Exemplaire construit en 1906. Conçu par Alberto Santos-Dumont, ce biplan réalise des vols publics à Paris en 1906. Sa structure singulière, avec une cellule avant en forme de cerf-volant, en fait une silhouette emblématique des pionniers de l’aviation.",
+    "description": "Conçu par Alberto Santos-Dumont, ce biplan réalise des vols publics à Paris en 1906. Sa structure singulière, avec une cellule avant en forme de cerf-volant, en fait une silhouette emblématique des pionniers de l’aviation. (1906 – 1907)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Santos-Dumont_14-bis"
+    ]
+  },
+  {
+    "code": "AVI-004",
+    "expectedDescription": "Constructeur : Frères Voisin. Premier vol en 1907 ; circuit fermé de 1 km par Farman le 13 janvier 1908. Construction en 1907. Ce biplan Voisin, associé au pilote Henri Farman, participe aux progrès décisifs de l’aviation européenne. En 1908, Farman boucle à son bord un circuit fermé d’un kilomètre, une étape majeure dans la maîtrise du vol.",
+    "description": "Ce biplan Voisin, associé au pilote Henri Farman, participe aux progrès décisifs de l’aviation européenne. En 1908, Farman boucle à son bord un circuit fermé d’un kilomètre, une étape majeure dans la maîtrise du vol. (1907 – dernier vol à confirmer)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Voisin_1907_biplane"
+    ]
+  },
+  {
+    "code": "AVI-005",
+    "expectedDescription": "Constructeur : Curtiss. Mise en service en 1915. Construction dans les années 1910–1920. Surnommé Jenny, ce biplan américain forme de nombreux pilotes pendant la Première Guerre mondiale. Après le conflit, il devient une vedette des démonstrations itinérantes et des premiers vols accessibles au grand public.",
+    "description": "Surnommé Jenny, ce biplan américain forme de nombreux pilotes pendant la Première Guerre mondiale. Après le conflit, il devient une vedette des démonstrations itinérantes et des premiers vols accessibles au grand public. (1915 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Curtiss_JN_Jenny"
+    ]
+  },
+  {
+    "code": "AVI-006",
+    "expectedDescription": "Constructeur : Ryan Airlines. Premier vol le 28 avril 1927. Exemplaire construit en 1927 ; traversée de l’Atlantique les 20–21 mai 1927. Charles Lindbergh traverse seul l’Atlantique entre New York et Paris en 1927 à bord de ce monomoteur spécialement aménagé. Son immense réservoir privilégie l’autonomie et impose une vision vers l’avant très particulière.",
+    "description": "Charles Lindbergh traverse seul l’Atlantique entre New York et Paris en 1927 à bord de ce monomoteur spécialement aménagé. Son immense réservoir privilégie l’autonomie et impose une vision vers l’avant très particulière. (1927 – 1928)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Spirit_of_St._Louis"
+    ]
+  },
+  {
+    "code": "AVI-007",
+    "expectedDescription": "Constructeur : Lockheed. Premier vol de la famille Vega le 4 juillet 1927. Construction de la famille de 1927 à 1934. Le Vega 5B est un monomoteur à aile haute et fuselage en bois, associé aux grands vols d’Amelia Earhart. Il illustre l’essor des avions rapides utilisés pour les voyages, les records et l’exploration aérienne.",
+    "description": "Le Vega 5B est un monomoteur à aile haute et fuselage en bois, associé aux grands vols d’Amelia Earhart. Il illustre l’essor des avions rapides utilisés pour les voyages, les records et l’exploration aérienne. (1929 – dernier vol à confirmer)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lockheed_Vega"
+    ]
+  },
+  {
+    "code": "AVI-008",
+    "expectedDescription": "Constructeur : de Havilland. Premier vol le 8 septembre 1934. Construction dans les années 1930 ; victoire dans la course Londres–Melbourne en 1934. Ce bimoteur de course britannique aux lignes épurées est conçu pour la compétition MacRobertson de 1934. Sa structure en bois et son train escamotable incarnent la recherche de vitesse et d’autonomie des années 1930.",
+    "description": "Ce bimoteur de course britannique aux lignes épurées est conçu pour la compétition MacRobertson de 1934. Sa structure en bois et son train escamotable incarnent la recherche de vitesse et d’autonomie des années 1930. (1934 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/De_Havilland_DH.88_Comet"
+    ]
+  },
+  {
+    "code": "AVI-009",
+    "expectedDescription": "Constructeur : Caudron. Premier vol en 1934. Construction dans les années 1930. Ce monoplace français de course porte le nom Rafale bien avant le chasseur de Dassault. Son moteur Renault et sa silhouette très fine illustrent la quête de vitesse menée par Caudron dans les années 1930.",
+    "description": "Ce monoplace français de course porte le nom Rafale bien avant le chasseur de Dassault. Son moteur Renault et sa silhouette très fine illustrent la quête de vitesse menée par Caudron dans les années 1930. (1934 – dernier vol à confirmer)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Caudron_C.460"
+    ]
+  },
+  {
+    "code": "AVI-010",
+    "expectedDescription": "Constructeur : Morane-Saulnier. Premier vol en février 1929. Production de série dans les années 1930. Reconnaissable à son aile parasol et à ses deux postes ouverts, le MS.230 est un avion français d’entraînement. Il accompagne la formation des pilotes et les démonstrations de voltige pendant l’entre-deux-guerres.",
+    "description": "Reconnaissable à son aile parasol et à ses deux postes ouverts, le MS.230 est un avion français d’entraînement. Il accompagne la formation des pilotes et les démonstrations de voltige pendant l’entre-deux-guerres. (1929 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Morane-Saulnier_MS.230"
+    ]
+  },
+  {
+    "code": "AVI-011",
+    "expectedDescription": "Constructeur : Douglas Aircraft. Premier vol le 17 décembre 1935 ; service en 1936. Construction civile principalement dans les années 1930–1940. Robuste bimoteur à hélices, le DC-3 transforme le transport aérien commercial dans les années 1930. Sa cabine, son autonomie et son économie d’exploitation contribuent à rendre les lignes régulières plus viables.",
+    "description": "Robuste bimoteur à hélices, le DC-3 transforme le transport aérien commercial dans les années 1930. Sa cabine, son autonomie et son économie d’exploitation contribuent à rendre les lignes régulières plus viables. (1935 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Douglas_DC-3"
+    ]
+  },
+  {
+    "code": "AVI-012",
+    "expectedDescription": "Constructeur : de Havilland. Premier vol le 27 juillet 1949 ; service en 1952. Construction de 1949 à 1964. Le Comet ouvre l’ère du transport commercial à réaction. Son entrée en service dans les années 1950 marque une rupture avec les avions à hélices et s’accompagne d’importantes leçons sur la fatigue des structures pressurisées.",
+    "description": "Le Comet ouvre l’ère du transport commercial à réaction. Son entrée en service dans les années 1950 marque une rupture avec les avions à hélices et s’accompagne d’importantes leçons sur la fatigue des structures pressurisées. (1949 – 1997)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/De_Havilland_Comet"
+    ]
+  },
+  {
+    "code": "AVI-013",
+    "expectedDescription": "Constructeur : SNCASE, puis Sud Aviation. Premier vol le 27 mai 1955 ; service en 1959. Production de 1958 à 1972. Avion de ligne français, la Caravelle se distingue par ses deux réacteurs placés à l’arrière du fuselage. Sa silhouette élégante symbolise l’arrivée du transport à réaction sur les liaisons européennes.",
+    "description": "Avion de ligne français, la Caravelle se distingue par ses deux réacteurs placés à l’arrière du fuselage. Sa silhouette élégante symbolise l’arrivée du transport à réaction sur les liaisons européennes. (1955 – 2005)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sud_Aviation_Caravelle"
+    ]
+  },
+  {
+    "code": "AVI-014",
+    "expectedDescription": "Constructeur : Boeing. Premier vol le 20 décembre 1957 ; service en 1958. Production commerciale de 1956 à 1978. Avec ses quatre réacteurs et son aile en flèche, le Boeing 707 accompagne l’expansion du transport aérien à réaction. Il contribue à rapprocher les continents et à transformer durablement les voyages longue distance.",
+    "description": "Avec ses quatre réacteurs et son aile en flèche, le Boeing 707 accompagne l’expansion du transport aérien à réaction. Il contribue à rapprocher les continents et à transformer durablement les voyages longue distance. (1957 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boeing_707"
+    ]
+  },
+  {
+    "code": "AVI-015",
+    "expectedDescription": "Constructeur : Boeing. Premier vol du 727-200 le 27 juillet 1967. Construction dans les années 1960–1980. Version allongée du triréacteur Boeing 727, le 727-200 associe une capacité accrue à un empennage en T caractéristique. Ses dispositifs hypersustentateurs lui permettent de desservir des aéroports très variés.",
+    "description": "Version allongée du triréacteur Boeing 727, le 727-200 associe une capacité accrue à un empennage en T caractéristique. Ses dispositifs hypersustentateurs lui permettent de desservir des aéroports très variés. (1967 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boeing_727"
+    ]
+  },
+  {
+    "code": "AVI-016",
+    "expectedDescription": "Constructeur : Boeing. Premier vol du 737-800 le 31 juillet 1997 ; service en 1998. Construction lancée dans les années 1990. Le 737-800 appartient à la génération Next Generation du célèbre biréacteur Boeing. Répandu sur les liaisons court et moyen-courriers, il associe un fuselage monocouloir à une voilure modernisée.",
+    "description": "Le 737-800 appartient à la génération Next Generation du célèbre biréacteur Boeing. Répandu sur les liaisons court et moyen-courriers, il associe un fuselage monocouloir à une voilure modernisée. (1997 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boeing_737_Next_Generation"
+    ]
+  },
+  {
+    "code": "AVI-017",
+    "expectedDescription": "Constructeur : Boeing. Premier vol le 29 avril 1988 ; service en 1989. Construction du 747-400 de 1988 à 2009, versions passagers et cargo comprises. Reconnaissable à sa bosse et à ses extrémités d’ailes relevées, le 747-400 modernise le célèbre Jumbo Jet. Son autonomie et sa capacité en font un pilier des grandes liaisons intercontinentales.",
+    "description": "Reconnaissable à sa bosse et à ses extrémités d’ailes relevées, le 747-400 modernise le célèbre Jumbo Jet. Son autonomie et sa capacité en font un pilier des grandes liaisons intercontinentales. (1988 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boeing_747-400"
+    ]
+  },
+  {
+    "code": "AVI-018",
+    "expectedDescription": "Constructeur : Britten-Norman. Premier vol le 13 juin 1965. Construction lancée dans les années 1960. Petit bimoteur britannique à aile haute, l’Islander dessert les îles, les terrains courts et les régions isolées. Sa conception simple et sa cabine utilitaire privilégient la polyvalence et l’accès aux petites pistes.",
+    "description": "Petit bimoteur britannique à aile haute, l’Islander dessert les îles, les terrains courts et les régions isolées. Sa conception simple et sa cabine utilitaire privilégient la polyvalence et l’accès aux petites pistes. (1965 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Britten-Norman_BN-2_Islander"
+    ]
+  },
+  {
+    "code": "AVI-019",
+    "expectedDescription": "Constructeur : Short Brothers. Premier vol le 1er juin 1981 ; service en 1982. Construction de 1981 à 1991. Ce biturbopropulseur régional britannique se reconnaît à son fuselage presque rectangulaire et à son aile haute. Développé à partir du Short 330, il assure des liaisons de proximité avec une cabine allongée.",
+    "description": "Ce biturbopropulseur régional britannique se reconnaît à son fuselage presque rectangulaire et à son aile haute. Développé à partir du Short 330, il assure des liaisons de proximité avec une cabine allongée. (1981 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Short_360"
+    ]
+  },
+  {
+    "code": "AVI-020",
+    "expectedDescription": "Constructeur : Boeing. Premier vol du 777-300ER le 24 février 2003 ; service en 2004. Construction lancée dans les années 2000. Le 777-300ER associe un long fuselage à deux puissants réacteurs pour les grandes liaisons intercontinentales. Ses extrémités d’ailes effilées et son autonomie en font une version majeure de la famille Triple Seven.",
+    "description": "Le 777-300ER associe un long fuselage à deux puissants réacteurs pour les grandes liaisons intercontinentales. Ses extrémités d’ailes effilées et son autonomie en font une version majeure de la famille Triple Seven. (2003 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boeing_777"
+    ]
+  },
+  {
+    "code": "AVI-021",
+    "expectedDescription": "Constructeur : Dornier, puis ses successeurs. Premier vol le 28 mars 1981. Construction dès les années 1980 ; nouvelle série NG dans les années 2010. Le Dornier 228 est un bimoteur utilitaire à aile haute, conçu pour les liaisons régionales et les missions spécialisées. Ses capacités sur pistes courtes lui ouvrent l’accès à des terrains difficiles ou isolés.",
+    "description": "Le Dornier 228 est un bimoteur utilitaire à aile haute, conçu pour les liaisons régionales et les missions spécialisées. Ses capacités sur pistes courtes lui ouvrent l’accès à des terrains difficiles ou isolés. (1981 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dornier_228"
+    ]
+  },
+  {
+    "code": "AVI-022",
+    "expectedDescription": "Constructeur : Airbus Industrie. Premier vol de la famille A300 le 28 octobre 1972 ; A300B2 en service en 1974. Construction du B2 dans les années 1970–1980. Première version de série de la famille A300, l’A300B2 inaugure le gros-porteur biréacteur d’Airbus. Sa cabine à deux couloirs et son architecture contribuent à établir le constructeur européen sur le marché des avions de ligne.",
+    "description": "Première version de série de la famille A300, l’A300B2 inaugure le gros-porteur biréacteur d’Airbus. Sa cabine à deux couloirs et son architecture contribuent à établir le constructeur européen sur le marché des avions de ligne. (1973 – dernier vol à confirmer)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Airbus_A300"
+    ]
+  },
+  {
+    "code": "AVI-023",
+    "expectedDescription": "Constructeur : Airbus. Premier vol de la famille A320 le 22 février 1987 ; service en 1988. Construction du -200 lancée à la fin des années 1980. L’A320-200 est un biréacteur monocouloir destiné aux liaisons court et moyen-courriers. Sa famille généralise chez Airbus les commandes de vol électriques et le pilotage par minimanche dans le transport commercial.",
+    "description": "L’A320-200 est un biréacteur monocouloir destiné aux liaisons court et moyen-courriers. Sa famille généralise chez Airbus les commandes de vol électriques et le pilotage par minimanche dans le transport commercial. (1987 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Airbus_A320_family"
+    ]
+  },
+  {
+    "code": "AVI-024",
+    "expectedDescription": "Constructeur : Airbus. Premier vol le 2 novembre 1992 ; service en 1994. Construction de série lancée dans les années 1990. Le long fuselage de l’A330-300 abrite une cabine à deux couloirs, propulsée par deux réacteurs. Cet avion gros-porteur polyvalent dessert aussi bien des routes régionales très fréquentées que des lignes intercontinentales.",
+    "description": "Le long fuselage de l’A330-300 abrite une cabine à deux couloirs, propulsée par deux réacteurs. Cet avion gros-porteur polyvalent dessert aussi bien des routes régionales très fréquentées que des lignes intercontinentales. (1992 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Airbus_A330"
+    ]
+  },
+  {
+    "code": "AVI-025",
+    "expectedDescription": "Constructeur : Airbus. Premier vol le 14 juin 2013 ; service en 2015. Construction de série lancée dans les années 2010. L’A350-900 est un gros-porteur biréacteur conçu pour les vols long-courriers. Sa cellule fait largement appel aux matériaux composites, tandis que ses ailes courbes et ses grands hublots distinguent sa silhouette.",
+    "description": "L’A350-900 est un gros-porteur biréacteur conçu pour les vols long-courriers. Sa cellule fait largement appel aux matériaux composites, tandis que ses ailes courbes et ses grands hublots distinguent sa silhouette. (2013 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Airbus_A350"
+    ]
+  },
+  {
+    "code": "AVI-026",
+    "expectedDescription": "Constructeur : Airbus. Premier vol le 27 avril 2005 ; service en 2007. Construction de 2003 à 2021, des années 2000 aux années 2020. Avec ses deux ponts complets et ses quatre réacteurs, l’A380-800 est conçu pour transporter un grand nombre de passagers sur de longues distances. Son premier vol, en 2005, marque une étape majeure pour Airbus.",
+    "description": "Avec ses deux ponts complets et ses quatre réacteurs, l’A380-800 est conçu pour transporter un grand nombre de passagers sur de longues distances. Son premier vol, en 2005, marque une étape majeure pour Airbus. (2005 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Airbus_A380"
+    ]
+  },
+  {
+    "code": "AVI-027",
+    "expectedDescription": "Constructeur : Sud Aviation/Aérospatiale et British Aircraft Corporation. Premier vol le 2 mars 1969. Construction de 1965 à 1979 ; service commercial de 1976 à 2003. Fruit d’une coopération franco-britannique, le Concorde effectue son premier vol en 1969. Mis en service en 1976, cet avion de ligne à aile delta transporte ses passagers à Mach 2 et devient un symbole de l’aviation supersonique.",
+    "description": "Fruit d’une coopération franco-britannique, le Concorde effectue son premier vol en 1969. Mis en service en 1976, cet avion de ligne à aile delta transporte ses passagers à Mach 2 et devient un symbole de l’aviation supersonique. (1969 – 2003)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Concorde"
+    ]
+  },
+  {
+    "code": "AVI-028",
+    "expectedDescription": "Constructeur : Tupolev. Premier vol le 31 décembre 1968. Construction de 1967 à 1983 ; premiers passagers en 1977. Le Tu-144 est un avion de ligne supersonique soviétique à aile delta. Rival du Concorde, il se distingue notamment par ses plans canards escamotables sur les versions de série et par l’ambition technologique de son programme.",
+    "description": "Le Tu-144 est un avion de ligne supersonique soviétique à aile delta. Rival du Concorde, il se distingue notamment par ses plans canards escamotables sur les versions de série et par l’ambition technologique de son programme. (1968 – 1999)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tupolev_Tu-144"
+    ]
+  },
+  {
+    "code": "AVI-029",
+    "expectedDescription": "Constructeur : ATR. Premier vol du 72-600 le 24 juillet 2009 ; service en 2011. Construction de série à partir des années 2010. Version modernisée du biturbopropulseur franco-italien ATR 72, le 72-600 dessert les lignes régionales. Son aile haute et son cockpit numérique associent les qualités d’un avion à hélices à une avionique contemporaine.",
+    "description": "Version modernisée du biturbopropulseur franco-italien ATR 72, le 72-600 dessert les lignes régionales. Son aile haute et son cockpit numérique associent les qualités d’un avion à hélices à une avionique contemporaine. (2009 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/ATR_72"
+    ]
+  },
+  {
+    "code": "AVI-030",
+    "expectedDescription": "Constructeur : Embraer. Premier vol de l’E190 le 12 mars 2004 ; service en 2005. Construction lancée dans les années 2000. Le biréacteur brésilien E190 relie les marchés régionaux aux grandes lignes aériennes. Sa cabine à quatre sièges de front et ses réacteurs sous les ailes illustrent le positionnement intermédiaire de la famille E-Jets.",
+    "description": "Le biréacteur brésilien E190 relie les marchés régionaux aux grandes lignes aériennes. Sa cabine à quatre sièges de front et ses réacteurs sous les ailes illustrent le positionnement intermédiaire de la famille E-Jets. (2004 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Embraer_E-Jet_family"
+    ]
+  },
+  {
+    "code": "AVI-031",
+    "expectedDescription": "Constructeur : Fokker. Premier vol le 30 novembre 1986 ; service en 1988. Construction de 1986 à 1997. Le Fokker 100 est un biréacteur néerlandais à moteurs arrière et empennage en T. Conçu pour les lignes régionales et les dessertes de taille intermédiaire, il prolonge l’héritage du Fokker F28.",
+    "description": "Le Fokker 100 est un biréacteur néerlandais à moteurs arrière et empennage en T. Conçu pour les lignes régionales et les dessertes de taille intermédiaire, il prolonge l’héritage du Fokker F28. (1986 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fokker_100"
+    ]
+  },
+  {
+    "code": "AVI-032",
+    "expectedDescription": "Constructeur : Yakovlev. Premier vol le 21 octobre 1966 ; service en 1968. Construction de 1967 à 1981. Petit triréacteur soviétique à aile droite, le Yak-40 est conçu pour les liaisons régionales. Ses moteurs placés à l’arrière et son accès intégré facilitent son exploitation sur des aérodromes modestement équipés.",
+    "description": "Petit triréacteur soviétique à aile droite, le Yak-40 est conçu pour les liaisons régionales. Ses moteurs placés à l’arrière et son accès intégré facilitent son exploitation sur des aérodromes modestement équipés. (1966 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yakovlev_Yak-40"
+    ]
+  },
+  {
+    "code": "AVI-033",
+    "expectedDescription": "Constructeur : Iliouchine. Premier vol le 3 janvier 1963 ; service en 1967. Construction de 1963 à 1995. L’Il-62 est un avion de ligne soviétique long-courrier à quatre réacteurs regroupés à l’arrière. Son empennage en T et sa grande voilure accompagnent l’ouverture de nombreuses liaisons internationales.",
+    "description": "L’Il-62 est un avion de ligne soviétique long-courrier à quatre réacteurs regroupés à l’arrière. Son empennage en T et sa grande voilure accompagnent l’ouverture de nombreuses liaisons internationales. (1963 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ilyushin_Il-62"
+    ]
+  },
+  {
+    "code": "AVI-034",
+    "expectedDescription": "Constructeur : Fokker. Premier vol le 28 décembre 1985 ; service en 1987. Construction de 1985 à 1997. Ce bimoteur néerlandais à turbopropulseurs dessert les lignes régionales avec une cinquantaine de passagers. Héritier du F27 Friendship, il associe une aile haute à une conception adaptée aux liaisons de proximité.",
+    "description": "Ce bimoteur néerlandais à turbopropulseurs dessert les lignes régionales avec une cinquantaine de passagers. Héritier du F27 Friendship, il associe une aile haute à une conception adaptée aux liaisons de proximité. (1985 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fokker_50"
+    ]
+  },
+  {
+    "code": "AVI-035",
+    "expectedDescription": "Constructeur : Bombardier, puis Airbus. Premier vol du CS300, devenu A220-300, le 27 février 2015 ; service en 2016. Construction lancée dans les années 2010. Issu du programme canadien CSeries, l’A220-300 est un biréacteur monocouloir à cabine de cinq sièges de front. Il combine une capacité intermédiaire à une conception pensée pour réduire la consommation et le bruit.",
+    "description": "Issu du programme canadien CSeries, l’A220-300 est un biréacteur monocouloir à cabine de cinq sièges de front. Il combine une capacité intermédiaire à une conception pensée pour réduire la consommation et le bruit. (2015 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Airbus_A220"
+    ]
+  },
+  {
+    "code": "AVI-036",
+    "expectedDescription": "Constructeur : COMAC. Premier vol le 5 mai 2017 ; service commercial en 2023. Prototypes des années 2010, puis production de série dans les années 2020. Le C919 est un avion de ligne monocouloir développé par le constructeur chinois COMAC. Ce biréacteur destiné au moyen-courrier marque une étape importante dans la construction d’une industrie aéronautique commerciale chinoise.",
+    "description": "Le C919 est un avion de ligne monocouloir développé par le constructeur chinois COMAC. Ce biréacteur destiné au moyen-courrier marque une étape importante dans la construction d’une industrie aéronautique commerciale chinoise. (2017 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Comac_C919"
+    ]
+  },
+  {
+    "code": "AVI-037",
+    "expectedDescription": "Constructeur : SPAD. Premier vol le 4 avril 1917. Construction de 1917 à 1919. Le SPAD S.XIII est un chasseur biplan français de la Première Guerre mondiale. Son moteur en ligne, sa vitesse et sa robustesse en font l’un des appareils emblématiques des as de l’aviation alliée.",
+    "description": "Le SPAD S.XIII est un chasseur biplan français de la Première Guerre mondiale. Son moteur en ligne, sa vitesse et sa robustesse en font l’un des appareils emblématiques des as de l’aviation alliée. (1917 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/SPAD_S.XIII"
+    ]
+  },
+  {
+    "code": "AVI-038",
+    "expectedDescription": "Constructeur : Fokker. Premier vol en 1917. Construction de 1917 à 1918. Le Fokker Dr.I est un chasseur triplan allemand de la Première Guerre mondiale. Compact et très maniable, il reste associé à Manfred von Richthofen et à la silhouette célèbre de l’avion du Baron rouge.",
+    "description": "Le Fokker Dr.I est un chasseur triplan allemand de la Première Guerre mondiale. Compact et très maniable, il reste associé à Manfred von Richthofen et à la silhouette célèbre de l’avion du Baron rouge. (1917 – dernier vol à confirmer)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fokker_Dr.I"
+    ]
+  },
+  {
+    "code": "AVI-039",
+    "expectedDescription": "Constructeur : Supermarine. Premier vol le 5 mars 1936 ; service en 1938. Construction de série de 1938 à 1948. Reconnaissable à ses ailes elliptiques, le Spitfire est l’un des chasseurs emblématiques de la Seconde Guerre mondiale. Aux côtés du Hurricane, il participe à la défense du ciel britannique pendant la bataille d’Angleterre.",
+    "description": "Reconnaissable à ses ailes elliptiques, le Spitfire est l’un des chasseurs emblématiques de la Seconde Guerre mondiale. Aux côtés du Hurricane, il participe à la défense du ciel britannique pendant la bataille d’Angleterre. (1936 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Supermarine_Spitfire"
+    ]
+  },
+  {
+    "code": "AVI-040",
+    "expectedDescription": "Constructeur : Messerschmitt. Premier vol de la famille Bf 109 le 29 mai 1935. Construction de la version G dans les années 1940, pendant la Seconde Guerre mondiale. La série G du Bf 109, surnommée Gustav, est une évolution majeure du chasseur allemand. Son moteur en ligne et ses nombreuses variantes lui permettent de remplir des missions de chasse et d’interception pendant la Seconde Guerre mondiale.",
+    "description": "La série G du Bf 109, surnommée Gustav, est une évolution majeure du chasseur allemand. Son moteur en ligne et ses nombreuses variantes lui permettent de remplir des missions de chasse et d’interception pendant la Seconde Guerre mondiale. (1941 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Messerschmitt_Bf_109"
+    ]
+  },
+  {
+    "code": "AVI-041",
+    "expectedDescription": "Constructeur : North American Aviation. Premier vol de la famille P-51 le 26 octobre 1940. Construction du P-51D dans les années 1940. Le P-51D Mustang est un chasseur américain à long rayon d’action, reconnaissable à sa verrière en bulle. Il accompagne les bombardiers alliés en Europe et devient l’un des grands symboles de la chasse de la Seconde Guerre mondiale.",
+    "description": "Le P-51D Mustang est un chasseur américain à long rayon d’action, reconnaissable à sa verrière en bulle. Il accompagne les bombardiers alliés en Europe et devient l’un des grands symboles de la chasse de la Seconde Guerre mondiale. (1943 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_P-51_Mustang"
+    ]
+  },
+  {
+    "code": "AVI-042",
+    "expectedDescription": "Constructeur : Mitsubishi, avec Nakajima sous licence. Premier vol le 1er avril 1939 ; service en 1940. Construction de 1939 à 1945. Le Zero est un chasseur embarqué japonais de la Seconde Guerre mondiale. Sa légèreté, sa maniabilité et son autonomie en font un appareil majeur des premières campagnes aéronavales dans le Pacifique.",
+    "description": "Le Zero est un chasseur embarqué japonais de la Seconde Guerre mondiale. Sa légèreté, sa maniabilité et son autonomie en font un appareil majeur des premières campagnes aéronavales dans le Pacifique. (1939 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mitsubishi_A6M_Zero"
+    ]
+  },
+  {
+    "code": "AVI-043",
+    "expectedDescription": "Constructeur : Yakovlev. Premier vol du prototype Yak-1M en février 1943 ; Yak-3 en service en 1944. Construction de 1944 à 1946. Le Yak-3 est un chasseur soviétique léger de la Seconde Guerre mondiale. Agile à basse et moyenne altitude, il équipe notamment le régiment Normandie-Niémen et reste lié à l’histoire des aviateurs français sur le front de l’Est.",
+    "description": "Le Yak-3 est un chasseur soviétique léger de la Seconde Guerre mondiale. Agile à basse et moyenne altitude, il équipe notamment le régiment Normandie-Niémen et reste lié à l’histoire des aviateurs français sur le front de l’Est. (1943 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yakovlev_Yak-3"
+    ]
+  },
+  {
+    "code": "AVI-044",
+    "expectedDescription": "Constructeur : Republic Aviation. Premier vol de la famille P-47 le 6 mai 1941. Construction du P-47D dans les années 1940. Imposant chasseur américain à moteur en étoile, le P-47D Thunderbolt se distingue par sa robustesse. Il assure l’escorte des bombardiers et l’appui au sol, où sa puissance de feu et sa résistance sont particulièrement appréciées.",
+    "description": "Imposant chasseur américain à moteur en étoile, le P-47D Thunderbolt se distingue par sa robustesse. Il assure l’escorte des bombardiers et l’appui au sol, où sa puissance de feu et sa résistance sont particulièrement appréciées. (1942 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Republic_P-47_Thunderbolt"
+    ]
+  },
+  {
+    "code": "AVI-045",
+    "expectedDescription": "Constructeur : Focke-Wulf. Premier vol de la famille Fw 190 le 1er juin 1939. Construction de la série A allemande de 1941 à 1945. Le Fw 190 A est un chasseur allemand à moteur en étoile, utilisé pendant la Seconde Guerre mondiale. Sa silhouette ramassée et sa grande polyvalence lui permettent d’assurer la chasse, l’interception et l’attaque au sol.",
+    "description": "Le Fw 190 A est un chasseur allemand à moteur en étoile, utilisé pendant la Seconde Guerre mondiale. Sa silhouette ramassée et sa grande polyvalence lui permettent d’assurer la chasse, l’interception et l’attaque au sol. (1940 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Focke-Wulf_Fw_190"
+    ]
+  },
+  {
+    "code": "AVI-046",
+    "expectedDescription": "Constructeur : Messerschmitt. Premier vol à réaction le 18 juillet 1942, après un prototype à moteur à pistons en 1941. Série A-1a construite en 1944–1945. Le Me 262 A-1a est la version de chasse du célèbre biréacteur allemand. Ses moteurs sous les ailes et son aile en flèche annoncent une nouvelle époque, alors que l’avion apparaît à la fin de la Seconde Guerre mondiale.",
+    "description": "Le Me 262 A-1a est la version de chasse du célèbre biréacteur allemand. Ses moteurs sous les ailes et son aile en flèche annoncent une nouvelle époque, alors que l’avion apparaît à la fin de la Seconde Guerre mondiale. (1941 – dernier vol à confirmer)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Messerschmitt_Me_262"
+    ]
+  },
+  {
+    "code": "AVI-047",
+    "expectedDescription": "Constructeur : North American Aviation. Premier vol le 1er octobre 1947. Production américaine de série de 1949 à 1956. Le F-86 Sabre est un chasseur américain à réaction et à aile en flèche. Figure des combats aériens de la guerre de Corée, il illustre la transition entre les chasseurs à hélices et l’aviation de combat moderne.",
+    "description": "Le F-86 Sabre est un chasseur américain à réaction et à aile en flèche. Figure des combats aériens de la guerre de Corée, il illustre la transition entre les chasseurs à hélices et l’aviation de combat moderne. (1947 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_F-86_Sabre"
+    ]
+  },
+  {
+    "code": "AVI-048",
+    "expectedDescription": "Constructeur : Mikoyan-Gourevitch. Premier vol le 30 décembre 1947. Construction de série lancée à la fin des années 1940, puis fabrication sous licence à l’étranger. Le MiG-15 est un chasseur soviétique à réaction, doté d’une aile en flèche et d’une entrée d’air frontale. Très largement diffusé, il affronte notamment le F-86 Sabre dans le ciel de la péninsule coréenne.",
+    "description": "Le MiG-15 est un chasseur soviétique à réaction, doté d’une aile en flèche et d’une entrée d’air frontale. Très largement diffusé, il affronte notamment le F-86 Sabre dans le ciel de la péninsule coréenne. (1947 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-15"
+    ]
+  },
+  {
+    "code": "AVI-049",
+    "expectedDescription": "Constructeur : Dassault. Premier vol le 17 novembre 1956 ; service en 1961. Construction notamment dans les années 1960–1980, selon les versions et les licences. Le Mirage III impose la silhouette de l’aile delta dans l’aviation de combat française. Son prototype vole en 1956 ; la famille atteint Mach 2 et connaît une large diffusion internationale dans plusieurs versions.",
+    "description": "Le Mirage III impose la silhouette de l’aile delta dans l’aviation de combat française. Son prototype vole en 1956 ; la famille atteint Mach 2 et connaît une large diffusion internationale dans plusieurs versions. (1956 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dassault_Mirage_III"
+    ]
+  },
+  {
+    "code": "AVI-050",
+    "expectedDescription": "Constructeur : Dassault Aviation. Premier vol le 10 mars 1978 ; service en 1984. Construction de 1978 à 2007. Le Mirage 2000 reprend la formule de l’aile delta dans un chasseur français doté de commandes de vol électriques. Ses versions monoplaces et biplaces assurent la défense aérienne, la frappe et des missions spécialisées.",
+    "description": "Le Mirage 2000 reprend la formule de l’aile delta dans un chasseur français doté de commandes de vol électriques. Ses versions monoplaces et biplaces assurent la défense aérienne, la frappe et des missions spécialisées. (1978 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dassault_Mirage_2000"
+    ]
+  },
+  {
+    "code": "AVI-051",
+    "expectedDescription": "Constructeur : Dassault Aviation. Démonstrateur Rafale A : premier vol le 4 juillet 1986 ; prototype Rafale C : 19 mai 1991. Construction de série lancée dans les années 1990. Conçu par Dassault Aviation, ce biréacteur à aile delta et plans canards remplit des missions de défense aérienne, de frappe et de reconnaissance. Ses versions terrestres et embarquée incarnent le concept d’avion omnirole.",
+    "description": "Conçu par Dassault Aviation, ce biréacteur à aile delta et plans canards remplit des missions de défense aérienne, de frappe et de reconnaissance. Ses versions terrestres et embarquée incarnent le concept d’avion omnirole. (1986 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dassault_Rafale"
+    ]
+  },
+  {
+    "code": "AVI-052",
+    "expectedDescription": "Constructeur : Grumman. Premier vol le 21 décembre 1970 ; service en 1974. Construction de 1969 à 1991. Le F-14 Tomcat est un chasseur embarqué américain à deux réacteurs et ailes à géométrie variable. Son radar et ses missiles à longue portée sont conçus pour protéger les groupes aéronavals contre les menaces aériennes.",
+    "description": "Le F-14 Tomcat est un chasseur embarqué américain à deux réacteurs et ailes à géométrie variable. Son radar et ses missiles à longue portée sont conçus pour protéger les groupes aéronavals contre les menaces aériennes. (1970 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Grumman_F-14_Tomcat"
+    ]
+  },
+  {
+    "code": "AVI-053",
+    "expectedDescription": "Constructeur : McDonnell Douglas, puis Boeing. Premier vol le 27 juillet 1972 ; service en 1976. Versions F-15A à D construites de 1972 à 1997 ; dérivés ultérieurs distincts. Le F-15 Eagle est un chasseur biréacteur américain développé pour la supériorité aérienne. Ses deux dérives, sa grande voilure et son rapport poussée-poids élevé soulignent sa vocation au combat aérien.",
+    "description": "Le F-15 Eagle est un chasseur biréacteur américain développé pour la supériorité aérienne. Ses deux dérives, sa grande voilure et son rapport poussée-poids élevé soulignent sa vocation au combat aérien. (1972 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-15_Eagle"
+    ]
+  },
+  {
+    "code": "AVI-054",
+    "expectedDescription": "Constructeur : General Dynamics, puis Lockheed Martin. Premier vol officiel le 2 février 1974. Construction lancée dans les années 1970. Chasseur monoréacteur américain, le F-16 associe une grande maniabilité à une verrière offrant une vue dégagée. Développé par General Dynamics, cet appareil multirôle est adopté par de nombreuses forces aériennes.",
+    "description": "Chasseur monoréacteur américain, le F-16 associe une grande maniabilité à une verrière offrant une vue dégagée. Développé par General Dynamics, cet appareil multirôle est adopté par de nombreuses forces aériennes. (1974 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon"
+    ]
+  },
+  {
+    "code": "AVI-055",
+    "expectedDescription": "Constructeur : McDonnell Douglas et Northrop, puis Boeing. Premier vol le 18 novembre 1978 ; service en 1983. Construction du Hornet classique dans les années 1970–2000. Le F/A-18 Hornet est un chasseur-bombardier embarqué américain à deux réacteurs. Sa polyvalence lui permet d’alterner entre interception et attaque au sol au cours des opérations des aéronavales qui l’emploient.",
+    "description": "Le F/A-18 Hornet est un chasseur-bombardier embarqué américain à deux réacteurs. Sa polyvalence lui permet d’alterner entre interception et attaque au sol au cours des opérations des aéronavales qui l’emploient. (1978 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/McDonnell_Douglas_F/A-18_Hornet"
+    ]
+  },
+  {
+    "code": "AVI-056",
+    "expectedDescription": "Constructeur : Lockheed Martin et Boeing. Premier vol du F-22 le 7 septembre 1997 ; service en 2005. Construction de 1996 à 2011. Le F-22 Raptor est un chasseur américain furtif conçu pour la supériorité aérienne. Il associe une cellule à faible signature radar, une grande agilité et la capacité de voler en supersonique sans postcombustion.",
+    "description": "Le F-22 Raptor est un chasseur américain furtif conçu pour la supériorité aérienne. Il associe une cellule à faible signature radar, une grande agilité et la capacité de voler en supersonique sans postcombustion. (1997 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lockheed_Martin_F-22_Raptor"
+    ]
+  },
+  {
+    "code": "AVI-057",
+    "expectedDescription": "Constructeur : Lockheed Martin. Premier vol du F-35A le 15 décembre 2006. Construction lancée dans les années 2000 ; première version en service en 2015. Le F-35 Lightning II est un avion de combat furtif multirôle décliné en trois versions. Son système de capteurs et son architecture en réseau occupent une place centrale dans sa conception et ses missions.",
+    "description": "Le F-35 Lightning II est un avion de combat furtif multirôle décliné en trois versions. Son système de capteurs et son architecture en réseau occupent une place centrale dans sa conception et ses missions. (2006 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II"
+    ]
+  },
+  {
+    "code": "AVI-058",
+    "expectedDescription": "Constructeur : Consortium Eurofighter. Premier vol le 27 mars 1994 ; service en 2003. Prototypes dans les années 1990, puis série dans les années 2000. Issu d’une coopération européenne, le Typhoon est un chasseur biréacteur à aile delta et plans canards. Pensé pour la supériorité aérienne, il développe aussi des capacités de frappe et d’emploi multirôle.",
+    "description": "Issu d’une coopération européenne, le Typhoon est un chasseur biréacteur à aile delta et plans canards. Pensé pour la supériorité aérienne, il développe aussi des capacités de frappe et d’emploi multirôle. (1994 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Eurofighter_Typhoon"
+    ]
+  },
+  {
+    "code": "AVI-059",
+    "expectedDescription": "Constructeur : Saab. Premier vol le 9 décembre 1988 ; service en 1996. Construction lancée dans les années 1980. Le Gripen est un chasseur suédois monoréacteur à aile delta et plans canards. Sa conception met l’accent sur la polyvalence, la maintenance et l’exploitation depuis des bases dispersées ou des portions de route adaptées.",
+    "description": "Le Gripen est un chasseur suédois monoréacteur à aile delta et plans canards. Sa conception met l’accent sur la polyvalence, la maintenance et l’exploitation depuis des bases dispersées ou des portions de route adaptées. (1988 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Saab_JAS_39_Gripen"
+    ]
+  },
+  {
+    "code": "AVI-060",
+    "expectedDescription": "Constructeur : Mikoyan-Gourevitch. Premiers prototypes en 1955. Production soviétique de série de 1959 à 1986 ; fabrication sous licence également à l’étranger. Reconnaissable à son aile delta et à son entrée d’air frontale, le MiG-21 est l’un des chasseurs supersoniques les plus diffusés. Sa silhouette compacte accompagne de nombreuses forces aériennes pendant la guerre froide.",
+    "description": "Reconnaissable à son aile delta et à son entrée d’air frontale, le MiG-21 est l’un des chasseurs supersoniques les plus diffusés. Sa silhouette compacte accompagne de nombreuses forces aériennes pendant la guerre froide. (1955 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-21"
+    ]
+  },
+  {
+    "code": "AVI-061",
+    "expectedDescription": "Constructeur : Sukhoi. Premier vol le 20 mai 1977 ; service en 1985. Production du Su-27 d’origine de 1982 à 2010, hors dérivés ultérieurs. Le Su-27 est un grand chasseur soviétique biréacteur conçu pour la supériorité aérienne. Sa cellule intégrée, ses deux dérives et son autonomie donnent naissance à une vaste famille d’avions de combat.",
+    "description": "Le Su-27 est un grand chasseur soviétique biréacteur conçu pour la supériorité aérienne. Sa cellule intégrée, ses deux dérives et son autonomie donnent naissance à une vaste famille d’avions de combat. (1977 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sukhoi_Su-27"
+    ]
+  },
+  {
+    "code": "AVI-062",
+    "expectedDescription": "Constructeur : Sukhoi / UAC. Premier vol le 29 janvier 2010 ; service en 2020. Production de série lancée à la fin des années 2010. Le Su-57 est un avion de combat russe de nouvelle génération, doté de deux réacteurs et de soutes internes. Son programme associe la recherche d’une faible signature radar à la manœuvrabilité et aux missions multirôles.",
+    "description": "Le Su-57 est un avion de combat russe de nouvelle génération, doté de deux réacteurs et de soutes internes. Son programme associe la recherche d’une faible signature radar à la manœuvrabilité et aux missions multirôles. (2010 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sukhoi_Su-57"
+    ]
+  },
+  {
+    "code": "AVI-063",
+    "expectedDescription": "Constructeur : Chengdu Aircraft. Premier vol le 11 janvier 2011 ; service en 2017. Construction de série lancée dans les années 2010. Le J-20 est un grand avion de combat chinois à deux réacteurs, plans canards et soutes internes. Sa silhouette anguleuse traduit la recherche d’une faible signature radar pour des missions de combat à longue portée.",
+    "description": "Le J-20 est un grand avion de combat chinois à deux réacteurs, plans canards et soutes internes. Sa silhouette anguleuse traduit la recherche d’une faible signature radar pour des missions de combat à longue portée. (2011 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chengdu_J-20"
+    ]
+  },
+  {
+    "code": "AVI-064",
+    "expectedDescription": "Constructeur : Hindustan Aeronautics Limited. Premier vol du démonstrateur Tejas le 4 janvier 2001. Mk 1 construit en série dans les années 2010 ; première escadrille en 2016. Le Tejas Mk 1 est un chasseur léger indien monoréacteur à aile delta. Développé autour du programme national Light Combat Aircraft, il contribue à l’autonomie industrielle de l’Inde dans l’aviation de combat.",
+    "description": "Le Tejas Mk 1 est un chasseur léger indien monoréacteur à aile delta. Développé autour du programme national Light Combat Aircraft, il contribue à l’autonomie industrielle de l’Inde dans l’aviation de combat. (2001 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/HAL_Tejas"
+    ]
+  },
+  {
+    "code": "AVI-065",
+    "expectedDescription": "Constructeur : Northrop. Premier vol du F-5E le 11 août 1972 ; service en 1973. Construction de 1972 à 1987. Le F-5E Tiger II est un chasseur léger américain bimoteur, dérivé du F-5 initial. Compact et largement exporté, il est aussi employé pour l’entraînement avancé et la simulation d’adversaires en combat aérien.",
+    "description": "Le F-5E Tiger II est un chasseur léger américain bimoteur, dérivé du F-5 initial. Compact et largement exporté, il est aussi employé pour l’entraînement avancé et la simulation d’adversaires en combat aérien. (1972 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Northrop_F-5"
+    ]
+  },
+  {
+    "code": "AVI-066",
+    "expectedDescription": "Constructeur : Boeing, Douglas et Lockheed-Vega. Premier vol de la famille B-17 le 28 juillet 1935. Construction du B-17G de 1943 à 1945. Le B-17G est un bombardier lourd américain quadrimoteur de la Seconde Guerre mondiale. Sa tourelle sous le nez renforce la défense de la Forteresse volante, engagée dans les campagnes de bombardement en Europe.",
+    "description": "Le B-17G est un bombardier lourd américain quadrimoteur de la Seconde Guerre mondiale. Sa tourelle sous le nez renforce la défense de la Forteresse volante, engagée dans les campagnes de bombardement en Europe. (1943 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boeing_B-17_Flying_Fortress"
+    ]
+  },
+  {
+    "code": "AVI-067",
+    "expectedDescription": "Constructeur : Boeing. Premier vol le 21 septembre 1942 ; service en 1944. Construction de série de 1943 à 1946. Le B-29 Superfortress est un bombardier lourd américain à quatre moteurs, utilisé dans le Pacifique pendant la Seconde Guerre mondiale. Sa cabine pressurisée et ses tourelles télécommandées témoignent d’une conception ambitieuse.",
+    "description": "Le B-29 Superfortress est un bombardier lourd américain à quatre moteurs, utilisé dans le Pacifique pendant la Seconde Guerre mondiale. Sa cabine pressurisée et ses tourelles télécommandées témoignent d’une conception ambitieuse. (1942 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boeing_B-29_Superfortress"
+    ]
+  },
+  {
+    "code": "AVI-068",
+    "expectedDescription": "Constructeur : Avro. Premier vol le 9 janvier 1941 ; service en 1942. Construction dans les années 1940. Le Lancaster est un bombardier lourd britannique quadrimoteur de la Seconde Guerre mondiale. Sa vaste soute lui permet d’emporter des charges très variées, et il occupe une place majeure dans l’histoire du Bomber Command.",
+    "description": "Le Lancaster est un bombardier lourd britannique quadrimoteur de la Seconde Guerre mondiale. Sa vaste soute lui permet d’emporter des charges très variées, et il occupe une place majeure dans l’histoire du Bomber Command. (1941 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Avro_Lancaster"
+    ]
+  },
+  {
+    "code": "AVI-069",
+    "expectedDescription": "Constructeur : Heinkel. Premier vol le 24 février 1935. Production allemande de 1935 à 1944, hors dérivé espagnol CASA 2.111. Le He 111 est un bombardier bimoteur allemand employé pendant la Seconde Guerre mondiale. Son nez largement vitré sur les versions les plus connues et sa voilure caractéristique en font une silhouette immédiatement identifiable.",
+    "description": "Le He 111 est un bombardier bimoteur allemand employé pendant la Seconde Guerre mondiale. Son nez largement vitré sur les versions les plus connues et sa voilure caractéristique en font une silhouette immédiatement identifiable. (1935 – 1958)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Heinkel_He_111"
+    ]
+  },
+  {
+    "code": "AVI-070",
+    "expectedDescription": "Constructeur : Junkers. Premier vol le 17 septembre 1935 ; service en 1936. Construction de 1936 à 1944. Le Ju 87 Stuka est un bombardier en piqué allemand à train fixe. Ses ailes en W et ses attaques plongeantes en font un appareil emblématique de l’appui aérien rapproché au début de la Seconde Guerre mondiale.",
+    "description": "Le Ju 87 Stuka est un bombardier en piqué allemand à train fixe. Ses ailes en W et ses attaques plongeantes en font un appareil emblématique de l’appui aérien rapproché au début de la Seconde Guerre mondiale. (1935 – dernier vol à confirmer)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Junkers_Ju_87"
+    ]
+  },
+  {
+    "code": "AVI-071",
+    "expectedDescription": "Constructeur : Handley Page. Premier vol le 25 octobre 1939 ; service en 1940. Construction de 1940 à 1946. Le Halifax est un bombardier lourd britannique à quatre moteurs de la Seconde Guerre mondiale. Il remplit également des missions de transport, de remorquage de planeurs et de soutien aux opérations spéciales.",
+    "description": "Le Halifax est un bombardier lourd britannique à quatre moteurs de la Seconde Guerre mondiale. Il remplit également des missions de transport, de remorquage de planeurs et de soutien aux opérations spéciales. (1939 – 1961)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Handley_Page_Halifax",
+      "https://en.wikipedia.org/wiki/Handley_Page_Halifax"
+    ]
+  },
+  {
+    "code": "AVI-072",
+    "expectedDescription": "Constructeur : Boeing. Premier vol le 15 avril 1952 ; service en 1955. Construction de 1952 à 1962. Entré en service en 1955, le B-52 Stratofortress est un bombardier stratégique américain à huit réacteurs. Son rayon d’action et sa capacité d’emport en font une figure durable de l’aviation militaire à long rayon d’action.",
+    "description": "Entré en service en 1955, le B-52 Stratofortress est un bombardier stratégique américain à huit réacteurs. Son rayon d’action et sa capacité d’emport en font une figure durable de l’aviation militaire à long rayon d’action. (1952 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boeing_B-52_Stratofortress"
+    ]
+  },
+  {
+    "code": "AVI-073",
+    "expectedDescription": "Constructeur : Northrop, puis Northrop Grumman. Premier vol le 17 juillet 1989 ; service en 1997. Construction de 1989 à 2000. Le B-2 Spirit est un bombardier stratégique américain furtif en forme d’aile volante. Sa cellule sans empennage et ses soutes internes sont conçues pour pénétrer les défenses aériennes à grande distance.",
+    "description": "Le B-2 Spirit est un bombardier stratégique américain furtif en forme d’aile volante. Sa cellule sans empennage et ses soutes internes sont conçues pour pénétrer les défenses aériennes à grande distance. (1989 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Northrop_B-2_Spirit"
+    ]
+  },
+  {
+    "code": "AVI-074",
+    "expectedDescription": "Constructeur : Tupolev. Premier vol le 12 novembre 1952 ; service en 1956. Construction de 1952 à 1993. Le Tu-95 est un bombardier stratégique soviétique puis russe, propulsé par quatre turbopropulseurs à hélices contrarotatives. Sa voilure en flèche et sa grande autonomie lui donnent une silhouette et une sonorité uniques.",
+    "description": "Le Tu-95 est un bombardier stratégique soviétique puis russe, propulsé par quatre turbopropulseurs à hélices contrarotatives. Sa voilure en flèche et sa grande autonomie lui donnent une silhouette et une sonorité uniques. (1952 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tupolev_Tu-95"
+    ]
+  },
+  {
+    "code": "AVI-075",
+    "expectedDescription": "Constructeur : Tupolev / usine de Kazan. Premier vol le 18 décembre 1981. Première série dans les années 1980–1990, suivie de reprises de fabrication ultérieures. Le Tu-160 est un bombardier stratégique supersonique à quatre réacteurs et ailes à géométrie variable. Conçu en Union soviétique, ce grand appareil est destiné aux missions de longue portée et à l’emport de missiles de croisière.",
+    "description": "Le Tu-160 est un bombardier stratégique supersonique à quatre réacteurs et ailes à géométrie variable. Conçu en Union soviétique, ce grand appareil est destiné aux missions de longue portée et à l’emport de missiles de croisière. (1981 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tupolev_Tu-160"
+    ]
+  },
+  {
+    "code": "AVI-076",
+    "expectedDescription": "Constructeur : Avro, puis Hawker Siddeley. Premier vol le 30 août 1952 ; service en 1956. Construction de série de 1956 à 1965. Le Vulcan est un bombardier britannique à aile delta, développé pendant la guerre froide. Membre de la force des V-bombers, il associe une silhouette spectaculaire à des missions initialement liées à la dissuasion nucléaire.",
+    "description": "Le Vulcan est un bombardier britannique à aile delta, développé pendant la guerre froide. Membre de la force des V-bombers, il associe une silhouette spectaculaire à des missions initialement liées à la dissuasion nucléaire. (1952 – 2015)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Avro_Vulcan"
+    ]
+  },
+  {
+    "code": "AVI-077",
+    "expectedDescription": "Constructeur : Dassault. Premier vol le 17 juin 1959 ; service en 1964. Construction de série de 1963 à 1968. Le Mirage IV est un bombardier stratégique français biréacteur à aile delta. Il joue un rôle fondateur dans la composante aéroportée de la dissuasion française avant d’assurer également des missions de reconnaissance.",
+    "description": "Le Mirage IV est un bombardier stratégique français biréacteur à aile delta. Il joue un rôle fondateur dans la composante aéroportée de la dissuasion française avant d’assurer également des missions de reconnaissance. (1959 – 2005)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dassault_Mirage_IV"
+    ]
+  },
+  {
+    "code": "AVI-078",
+    "expectedDescription": "Constructeur : Douglas Aircraft. Premier vol le 23 décembre 1941. Construction américaine de 1941 à 1945. Version militaire dérivée du DC-3, le C-47 Skytrain transporte soldats, fret et parachutistes. Il devient l’un des avions de transport les plus emblématiques de la Seconde Guerre mondiale et des opérations aéroportées alliées.",
+    "description": "Version militaire dérivée du DC-3, le C-47 Skytrain transporte soldats, fret et parachutistes. Il devient l’un des avions de transport les plus emblématiques de la Seconde Guerre mondiale et des opérations aéroportées alliées. (1941 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Douglas_C-47_Skytrain"
+    ]
+  },
+  {
+    "code": "AVI-079",
+    "expectedDescription": "Constructeur : Lockheed, puis Lockheed Martin. Premier vol le 23 août 1954 ; service en 1956. Construction lancée dans les années 1950. Le C-130 Hercules est un avion de transport militaire à quatre turbopropulseurs. Sa rampe arrière et ses capacités sur terrains sommaires lui permettent d’assurer le fret, le parachutage et de nombreuses missions spécialisées.",
+    "description": "Le C-130 Hercules est un avion de transport militaire à quatre turbopropulseurs. Sa rampe arrière et ses capacités sur terrains sommaires lui permettent d’assurer le fret, le parachutage et de nombreuses missions spécialisées. (1954 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lockheed_C-130_Hercules"
+    ]
+  },
+  {
+    "code": "AVI-080",
+    "expectedDescription": "Constructeur : McDonnell Douglas, puis Boeing. Premier vol le 15 septembre 1991 ; service en 1995. Construction de 1991 à 2015. Le C-17 Globemaster III est un avion de transport militaire américain à quatre réacteurs. Il associe un grand volume de fret à la capacité d’utiliser des pistes relativement courtes pour acheminer hommes et matériels.",
+    "description": "Le C-17 Globemaster III est un avion de transport militaire américain à quatre réacteurs. Il associe un grand volume de fret à la capacité d’utiliser des pistes relativement courtes pour acheminer hommes et matériels. (1991 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boeing_C-17_Globemaster_III"
+    ]
+  },
+  {
+    "code": "AVI-081",
+    "expectedDescription": "Constructeur : Airbus Military, puis Airbus Defence and Space. Premier vol le 11 décembre 2009 ; service en 2013. Construction lancée dans les années 2000, livraisons de série dans les années 2010. L’A400M Atlas est un avion de transport militaire européen à quatre turbopropulseurs. Il combine des missions logistiques à longue distance avec le parachutage et l’emploi sur des terrains sommairement aménagés.",
+    "description": "L’A400M Atlas est un avion de transport militaire européen à quatre turbopropulseurs. Il combine des missions logistiques à longue distance avec le parachutage et l’emploi sur des terrains sommairement aménagés. (2009 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Airbus_A400M_Atlas"
+    ]
+  },
+  {
+    "code": "AVI-082",
+    "expectedDescription": "Constructeur : Consortium Transall. Premier vol le 25 février 1963 ; service en 1967. Construction de 1965 à 1985. Issu d’une coopération franco-allemande, le C-160 Transall est un avion de transport militaire à deux turbopropulseurs. Sa rampe arrière, sa robustesse et son adaptation aux terrains difficiles accompagnent de nombreuses opérations extérieures.",
+    "description": "Issu d’une coopération franco-allemande, le C-160 Transall est un avion de transport militaire à deux turbopropulseurs. Sa rampe arrière, sa robustesse et son adaptation aux terrains difficiles accompagnent de nombreuses opérations extérieures. (1963 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Transall_C-160",
+      "https://www.c160.au/clarification-of-facts-regarding-casa-public-comments-on-the-transall-c-160-program/"
+    ]
+  },
+  {
+    "code": "AVI-083",
+    "expectedDescription": "Constructeur : Antonov. Premier vol le 24 décembre 1982 ; service en 1986. Construction de 1982 à 2004. L’An-124 Rouslan est un avion de transport lourd à quatre réacteurs, développé en Union soviétique par Antonov. Son immense soute et ses accès de chargement facilitent l’acheminement de matériels particulièrement volumineux.",
+    "description": "L’An-124 Rouslan est un avion de transport lourd à quatre réacteurs, développé en Union soviétique par Antonov. Son immense soute et ses accès de chargement facilitent l’acheminement de matériels particulièrement volumineux. (1982 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Antonov_An-124_Ruslan"
+    ]
+  },
+  {
+    "code": "AVI-084",
+    "expectedDescription": "Constructeur : Lockheed. Premier vol le 30 juin 1968 ; service en 1970. Construction de 1968 à 1989 en deux séries principales, C-5A puis C-5B. Le C-5 Galaxy est un avion de transport stratégique américain à quatre réacteurs. Sa soute traversante, accessible par l’avant et par l’arrière, permet de déplacer véhicules, équipements lourds et charges hors gabarit.",
+    "description": "Le C-5 Galaxy est un avion de transport stratégique américain à quatre réacteurs. Sa soute traversante, accessible par l’avant et par l’arrière, permet de déplacer véhicules, équipements lourds et charges hors gabarit. (1968 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lockheed_C-5_Galaxy"
+    ]
+  },
+  {
+    "code": "AVI-085",
+    "expectedDescription": "Constructeur : Iliouchine. Premier vol le 25 mars 1971 ; service en 1974. Construction lancée dans les années 1970. L’Il-76 est un avion de transport à quatre réacteurs, aile haute et rampe arrière. Développé en Union soviétique, il assure des missions logistiques, humanitaires et militaires sur une grande variété de terrains.",
+    "description": "L’Il-76 est un avion de transport à quatre réacteurs, aile haute et rampe arrière. Développé en Union soviétique, il assure des missions logistiques, humanitaires et militaires sur une grande variété de terrains. (1971 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ilyushin_Il-76"
+    ]
+  },
+  {
+    "code": "AVI-086",
+    "expectedDescription": "Constructeur : Bell. Premier vol du prototype XH-40 le 20 octobre 1956 ; service en 1959. Construction américaine de 1956 à 1987. Le UH-1 Iroquois, souvent appelé Huey, est un hélicoptère utilitaire américain à turbine. Il devient une figure de la guerre du Vietnam, où il transporte les troupes et assure notamment l’évacuation sanitaire.",
+    "description": "Le UH-1 Iroquois, souvent appelé Huey, est un hélicoptère utilitaire américain à turbine. Il devient une figure de la guerre du Vietnam, où il transporte les troupes et assure notamment l’évacuation sanitaire. (1956 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bell_UH-1_Iroquois"
+    ]
+  },
+  {
+    "code": "AVI-087",
+    "expectedDescription": "Constructeur : Boeing Vertol, puis Boeing. Premier vol le 21 septembre 1961 ; service en 1962. Construction lancée dans les années 1960. Le CH-47 Chinook est un hélicoptère de transport lourd à deux rotors en tandem. Cette architecture libère l’appareil d’un rotor anticouple et favorise l’emport de charges dans la cabine ou sous élingue.",
+    "description": "Le CH-47 Chinook est un hélicoptère de transport lourd à deux rotors en tandem. Cette architecture libère l’appareil d’un rotor anticouple et favorise l’emport de charges dans la cabine ou sous élingue. (1961 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boeing_CH-47_Chinook"
+    ]
+  },
+  {
+    "code": "AVI-088",
+    "expectedDescription": "Constructeur : Sikorsky. Premier vol le 17 octobre 1974 ; service en 1979. Construction lancée dans les années 1970. Le UH-60 Black Hawk est un hélicoptère utilitaire militaire américain à deux turbines. Conçu pour le transport tactique, il se décline aussi pour le secours au combat, l’évacuation sanitaire et les opérations spécialisées.",
+    "description": "Le UH-60 Black Hawk est un hélicoptère utilitaire militaire américain à deux turbines. Conçu pour le transport tactique, il se décline aussi pour le secours au combat, l’évacuation sanitaire et les opérations spécialisées. (1974 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sikorsky_UH-60_Black_Hawk"
+    ]
+  },
+  {
+    "code": "AVI-089",
+    "expectedDescription": "Constructeur : Hughes, puis McDonnell Douglas et Boeing. Premier vol du prototype YAH-64 le 30 septembre 1975 ; service en 1986. Construction de série lancée dans les années 1980. L’AH-64 Apache est un hélicoptère d’attaque américain à deux turbines et équipage en tandem. Son canon sous le nez et ses capteurs sont conçus pour l’appui des forces terrestres et la lutte contre les blindés.",
+    "description": "L’AH-64 Apache est un hélicoptère d’attaque américain à deux turbines et équipage en tandem. Son canon sous le nez et ses capteurs sont conçus pour l’appui des forces terrestres et la lutte contre les blindés. (1975 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boeing_AH-64_Apache"
+    ]
+  },
+  {
+    "code": "AVI-090",
+    "expectedDescription": "Constructeur : Sud Aviation, puis Aérospatiale. Premier vol le 28 février 1959. Production française de 1961 à 1985 ; fabrications étrangères sous licence distinctes. L’Alouette III est un hélicoptère léger français à turbine et grande cabine vitrée. Polyvalente et largement exportée, la version SA 316 accomplit des missions de transport, de liaison, de secours et d’observation.",
+    "description": "L’Alouette III est un hélicoptère léger français à turbine et grande cabine vitrée. Polyvalente et largement exportée, la version SA 316 accomplit des missions de transport, de liaison, de secours et d’observation. (1959 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/A%C3%A9rospatiale_Alouette_III"
+    ]
+  },
+  {
+    "code": "AVI-091",
+    "expectedDescription": "Constructeur : Eurocopter, puis Airbus Helicopters. Premier vol le 27 novembre 2000 ; service en 2005. Construction lancée dans les années 2000. Le H225M Caracal est un hélicoptère militaire de transport à deux turbines, issu de la famille Super Puma. Son autonomie et ses équipements le destinent notamment à la recherche et au sauvetage au combat ainsi qu’aux opérations spéciales.",
+    "description": "Le H225M Caracal est un hélicoptère militaire de transport à deux turbines, issu de la famille Super Puma. Son autonomie et ses équipements le destinent notamment à la recherche et au sauvetage au combat ainsi qu’aux opérations spéciales. (2000 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Eurocopter_EC725"
+    ]
+  },
+  {
+    "code": "AVI-092",
+    "expectedDescription": "Constructeur : Mil. Premier vol le 19 septembre 1969 ; service en 1972. Construction de série lancée dans les années 1970. Le Mi-24 Hind est un hélicoptère soviétique combinant une forte capacité d’armement et une cabine de transport de troupes. Ses petites ailes et ses deux turbines lui donnent une silhouette particulière parmi les hélicoptères de combat.",
+    "description": "Le Mi-24 Hind est un hélicoptère soviétique combinant une forte capacité d’armement et une cabine de transport de troupes. Ses petites ailes et ses deux turbines lui donnent une silhouette particulière parmi les hélicoptères de combat. (1969 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mil_Mi-24"
+    ]
+  },
+  {
+    "code": "AVI-093",
+    "expectedDescription": "Constructeur : NHIndustries. Premier vol le 18 décembre 1995 ; service en 2007. Prototypes des années 1990, puis construction de série dans les années 2000. Le NH90 est un hélicoptère militaire européen à deux turbines, développé en coopération. Ses versions terrestre et navale assurent le transport tactique, la lutte maritime et des missions de soutien ou de sauvetage.",
+    "description": "Le NH90 est un hélicoptère militaire européen à deux turbines, développé en coopération. Ses versions terrestre et navale assurent le transport tactique, la lutte maritime et des missions de soutien ou de sauvetage. (1995 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/NHIndustries_NH90"
+    ]
+  },
+  {
+    "code": "AVI-094",
+    "expectedDescription": "Constructeur : Lockheed Skunk Works. Premier vol le 22 décembre 1964 ; service en 1966. Construction de 1963 à 1968. Le Blackbird est conçu pour la reconnaissance stratégique à très haute altitude et à plus de Mach 3. Sa cellule largement en titane et sa silhouette noire répondent aux contraintes extrêmes du vol à grande vitesse.",
+    "description": "Le Blackbird est conçu pour la reconnaissance stratégique à très haute altitude et à plus de Mach 3. Sa cellule largement en titane et sa silhouette noire répondent aux contraintes extrêmes du vol à grande vitesse. (1964 – 1999)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird"
+    ]
+  },
+  {
+    "code": "AVI-095",
+    "expectedDescription": "Constructeur : Lockheed Skunk Works. Premier envol le 1er août 1955 ; service en 1956. Construction de 1955 à 1989. Le U-2 est un avion américain de reconnaissance à très haute altitude. Son aile de grande envergure, proche de celle d’un planeur, favorise les vols prolongés destinés à recueillir des informations au-dessus de vastes territoires.",
+    "description": "Le U-2 est un avion américain de reconnaissance à très haute altitude. Son aile de grande envergure, proche de celle d’un planeur, favorise les vols prolongés destinés à recueillir des informations au-dessus de vastes territoires. (1955 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lockheed_U-2"
+    ]
+  },
+  {
+    "code": "AVI-096",
+    "expectedDescription": "Constructeur : Boeing. Prototype EC-137D : premier vol le 9 février 1972 ; E-3 : 25 mai 1976. Construction de série de 1977 à 1992 ; service en 1977. Dérivé du Boeing 707, l’E-3 Sentry est un avion de détection et de commandement aéroporté. Son grand radar monté sur le fuselage permet de surveiller l’espace aérien et de coordonner les opérations d’autres appareils.",
+    "description": "Dérivé du Boeing 707, l’E-3 Sentry est un avion de détection et de commandement aéroporté. Son grand radar monté sur le fuselage permet de surveiller l’espace aérien et de coordonner les opérations d’autres appareils. (1976 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boeing_E-3_Sentry"
+    ]
+  },
+  {
+    "code": "AVI-097",
+    "expectedDescription": "Constructeur : General Atomics Aeronautical Systems. Premier vol le 2 février 2001 ; service en 2007. Construction lancée dans les années 2000. Le MQ-9 Reaper est un drone américain télépiloté à grande endurance. Son hélice propulsive et ses capteurs lui permettent d’assurer des missions prolongées de surveillance, de reconnaissance et, selon sa configuration, de frappe.",
+    "description": "Le MQ-9 Reaper est un drone américain télépiloté à grande endurance. Son hélice propulsive et ses capteurs lui permettent d’assurer des missions prolongées de surveillance, de reconnaissance et, selon sa configuration, de frappe. (2001 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/General_Atomics_MQ-9_Reaper"
+    ]
+  },
+  {
+    "code": "AVI-098",
+    "expectedDescription": "Constructeur : Avions Pierre Robin / Robin Aircraft. Premier vol en 1972. Construction lancée dans les années 1970. Né à Darois en 1972, le DR400 est un avion léger français à structure en bois et toile. Sa verrière coulissante et ses ailes à extrémités relevées accompagnent des générations de pilotes en formation et en voyage.",
+    "description": "Né à Darois en 1972, le DR400 est un avion léger français à structure en bois et toile. Sa verrière coulissante et ses ailes à extrémités relevées accompagnent des générations de pilotes en formation et en voyage. (1972 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robin_DR400"
+    ]
+  },
+  {
+    "code": "AVI-099",
+    "expectedDescription": "Constructeur : Cessna. Premier vol le 12 juin 1955. Construction de 1956 à 1986, reprise en 1996 ; service en 1956. Le Cessna 172 Skyhawk est un avion léger américain monomoteur à aile haute et train tricycle. Sa stabilité et sa polyvalence en font un appareil familier des écoles de pilotage et de l’aviation de loisir.",
+    "description": "Le Cessna 172 Skyhawk est un avion léger américain monomoteur à aile haute et train tricycle. Sa stabilité et sa polyvalence en font un appareil familier des écoles de pilotage et de l’aviation de loisir. (1955 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cessna_172"
+    ]
+  },
+  {
+    "code": "AVI-100",
+    "expectedDescription": "Constructeur : Piper Aircraft. Premier vol le 14 janvier 1960. Construction de série lancée en 1961, dans les années 1960. Le Piper PA-28 Cherokee est une famille d’avions légers américains à aile basse et train tricycle. Destinés à l’apprentissage et au voyage, ces monomoteurs occupent une place durable dans les aéroclubs et les écoles de pilotage.",
+    "description": "Le Piper PA-28 Cherokee est une famille d’avions légers américains à aile basse et train tricycle. Destinés à l’apprentissage et au voyage, ces monomoteurs occupent une place durable dans les aéroclubs et les écoles de pilotage. (1960 – aujourd’hui)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Piper_PA-28_Cherokee"
+    ]
+  }
+]

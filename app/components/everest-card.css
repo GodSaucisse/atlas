@@ -1,0 +1,117 @@
+
+
+
+.atlas-card-face.everest-card{position:relative;width:100%;height:100%;container-type:inline-size;border-radius:inherit;overflow:hidden;background:#1c1440 url(/designs/everest/pattern.jpg) center/100% 100% no-repeat;font-family:var(--font-atlas)}
+
+.everest-ly{position:absolute;inset:0;pointer-events:none}
+.everest-bd{position:absolute;inset:0;pointer-events:none;padding:5.714286cqw;box-sizing:border-box;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0)}
+.everest-sw{z-index:5;mix-blend-mode:screen;background:linear-gradient(115deg,rgba(255,255,255,0) 40%,rgba(255,226,150,.8) 50%,rgba(255,255,255,0) 60%);background-size:300% 100%;animation:everest-sweep 5.5s linear infinite}
+.everest-sv{z-index:5;mix-blend-mode:screen;background:linear-gradient(180deg,rgba(255,255,255,0) 30%,rgba(255,110,90,.5) 50%,rgba(255,255,255,0) 70%);background-size:100% 300%;animation:everest-sweepv 4.2s linear infinite}
+.everest-gw{z-index:4;background:radial-gradient(ellipse at 50% 105%,rgba(240,190,80,.25),rgba(240,190,80,0) 55%);animation:everest-pl 4s ease-in-out infinite}
+.everest-gf{z-index:8;mix-blend-mode:screen;background:linear-gradient(105deg,rgba(255,255,255,0) 44%,rgba(255,236,170,.35) 50%,rgba(255,255,255,0) 56%);background-size:320% 100%;animation:everest-sweep 7s linear infinite}
+.everest-rt{position:absolute;z-index:11;pointer-events:none;animation:everest-spin 14s linear infinite}
+.atlas-card[data-interacting="true"] .everest-card .everest-rt{animation-duration:3s}
+.everest-ho{z-index:40;opacity:0;mix-blend-mode:color-dodge;background:linear-gradient(115deg,rgba(255,190,70,0) 0,rgba(255,190,70,.3) 8%,rgba(255,215,110,.3) 15%,rgba(210,230,255,.28) 22%,rgba(170,140,255,.3) 29%,rgba(120,235,230,.3) 36%,rgba(255,190,70,0) 44%,rgba(255,190,70,0) 56%,rgba(255,215,110,.28) 64%,rgba(170,140,255,.28) 72%,rgba(255,190,70,0) 82%);background-size:240% 240%;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.everest-gl{z-index:41;opacity:0;mix-blend-mode:overlay;background:radial-gradient(circle at center,rgba(220,232,248,.8) 0,rgba(220,232,248,.28) 16%,rgba(255,255,255,0) 40%);background-size:220% 220%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.everest-g2{z-index:42;opacity:0;mix-blend-mode:screen;background:radial-gradient(circle at center,rgba(255,240,205,.85) 0,rgba(255,240,205,.35) 13%,rgba(255,255,255,0) 32%);background-size:170% 170%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.atlas-card[data-interacting="true"] .everest-card .everest-ho{opacity:.3}.atlas-card[data-interacting="true"] .everest-card .everest-gl{opacity:.35}.atlas-card[data-interacting="true"] .everest-card .everest-g2{opacity:.3}
+.everest-st{position:absolute;z-index:20;pointer-events:none;background:radial-gradient(circle,#fff 0,#fff0c0 30%,rgba(255,215,120,0) 70%);clip-path:polygon(50% 0,59% 41%,100% 50%,59% 59%,50% 100%,41% 59%,0 50%,41% 41%);animation:everest-tw 2.6s ease-in-out infinite}
+.everest-gt{background:linear-gradient(180deg,#fff4c8 0,#f3d47a 42%,#b98a26 62%,#ffeaa6 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#f3d47a;filter:drop-shadow(0 0.158730cqw 0.317460cqw rgba(0,10,40,.9)) drop-shadow(0 0 1.269841cqw rgba(255,200,90,.5))}
+@keyframes everest-sweep{from{background-position:130% 0}to{background-position:-130% 0}}
+@keyframes everest-sweepv{from{background-position:0 130%}to{background-position:0 -130%}}
+@keyframes everest-pl{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes everest-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.45)}}
+@keyframes everest-spin{to{transform:rotate(360deg)}}
+@keyframes everest-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.everest-ap{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 34% 28%,#fff 0 7%,#ff9a88 18%,#e0242c 52%,#7a0812 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(80,0,10,.55);animation:everest-pu 3.6s ease-in-out infinite}
+.everest-ap.everest-gr{background:radial-gradient(circle at 34% 28%,#fff 0 7%,#f2f59a 20%,#9bcb3e 55%,#3a6a14 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(20,50,0,.5)}
+.atlas-card[data-interacting="true"] .everest-card .everest-ap{animation-duration:1.2s}
+.everest-wh{position:absolute;z-index:9;pointer-events:none;left:45.079365cqw;top:1.904762cqw;width:9.841270cqw;height:9.841270cqw;border-radius:50%;background:radial-gradient(circle,#f6cf72 0 12%,#8a1a14 13% 24%,transparent 25%),repeating-conic-gradient(from 0deg,#f6cf72 0 7deg,transparent 7deg 45deg),radial-gradient(circle,transparent 0 56%,#f6cf72 58% 70%,#8a1a14 72% 100%);box-shadow:inset 0 0 1.269841cqw rgba(40,30,0,.5);overflow:hidden;animation:everest-wob 6s ease-in-out infinite}
+.everest-wh::before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,0) 35%,rgba(255,255,255,.5) 48%,rgba(255,255,255,0) 60%);border-radius:50%}
+.everest-wh::after{content:"";position:absolute;inset:0.952381cqw;border-radius:50%;border:0.158730cqw solid rgba(255,220,130,.5)}
+.atlas-card[data-interacting="true"] .everest-card .everest-wh{position:absolute;z-index:9;pointer-events:none;left:45.079365cqw;top:1.904762cqw;width:9.841270cqw;height:9.841270cqw;border-radius:50%;background:radial-gradient(circle,#f6cf72 0 12%,#8a1a14 13% 24%,transparent 25%),repeating-conic-gradient(from 0deg,#f6cf72 0 7deg,transparent 7deg 45deg),radial-gradient(circle,transparent 0 56%,#f6cf72 58% 70%,#8a1a14 72% 100%);box-shadow:inset 0 0 1.269841cqw rgba(40,30,0,.5);overflow:hidden;animation:everest-wob 6s ease-in-out infinite}
+@keyframes everest-wob{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+.everest-sh{position:absolute;z-index:6;pointer-events:none;height:0.476190cqw;width:12.698413cqw;border-radius:0.317460cqw;background:linear-gradient(90deg,rgba(255,240,180,0),#fff6cc);opacity:0;filter:drop-shadow(0 0 0.793651cqw #ffd870);animation:everest-cr 6s linear infinite}
+@keyframes everest-cr{0%{opacity:0;transform:translate(0,0) rotate(-35deg)}6%{opacity:1}22%{opacity:0;transform:translate(25.396825cqw,-17.460317cqw) rotate(-35deg)}100%{opacity:0;transform:translate(25.396825cqw,-17.460317cqw) rotate(-35deg)}}
+.atlas-card[data-interacting="true"] .everest-card .everest-sh{animation-duration:2s}
+.everest-bub{position:absolute;z-index:6;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 35% 30%,rgba(255,255,255,.9),rgba(255,240,190,.25) 55%,rgba(255,220,140,0) 72%);animation:everest-fl 8s ease-in infinite;opacity:0}
+@keyframes everest-fl{0%{opacity:0;transform:translateY(0) scale(.6)}15%{opacity:.9}100%{opacity:0;transform:translateY(-23.809524cqw) scale(1.2)}}
+.atlas-card[data-interacting="true"] .everest-card .everest-bub{animation-duration:3.2s}
+@keyframes everest-pl{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes everest-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.25)}}
+@keyframes everest-spin{to{transform:rotate(360deg)}}
+@keyframes everest-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+.everest-cw{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 28% 30%,#9c3a1a 0 22%,transparent 23%),radial-gradient(circle at 72% 62%,#b24a22 0 27%,transparent 28%),radial-gradient(circle at 42% 84%,#9c3a1a 0 15%,transparent 16%),radial-gradient(circle at 78% 20%,#b24a22 0 12%,transparent 13%),radial-gradient(circle at 34% 26%,#fff 0 6%,#fff7ea 20%,#efe0c6 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(80,40,10,.45)}
+.everest-bl{position:absolute;z-index:16;pointer-events:none;width:6.984127cqw;height:8.730159cqw;transform-origin:50% 15%;animation:everest-sw 3.6s ease-in-out infinite;filter:drop-shadow(0 0.317460cqw 0.317460cqw rgba(40,20,0,.55))}
+@keyframes everest-sw{0%,100%{transform:rotate(-9deg)}50%{transform:rotate(9deg)}}
+.atlas-card[data-interacting="true"] .everest-card .everest-bl{animation-duration:.9s}
+.everest-mg{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 34% 28%,#fff 0 7%,#e8fffa 20%,#26c4b8 55%,#07574f 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(0,40,40,.55);animation:everest-pu 3.6s ease-in-out infinite}
+.atlas-card[data-interacting="true"] .everest-card .everest-mg{animation-duration:1.2s}
+.everest-dp{position:absolute;z-index:7;pointer-events:none;width:0.952381cqw;height:1.428571cqw;margin-left:-0.476190cqw;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;background:radial-gradient(circle at 35% 30%,#fff,#9cd4ff 60%,#4a9ae0);opacity:0;animation:everest-dr 4.2s ease-in infinite}
+.atlas-card[data-interacting="true"] .everest-card .everest-dp{animation-duration:1.6s}
+@keyframes everest-dr{0%{opacity:0;transform:translateY(0)}8%{opacity:.95}70%{opacity:.9;transform:translateY(14.285714cqw)}85%{opacity:0;transform:translateY(19.047619cqw)}100%{opacity:0;transform:translateY(19.047619cqw)}}
+.everest-ms{position:absolute;left:-60%;width:220%;height:30.158730cqw;pointer-events:none;z-index:2;background:radial-gradient(ellipse at 50% 50%,rgba(238,234,222,.34),rgba(238,234,222,0) 66%);filter:blur(1.111111cqw);animation:everest-mist 18s ease-in-out infinite alternate}
+.atlas-card[data-interacting="true"] .everest-card .everest-ms{animation-duration:6s}
+@keyframes everest-mist{from{transform:translateX(-14%)}to{transform:translateX(14%)}}
+
+.everest-fg{position:absolute;left:0;top:0;z-index:12;pointer-events:none;filter:drop-shadow(0 0.317460cqw 0.317460cqw rgba(0,0,0,.45))}
+.everest-fl{transform-box:fill-box;transform-origin:50% 0;animation:everest-fw 1.5s ease-in-out infinite}
+@keyframes everest-fw{0%,100%{transform:skewX(-10deg) scaleY(1)}50%{transform:skewX(12deg) scaleY(.9)}}
+.atlas-card[data-interacting="true"] .everest-card .everest-fl{animation-duration:.5s}
+.everest-wh{animation:everest-spin 18s linear infinite}
+.atlas-card[data-interacting="true"] .everest-card .everest-wh{animation-duration:3s}
+.everest-sf{position:absolute;z-index:13;pointer-events:none;border-radius:50%;background:radial-gradient(circle,#fff 0,rgba(255,255,255,.85) 45%,rgba(255,255,255,0) 72%);opacity:0;animation:everest-snw var(--everest-duration) linear infinite}
+@keyframes everest-snw{0%{opacity:0;transform:translate(0,-4.761905cqw)}8%{opacity:.9}92%{opacity:.8}100%{opacity:0;transform:translate(-14.285714cqw,160.317460cqw)}}
+.atlas-card[data-interacting="true"] .everest-card .everest-sf{animation-duration:calc(var(--everest-duration) / 2.5)}
+.everest-al{position:absolute;left:39.682540cqw;top:23.809524cqw;width:47.619048cqw;height:36.507937cqw;pointer-events:none;z-index:5;mix-blend-mode:screen;background:radial-gradient(ellipse at 52% 52%,rgba(255,140,100,.32),rgba(255,120,90,.1) 42%,rgba(255,120,90,0) 70%);animation:everest-alp 5s ease-in-out infinite}
+@keyframes everest-alp{0%,100%{opacity:.45;transform:scale(.94)}50%{opacity:1;transform:scale(1.06)}}
+.everest-mo{position:absolute;left:6.190476cqw;top:50.476190cqw;width:15.873016cqw;height:15.873016cqw;pointer-events:none;z-index:5;mix-blend-mode:screen;background:radial-gradient(circle,rgba(255,244,205,.6),rgba(255,244,205,.14) 28%,rgba(255,244,205,0) 58%);animation:everest-alp 4s ease-in-out infinite}
+.everest-pm{position:absolute;left:60.000000cqw;top:35.873016cqw;width:28.571429cqw;height:6.984127cqw;pointer-events:none;z-index:6;filter:blur(0.952381cqw);background:radial-gradient(ellipse at 0% 50%,rgba(255,255,255,.85),rgba(255,235,225,.3) 50%,rgba(255,255,255,0) 78%);transform-origin:0 50%;animation:everest-plm 4.5s ease-in-out infinite}
+@keyframes everest-plm{0%,100%{transform:skewY(-8deg) scaleX(.85);opacity:.55}50%{transform:skewY(-3deg) scaleX(1.15);opacity:.95}}
+.atlas-card[data-interacting="true"] .everest-card .al,.atlas-card[data-interacting="true"] .everest-card .everest-mo{animation-duration:1.6s}
+.atlas-card[data-interacting="true"] .everest-card .everest-pm{animation-duration:1.4s}
+
+.everest-photo{position:absolute;overflow:hidden;background:#8a95a8 url(/designs/everest/mountain.jpg) center/cover no-repeat;z-index:3}
+.everest-photo-shade{box-shadow:inset 0 0 4.127cqw #3c140059}
+.everest-rim{border-radius:inherit;box-shadow:inset 0 0 0 .2381cqw #ffe9a0,inset 0 0 0 .6349cqw #b02a22,inset 0 0 0 .873cqw #2a0a0a;z-index:7}
+.everest-name-bg{position:absolute;border-radius:1.587302cqw;background:linear-gradient(180deg,#5a1010,#1e0505);box-shadow:inset 0 0 0 .159cqw #e6be5a80;z-index:9}
+.everest-frame{width:100%;height:100%;z-index:10;filter:drop-shadow(.159cqw .476cqw .476cqw #00000099)}
+.everest-caption{position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.476cqw;z-index:14}
+.everest-title{font-weight:700;font-size:4.444444cqw;letter-spacing:.15873cqw;line-height:1.1}
+.everest-divider{display:flex;align-items:center;gap:1.27cqw}.everest-divider i{width:6.35cqw;height:.238cqw;background:linear-gradient(90deg,transparent,#e8c260)}.everest-divider i:last-child{transform:rotate(180deg)}.everest-divider b{width:.952cqw;height:.952cqw;transform:rotate(45deg);background:#ffe8a0;box-shadow:0 0 .952cqw #e0a030}
+.everest-motto{font-weight:600;font-size:1.746cqw;letter-spacing:.476cqw;color:#f1deaa;text-shadow:0 .159cqw .31746cqw #000;margin-left:.476cqw}
+.everest-ho{background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}.everest-gl,.everest-g2{background-position:var(--supreme-inverse-x,50%) var(--supreme-inverse-y,50%)}
+.everest-back-panel{position:absolute;z-index:9;border-radius:2.222cqw;background:#1e0505f5;box-shadow:inset 0 0 0 1px #a67d3480}
+.everest-back-text{position:absolute;inset:0;width:100%;height:100%;z-index:15;pointer-events:none}
+.everest-back .everest-frame{opacity:.48}.everest-back .everest-ho,.everest-back .everest-gl,.everest-back .everest-g2{z-index:14}
+.atlas-card[data-design-model="GEO-001"]{box-shadow:0 4px 4px #1c144050,0 24px 36px -17px #1c1440b0,0 0 0 1px #b02a2250}
+.atlas-card[data-design-model="GEO-001"][data-reveal="true"]::before{box-shadow:0 0 45px 8px #ffc85a50,0 0 70px 9px #b02a2230}
+.atlas-card[data-effects="interactive"]:not([data-interacting="true"]) .everest-card *{animation-play-state:paused}
+html[data-motion="off"] .everest-ho,html[data-motion="off"] .everest-gl,html[data-motion="off"] .everest-g2,html[data-motion="reduced"] .everest-ho,html[data-motion="reduced"] .everest-gl,html[data-motion="reduced"] .everest-g2,.atlas-card[data-effects="static"] .everest-ho,.atlas-card[data-effects="static"] .everest-gl,.atlas-card[data-effects="static"] .everest-g2{opacity:0!important}
+@media(prefers-reduced-motion:reduce){.everest-ho,.everest-gl,.everest-g2{opacity:0!important}}
+
+.everest-fg{width:100%;height:100%}

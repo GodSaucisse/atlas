@@ -1,0 +1,90 @@
+
+
+
+.comte-card{position:relative;width:100%;height:100%;container-type:inline-size;border-radius:inherit;overflow:hidden;background:#4a2e16 url(/designs/comte/pattern.jpg) center/100% 100% no-repeat;font-family:var(--font-atlas)}
+
+.comte-ly{position:absolute;inset:0;pointer-events:none}
+.comte-bd{position:absolute;inset:0;pointer-events:none;padding:5.714286cqw;box-sizing:border-box;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0)}
+.comte-sw{z-index:5;mix-blend-mode:screen;background:linear-gradient(115deg,rgba(255,255,255,0) 40%,rgba(255,244,190,.95) 50%,rgba(255,255,255,0) 60%);background-size:300% 100%;animation:comte-sweep 5.5s linear infinite}
+.comte-sv{z-index:5;mix-blend-mode:screen;background:linear-gradient(180deg,rgba(255,255,255,0) 30%,rgba(255,176,80,.65) 50%,rgba(255,255,255,0) 70%);background-size:100% 300%;animation:comte-sweepv 4.2s linear infinite}
+.comte-gw{z-index:4;background:radial-gradient(ellipse at 50% 105%,rgba(255,200,90,.1),rgba(255,200,90,0) 55%);animation:comte-pl 4s ease-in-out infinite}
+.comte-gf{z-index:8;mix-blend-mode:screen;background:linear-gradient(105deg,rgba(255,255,255,0) 44%,rgba(255,240,200,.45) 50%,rgba(255,255,255,0) 56%);background-size:320% 100%;animation:comte-sweep 7s linear infinite}
+.comte-rt{position:absolute;z-index:11;pointer-events:none;animation:comte-spin 14s linear infinite}
+.atlas-card[data-interacting="true"] .comte-card .comte-rt{animation-duration:3s}
+.comte-ho{z-index:40;opacity:0;mix-blend-mode:color-dodge;background:linear-gradient(115deg,rgba(255,190,80,0) 0,rgba(255,190,80,.3) 8%,rgba(255,215,110,.3) 15%,rgba(255,140,110,.28) 22%,rgba(255,120,150,.3) 29%,rgba(170,230,90,.3) 36%,rgba(255,190,80,0) 44%,rgba(255,190,80,0) 56%,rgba(255,215,110,.28) 64%,rgba(255,120,150,.28) 72%,rgba(255,190,80,0) 82%);background-size:240% 240%;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.comte-gl{z-index:41;opacity:0;mix-blend-mode:overlay;background:radial-gradient(circle at center,rgba(255,255,255,.85) 0,rgba(255,255,255,.3) 16%,rgba(255,255,255,0) 40%);background-size:220% 220%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.comte-g2{z-index:42;opacity:0;mix-blend-mode:screen;background:radial-gradient(circle at center,rgba(255,240,205,.85) 0,rgba(255,240,205,.35) 13%,rgba(255,255,255,0) 32%);background-size:170% 170%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.atlas-card[data-interacting="true"] .comte-card .comte-ho{opacity:.3}.atlas-card[data-interacting="true"] .comte-card .comte-gl{opacity:.35}.atlas-card[data-interacting="true"] .comte-card .comte-g2{opacity:.3}
+.comte-st{position:absolute;z-index:20;pointer-events:none;background:radial-gradient(circle,#fff 0,#fff3b8 30%,rgba(255,230,140,0) 70%);clip-path:polygon(50% 0,59% 41%,100% 50%,59% 59%,50% 100%,41% 59%,0 50%,41% 41%);animation:comte-tw 2.6s ease-in-out infinite}
+.comte-gt{background:linear-gradient(180deg,#fff6c8 0,#ffd966 40%,#d9962a 62%,#ffe9a0 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#ffd966;filter:drop-shadow(0 0.158730cqw 0.238095cqw rgba(20,8,0,.9)) drop-shadow(0 0 1.269841cqw rgba(255,190,70,.4))}
+@keyframes comte-sweep{from{background-position:130% 0}to{background-position:-130% 0}}
+@keyframes comte-sweepv{from{background-position:0 130%}to{background-position:0 -130%}}
+@keyframes comte-pl{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes comte-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.45)}}
+@keyframes comte-spin{to{transform:rotate(360deg)}}
+@keyframes comte-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comte-ap{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 34% 28%,#fff 0 7%,#ff9a88 18%,#e0242c 52%,#7a0812 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(80,0,10,.55);animation:comte-pu 3.6s ease-in-out infinite}
+.comte-ap.comte-gr{background:radial-gradient(circle at 34% 28%,#fff 0 7%,#f2f59a 20%,#9bcb3e 55%,#3a6a14 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(20,50,0,.5)}
+.atlas-card[data-interacting="true"] .comte-card .comte-ap{animation-duration:1.2s}
+.comte-wh{position:absolute;z-index:9;pointer-events:none;left:45.079365cqw;top:1.904762cqw;width:9.841270cqw;height:9.841270cqw;border-radius:50%;background:repeating-radial-gradient(circle,rgba(120,70,10,.0) 0 0.793651cqw,rgba(120,70,10,.22) 0.873016cqw 1.031746cqw),radial-gradient(circle at 38% 32%,#fff2a8 0 12%,#f1c64e 45%,#c8892c 78%,#7a4a14 100%);box-shadow:inset 0 0 1.269841cqw rgba(60,30,0,.6);overflow:hidden;animation:comte-wob 6s ease-in-out infinite}
+.comte-wh::before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,0) 35%,rgba(255,255,255,.5) 48%,rgba(255,255,255,0) 60%);border-radius:50%}
+.comte-wh::after{content:"";position:absolute;inset:0.952381cqw;border-radius:50%;border:0.158730cqw solid rgba(255,225,140,.5)}
+.atlas-card[data-interacting="true"] .comte-card .comte-wh{position:absolute;z-index:9;pointer-events:none;left:45.079365cqw;top:1.904762cqw;width:9.841270cqw;height:9.841270cqw;border-radius:50%;background:repeating-radial-gradient(circle,rgba(120,70,10,.0) 0 0.793651cqw,rgba(120,70,10,.22) 0.873016cqw 1.031746cqw),radial-gradient(circle at 38% 32%,#fff2a8 0 12%,#f1c64e 45%,#c8892c 78%,#7a4a14 100%);box-shadow:inset 0 0 1.269841cqw rgba(60,30,0,.6);overflow:hidden;animation:comte-wob 6s ease-in-out infinite}
+@keyframes comte-wob{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+.comte-sh{position:absolute;z-index:6;pointer-events:none;height:0.476190cqw;width:12.698413cqw;border-radius:0.317460cqw;background:linear-gradient(90deg,rgba(255,240,180,0),#fff6cc);opacity:0;filter:drop-shadow(0 0 0.793651cqw #ffd870);animation:comte-cr 6s linear infinite}
+@keyframes comte-cr{0%{opacity:0;transform:translate(0,0) rotate(-35deg)}6%{opacity:1}22%{opacity:0;transform:translate(25.396825cqw,-17.460317cqw) rotate(-35deg)}100%{opacity:0;transform:translate(25.396825cqw,-17.460317cqw) rotate(-35deg)}}
+.atlas-card[data-interacting="true"] .comte-card .comte-sh{animation-duration:2s}
+.comte-bub{position:absolute;z-index:6;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 35% 30%,rgba(255,255,255,.9),rgba(255,240,190,.25) 55%,rgba(255,220,140,0) 72%);animation:comte-fl 8s ease-in infinite;opacity:0}
+@keyframes comte-fl{0%{opacity:0;transform:translateY(0) scale(.6)}15%{opacity:.9}100%{opacity:0;transform:translateY(-23.809524cqw) scale(1.2)}}
+.atlas-card[data-interacting="true"] .comte-card .comte-bub{animation-duration:3.2s}
+@keyframes comte-pl{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes comte-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.25)}}
+@keyframes comte-spin{to{transform:rotate(360deg)}}
+@keyframes comte-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+.comte-cw{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 28% 30%,#9c3a1a 0 22%,transparent 23%),radial-gradient(circle at 72% 62%,#b24a22 0 27%,transparent 28%),radial-gradient(circle at 42% 84%,#9c3a1a 0 15%,transparent 16%),radial-gradient(circle at 78% 20%,#b24a22 0 12%,transparent 13%),radial-gradient(circle at 34% 26%,#fff 0 6%,#fff7ea 20%,#efe0c6 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(80,40,10,.45)}
+.comte-bl{position:absolute;z-index:16;pointer-events:none;width:6.984127cqw;height:8.730159cqw;transform-origin:50% 15%;animation:comte-sw 3.6s ease-in-out infinite;filter:drop-shadow(0 0.317460cqw 0.317460cqw rgba(40,20,0,.55))}
+@keyframes comte-sw{0%,100%{transform:rotate(-9deg)}50%{transform:rotate(9deg)}}
+.atlas-card[data-interacting="true"] .comte-card .comte-bl{animation-duration:.9s}
+
+.comte-photo{position:absolute;overflow:hidden;background:#8a7a60 url(/designs/comte/cheese.jpg) center/cover no-repeat;z-index:3}
+.comte-photo-shade{box-shadow:inset 0 0 4.127cqw #3c140059}
+.comte-rim{border-radius:inherit;box-shadow:inset 0 0 0 .2381cqw #fff0b8,inset 0 0 0 .6349cqw #c98a1e,inset 0 0 0 .873cqw #6b4208;z-index:7}
+.comte-name-bg{position:absolute;border-radius:1.5873cqw;background:linear-gradient(180deg,#4a2a12,#2a1406);box-shadow:inset 0 0 0 .159cqw #ffdc8259;z-index:9}
+.comte-frame{width:100%;height:100%;z-index:10;filter:drop-shadow(.159cqw .476cqw .476cqw #3c140099)}
+.comte-caption{position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.476cqw;z-index:14}
+.comte-title{font-weight:700;font-size:5.079365cqw;letter-spacing:.238095cqw;line-height:1.1}
+.comte-divider{display:flex;align-items:center;gap:1.27cqw}.comte-divider i{width:6.35cqw;height:.238cqw;background:linear-gradient(90deg,transparent,#f4c85a)}.comte-divider i:last-child{transform:rotate(180deg)}.comte-divider b{width:.952cqw;height:.952cqw;transform:rotate(45deg);background:#ffd27a;box-shadow:0 0 .952cqw #ffb040}
+.comte-motto{font-weight:600;font-size:1.666667cqw;letter-spacing:.380952cqw;color:#f7e6bd;text-shadow:0 .159cqw .31746cqw #000;margin-left:.476cqw}
+.comte-ho{background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}.comte-gl,.comte-g2{background-position:var(--supreme-inverse-x,50%) var(--supreme-inverse-y,50%)}
+.comte-back-panel{position:absolute;z-index:9;border-radius:2.222cqw;background:#2a1406f5;box-shadow:inset 0 0 0 1px #a67d3480}
+.comte-back-text{position:absolute;inset:0;width:100%;height:100%;z-index:15;pointer-events:none}
+.comte-back .comte-frame{opacity:.48}.comte-back .comte-ho,.comte-back .comte-gl,.comte-back .comte-g2{z-index:14}
+.atlas-card[data-design-model="FRO-004"]{box-shadow:0 4px 4px #4a2e1650,0 24px 36px -17px #4a2e16b0,0 0 0 1px #c98a1e50}
+.atlas-card[data-design-model="FRO-004"][data-reveal="true"]::before{box-shadow:0 0 45px 8px #ffc85a50,0 0 70px 9px #c98a1e30}
+.atlas-card[data-effects="interactive"]:not([data-interacting="true"]) .comte-card *{animation-play-state:paused}
+html[data-motion="off"] .comte-ho,html[data-motion="off"] .comte-gl,html[data-motion="off"] .comte-g2,html[data-motion="reduced"] .comte-ho,html[data-motion="reduced"] .comte-gl,html[data-motion="reduced"] .comte-g2,.atlas-card[data-effects="static"] .comte-ho,.atlas-card[data-effects="static"] .comte-gl,.atlas-card[data-effects="static"] .comte-g2{opacity:0!important}
+@media(prefers-reduced-motion:reduce){.comte-ho,.comte-gl,.comte-g2{opacity:0!important}}

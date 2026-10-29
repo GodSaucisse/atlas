@@ -1,0 +1,909 @@
+[
+  {
+    "code": "GEP-001",
+    "name": "États-Unis",
+    "category": "État et puissance",
+    "wikiTitle": "United States Capitol",
+    "rarityProposal": "Suprême",
+    "summary": "Puissance mondiale au cœur des alliances occidentales.",
+    "description": "Puissance nord-américaine dotée d’une influence militaire, financière et technologique mondiale. Ses alliances, le rôle international du dollar et ses accès aux océans Atlantique et Pacifique structurent sa projection extérieure."
+  },
+  {
+    "code": "GEP-002",
+    "name": "Chine",
+    "category": "État et puissance",
+    "wikiTitle": "Great Hall of the People",
+    "rarityProposal": "Suprême",
+    "summary": "Puissance asiatique aux ambitions et échanges mondiaux.",
+    "description": "La République populaire de Chine associe une base industrielle majeure, une puissance nucléaire et un siège permanent au Conseil de sécurité. Ses approvisionnements et débouchés maritimes donnent une portée mondiale à sa politique extérieure."
+  },
+  {
+    "code": "GEP-003",
+    "name": "Russie",
+    "category": "État et puissance",
+    "wikiTitle": "Moscow Kremlin",
+    "rarityProposal": "Légendaire",
+    "summary": "Puissance nucléaire eurasiatique aux importantes ressources énergétiques.",
+    "description": "État transcontinental disposant d’un arsenal nucléaire et d’un siège permanent au Conseil de sécurité. Les ressources énergétiques, la profondeur territoriale et la recherche d’accès maritimes pèsent dans sa politique de puissance."
+  },
+  {
+    "code": "GEP-004",
+    "name": "France",
+    "category": "État et puissance",
+    "wikiTitle": "Élysée Palace",
+    "rarityProposal": "Légendaire",
+    "summary": "Puissance européenne dotée de capacités mondiales.",
+    "description": "État européen, puissance nucléaire et membre permanent du Conseil de sécurité. Ses territoires ultramarins, ses espaces maritimes et ses capacités diplomatiques et militaires lui donnent des intérêts et une présence dans plusieurs régions du monde."
+  },
+  {
+    "code": "GEP-005",
+    "name": "Iran",
+    "category": "État et puissance",
+    "wikiTitle": "Azadi Tower",
+    "rarityProposal": "Rare",
+    "summary": "Puissance régionale située entre Golfe et Caspienne.",
+    "description": "État situé entre le golfe Persique et la mer Caspienne. Ses ressources énergétiques, sa proximité du détroit d’Ormuz et ses relations avec les acteurs du Moyen-Orient lui confèrent une importance stratégique régionale."
+  },
+  {
+    "code": "GEP-006",
+    "name": "Inde",
+    "category": "État et puissance",
+    "wikiTitle": "Parliament of India",
+    "rarityProposal": "Précieuse",
+    "summary": "Puissance asiatique tournée vers l’océan Indien.",
+    "description": "État d’Asie du Sud doté d’armes nucléaires, l’Inde combine poids démographique, industrie et capacités spatiales. Ses frontières avec la Chine et le Pakistan et sa façade sur l’océan Indien structurent ses priorités de sécurité."
+  },
+  {
+    "code": "GEP-007",
+    "name": "Corée du Nord",
+    "category": "État et puissance",
+    "wikiTitle": "Juche Tower",
+    "rarityProposal": "Rare",
+    "summary": "État nucléaire au centre des tensions coréennes.",
+    "description": "La République populaire démocratique de Corée occupe le nord de la péninsule coréenne. Ses programmes nucléaire et balistique et l’absence de traité de paix mettant fin à la guerre de Corée en font un enjeu durable de sécurité régionale."
+  },
+  {
+    "code": "GEP-008",
+    "name": "Royaume-Uni",
+    "category": "État et puissance",
+    "wikiTitle": "Palace of Westminster",
+    "rarityProposal": "Précieuse",
+    "summary": "Puissance insulaire européenne aux réseaux diplomatiques mondiaux.",
+    "description": "État insulaire européen doté d’armes nucléaires et d’un siège permanent au Conseil de sécurité. Ses liens atlantiques, son secteur financier et ses capacités navales et de renseignement soutiennent son influence extérieure."
+  },
+  {
+    "code": "GEP-009",
+    "name": "Allemagne",
+    "category": "État et puissance",
+    "wikiTitle": "Reichstag building",
+    "rarityProposal": "Rare",
+    "summary": "Puissance industrielle au centre de l’Europe.",
+    "description": "État fédéral au cœur de l’Europe, l’Allemagne possède une base industrielle et exportatrice majeure. Son intégration européenne, ses chaînes d’approvisionnement et ses relations énergétiques façonnent sa politique économique et de sécurité."
+  },
+  {
+    "code": "GEP-010",
+    "name": "Japon",
+    "category": "État et puissance",
+    "wikiTitle": "National Diet Building",
+    "rarityProposal": "Rare",
+    "summary": "Puissance industrielle insulaire de l’Asie orientale.",
+    "description": "Archipel d’Asie orientale doté d’une industrie avancée et lié aux États-Unis par un traité de sécurité. Sa dépendance aux importations énergétiques et aux routes maritimes donne une importance centrale à la sécurité de l’Indo-Pacifique."
+  },
+  {
+    "code": "GEP-011",
+    "name": "Brésil",
+    "category": "État et puissance",
+    "wikiTitle": "National Congress of Brazil",
+    "rarityProposal": "Rare",
+    "summary": "Puissance sud-américaine aux grandes ressources naturelles.",
+    "description": "État majeur d’Amérique du Sud, le Brésil associe agriculture exportatrice, industrie et ressources énergétiques. L’Amazonie, l’Atlantique Sud et la recherche d’une représentation internationale accrue occupent une place importante dans sa diplomatie."
+  },
+  {
+    "code": "GEP-012",
+    "name": "Turquie",
+    "category": "État et puissance",
+    "wikiTitle": "Anıtkabir",
+    "rarityProposal": "Rare",
+    "summary": "Puissance carrefour entre Europe et Moyen-Orient.",
+    "description": "État à cheval sur l’Europe et l’Asie, la Turquie contrôle les détroits reliant la mer Noire à la Méditerranée. Membre de l’OTAN, elle poursuit aussi ses propres intérêts dans les Balkans, le Caucase et le Moyen-Orient."
+  },
+  {
+    "code": "GEP-013",
+    "name": "Arabie saoudite",
+    "category": "État et puissance",
+    "wikiTitle": "Kingdom Centre",
+    "rarityProposal": "Rare",
+    "summary": "Puissance pétrolière et diplomatique de la péninsule Arabique.",
+    "description": "État de la péninsule Arabique, l’Arabie saoudite tire une part importante de son influence de ses ressources pétrolières, de ses investissements et de sa diplomatie. Ses façades sur le Golfe et la mer Rouge sont stratégiques."
+  },
+  {
+    "code": "GEP-014",
+    "name": "Israël",
+    "category": "État et puissance",
+    "wikiTitle": "Knesset",
+    "rarityProposal": "Rare",
+    "summary": "État proche-oriental aux importants enjeux de sécurité.",
+    "description": "État du Proche-Orient créé en 1948, Israël dispose de capacités militaires et technologiques importantes. Ses relations avec les Palestiniens, ses voisins et ses partenaires internationaux sont au cœur de sa politique de sécurité."
+  },
+  {
+    "code": "GEP-015",
+    "name": "Pakistan",
+    "category": "État et puissance",
+    "wikiTitle": "Faisal Mosque",
+    "rarityProposal": "Inhabituelle",
+    "summary": "État nucléaire situé aux frontières de l’Asie.",
+    "description": "État d’Asie du Sud doté d’armes nucléaires et ouvert sur la mer d’Arabie. Sa rivalité avec l’Inde, ses liens avec la Chine et sa frontière avec l’Afghanistan constituent des axes majeurs de sa politique extérieure."
+  },
+  {
+    "code": "GEP-016",
+    "name": "Ukraine",
+    "category": "État et puissance",
+    "wikiTitle": "Verkhovna Rada building",
+    "rarityProposal": "Rare",
+    "summary": "État européen au cœur des enjeux continentaux.",
+    "description": "État indépendant depuis 1991, l’Ukraine relie les plaines d’Europe orientale à la mer Noire. Son agriculture, ses infrastructures et sa souveraineté territoriale occupent une place centrale dans la sécurité européenne depuis l’agression russe."
+  },
+  {
+    "code": "GEP-017",
+    "name": "Indonésie",
+    "category": "État et puissance",
+    "wikiTitle": "National Monument (Indonesia)",
+    "rarityProposal": "Inhabituelle",
+    "summary": "État archipélagique au carrefour des routes asiatiques.",
+    "description": "État archipélagique entre les océans Indien et Pacifique, l’Indonésie occupe une position centrale dans les routes maritimes asiatiques. Son poids démographique, ses ressources et son rôle dans l’ASEAN soutiennent son influence régionale."
+  },
+  {
+    "code": "GEP-018",
+    "name": "Nigeria",
+    "category": "État et puissance",
+    "wikiTitle": "Abuja",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Puissance ouest-africaine aux importantes ressources énergétiques.",
+    "description": "État du golfe de Guinée doté d’un poids démographique, économique et énergétique majeur en Afrique de l’Ouest. Ses ressources pétrolières et gazières, ses échanges et les défis sécuritaires intérieurs influencent son rôle régional."
+  },
+  {
+    "code": "GEP-019",
+    "name": "Afrique du Sud",
+    "category": "État et puissance",
+    "wikiTitle": "Union Buildings",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Puissance australe aux ressources minières et industrielles.",
+    "description": "État d’Afrique australe disposant de ressources minières, d’une base industrielle et de grands ports. Sa diplomatie multilatérale et sa position entre les océans Atlantique et Indien lui donnent une influence dépassant son voisinage."
+  },
+  {
+    "code": "GEP-020",
+    "name": "Égypte",
+    "category": "État et puissance",
+    "wikiTitle": "Cairo",
+    "rarityProposal": "Inhabituelle",
+    "summary": "État charnière entre Nil et routes maritimes.",
+    "description": "État situé entre Afrique et Moyen-Orient, l’Égypte contrôle le canal de Suez. Le Nil, la concentration du peuplement dans sa vallée et ses relations avec les pays du bassin constituent des facteurs structurants de sa politique extérieure."
+  },
+  {
+    "code": "GEP-021",
+    "name": "ONU",
+    "category": "Organisation internationale",
+    "wikiTitle": "Headquarters of the United Nations",
+    "rarityProposal": "Suprême",
+    "summary": "Organisation mondiale créée pour la coopération internationale.",
+    "description": "Fondée en 1945, l’Organisation des Nations unies réunit les États autour de la paix, de la sécurité et de la coopération. Ses organes comprennent notamment l’Assemblée générale, le Conseil de sécurité et le Secrétariat."
+  },
+  {
+    "code": "GEP-022",
+    "name": "Union européenne",
+    "category": "Organisation internationale",
+    "wikiTitle": "Berlaymont building",
+    "rarityProposal": "Légendaire",
+    "summary": "Union politique et économique entre États européens.",
+    "description": "Issue d’un processus d’intégration engagé après la Seconde Guerre mondiale, l’Union européenne combine institutions communes, marché intérieur et politiques partagées. Les compétences européennes et celles des États sont définies par les traités."
+  },
+  {
+    "code": "GEP-023",
+    "name": "ASEAN",
+    "category": "Organisation internationale",
+    "wikiTitle": "ASEAN",
+    "rarityProposal": "Rare",
+    "summary": "Organisation de coopération des États d’Asie du Sud-Est.",
+    "description": "Fondée en 1967, l’Association des nations de l’Asie du Sud-Est développe la coopération régionale. Elle recherche des positions communes tout en préservant la souveraineté de ses membres, dans un espace traversé par de grandes routes commerciales."
+  },
+  {
+    "code": "GEP-024",
+    "name": "Union africaine",
+    "category": "Organisation internationale",
+    "wikiTitle": "African Union Conference Center and Office Complex",
+    "rarityProposal": "Rare",
+    "summary": "Organisation continentale de coopération des États africains.",
+    "description": "L’Union africaine succède à l’Organisation de l’unité africaine en 2002. Elle porte des objectifs d’intégration continentale, de développement et de paix, avec des instruments politiques et sécuritaires associant États et organisations régionales."
+  },
+  {
+    "code": "GEP-025",
+    "name": "CEDEAO",
+    "category": "Organisation internationale",
+    "wikiTitle": "Economic Community of West African States",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Organisation régionale d’intégration de l’Afrique de l’Ouest.",
+    "description": "La Communauté économique des États de l’Afrique de l’Ouest a été créée en 1975. Elle soutient l’intégration économique et la coopération régionale. Le retrait du Burkina Faso, du Mali et du Niger est devenu effectif le 29 janvier 2025."
+  },
+  {
+    "code": "GEP-026",
+    "name": "OCS",
+    "category": "Organisation internationale",
+    "wikiTitle": "Shanghai Cooperation Organisation",
+    "rarityProposal": "Rare",
+    "summary": "Organisation eurasiatique de coopération politique et sécuritaire.",
+    "description": "L’Organisation de coopération de Shanghai, créée en 2001, associe notamment Chine, Russie et États d’Asie centrale. Son champ couvre sécurité, coopération politique et économie, sans constituer une alliance militaire équivalente à l’OTAN."
+  },
+  {
+    "code": "GEP-027",
+    "name": "OMC",
+    "category": "Organisation internationale",
+    "wikiTitle": "Centre William Rappard",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Organisation encadrant les règles du commerce mondial.",
+    "description": "Créée en 1995, l’Organisation mondiale du commerce encadre les règles commerciales négociées entre ses membres. Elle sert de forum de négociation, suit les politiques commerciales et dispose d’un système de règlement des différends."
+  },
+  {
+    "code": "GEP-028",
+    "name": "FMI",
+    "category": "Organisation internationale",
+    "wikiTitle": "International Monetary Fund",
+    "rarityProposal": "Rare",
+    "summary": "Institution internationale consacrée à la stabilité monétaire.",
+    "description": "Créé à la suite de la conférence de Bretton Woods de 1944, le Fonds monétaire international surveille les économies et peut prêter aux États confrontés à des difficultés extérieures. Les conditions de ses programmes suscitent des débats politiques."
+  },
+  {
+    "code": "GEP-029",
+    "name": "Banque mondiale",
+    "category": "Organisation internationale",
+    "wikiTitle": "World Bank",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Institution de financement du développement et des infrastructures.",
+    "description": "Le Groupe de la Banque mondiale soutient le développement par des financements, garanties et conseils. Ses interventions concernent notamment les infrastructures, les services publics et la réduction de la pauvreté, avec plusieurs institutions aux fonctions distinctes."
+  },
+  {
+    "code": "GEP-030",
+    "name": "AIEA",
+    "category": "Organisation internationale",
+    "wikiTitle": "Vienna International Centre",
+    "rarityProposal": "Rare",
+    "summary": "Agence internationale chargée de la coopération nucléaire.",
+    "description": "L’Agence internationale de l’énergie atomique, fondée en 1957, promeut les usages pacifiques du nucléaire et applique des garanties de vérification. Son travail contribue à contrôler que les matières nucléaires ne sont pas détournées à des fins militaires."
+  },
+  {
+    "code": "GEP-031",
+    "name": "OPEP",
+    "category": "Organisation internationale",
+    "wikiTitle": "OPEC",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Organisation coordonnant les politiques des pays exportateurs pétroliers.",
+    "description": "Créée en 1960, l’Organisation des pays exportateurs de pétrole coordonne les politiques pétrolières de ses membres. Elle doit être distinguée de l’OPEP+, format plus large de coopération avec d’autres pays producteurs."
+  },
+  {
+    "code": "GEP-032",
+    "name": "Ligue arabe",
+    "category": "Organisation internationale",
+    "wikiTitle": "Arab League",
+    "rarityProposal": "Courante",
+    "summary": "Organisation de coopération entre les États arabes.",
+    "description": "Fondée en 1945, la Ligue des États arabes vise à développer la coopération entre ses membres et à coordonner leurs positions. Les divergences d’intérêts nationaux limitent parfois sa capacité à construire une action collective."
+  },
+  {
+    "code": "GEP-033",
+    "name": "OTAN",
+    "category": "Alliance et bloc",
+    "wikiTitle": "NATO headquarters",
+    "rarityProposal": "Légendaire",
+    "summary": "Alliance transatlantique fondée sur la défense collective.",
+    "description": "L’Organisation du traité de l’Atlantique Nord est fondée en 1949. L’article 5 organise l’assistance entre Alliés en cas d’attaque armée ; chaque État prend les mesures qu’il juge nécessaires, qui ne se limitent pas à une réponse militaire automatique."
+  },
+  {
+    "code": "GEP-034",
+    "name": "BRICS",
+    "category": "Alliance et bloc",
+    "wikiTitle": "BRICS",
+    "rarityProposal": "Précieuse",
+    "summary": "Groupement de puissances contestant les équilibres internationaux.",
+    "description": "Forum de coopération issu du rapprochement du Brésil, de la Russie, de l’Inde et de la Chine, rejoint par l’Afrique du Sud puis élargi. Ses membres cherchent une influence accrue dans la gouvernance mondiale, malgré des intérêts parfois divergents.",
+    "imageAlternatives": [
+      "New Development Bank"
+    ]
+  },
+  {
+    "code": "GEP-035",
+    "name": "G7",
+    "category": "Alliance et bloc",
+    "wikiTitle": "G7",
+    "rarityProposal": "Rare",
+    "summary": "Forum de concertation entre grandes économies industrialisées.",
+    "description": "Le Groupe des sept réunit Allemagne, Canada, États-Unis, France, Italie, Japon et Royaume-Uni, avec la participation de l’Union européenne. Ce forum informel coordonne des positions économiques et diplomatiques ; il ne constitue pas une organisation dotée d’un traité fondateur."
+  },
+  {
+    "code": "GEP-036",
+    "name": "AUKUS",
+    "category": "Alliance et bloc",
+    "wikiTitle": "AUKUS",
+    "rarityProposal": "Rare",
+    "summary": "Partenariat stratégique entre Australie, Royaume-Uni et États-Unis.",
+    "description": "Annoncé en 2021, AUKUS associe Australie, Royaume-Uni et États-Unis. Il couvre des sous-marins à propulsion nucléaire pour l’Australie et des technologies militaires avancées. Propulsion nucléaire ne signifie pas armement nucléaire."
+  },
+  {
+    "code": "GEP-037",
+    "name": "AES",
+    "category": "Alliance et bloc",
+    "wikiTitle": "Alliance of Sahel States",
+    "rarityProposal": "Rare",
+    "summary": "Alliance sahélienne réunissant Mali, Burkina Faso et Niger.",
+    "description": "L’Alliance des États du Sahel est créée en 2023 par le Mali, le Burkina Faso et le Niger, puis dotée d’un cadre confédéral en 2024. Elle associe objectifs de défense, coopération et affirmation diplomatique dans le Sahel central."
+  },
+  {
+    "code": "GEP-038",
+    "name": "Five Eyes",
+    "category": "Alliance et bloc",
+    "wikiTitle": "Five Eyes",
+    "rarityProposal": "Précieuse",
+    "summary": "Partenariat anglophone de partage du renseignement.",
+    "description": "Partenariat de renseignement réunissant Australie, Canada, États-Unis, Nouvelle-Zélande et Royaume-Uni. Issu de la coopération de la Seconde Guerre mondiale et de l’accord UKUSA, il est particulièrement associé au renseignement d’origine électromagnétique."
+  },
+  {
+    "code": "GEP-039",
+    "name": "Quad",
+    "category": "Alliance et bloc",
+    "wikiTitle": "Quadrilateral Security Dialogue",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Dialogue stratégique entre quatre puissances de l’Indo-Pacifique.",
+    "description": "Le Dialogue quadrilatéral pour la sécurité associe Australie, États-Unis, Inde et Japon. Ce format de coopération en Indo-Pacifique ne comporte pas de clause de défense collective équivalente à celle du traité de l’Atlantique Nord."
+  },
+  {
+    "code": "GEP-040",
+    "name": "Mouvement des non-alignés",
+    "category": "Alliance et bloc",
+    "wikiTitle": "Non-Aligned Movement",
+    "rarityProposal": "Courante",
+    "summary": "Mouvement diplomatique né des rivalités de blocs.",
+    "description": "Créé en 1961 dans le contexte de la guerre froide, le Mouvement des non-alignés défend l’indépendance des choix diplomatiques et la souveraineté des États. Il rassemble des pays aux systèmes politiques et intérêts très différents."
+  },
+  {
+    "code": "GEP-041",
+    "name": "Traité de Versailles",
+    "category": "Traité et accord",
+    "wikiTitle": "Treaty of Versailles",
+    "rarityProposal": "Légendaire",
+    "summary": "Traité redessinant les équilibres européens après 1918.",
+    "description": "Signé le 28 juin 1919, ce traité fixe les conditions de paix avec l’Allemagne après la Première Guerre mondiale. Il comporte des dispositions territoriales, militaires et financières, et intègre le pacte de la Société des Nations."
+  },
+  {
+    "code": "GEP-042",
+    "name": "Accords de Dayton",
+    "category": "Traité et accord",
+    "wikiTitle": "Dayton Agreement",
+    "rarityProposal": "Rare",
+    "summary": "Accords mettant fin à la guerre bosnienne.",
+    "description": "Négociés à Dayton en novembre 1995 puis signés à Paris en décembre, ces accords mettent fin à la guerre de Bosnie-Herzégovine. Ils organisent un cadre institutionnel complexe et prévoient une mise en œuvre internationale civile et militaire."
+  },
+  {
+    "code": "GEP-043",
+    "name": "TNP",
+    "category": "Traité et accord",
+    "wikiTitle": "Treaty on the Non-Proliferation of Nuclear Weapons",
+    "rarityProposal": "Précieuse",
+    "summary": "Traité international encadrant la non-prolifération des armes nucléaires.",
+    "description": "Ouvert à la signature en 1968 et entré en vigueur en 1970, le Traité sur la non-prolifération des armes nucléaires repose sur la non-prolifération, le désarmement et les usages pacifiques. Il distingue cinq États dotés d’armes nucléaires au sens du traité."
+  },
+  {
+    "code": "GEP-044",
+    "name": "Accords d’Oslo",
+    "category": "Traité et accord",
+    "wikiTitle": "Oslo Accords",
+    "rarityProposal": "Rare",
+    "summary": "Accords ouvrant un processus de négociation israélo-palestinien.",
+    "description": "Les accords engagés en 1993 établissent un cadre de reconnaissance et de négociation entre Israël et l’Organisation de libération de la Palestine. Le dispositif intérimaire organise une autonomie palestinienne partielle sans résoudre les questions du statut final."
+  },
+  {
+    "code": "GEP-045",
+    "name": "Charte des Nations unies",
+    "category": "Traité et accord",
+    "wikiTitle": "United Nations Charter",
+    "rarityProposal": "Précieuse",
+    "summary": "Texte fondateur de l’ordre institutionnel des Nations unies.",
+    "description": "Signée à San Francisco le 26 juin 1945, la Charte fonde l’ONU. Elle organise ses institutions, affirme l’égalité souveraine des États et encadre le recours à la force, notamment par les mécanismes du Conseil de sécurité et la légitime défense."
+  },
+  {
+    "code": "GEP-046",
+    "name": "Convention de Montego Bay",
+    "category": "Traité et accord",
+    "wikiTitle": "United Nations Convention on the Law of the Sea",
+    "rarityProposal": "Rare",
+    "summary": "Convention définissant les grands espaces du droit maritime.",
+    "description": "Adoptée en 1982 et entrée en vigueur en 1994, la Convention des Nations unies sur le droit de la mer définit notamment mer territoriale, zone économique exclusive et plateau continental. Elle encadre navigation, ressources et certains différends maritimes."
+  },
+  {
+    "code": "GEP-047",
+    "name": "Accord de Schengen",
+    "category": "Traité et accord",
+    "wikiTitle": "Schengen Agreement",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Accord fondateur d’un espace européen sans frontières intérieures.",
+    "description": "Signé en 1985, l’accord de Schengen engage la suppression progressive des contrôles aux frontières intérieures entre participants. Son application repose aussi sur des règles communes de frontières extérieures, de visas et de coopération ; Schengen et Union européenne ne se confondent pas."
+  },
+  {
+    "code": "GEP-048",
+    "name": "Traité de Maastricht",
+    "category": "Traité et accord",
+    "wikiTitle": "Maastricht Treaty",
+    "rarityProposal": "Rare",
+    "summary": "Traité fondateur de l’Union européenne et monétaire.",
+    "description": "Signé en 1992 et entré en vigueur en 1993, le traité de Maastricht institue l’Union européenne et organise la progression vers l’Union économique et monétaire. Il introduit aussi la citoyenneté européenne et renforce plusieurs coopérations politiques."
+  },
+  {
+    "code": "GEP-049",
+    "name": "Accord de Paris sur le climat",
+    "category": "Traité et accord",
+    "wikiTitle": "Paris Agreement",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Accord mondial encadrant la coopération contre le réchauffement.",
+    "description": "Adopté en 2015, cet accord climatique vise à contenir le réchauffement nettement sous 2 °C et à poursuivre les efforts vers 1,5 °C. Il repose notamment sur des contributions nationales et des mécanismes de transparence et de révision des ambitions."
+  },
+  {
+    "code": "GEP-050",
+    "name": "Acte final d’Helsinki",
+    "category": "Traité et accord",
+    "wikiTitle": "Helsinki Accords",
+    "rarityProposal": "Courante",
+    "summary": "Engagements diplomatiques structurant la sécurité européenne depuis 1975.",
+    "description": "Signé en 1975 dans le cadre de la CSCE, l’Acte final d’Helsinki formule des engagements sur les relations entre États, la sécurité, la coopération et les droits humains. C’est un engagement politique, distinct d’un traité juridiquement contraignant."
+  },
+  {
+    "code": "GEP-051",
+    "name": "Accords de Camp David",
+    "category": "Traité et accord",
+    "wikiTitle": "Camp David Accords",
+    "rarityProposal": "Rare",
+    "summary": "Accords préparant la paix entre Égypte et Israël.",
+    "description": "Signés en 1978 sous médiation américaine, les accords de Camp David établissent des cadres pour la paix au Moyen-Orient et pour un traité entre Égypte et Israël. Le traité de paix bilatéral est signé l’année suivante, en 1979."
+  },
+  {
+    "code": "GEP-052",
+    "name": "Traité sur l’Antarctique",
+    "category": "Traité et accord",
+    "wikiTitle": "Antarctic Treaty System",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Traité réservant l’Antarctique aux activités pacifiques et scientifiques.",
+    "description": "Signé en 1959 et entré en vigueur en 1961, le traité réserve l’Antarctique aux usages pacifiques et favorise la recherche. Il met de côté les différends de souveraineté sans supprimer les revendications territoriales existantes."
+  },
+  {
+    "code": "GEP-053",
+    "name": "Taïwan",
+    "category": "Territoire et souveraineté",
+    "wikiTitle": "Taipei 101",
+    "rarityProposal": "Précieuse",
+    "summary": "Île autonome revendiquée par la République populaire chinoise.",
+    "description": "Taïwan est administrée par les autorités de la République de Chine et possède ses propres institutions. La République populaire de Chine en revendique la souveraineté. La question de son statut et les tensions dans le détroit ont une portée internationale majeure."
+  },
+  {
+    "code": "GEP-054",
+    "name": "Cachemire",
+    "category": "Territoire et souveraineté",
+    "wikiTitle": "Dal Lake",
+    "rarityProposal": "Rare",
+    "summary": "Région himalayenne divisée entre administrations et revendications.",
+    "description": "Région himalayenne dont des secteurs sont administrés par l’Inde, le Pakistan et la Chine. Les revendications territoriales et les lignes de contrôle en font un foyer durable de tensions, avec des enjeux de relief, de peuplement et d’accès à l’eau."
+  },
+  {
+    "code": "GEP-055",
+    "name": "Crimée",
+    "category": "Territoire et souveraineté",
+    "wikiTitle": "Crimea",
+    "rarityProposal": "Rare",
+    "summary": "Péninsule ukrainienne occupée et annexée par la Russie.",
+    "description": "Péninsule ukrainienne de la mer Noire, occupée et annexée par la Russie en 2014. L’Assemblée générale de l’ONU a réaffirmé l’intégrité territoriale de l’Ukraine. Les ports et les accès maritimes donnent à ce territoire une importance stratégique."
+  },
+  {
+    "code": "GEP-056",
+    "name": "Sahara occidental",
+    "category": "Territoire et souveraineté",
+    "wikiTitle": "Western Sahara",
+    "rarityProposal": "Rare",
+    "summary": "Territoire saharien au statut international non réglé.",
+    "description": "Territoire inscrit par l’ONU sur la liste des territoires non autonomes. Le Maroc contrôle l’essentiel du territoire et en revendique la souveraineté ; le Front Polisario défend l’indépendance. Le règlement de son statut demeure une question internationale."
+  },
+  {
+    "code": "GEP-057",
+    "name": "Îles Spratleys",
+    "category": "Territoire et souveraineté",
+    "wikiTitle": "Spratly Islands",
+    "rarityProposal": "Rare",
+    "summary": "Archipel disputé sur les routes maritimes asiatiques.",
+    "description": "Ensemble d’îles, récifs et hauts-fonds de mer de Chine méridionale faisant l’objet de revendications concurrentes. Les positions occupées, les aménagements et les droits maritimes associés en font un enjeu de navigation, de ressources et de puissance."
+  },
+  {
+    "code": "GEP-058",
+    "name": "Kosovo",
+    "category": "Territoire et souveraineté",
+    "wikiTitle": "Pristina",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Territoire balkanique dont l’indépendance reste internationalement contestée.",
+    "description": "Le Kosovo a déclaré son indépendance de la Serbie en 2008. Il est reconnu comme État par de nombreux pays, dont la France, mais la Serbie et d’autres États ne reconnaissent pas cette indépendance. Son statut demeure un enjeu diplomatique européen."
+  },
+  {
+    "code": "GEP-059",
+    "name": "Palestine",
+    "category": "Territoire et souveraineté",
+    "wikiTitle": "Ramallah",
+    "rarityProposal": "Rare",
+    "summary": "État observateur des Nations unies aux territoires occupés.",
+    "description": "La Palestine dispose depuis 2012 du statut d’État observateur non membre à l’ONU. La Cisjordanie, y compris Jérusalem-Est, et la bande de Gaza sont au cœur du dossier territorial palestinien. Souveraineté, occupation et sécurité structurent les négociations."
+  },
+  {
+    "code": "GEP-060",
+    "name": "Plateau du Golan",
+    "category": "Territoire et souveraineté",
+    "wikiTitle": "Golan Heights",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Plateau syrien occupé au cœur des rivalités régionales.",
+    "description": "Une partie de ce plateau syrien est occupée par Israël depuis 1967. Israël y a étendu ses lois en 1981, décision déclarée nulle par le Conseil de sécurité. Sa hauteur dominante et ses ressources en eau expliquent son importance stratégique."
+  },
+  {
+    "code": "GEP-061",
+    "name": "Chypre divisée",
+    "category": "Territoire et souveraineté",
+    "wikiTitle": "Nicosia",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Île méditerranéenne divisée par une zone tampon.",
+    "description": "L’île est divisée depuis 1974 entre le territoire contrôlé par la République de Chypre et le nord contrôlé par les autorités chypriotes turques. L’entité du nord n’est reconnue que par la Turquie. Une zone tampon est surveillée par l’ONU."
+  },
+  {
+    "code": "GEP-062",
+    "name": "Îles Malouines / Falkland",
+    "category": "Territoire et souveraineté",
+    "wikiTitle": "Falkland Islands",
+    "rarityProposal": "Courante",
+    "summary": "Archipel austral objet d’un différend de souveraineté.",
+    "description": "Archipel de l’Atlantique Sud administré par le Royaume-Uni et revendiqué par l’Argentine sous le nom de Malvinas. La guerre de 1982 n’a pas clos le différend de souveraineté, inscrit à l’agenda de décolonisation des Nations unies."
+  },
+  {
+    "code": "GEP-063",
+    "name": "Îles Senkaku / Diaoyu",
+    "category": "Territoire et souveraineté",
+    "wikiTitle": "Senkaku Islands",
+    "rarityProposal": "Courante",
+    "summary": "Îles administrées par le Japon et revendiquées.",
+    "description": "Îles de mer de Chine orientale administrées par le Japon et revendiquées par la Chine et Taïwan. Leur position maritime, les activités de pêche et les patrouilles des garde-côtes en font un point de friction régional."
+  },
+  {
+    "code": "GEP-064",
+    "name": "Transnistrie",
+    "category": "Territoire et souveraineté",
+    "wikiTitle": "Tiraspol",
+    "rarityProposal": "Courante",
+    "summary": "Territoire séparatiste situé à l’est de la Moldavie.",
+    "description": "Région séparatiste située principalement sur la rive orientale du Dniestr, à l’intérieur des frontières internationalement reconnues de la Moldavie. Les institutions de fait et la présence militaire russe contribuent à un différend prolongé depuis les années 1990."
+  },
+  {
+    "code": "GEP-065",
+    "name": "DGSE",
+    "category": "Renseignement et espionnage",
+    "wikiTitle": "Direction générale de la Sécurité extérieure",
+    "rarityProposal": "Précieuse",
+    "summary": "Service français chargé du renseignement à l’étranger.",
+    "description": "La Direction générale de la sécurité extérieure est le service français de renseignement extérieur, créé en 1982. Rattachée au ministère des Armées, elle recherche et exploite des renseignements utiles à la sécurité et aux intérêts de la France."
+  },
+  {
+    "code": "GEP-066",
+    "name": "CIA",
+    "category": "Renseignement et espionnage",
+    "wikiTitle": "George Bush Center for Intelligence",
+    "rarityProposal": "Précieuse",
+    "summary": "Agence américaine chargée du renseignement extérieur civil.",
+    "description": "Créée en 1947, la Central Intelligence Agency recueille et analyse du renseignement extérieur pour les autorités américaines. Ses missions se distinguent de celles du FBI et de la NSA ; elle n’est pas une police générale du territoire américain."
+  },
+  {
+    "code": "GEP-067",
+    "name": "MI6",
+    "category": "Renseignement et espionnage",
+    "wikiTitle": "SIS Building",
+    "rarityProposal": "Rare",
+    "summary": "Service britannique chargé du renseignement humain extérieur.",
+    "description": "Le Secret Intelligence Service, couramment appelé MI6, est le service britannique de renseignement extérieur. Il fournit aux autorités des informations obtenues notamment par des sources humaines, distinctement du MI5 et du GCHQ."
+  },
+  {
+    "code": "GEP-068",
+    "name": "KGB",
+    "category": "Renseignement et espionnage",
+    "wikiTitle": "Lubyanka Building",
+    "rarityProposal": "Légendaire",
+    "summary": "Ancien appareil soviétique de renseignement et sécurité.",
+    "description": "Le Comité pour la sécurité de l’État de l’URSS, connu sous le sigle KGB, existe de 1954 à 1991. Il exerce des fonctions de renseignement extérieur, de contre-espionnage et de sécurité politique. Ses missions sont réparties entre différents services après l’URSS."
+  },
+  {
+    "code": "GEP-069",
+    "name": "Mossad",
+    "category": "Renseignement et espionnage",
+    "wikiTitle": "Mossad",
+    "rarityProposal": "Rare",
+    "summary": "Service israélien de renseignement extérieur et opérations clandestines.",
+    "description": "Le Mossad est le service israélien de renseignement extérieur. Ses missions couvrent notamment la collecte de renseignements et des opérations secrètes hors d’Israël. Il se distingue du Shin Bet, chargé de sécurité intérieure, et du renseignement militaire Aman."
+  },
+  {
+    "code": "GEP-070",
+    "name": "BND",
+    "category": "Renseignement et espionnage",
+    "wikiTitle": "Headquarters of the Federal Intelligence Service",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Service fédéral allemand chargé du renseignement extérieur.",
+    "description": "Le Bundesnachrichtendienst est le service fédéral de renseignement extérieur allemand. Il recueille et analyse des informations utiles à la politique étrangère et de sécurité, sous l’autorité de la chancellerie fédérale."
+  },
+  {
+    "code": "GEP-071",
+    "name": "NSA",
+    "category": "Renseignement et espionnage",
+    "wikiTitle": "National Security Agency",
+    "rarityProposal": "Rare",
+    "summary": "Agence américaine spécialisée dans le renseignement électromagnétique.",
+    "description": "La National Security Agency est une agence américaine spécialisée dans le renseignement d’origine électromagnétique et la sécurité des systèmes d’information. Ses capacités techniques et ses coopérations internationales la distinguent de la collecte humaine de la CIA."
+  },
+  {
+    "code": "GEP-072",
+    "name": "DGSI",
+    "category": "Renseignement et espionnage",
+    "wikiTitle": "Direction générale de la Sécurité intérieure",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Service français chargé de la sécurité intérieure.",
+    "description": "La Direction générale de la sécurité intérieure, créée en 2014, relève du ministère de l’Intérieur. Elle intervient notamment en contre-espionnage, contre-terrorisme et protection des intérêts fondamentaux de la Nation sur le territoire français.",
+    "imageAlternatives": [
+      "General Directorate for Internal Security",
+      "Counterintelligence"
+    ]
+  },
+  {
+    "code": "GEP-073",
+    "name": "SVR",
+    "category": "Renseignement et espionnage",
+    "wikiTitle": "Foreign Intelligence Service (Russia)",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Service russe chargé du renseignement extérieur civil.",
+    "description": "Le Service des renseignements extérieurs de la Fédération de Russie est créé en 1991 à partir de structures du renseignement extérieur soviétique. Il se distingue notamment du FSB, à dominante intérieure, et du renseignement militaire russe."
+  },
+  {
+    "code": "GEP-074",
+    "name": "MSS chinois",
+    "category": "Renseignement et espionnage",
+    "wikiTitle": "Ministry of State Security (China)",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Ministère chinois chargé du renseignement et contre-espionnage.",
+    "description": "Le ministère de la Sécurité d’État de la République populaire de Chine, créé en 1983, exerce des missions de renseignement et de contre-espionnage. Il doit être distingué du ministère de la Sécurité publique, principalement chargé des fonctions policières."
+  },
+  {
+    "code": "GEP-075",
+    "name": "Pétrole du Golfe",
+    "category": "Ressource et axe stratégique",
+    "wikiTitle": "Oil refinery",
+    "rarityProposal": "Précieuse",
+    "summary": "Ressource énergétique majeure exportée depuis le Golfe.",
+    "description": "Les gisements et terminaux des États du golfe Persique alimentent le commerce pétrolier mondial. Leur concentration géographique et les passages maritimes, notamment Ormuz, associent sécurité énergétique, revenus des producteurs et rivalités régionales."
+  },
+  {
+    "code": "GEP-076",
+    "name": "Terres rares chinoises",
+    "category": "Ressource et axe stratégique",
+    "wikiTitle": "Rare-earth element",
+    "rarityProposal": "Rare",
+    "summary": "Métaux stratégiques aux chaînes industrielles dominées par Pékin.",
+    "description": "Les terres rares entrent dans de nombreux aimants, équipements électroniques et systèmes industriels. La place de la Chine dans leur extraction et surtout leur transformation crée des dépendances ; restrictions commerciales et diversification deviennent des leviers de puissance."
+  },
+  {
+    "code": "GEP-077",
+    "name": "Gaz russe",
+    "category": "Ressource et axe stratégique",
+    "wikiTitle": "Natural gas processing",
+    "rarityProposal": "Rare",
+    "summary": "Ressource énergétique russe au cœur des dépendances.",
+    "description": "La production et l’exportation de gaz russe reposent sur des gisements, gazoducs et installations de gaz naturel liquéfié. Les itinéraires, contrats et possibilités de substitution font de cette ressource un enjeu économique et diplomatique majeur."
+  },
+  {
+    "code": "GEP-078",
+    "name": "Compétition pour l’Arctique",
+    "category": "Ressource et axe stratégique",
+    "wikiTitle": "Arctic",
+    "rarityProposal": "Rare",
+    "summary": "Rivalités polaires autour des routes et ressources.",
+    "description": "Le réchauffement transforme l’accessibilité de l’Arctique sans rendre sa navigation simple ni permanente. Routes, ressources, souverainetés maritimes et implantations militaires alimentent des rivalités, dans un espace habité et écologiquement fragile."
+  },
+  {
+    "code": "GEP-079",
+    "name": "Détroit d’Ormuz",
+    "category": "Ressource et axe stratégique",
+    "wikiTitle": "Strait of Hormuz",
+    "rarityProposal": "Précieuse",
+    "summary": "Passage maritime crucial pour les exportations du Golfe.",
+    "description": "Ce détroit relie le golfe Persique au golfe d’Oman, entre Iran et péninsule Arabique. Sa géographie étroite concentre une partie des flux énergétiques maritimes et rend les menaces sur la navigation importantes pour les importateurs."
+  },
+  {
+    "code": "GEP-080",
+    "name": "Détroit de Malacca",
+    "category": "Ressource et axe stratégique",
+    "wikiTitle": "Strait of Malacca",
+    "rarityProposal": "Rare",
+    "summary": "Passage reliant les océans Indien et Pacifique.",
+    "description": "Situé entre la péninsule Malaise et Sumatra, le détroit est un axe majeur entre l’océan Indien et les mers d’Asie orientale. Sa densité de navigation et les contraintes de passage créent des enjeux de sécurité et de dépendance commerciale."
+  },
+  {
+    "code": "GEP-081",
+    "name": "Bab el-Mandeb",
+    "category": "Ressource et axe stratégique",
+    "wikiTitle": "Bab-el-Mandeb",
+    "rarityProposal": "Rare",
+    "summary": "Détroit reliant la mer Rouge au golfe d’Aden.",
+    "description": "Ce détroit sépare la péninsule Arabique de la Corne de l’Afrique. Avec Suez, il forme une chaîne de passages stratégiques entre Méditerranée et océan Indien. Les attaques ou perturbations de navigation peuvent entraîner de longs détours commerciaux."
+  },
+  {
+    "code": "GEP-082",
+    "name": "Canal de Suez",
+    "category": "Ressource et axe stratégique",
+    "wikiTitle": "Suez Canal",
+    "rarityProposal": "Précieuse",
+    "summary": "Canal égyptien reliant Méditerranée et mer Rouge.",
+    "description": "Ouvert en 1869, ce canal permet aux navires de relier Méditerranée et mer Rouge sans contourner l’Afrique. Situé sous souveraineté égyptienne, il constitue un axe économique et stratégique où les interruptions affectent les chaînes logistiques internationales."
+  },
+  {
+    "code": "GEP-083",
+    "name": "Canal de Panama",
+    "category": "Ressource et axe stratégique",
+    "wikiTitle": "Panama Canal",
+    "rarityProposal": "Rare",
+    "summary": "Canal interocéanique au cœur du commerce américain.",
+    "description": "Ouvert en 1914, le canal relie les océans Atlantique et Pacifique à travers l’isthme panaméen. Ses écluses dépendent d’un approvisionnement en eau douce : les contraintes hydriques peuvent réduire la capacité de passage et modifier les routes commerciales."
+  },
+  {
+    "code": "GEP-084",
+    "name": "Semi-conducteurs taïwanais",
+    "category": "Ressource et axe stratégique",
+    "wikiTitle": "TSMC",
+    "rarityProposal": "Précieuse",
+    "summary": "Industrie technologique essentielle aux chaînes de production mondiales.",
+    "description": "Taïwan concentre des capacités industrielles majeures de fabrication de semi-conducteurs, notamment par ses fonderies. La spécialisation des procédés et les délais de construction des usines rendent cette production difficile à remplacer rapidement en cas de rupture."
+  },
+  {
+    "code": "GEP-085",
+    "name": "Cobalt de la RDC",
+    "category": "Ressource et axe stratégique",
+    "wikiTitle": "Cobalt",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Métal congolais stratégique pour certaines technologies de batteries.",
+    "description": "La République démocratique du Congo occupe une place majeure dans l’extraction du cobalt. Ce métal intervient notamment dans certaines batteries. Chaînes de raffinage, conditions de travail et traçabilité relient exploitation minière, industrie et rivalités internationales."
+  },
+  {
+    "code": "GEP-086",
+    "name": "Uranium du Sahel",
+    "category": "Ressource et axe stratégique",
+    "wikiTitle": "Uranium mining",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Ressource minière sahélienne liée aux filières nucléaires.",
+    "description": "Les gisements d’uranium, notamment au Niger, relient le Sahel aux filières nucléaires internationales. La production dépend des investissements, de la sécurité, des infrastructures et des relations entre États, exploitants et populations des régions minières."
+  },
+  {
+    "code": "GEP-087",
+    "name": "Eaux du Nil",
+    "category": "Ressource et axe stratégique",
+    "wikiTitle": "Grand Ethiopian Renaissance Dam",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Ressource partagée au centre des rivalités du bassin.",
+    "description": "Le bassin du Nil associe besoins agricoles, alimentation des villes et production hydroélectrique. Les barrages et leurs modalités de remplissage et d’exploitation créent des intérêts parfois divergents entre États d’amont et d’aval, dont Éthiopie, Soudan et Égypte."
+  },
+  {
+    "code": "GEP-088",
+    "name": "Câbles sous-marins",
+    "category": "Ressource et axe stratégique",
+    "wikiTitle": "Submarine communications cable",
+    "rarityProposal": "Rare",
+    "summary": "Réseaux sous-marins essentiels aux communications internationales numériques.",
+    "description": "Les câbles de télécommunication sous-marins transportent des données entre continents. Leurs routes et points d’atterrissement associent enjeux économiques, protection des infrastructures et souveraineté numérique ; les ruptures peuvent être accidentelles ou intentionnelles."
+  },
+  {
+    "code": "GEP-089",
+    "name": "Guerre en Ukraine",
+    "category": "Conflit et crise",
+    "wikiTitle": "Russian invasion of Ukraine",
+    "rarityProposal": "Précieuse",
+    "summary": "Guerre affectant durablement l’architecture de sécurité européenne.",
+    "description": "Le conflit engagé en 2014 change d’échelle avec l’invasion russe à grande échelle du 24 février 2022. Souveraineté ukrainienne, sécurité européenne et soutiens internationaux sont au cœur du dossier. Cette carte présente le cadre du conflit, sans figer une ligne de front."
+  },
+  {
+    "code": "GEP-090",
+    "name": "Conflit israélo-palestinien",
+    "category": "Conflit et crise",
+    "wikiTitle": "Israeli–Palestinian conflict",
+    "rarityProposal": "Précieuse",
+    "summary": "Conflit territorial et national aux répercussions internationales.",
+    "description": "Ce conflit porte notamment sur souveraineté, frontières, occupation, sécurité, réfugiés et statut de Jérusalem. Il oppose des acteurs aux objectifs distincts et affecte fortement les civils. La carte présente ses enjeux structurels, sans figer une trêve ou une situation militaire."
+  },
+  {
+    "code": "GEP-091",
+    "name": "Crise du détroit de Taïwan",
+    "category": "Conflit et crise",
+    "wikiTitle": "Taiwan Strait",
+    "rarityProposal": "Rare",
+    "summary": "Tensions stratégiques entre Taïwan et Chine continentale.",
+    "description": "Les tensions associent revendication chinoise de souveraineté, institutions autonomes de Taïwan et rôle des États-Unis. La largeur du détroit, les voies maritimes et les capacités militaires influencent les scénarios de pression, de blocus ou de conflit, qui ne sont pas inévitables."
+  },
+  {
+    "code": "GEP-092",
+    "name": "Tensions dans la péninsule coréenne",
+    "category": "Conflit et crise",
+    "wikiTitle": "Korean Demilitarized Zone",
+    "rarityProposal": "Rare",
+    "summary": "Confrontation durable sur une péninsule divisée depuis 1945.",
+    "description": "La guerre de Corée s’achève en 1953 par un armistice, sans traité de paix général. Les programmes militaires nord-coréens, la défense sud-coréenne et les engagements des puissances voisines entretiennent un enjeu de dissuasion et de sécurité régionale."
+  },
+  {
+    "code": "GEP-093",
+    "name": "Rivalité indo-pakistanaise",
+    "category": "Conflit et crise",
+    "wikiTitle": "India–Pakistan border",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Confrontation entre deux puissances nucléaires voisines d’Asie.",
+    "description": "Née de la partition de 1947, cette rivalité associe guerres, contentieux territoriaux et crises sécuritaires. Le Cachemire y joue un rôle central. La présence d’armes nucléaires renforce les risques d’escalade tout en influençant les calculs de dissuasion."
+  },
+  {
+    "code": "GEP-094",
+    "name": "Tensions en mer de Chine méridionale",
+    "category": "Conflit et crise",
+    "wikiTitle": "South China Sea",
+    "rarityProposal": "Rare",
+    "summary": "Rivalités maritimes entre revendications, navigation et ressources.",
+    "description": "Des revendications concurrentes, notamment autour des Spratleys et des Paracels, se superposent aux routes commerciales. Patrouilles, pêche, aménagements et droits maritimes alimentent les tensions ; souveraineté des terres et droits en mer sont des questions distinctes."
+  },
+  {
+    "code": "GEP-095",
+    "name": "Guerre au Yémen",
+    "category": "Conflit et crise",
+    "wikiTitle": "Yemeni civil war (2014–present)",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Conflit yéménite aux dimensions régionales et maritimes.",
+    "description": "Le conflit fragmenté du Yémen associe acteurs yéménites et interventions régionales. Contrôle territorial, institutions rivales et accès aux ports pèsent sur l’aide humanitaire et la population. La proximité de Bab el-Mandeb donne aussi une dimension maritime au dossier."
+  },
+  {
+    "code": "GEP-096",
+    "name": "Crise syrienne",
+    "category": "Conflit et crise",
+    "wikiTitle": "Syrian civil war",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Crise issue de la guerre et des interventions.",
+    "description": "Issue du soulèvement de 2011 et de sa militarisation, la crise syrienne associe violences, déplacements massifs et interventions extérieures. La fragmentation du territoire, les infrastructures endommagées et les enjeux de retour et de reconstruction lui donnent des effets durables."
+  },
+  {
+    "code": "GEP-097",
+    "name": "Guerre au Soudan",
+    "category": "Conflit et crise",
+    "wikiTitle": "Sudanese civil war (2023–present)",
+    "rarityProposal": "Inhabituelle",
+    "summary": "Conflit soudanais provoquant une crise humanitaire majeure.",
+    "description": "Déclenchée en avril 2023 entre les Forces armées soudanaises et les Forces de soutien rapide, cette guerre associe lutte pour le pouvoir et contrôle des ressources. Les déplacements, violences contre les civils et flux transfrontaliers affectent aussi les pays voisins."
+  },
+  {
+    "code": "GEP-098",
+    "name": "Crise sécuritaire au Sahel",
+    "category": "Conflit et crise",
+    "wikiTitle": "Sahel",
+    "rarityProposal": "Rare",
+    "summary": "Crise régionale mêlant violences armées et fragilités politiques.",
+    "description": "Le Sahel central connaît des violences impliquant groupes djihadistes, forces étatiques et autres groupes armés. Frontières poreuses, axes de circulation, tensions locales et accès aux ressources se combinent aux transformations politiques et aux partenariats de sécurité."
+  },
+  {
+    "code": "GEP-099",
+    "name": "Rivalité sino-américaine",
+    "category": "Conflit et crise",
+    "wikiTitle": "China–United States relations",
+    "rarityProposal": "Légendaire",
+    "summary": "Compétition mondiale entre puissances américaine et chinoise.",
+    "description": "Cette rivalité mêle technologies, commerce, capacités militaires et influence diplomatique. Elle se déploie notamment en Indo-Pacifique et dans les chaînes industrielles. Interdépendance économique et concurrence stratégique coexistent, sans rendre l’affrontement militaire inévitable."
+  },
+  {
+    "code": "GEP-100",
+    "name": "Dossier nucléaire iranien",
+    "category": "Conflit et crise",
+    "wikiTitle": "Nuclear program of Iran",
+    "rarityProposal": "Rare",
+    "summary": "Crise diplomatique autour du programme nucléaire iranien.",
+    "description": "Le dossier associe enrichissement de l’uranium, vérification de l’AIEA, sanctions et négociations. L’accord de 2015 puis le retrait américain de 2018 ont marqué son évolution. La carte distingue les activités nucléaires, les obligations de garanties et la question d’un éventuel armement."
+  }
+]

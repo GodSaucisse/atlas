@@ -1,0 +1,3 @@
+import {PROFILE_ACCENTS,type PublicProfile} from '../player-profile';
+import type {CSSProperties} from 'react';
+export default function PlayerAvatar({name,profile,className=''}:{name:string;profile?:PublicProfile;className?:string}){const colors=PROFILE_ACCENTS[profile?.accent||'atlas']||PROFILE_ACCENTS.atlas;return <span className={`social-avatar ${className}`} style={{'--social-accent-1':colors[0],'--social-accent-2':colors[1]} as CSSProperties}>{profile?.avatarKey?<img src={`/api/media/${profile.avatarKey}`} alt=""/>:<b aria-hidden="true">{Array.from(name||'A')[0].toLocaleUpperCase('fr')}</b>}</span>}

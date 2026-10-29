@@ -1,0 +1,7 @@
+export const CARD_FONT='-apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif';
+export const BACK_TEXT_AREA={x:14,y:40,width:332,height:438,textWidth:296,textHeight:307} as const;
+export type CardSide='front'|'back';
+export function textWidth(text:string,size:number){return [...text].reduce((n,c)=>n+size*(/[ilI.,'’!:;|]/.test(c)?.28:/[mMwW@%]/.test(c)?.87:/\s/.test(c)?.29:/[A-ZÀ-Ý0-9]/.test(c)?.67:.55),0);}
+export function textLines(text:string,size:number,width:number){const lines:string[]=[];let line='';for(const word of text.trim().split(/\s+/)){if(textWidth(line?`${line} ${word}`:word,size)<=width){line=line?`${line} ${word}`:word;continue;}if(line)lines.push(line);line='';let part='';for(const c of word){if(textWidth(part+c,size)>width&&part){lines.push(part);part='';}part+=c;}line=part;}if(line)lines.push(line);return lines;}
+export function cardTitle(text:string,width=294){let size=25;while(size>15&&textLines(text,size,width).length>2)size--;const lines=textLines(text,size,width);if(lines.length>2){lines.splice(2);let tail=lines[1];while(textWidth(tail+'…',size)>width)tail=tail.slice(0,-1);lines[1]=tail.replace(/[ ,;:.]+$/,'')+'…';}return {size,lines};}
+export function cardDescription(text:string){let size=14;while(size>8.5&&textLines(text,size,BACK_TEXT_AREA.textWidth).length*(size*1.48)>BACK_TEXT_AREA.textHeight)size-=.5;return {size,lines:textLines(text,size,BACK_TEXT_AREA.textWidth)};}

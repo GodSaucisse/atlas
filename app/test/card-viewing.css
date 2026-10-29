@@ -1,0 +1,19 @@
+/* Only the card, fitted to both viewport dimensions without cropping. */
+dialog.card-lightbox{position:fixed;inset:0;width:100vw;height:100vh;height:100dvh;max-width:none;max-height:none;margin:0;padding:20px;border:0;background:transparent;color:#f5f5ff;overflow:hidden;overscroll-behavior:contain;font-family:var(--font-atlas)}
+dialog.card-lightbox[open]{display:grid;place-items:center}
+dialog.card-lightbox::backdrop{background:rgba(3,6,20,.94);backdrop-filter:blur(12px)}
+.card-lightbox-stage{width:min(calc(100vw - 40px),calc((100vh - 80px)*.6481481481));width:min(calc(100vw - 40px),calc((100dvh - 80px)*.6481481481));aspect-ratio:630/972;position:relative;display:grid;align-items:center}
+.card-lightbox-stage>.atlas-card{width:100%;max-width:none;height:auto;margin:0}
+.card-lightbox-close{position:absolute;top:max(14px,env(safe-area-inset-top));right:max(14px,env(safe-area-inset-right));z-index:2;width:44px;height:44px;display:grid;place-items:center;padding:0;border:1px solid #c9d2ff66;border-radius:50%;background:#161c38e6;color:white;font:600 22px var(--font-atlas);cursor:pointer}
+.card-lightbox-close:hover{background:#333c66}
+.card-lightbox-close:focus-visible{outline:3px solid #9bdcff;outline-offset:3px}
+/* The scroll container stays the reader backdrop. The left column sticks in it. */
+.test-game .card-reader>.reader-left{position:sticky;top:24px;align-self:start;min-width:0}
+.test-game .card-reader>.reader-left>.atlas-card{width:min(100%,calc(max(120px,90dvh - 180px)*.6481481481));margin-left:auto;margin-right:auto}
+@media(max-width:620px){
+ .test-game .card-reader>.reader-left{top:12px;z-index:2;display:grid;grid-template-columns:minmax(0,140px) minmax(0,1fr);align-items:center;gap:12px;width:100%;max-width:none;margin:0 0 24px;padding:12px;border:1px solid #626c9955;border-radius:14px;background:#141a36;box-shadow:0 12px 24px #05091d66}
+ .test-game .card-reader>.reader-left>.atlas-card{width:min(140px,calc(28dvh*.6481481481));max-width:100%;justify-self:center}
+ .test-game .card-reader>.reader-left>.reader-actions{flex-direction:column;gap:8px;margin:0;align-self:center}
+ .test-game .card-reader>.reader-left>.reader-actions>button{flex:none;width:100%;height:38px}
+ .test-game .card-reader>.reader-left>.reader-form,.test-game .card-reader>.reader-left>[role=alert]{grid-column:1/-1}
+}

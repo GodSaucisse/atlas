@@ -1,0 +1,111 @@
+
+
+
+.atlas-card-face.charlemagne-card{position:relative;width:100%;height:100%;container-type:inline-size;border-radius:inherit;overflow:hidden;background:#0a1a5a url(/designs/charlemagne/pattern.jpg) center/100% 100% no-repeat;font-family:var(--font-atlas)}
+
+.charlemagne-ly{position:absolute;inset:0;pointer-events:none}
+.charlemagne-bd{position:absolute;inset:0;pointer-events:none;padding:5.714286cqw;box-sizing:border-box;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0)}
+.charlemagne-sw{z-index:5;mix-blend-mode:screen;background:linear-gradient(115deg,rgba(255,255,255,0) 40%,rgba(255,226,150,.8) 50%,rgba(255,255,255,0) 60%);background-size:300% 100%;animation:charlemagne-sweep 5.5s linear infinite}
+.charlemagne-sv{z-index:5;mix-blend-mode:screen;background:linear-gradient(180deg,rgba(255,255,255,0) 30%,rgba(230,180,70,.5) 50%,rgba(255,255,255,0) 70%);background-size:100% 300%;animation:charlemagne-sweepv 4.2s linear infinite}
+.charlemagne-gw{z-index:4;background:radial-gradient(ellipse at 50% 105%,rgba(240,190,80,.25),rgba(240,190,80,0) 55%);animation:charlemagne-pl 4s ease-in-out infinite}
+.charlemagne-gf{z-index:8;mix-blend-mode:screen;background:linear-gradient(105deg,rgba(255,255,255,0) 44%,rgba(255,236,170,.35) 50%,rgba(255,255,255,0) 56%);background-size:320% 100%;animation:charlemagne-sweep 7s linear infinite}
+.charlemagne-rt{position:absolute;z-index:11;pointer-events:none;animation:charlemagne-spin 14s linear infinite}
+.atlas-card[data-interacting="true"] .charlemagne-card .charlemagne-rt{animation-duration:3s}
+.charlemagne-ho{z-index:40;opacity:0;mix-blend-mode:color-dodge;background:linear-gradient(115deg,rgba(255,190,70,0) 0,rgba(255,190,70,.3) 8%,rgba(255,215,110,.3) 15%,rgba(210,230,255,.28) 22%,rgba(170,140,255,.3) 29%,rgba(120,235,230,.3) 36%,rgba(255,190,70,0) 44%,rgba(255,190,70,0) 56%,rgba(255,215,110,.28) 64%,rgba(170,140,255,.28) 72%,rgba(255,190,70,0) 82%);background-size:240% 240%;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.charlemagne-gl{z-index:41;opacity:0;mix-blend-mode:overlay;background:radial-gradient(circle at center,rgba(220,232,248,.8) 0,rgba(220,232,248,.28) 16%,rgba(255,255,255,0) 40%);background-size:220% 220%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.charlemagne-g2{z-index:42;opacity:0;mix-blend-mode:screen;background:radial-gradient(circle at center,rgba(255,240,205,.85) 0,rgba(255,240,205,.35) 13%,rgba(255,255,255,0) 32%);background-size:170% 170%;background-repeat:no-repeat;background-position:50% 50%;transition:opacity .4s,background-position .3s ease-out}
+.atlas-card[data-interacting="true"] .charlemagne-card .charlemagne-ho{opacity:.3}.atlas-card[data-interacting="true"] .charlemagne-card .charlemagne-gl{opacity:.35}.atlas-card[data-interacting="true"] .charlemagne-card .charlemagne-g2{opacity:.3}
+.charlemagne-st{position:absolute;z-index:20;pointer-events:none;background:radial-gradient(circle,#fff 0,#fff0c0 30%,rgba(255,215,120,0) 70%);clip-path:polygon(50% 0,59% 41%,100% 50%,59% 59%,50% 100%,41% 59%,0 50%,41% 41%);animation:charlemagne-tw 2.6s ease-in-out infinite}
+.charlemagne-gt{background:linear-gradient(180deg,#fff4c8 0,#f3d47a 42%,#b98a26 62%,#ffeaa6 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#f3d47a;filter:drop-shadow(0 0.158730cqw 0.317460cqw rgba(0,10,40,.9)) drop-shadow(0 0 1.269841cqw rgba(255,200,90,.5))}
+@keyframes charlemagne-sweep{from{background-position:130% 0}to{background-position:-130% 0}}
+@keyframes charlemagne-sweepv{from{background-position:0 130%}to{background-position:0 -130%}}
+@keyframes charlemagne-pl{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes charlemagne-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.45)}}
+@keyframes charlemagne-spin{to{transform:rotate(360deg)}}
+@keyframes charlemagne-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.charlemagne-ap{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 34% 28%,#fff 0 7%,#ff9a88 18%,#e0242c 52%,#7a0812 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(80,0,10,.55);animation:charlemagne-pu 3.6s ease-in-out infinite}
+.charlemagne-ap.charlemagne-gr{background:radial-gradient(circle at 34% 28%,#fff 0 7%,#f2f59a 20%,#9bcb3e 55%,#3a6a14 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(20,50,0,.5)}
+.atlas-card[data-interacting="true"] .charlemagne-card .charlemagne-ap{animation-duration:1.2s}
+.charlemagne-wh{position:absolute;z-index:9;pointer-events:none;left:45.079365cqw;top:1.904762cqw;width:9.841270cqw;height:9.841270cqw;border-radius:50%;background:radial-gradient(circle at 30% 40%,#6b6c70 0 8%,transparent 10%),radial-gradient(circle at 66% 66%,#707174 0 6%,transparent 8%),radial-gradient(circle at 36% 30%,#fff1b8 0 24%,#e8c260 46%,#9a9a96 64%,#55565a 100%);box-shadow:inset 0 0 1.269841cqw rgba(40,30,0,.5);overflow:hidden;animation:charlemagne-wob 6s ease-in-out infinite}
+.charlemagne-wh::before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,0) 35%,rgba(255,255,255,.5) 48%,rgba(255,255,255,0) 60%);border-radius:50%}
+.charlemagne-wh::after{content:"";position:absolute;inset:0.952381cqw;border-radius:50%;border:0.158730cqw solid rgba(255,220,130,.5)}
+.atlas-card[data-interacting="true"] .charlemagne-card .charlemagne-wh{position:absolute;z-index:9;pointer-events:none;left:45.079365cqw;top:1.904762cqw;width:9.841270cqw;height:9.841270cqw;border-radius:50%;background:radial-gradient(circle at 30% 40%,#6b6c70 0 8%,transparent 10%),radial-gradient(circle at 66% 66%,#707174 0 6%,transparent 8%),radial-gradient(circle at 36% 30%,#fff1b8 0 24%,#e8c260 46%,#9a9a96 64%,#55565a 100%);box-shadow:inset 0 0 1.269841cqw rgba(40,30,0,.5);overflow:hidden;animation:charlemagne-wob 6s ease-in-out infinite}
+@keyframes charlemagne-wob{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+.charlemagne-sh{position:absolute;z-index:6;pointer-events:none;height:0.476190cqw;width:12.698413cqw;border-radius:0.317460cqw;background:linear-gradient(90deg,rgba(255,240,180,0),#fff6cc);opacity:0;filter:drop-shadow(0 0 0.793651cqw #ffd870);animation:charlemagne-cr 6s linear infinite}
+@keyframes charlemagne-cr{0%{opacity:0;transform:translate(0,0) rotate(-35deg)}6%{opacity:1}22%{opacity:0;transform:translate(25.396825cqw,-17.460317cqw) rotate(-35deg)}100%{opacity:0;transform:translate(25.396825cqw,-17.460317cqw) rotate(-35deg)}}
+.atlas-card[data-interacting="true"] .charlemagne-card .charlemagne-sh{animation-duration:2s}
+.charlemagne-bub{position:absolute;z-index:6;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 35% 30%,rgba(255,255,255,.9),rgba(255,240,190,.25) 55%,rgba(255,220,140,0) 72%);animation:charlemagne-fl 8s ease-in infinite;opacity:0}
+@keyframes charlemagne-fl{0%{opacity:0;transform:translateY(0) scale(.6)}15%{opacity:.9}100%{opacity:0;transform:translateY(-23.809524cqw) scale(1.2)}}
+.atlas-card[data-interacting="true"] .charlemagne-card .charlemagne-bub{animation-duration:3.2s}
+@keyframes charlemagne-pl{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes charlemagne-pu{0%,100%{filter:brightness(1)}50%{filter:brightness(1.25)}}
+@keyframes charlemagne-spin{to{transform:rotate(360deg)}}
+@keyframes charlemagne-tw{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+.charlemagne-cw{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 28% 30%,#9c3a1a 0 22%,transparent 23%),radial-gradient(circle at 72% 62%,#b24a22 0 27%,transparent 28%),radial-gradient(circle at 42% 84%,#9c3a1a 0 15%,transparent 16%),radial-gradient(circle at 78% 20%,#b24a22 0 12%,transparent 13%),radial-gradient(circle at 34% 26%,#fff 0 6%,#fff7ea 20%,#efe0c6 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(80,40,10,.45)}
+.charlemagne-bl{position:absolute;z-index:16;pointer-events:none;width:6.984127cqw;height:8.730159cqw;transform-origin:50% 15%;animation:charlemagne-sw 3.6s ease-in-out infinite;filter:drop-shadow(0 0.317460cqw 0.317460cqw rgba(40,20,0,.55))}
+@keyframes charlemagne-sw{0%,100%{transform:rotate(-9deg)}50%{transform:rotate(9deg)}}
+.atlas-card[data-interacting="true"] .charlemagne-card .charlemagne-bl{animation-duration:.9s}
+.charlemagne-mg{position:absolute;z-index:9;pointer-events:none;border-radius:50%;background:radial-gradient(circle at 34% 28%,#fff 0 7%,#fff2b8 20%,#e2b13c 55%,#6a4608 100%);box-shadow:inset -0.634921cqw -0.793651cqw 1.269841cqw rgba(70,40,0,.55);animation:charlemagne-pu 3.6s ease-in-out infinite}
+.atlas-card[data-interacting="true"] .charlemagne-card .charlemagne-mg{animation-duration:1.2s}
+.charlemagne-dp{position:absolute;z-index:7;pointer-events:none;width:0.952381cqw;height:1.428571cqw;margin-left:-0.476190cqw;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;background:radial-gradient(circle at 35% 30%,#fff,#9cd4ff 60%,#4a9ae0);opacity:0;animation:charlemagne-dr 4.2s ease-in infinite}
+.atlas-card[data-interacting="true"] .charlemagne-card .charlemagne-dp{animation-duration:1.6s}
+@keyframes charlemagne-dr{0%{opacity:0;transform:translateY(0)}8%{opacity:.95}70%{opacity:.9;transform:translateY(14.285714cqw)}85%{opacity:0;transform:translateY(19.047619cqw)}100%{opacity:0;transform:translateY(19.047619cqw)}}
+.charlemagne-ms{position:absolute;left:-60%;width:220%;height:30.158730cqw;pointer-events:none;z-index:2;background:radial-gradient(ellipse at 50% 50%,rgba(238,234,222,.34),rgba(238,234,222,0) 66%);filter:blur(1.111111cqw);animation:charlemagne-mist 18s ease-in-out infinite alternate}
+.atlas-card[data-interacting="true"] .charlemagne-card .charlemagne-ms{animation-duration:6s}
+@keyframes charlemagne-mist{from{transform:translateX(-14%)}to{transform:translateX(14%)}}
+
+.charlemagne-photo{position:absolute;overflow:hidden;background:#8a95a8 url(/designs/charlemagne/portrait.jpg) center/cover no-repeat;z-index:3}
+.charlemagne-photo-shade{box-shadow:inset 0 0 4.127cqw #3c140059}
+.charlemagne-rim{border-radius:inherit;box-shadow:inset 0 0 0 .2381cqw #f3e0a0,inset 0 0 0 .6349cqw #8a6d2a,inset 0 0 0 .873cqw #1c1a14;z-index:7}
+.charlemagne-name-bg{position:absolute;border-radius:1.587302cqw;background:linear-gradient(180deg,#231037,#130720);box-shadow:inset 0 0 0 .159cqw #e6be5a80;z-index:9}
+.charlemagne-frame{width:100%;height:100%;z-index:10;filter:drop-shadow(.159cqw .476cqw .476cqw #00000099)}
+.charlemagne-caption{position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.476cqw;z-index:14}
+.charlemagne-title{font-weight:700;font-size:4.444444cqw;letter-spacing:.15873cqw;line-height:1.1}
+.charlemagne-divider{display:flex;align-items:center;gap:1.27cqw}.charlemagne-divider i{width:6.35cqw;height:.238cqw;background:linear-gradient(90deg,transparent,#e8c260)}.charlemagne-divider i:last-child{transform:rotate(180deg)}.charlemagne-divider b{width:.952cqw;height:.952cqw;transform:rotate(45deg);background:#ffe8a0;box-shadow:0 0 .952cqw #e0a030}
+.charlemagne-motto{font-weight:600;font-size:1.746cqw;letter-spacing:.476cqw;color:#f1deaa;text-shadow:0 .159cqw .31746cqw #000;margin-left:.476cqw}
+.charlemagne-ho{background-position:var(--supreme-pointer-x,50%) var(--supreme-pointer-y,50%)}.charlemagne-gl,.charlemagne-g2{background-position:var(--supreme-inverse-x,50%) var(--supreme-inverse-y,50%)}
+.charlemagne-back-panel{position:absolute;z-index:9;border-radius:2.222cqw;background:#150a2df5;box-shadow:inset 0 0 0 1px #a67d3480}
+.charlemagne-back-text{position:absolute;inset:0;width:100%;height:100%;z-index:15;pointer-events:none}
+.charlemagne-back .charlemagne-frame{opacity:.48}.charlemagne-back .charlemagne-ho,.charlemagne-back .charlemagne-gl,.charlemagne-back .charlemagne-g2{z-index:14}
+.atlas-card[data-design-model="HIS-006"]{box-shadow:0 4px 4px #3a3b3e50,0 24px 36px -17px #3a3b3eb0,0 0 0 1px #8a6d2a50}
+.atlas-card[data-design-model="HIS-006"][data-reveal="true"]::before{box-shadow:0 0 45px 8px #ffc85a50,0 0 70px 9px #8a6d2a30}
+.atlas-card[data-effects="interactive"]:not([data-interacting="true"]) .charlemagne-card *{animation-play-state:paused}
+html[data-motion="off"] .charlemagne-ho,html[data-motion="off"] .charlemagne-gl,html[data-motion="off"] .charlemagne-g2,html[data-motion="reduced"] .charlemagne-ho,html[data-motion="reduced"] .charlemagne-gl,html[data-motion="reduced"] .charlemagne-g2,.atlas-card[data-effects="static"] .charlemagne-ho,.atlas-card[data-effects="static"] .charlemagne-gl,.atlas-card[data-effects="static"] .charlemagne-g2{opacity:0!important}
+@media(prefers-reduced-motion:reduce){.charlemagne-ho,.charlemagne-gl,.charlemagne-g2{opacity:0!important}}
+
+.charlemagne-photo{background-image:url(/designs/charlemagne/portrait.jpg)}
+.charlemagne-banner{position:absolute;z-index:16;pointer-events:none;transform-origin:50% 8%;animation:charlemagne-sw 3.8s ease-in-out infinite;filter:drop-shadow(0 .5cqw .5cqw #0008)}
+.charlemagne-crown{position:absolute;z-index:11;pointer-events:none;animation:charlemagne-float 4.5s ease-in-out infinite;filter:drop-shadow(0 .5cqw .6cqw #000b) drop-shadow(0 0 1.6cqw #ffc84680)}
+.charlemagne-ember{position:absolute;z-index:6;border-radius:50%;background:#ffd966;box-shadow:0 0 1cqw #ffc23a;animation:charlemagne-rise 7s ease-out infinite;pointer-events:none}
+.charlemagne-wh{display:grid;place-items:center;background:#22093f;border:.32cqw solid #e9b52a;color:#ffd966;font-size:5cqw}
+@keyframes charlemagne-float{50%{transform:translateY(-.5cqw)}}
+@keyframes charlemagne-rise{0%{opacity:0}12%{opacity:.95}100%{opacity:0;transform:translate(3cqw,-41cqw)}}
+.atlas-card[data-interacting="true"] .charlemagne-banner{animation-duration:1s}
+.atlas-card[data-interacting="true"] .charlemagne-crown{animation-duration:1.8s}
+@media(prefers-reduced-motion:reduce){.charlemagne-card *{animation:none!important}}
+
+.charlemagne-title{font-size:4.603cqw;letter-spacing:.31746cqw}.charlemagne-ms{display:none}.charlemagne-photo:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 25%,#ffc86455,transparent 60%);animation:charlemagne-pl 6s ease-in-out infinite}

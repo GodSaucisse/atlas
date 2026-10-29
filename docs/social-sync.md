@@ -1,0 +1,11 @@
+# Actualisations et messages — 28 octobre 2026
+
+Le jeu et les panneaux sociaux partagent une vérification légère toutes les deux secondes lorsque l’onglet est visible. Elle ne transporte ni catalogue, ni inventaire, ni texte de message. Les écrans ne rechargent leurs données complètes que lorsque leurs versions changent. Les échéances de recharge, de défis et d’enchères font également évoluer ces marqueurs. Le retour sur l’onglet et la reconnexion déclenchent une vérification immédiate. La présence est mise à jour au plus une fois par minute.
+
+Une consultation sociale sans changement n’écrit plus de nouveau jeton global. Les opérations D1 conservent leur comparaison atomique et relisent automatiquement l’état après un conflit concurrent. Les actions sur les boosters utilisent le dernier état serveur et leur identifiant de pack ; une révision ancienne du navigateur n’exige plus un rechargement manuel. Les identifiants de requête empêchent de payer ou d’envoyer deux fois lors d’une réponse réseau perdue. Les réponses anciennes ne remplacent pas une version plus récente déjà affichée.
+
+La conversation utilise un cadre de hauteur limitée : le titre et la zone de saisie restent fixes, seul l’historique défile. Les brouillons restent dans leur état React pendant les actualisations. Un nouveau message se marque lu lorsqu’il est affiché dans une conversation visible. L’accusé contient les identifiants effectivement reçus, afin de ne pas marquer comme lu un message arrivé entre-temps. Les notifications liées sont acquittées avec ces mêmes messages. L’état lu est persisté côté serveur et ne dépend pas de la fermeture du dialogue.
+
+Les récompenses des trois défis hebdomadaires passent à 45/75/105 XP et 10/20/30 Éclats, soit 225 XP et 60 Éclats au total. Les objectifs existants et leurs progressions sont conservés ; les récompenses déjà versées ne sont pas distribuées une deuxième fois. Le bandeau Halloween est compact et porte une citrouille ; les notes explicatives sous les défis sont retirées.
+
+Vérifications : `tests/social-sync.mjs` utilise deux identités concurrentes isolées par AsyncLocalStorage et une vraie base Miniflare D1 ; `tests/player-sync-client.mjs` vérifie le coordinateur, les consultations inchangées, les reprises et l’idempotence des requêtes. Aucun message de test n’est envoyé à un compte réel.

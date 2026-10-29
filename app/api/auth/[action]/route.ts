@@ -1,0 +1,14 @@
+import { authorize, authorizePlayer, errorResponse, HttpError, protectWrite } from '../../../server';
+import { authHealth, registrationContext, authorizedPlayers, createInvite, createResetLink, inviteDetails, login, logout, register, resetPassword, issueSession } from '../../../player-auth';
+export const dynamic='force-dynamic';
+const jsonHeaders={'Cache-Control':'no-store'};
+export async function GET(request:Request,{params}:{params:Promise<{action:string}>}){try{const {action}=await params;if(action==='session'){try{const player=await authorizePlayer(request);return Response.json({player},{headers:jsonHeaders});}catch(e){if(e instanceof HttpError&&e.status===401)return Response.json({player:null},{headers:jsonHeaders});throw e;}}if(action==='health'){await authorize();return Response.json(await authHealth(),{headers:jsonHeaders});}if(action==='registration')return Response.json(await registrationContext(),{headers:jsonHeaders});if(action==='players'){await authorize();return Response.json({players:await authorizedPlayers()},{headers:jsonHeaders});}if(action==='invitation'){const token=new URL(request.url).searchParams.get('token')||'';return Response.json(await inviteDetails(token),{headers:jsonHeaders});}throw new HttpError(404,'Action inconnue.');}catch(e){return errorResponse(e);}}
+export async function POST(request:Request,{params}:{params:Promise<{action:string}>}){try{protectWrite(request);const {action}=await params;const input=await request.json().catch(()=>action==='logout'?{}:Promise.reject(new HttpError(400,'JSON invalide.'))) as any;
+  if(action==='login'){const player=await login(input);const response=Response.json({player:{id:player.id,name:player.name,email:player.email}},{headers:jsonHeaders});response.headers.append('Set-Cookie',await issueSession(player.id,request));return response;}
+  if(action==='register'){const player=await register(input);const response=Response.json({player},{headers:jsonHeaders});response.headers.append('Set-Cookie',await issueSession(player.id,request));return response;}
+  if(action==='logout'){const cookie=await logout(request,input.endpoint);return new Response(null,{status:204,headers:{...jsonHeaders,'Set-Cookie':cookie}});}
+  if(action==='invite'){const admin=await authorize();const invite=await createInvite({email:input.email,createdBy:admin.userId});return Response.json({...invite,url:`${new URL(request.url).origin}/jeu?invitation=${encodeURIComponent(invite.token)}`},{headers:jsonHeaders});}
+  if(action==='reset-link'){await authorize();const reset=await createResetLink(input.email);return Response.json({...reset,url:`${new URL(request.url).origin}/jeu?reset=${encodeURIComponent(reset.token)}`},{headers:jsonHeaders});}
+  if(action==='reset'){await resetPassword(input);return Response.json({ok:true},{headers:jsonHeaders});}
+  throw new HttpError(404,'Action inconnue.');
+}catch(e){return errorResponse(e);}}

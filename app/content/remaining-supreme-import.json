@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Superman",
+    "category": "Bande dessinée",
+    "description": "Héros kryptonien élevé sur Terre sous le nom de Clark Kent, doté de pouvoirs extraordinaires. Univers : DC Comics.",
+    "code": "FIC-059",
+    "universe": "Personnages fictifs",
+    "rarity": "Suprême",
+    "imageKey": "3267fad6-1ee2-5cb5-a2b5-d75dc7a1cb93.jpg",
+    "asset": "/designs/remaining-superman/b424ac1cba4dffda5a4c9a7b.jpg",
+    "sourceFilename": "SupremeSuperman.dc.html",
+    "sourceSha256": "92e98a20d3e8ca857f1abf7b827068265c73ae92a3a015824a0b00bb3fb56e01"
+  },
+  {
+    "name": "Saint Michel archange",
+    "category": "Catholicisme",
+    "description": "Dans la Bible et la tradition catholique, Michel est associé au combat contre le mal et à la protection du peuple de Dieu. L’art le représente fréquemment terrassant un dragon ou portant une balance.",
+    "code": "CAT-029",
+    "universe": "Chrétienté",
+    "rarity": "Suprême",
+    "imageKey": "0c2e00d0-c53f-5687-96b1-56ae547dbd70.jpg",
+    "asset": "/designs/remaining-michel/274278118a574462f34e8552.jpg",
+    "sourceFilename": "SupremeMichel.dc.html",
+    "sourceSha256": "37656790e97f26b139fffbf4ce88f303209ce51f8dc45b5c0f4874abf727cdea"
+  },
+  {
+    "name": "Los Angeles Lakers",
+    "category": "Équipe NBA",
+    "description": "Franchise NBA basée à Los Angeles. Elle évolue dans la conférence Ouest, division Pacifique. Son histoire a notamment été marquée par Magic Johnson et Kobe Bryant.",
+    "code": "NBA-123",
+    "universe": "NBA",
+    "rarity": "Suprême",
+    "imageKey": "70e393ad-f45b-58dc-966f-694945666c6c.jpg",
+    "asset": "/designs/remaining-lakers/6ac425fe1a6681df1b97a6f4.jpg",
+    "sourceFilename": "SupremeLakers.dc.html",
+    "sourceSha256": "07e22a61879c877c6a07720da9c83f30bcf997f97e208784bac13a29273bcae1"
+  },
+  {
+    "name": "Karl-Anthony Towns · Champion Edition",
+    "category": "Joueur NBA actuel",
+    "description": "Karl-Anthony Towns est un intérieur dominicano-américain qui associe taille et tir extérieur. Premier choix de la draft 2015, il a commencé sa carrière NBA à Minnesota avant de rejoindre New York.",
+    "code": "EDS-027",
+    "universe": "Editions spéciales",
+    "rarity": "Editions spéciales",
+    "imageKey": "e307c1b9-eb5f-564e-85dd-ccaae014c943.jpg",
+    "asset": "/designs/remaining-towns/12fd3f2f6649c3097e13d34bc65161b0.jpg",
+    "sourceFilename": "SupremeTowns.dc.html",
+    "sourceSha256": "945217834a83b05587d8fa344f73daea9e7d638869837fd540fa8a8f40b30151",
+    "editionSubjectUniverse": "NBA",
+    "albumNames": [
+      "Champion Edition"
+    ]
+  },
+  {
+    "name": "Saint Paul de Tarse",
+    "category": "Catholicisme",
+    "description": "D’abord persécuteur des chrétiens, Paul devient l’un des grands missionnaires de la première Église. Ses voyages et ses lettres témoignent de la diffusion de la foi dans le monde méditerranéen.",
+    "code": "CAT-007",
+    "universe": "Chrétienté",
+    "rarity": "Suprême",
+    "imageKey": "5c382641-89cd-5c3d-b254-fb4dbf6d2e9d.jpg",
+    "asset": "/designs/remaining-paul/b6b7d2aac55983dbedd5fada.jpg",
+    "sourceFilename": "SupremePaul.dc.html",
+    "sourceSha256": "86364dc6e9d1d43d50bcb6b44743bc350e1f36cb95c012a01663134d8085f00c"
+  },
+  {
+    "name": "SAS",
+    "category": "Unité militaire",
+    "description": "Le Special Air Service est une unité des forces spéciales britanniques née pendant la Seconde Guerre mondiale. Il est associé à la reconnaissance spéciale, à l’action directe et au contre-terrorisme.",
+    "code": "MIL-023",
+    "universe": "Militaire",
+    "rarity": "Suprême",
+    "imageKey": "87a3c2ea-1155-5eb4-a514-ff51236e1c1a.jpg",
+    "asset": "/designs/remaining-sas/77d29a252d29cdf000c7346b.jpg",
+    "sourceFilename": "SupremeSAS.dc.html",
+    "sourceSha256": "3ede60c7e42f41f2e3a42c6aac96c42f3595d30d52b70c358390e6d4dbb41078"
+  },
+  {
+    "name": "Naruto Uzumaki",
+    "category": "Manga",
+    "description": "Ninja de Konoha qui veut être reconnu et devenir Hokage. Univers : Naruto.",
+    "code": "FIC-078",
+    "universe": "Personnages fictifs",
+    "rarity": "Suprême",
+    "imageKey": "374518b8-4501-5d83-b8a2-8c826c5fc221.jpg",
+    "asset": "/designs/remaining-naruto2/bc0b02d1545c4d714c737960.jpg",
+    "sourceFilename": "SupremeNaruto2.dc.html",
+    "sourceSha256": "60917c8bc1cc45fc0b80b2e726807c5cc619b19981b6cd70c506db9b052480b5"
+  },
+  {
+    "name": "Stephen Curry",
+    "category": "Joueur NBA actuel",
+    "description": "Meneur américain emblématique des Golden State Warriors, Stephen Curry a profondément marqué le jeu par son tir à trois points et ses déplacements sans ballon. Double MVP, il est l’un des artisans de la dynastie des Warriors.",
+    "code": "NBA-002",
+    "universe": "NBA",
+    "rarity": "Suprême",
+    "imageKey": "5c0feedc-f365-5a43-beb6-3c5764e8071f.jpg",
+    "asset": "/designs/remaining-curry/f979cfe24bd9abd3b8ce924812d8b8f1.jpg",
+    "sourceFilename": "SupremeCurry.dc.html",
+    "sourceSha256": "d59ee99ba4cf8c7b901c686caaa8230f0ac0f4993cdf1f7d3197d7bfda32176b"
+  },
+  {
+    "name": "Leclerc",
+    "category": "Char",
+    "description": "Le Leclerc est un char de bataille français entré en service dans les années 1990. Il se distingue notamment par son équipage de trois personnes et le chargement automatique de son canon principal.",
+    "code": "MIL-071",
+    "universe": "Militaire",
+    "rarity": "Suprême",
+    "imageKey": "91559319-9a53-5560-897a-5f0c30af41e6.jpg",
+    "asset": "/designs/remaining-leclerc/35316ae2480a9cd18cd2e737.jpg",
+    "sourceFilename": "SupremeLeclerc.dc.html",
+    "sourceSha256": "3e6035c669829f22661d461df88a5bee2cf76beeb2af422cce4e03afcd305983"
+  },
+  {
+    "name": "Boston Celtics",
+    "category": "Équipe NBA",
+    "description": "Franchise NBA basée à Boston. Elle évolue dans la conférence Est, division Atlantique. Son histoire a notamment été marquée par Bill Russell et Larry Bird.",
+    "code": "NBA-101",
+    "universe": "NBA",
+    "rarity": "Suprême",
+    "imageKey": "9d5e0a9d-476c-58c2-8cda-6692bc02205f.jpg",
+    "asset": "/designs/remaining-celtics/029a6677d1526f9d03e54878.jpg",
+    "sourceFilename": "SupremeCeltics.dc.html",
+    "sourceSha256": "aadf7b60121e7e2e940c61aa934a38beaf0cfedc32e6106e90adca2f3be345dc"
+  }
+]

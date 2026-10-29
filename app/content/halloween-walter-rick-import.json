@@ -1,0 +1,24 @@
+[
+  {
+    "code": "EDS-028",
+    "name": "Walter White — Halloween",
+    "universe": "Editions spéciales",
+    "category": "Personnage de série · Halloween",
+    "description": "",
+    "learningText": "",
+    "imageKey": "f72b06c3-b6c2-51f3-ba4c-46d767b05646.webp",
+    "asset": "/designs/halloween-walter/8862dea34897bd4a06097538.webp",
+    "sourceFilename": "walter.html"
+  },
+  {
+    "code": "EDS-029",
+    "name": "Rick Grimes — Halloween",
+    "universe": "Editions spéciales",
+    "category": "Personnage de série · Halloween",
+    "description": "",
+    "learningText": "",
+    "imageKey": "289416f9-5efa-5f95-af60-ec7475aca773.webp",
+    "asset": "/designs/halloween-rick/c077ed9ab65452780ba93ae9.webp",
+    "sourceFilename": "rick.html"
+  }
+]

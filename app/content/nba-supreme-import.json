@@ -1,0 +1,149 @@
+[
+  {
+    "code": "NBA-059",
+    "name": "Tim Duncan",
+    "category": "Ancien joueur NBA",
+    "description": "Tim Duncan a effectué toute sa carrière NBA avec San Antonio. Surnommé The Big Fundamental, il associait maîtrise technique, défense et régularité ; il a remporté cinq titres NBA avec les Spurs.",
+    "imageKey": "03efdbeb-e8c9-5d72-8c6d-14705b223e78.jpg",
+    "sourceFilename": "SupremeDuncan.dc.html",
+    "albumNames": [
+      "Anciens joueurs NBA",
+      "Ailiers forts",
+      "Pivots"
+    ],
+    "sourceEditionId": "ESP-001"
+  },
+  {
+    "code": "NBA-001",
+    "name": "LeBron James",
+    "category": "Joueur NBA actuel",
+    "description": "Ailier américain entré en NBA en 2003, LeBron James associe puissance, vision du jeu et polyvalence. Champion avec Cleveland, Miami et les Lakers, il est devenu le meilleur marqueur de l’histoire de la saison régulière NBA.",
+    "imageKey": "a8f10b14-999a-5c74-8d9a-601ac9ea9fea.png",
+    "sourceFilename": "SupremeLebron.dc.html",
+    "albumNames": [
+      "Joueurs actuels NBA",
+      "Ailiers",
+      "Ailiers forts"
+    ],
+    "sourceEditionId": "ESP-010"
+  },
+  {
+    "code": "NBA-004",
+    "name": "Nikola Jokić",
+    "category": "Joueur NBA actuel",
+    "description": "Pivot serbe, Nikola Jokić transforme son poste grâce à sa qualité de passe et à sa lecture du jeu. Plusieurs fois MVP, il a conduit Denver à son premier titre NBA en 2023 et reçu le trophée de MVP des Finales.",
+    "imageKey": "dbaac4c3-311c-5d51-a1ca-59c76295eb1b.png",
+    "sourceFilename": "SupremeJokic.dc.html",
+    "albumNames": [
+      "Joueurs actuels NBA",
+      "Pivots"
+    ],
+    "sourceEditionId": "ESP-012"
+  },
+  {
+    "code": "NBA-006",
+    "name": "Giannis Antetokounmpo",
+    "category": "Joueur NBA actuel",
+    "description": "Joueur grec surnommé le Greek Freak, Giannis Antetokounmpo combine mobilité, puissance et envergure. Double MVP de saison régulière, il a remporté le titre NBA et le trophée de MVP des Finales avec Milwaukee en 2021.",
+    "imageKey": "bddb19e0-b854-5c74-adfc-96b1b11f6dda.jpg",
+    "sourceFilename": "SupremeGiannis3.dc.html",
+    "albumNames": [
+      "Joueurs actuels NBA",
+      "Ailiers forts"
+    ],
+    "sourceEditionId": "ESP-013"
+  },
+  {
+    "code": "NBA-008",
+    "name": "Shai Gilgeous-Alexander",
+    "category": "Joueur NBA actuel",
+    "description": "Shai Gilgeous-Alexander est un arrière canadien reconnu pour ses changements de rythme, ses pénétrations et son efficacité à mi-distance. Il s’est imposé comme une figure majeure d’Oklahoma City et de l’équipe nationale canadienne.",
+    "imageKey": "1e5ee445-e484-5e99-9bb5-acda919a907f.jpg",
+    "sourceFilename": "SupremeShai.dc.html",
+    "albumNames": [
+      "Joueurs actuels NBA",
+      "Meneurs",
+      "Arrières"
+    ],
+    "sourceEditionId": "ESP-015"
+  },
+  {
+    "code": "NBA-053",
+    "name": "Shaquille O’Neal",
+    "category": "Ancien joueur NBA",
+    "description": "Shaquille O’Neal a imposé une présence physique exceptionnelle près du panier. Quatre fois champion NBA, il a notamment formé avec Kobe Bryant le duo central des trois titres consécutifs des Lakers de 2000 à 2002.",
+    "imageKey": "e53272a0-5853-547b-bfc8-6242e30a814a.jpg",
+    "sourceFilename": "SupremeShaq.dc.html",
+    "albumNames": [
+      "Anciens joueurs NBA",
+      "Pivots"
+    ],
+    "sourceEditionId": "ESP-016"
+  },
+  {
+    "code": "NBA-051",
+    "name": "Michael Jordan",
+    "category": "Ancien joueur NBA",
+    "description": "Michael Jordan est l’un des joueurs les plus emblématiques de l’histoire du basket. Avec Chicago, il a remporté six titres NBA et six trophées de MVP des Finales, en associant talent offensif, intensité défensive et sens de la compétition.",
+    "imageKey": "0cbc0cf7-876a-5127-a68f-538b908fadb5.jpg",
+    "sourceFilename": "SupremeJordan.dc.html",
+    "albumNames": [
+      "Anciens joueurs NBA",
+      "Arrières"
+    ],
+    "sourceEditionId": "ESP-017"
+  },
+  {
+    "code": "NBA-055",
+    "name": "Larry Bird",
+    "category": "Ancien joueur NBA",
+    "description": "Larry Bird est un ailier américain connu pour son tir, ses passes et sa lecture du jeu. Triple champion NBA avec Boston, il a remporté trois trophées de MVP consécutifs de 1984 à 1986.",
+    "imageKey": "7af8bfd8-ae51-5e98-8ccf-eacf45ef6dbc.jpg",
+    "sourceFilename": "SupremeBird.dc.html",
+    "albumNames": [
+      "Anciens joueurs NBA",
+      "Ailiers",
+      "Ailiers forts"
+    ],
+    "sourceEditionId": "ESP-018"
+  },
+  {
+    "code": "NBA-054",
+    "name": "Magic Johnson",
+    "category": "Ancien joueur NBA",
+    "description": "Magic Johnson est un meneur américain qui a porté le jeu rapide et spectaculaire des Lakers du Showtime. Sa taille inhabituelle pour son poste et ses passes ont accompagné cinq titres NBA.",
+    "imageKey": "79aa9f24-9343-5b85-8430-ebc85a8d1fc8.jpg",
+    "sourceFilename": "SupremeMagic.dc.html",
+    "albumNames": [
+      "Anciens joueurs NBA",
+      "Meneurs"
+    ],
+    "sourceEditionId": "ESP-019"
+  },
+  {
+    "code": "NBA-056",
+    "name": "Kareem Abdul-Jabbar",
+    "category": "Ancien joueur NBA",
+    "description": "Kareem Abdul-Jabbar est un pivot américain dont le skyhook est devenu un geste emblématique. Six fois champion NBA et six fois MVP, il s’est illustré avec Milwaukee puis les Lakers.",
+    "imageKey": "97d85555-4bae-5ce1-aade-7d284050c04f.jpg",
+    "sourceFilename": "SupremeKareem.dc.html",
+    "albumNames": [
+      "Anciens joueurs NBA",
+      "Pivots"
+    ],
+    "sourceEditionId": "ESP-020"
+  },
+  {
+    "code": "NBA-058",
+    "name": "Bill Russell",
+    "category": "Ancien joueur NBA",
+    "description": "Bill Russell est un pivot américain dont la défense et le leadership ont marqué Boston. Il a remporté onze titres NBA comme joueur avec les Celtics, dont les deux derniers en étant également entraîneur.",
+    "imageKey": "70899535-9bbd-526f-b519-b58015d67ded.jpg",
+    "sourceFilename": "SupremeRussell.dc.html",
+    "albumNames": [
+      "Anciens joueurs NBA",
+      "Pivots"
+    ],
+    "sourceEditionId": "ESP-021"
+  }
+]

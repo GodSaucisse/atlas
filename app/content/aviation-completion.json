@@ -1,0 +1,1498 @@
+[
+  {
+    "code": "AVI-002",
+    "name": "Blériot XI",
+    "universe": "Aviation",
+    "category": "Avion pionnier",
+    "description": "Avec son monoplan léger, Louis Blériot traverse la Manche en 1909. Le Blériot XI démontre qu’un avion peut relier deux pays séparés par la mer et devient l’un des appareils marquants des débuts de l’aviation.",
+    "imageCredit": "J.Klank — CC BY 3.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Bleriot_XI_Thulin_A_1910_a.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 1,
+    "rarityProposal": "Précieuse",
+    "imageKey": "904c7248-6a90-4b71-b7a7-02f48c67fd3c.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "fb20f237cf15bd30e9319debb621072a423c8e16776f1b19c4a3b1593300d867"
+  },
+  {
+    "code": "AVI-003",
+    "name": "Santos-Dumont 14-bis",
+    "universe": "Aviation",
+    "category": "Avion pionnier",
+    "description": "Conçu par Alberto Santos-Dumont, ce biplan réalise des vols publics à Paris en 1906. Sa structure singulière, avec une cellule avant en forme de cerf-volant, en fait une silhouette emblématique des pionniers de l’aviation.",
+    "imageCredit": "Jules Beau — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:14-bis_de_Alberto_Santos_Dumont.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 1,
+    "rarityProposal": "Légendaire",
+    "imageKey": "83b01051-af06-48b2-ae88-edd153899e2c.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "94cf26465e2667ba0e0021916b57f6858db43a422eb84a1c465dbb2f4c72844b"
+  },
+  {
+    "code": "AVI-004",
+    "name": "Voisin-Farman I",
+    "universe": "Aviation",
+    "category": "Avion pionnier",
+    "description": "Ce biplan Voisin, associé au pilote Henri Farman, participe aux progrès décisifs de l’aviation européenne. En 1908, Farman boucle à son bord un circuit fermé d’un kilomètre, une étape majeure dans la maîtrise du vol.",
+    "imageCredit": "Unknown authorUnknown author — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Voisin-Farman_I.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 1,
+    "rarityProposal": "Rare",
+    "imageKey": "39532f2f-866e-4254-8e78-cf40d4a281e8.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "f73b8301b2acee17428e5e490bc637c7fa74f879027204761bf0b2ad104a0fd5"
+  },
+  {
+    "code": "AVI-005",
+    "name": "Curtiss JN-4 Jenny",
+    "universe": "Aviation",
+    "category": "Avion d’entraînement",
+    "description": "Surnommé Jenny, ce biplan américain forme de nombreux pilotes pendant la Première Guerre mondiale. Après le conflit, il devient une vedette des démonstrations itinérantes et des premiers vols accessibles au grand public.",
+    "imageCredit": "George Johnson, Aviation Section, US Army Signal Corps — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Flying_jenny_cropped.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 1,
+    "rarityProposal": "Inhabituelle",
+    "imageKey": "bbaa424b-27cb-4fc5-ac25-440a98be40ce.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "22fd997f922b9572f5a22184333d91cc1b68c9949764a815d0b3504549042439"
+  },
+  {
+    "code": "AVI-006",
+    "name": "Ryan NYP Spirit of St. Louis",
+    "universe": "Aviation",
+    "category": "Avion de record",
+    "description": "Charles Lindbergh traverse seul l’Atlantique entre New York et Paris en 1927 à bord de ce monomoteur spécialement aménagé. Son immense réservoir privilégie l’autonomie et impose une vision vers l’avant très particulière.",
+    "imageCredit": "San Diego Air & Space Museum Archives — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:01_00095405_SDASM_Aircraft_Image_-_Ryan_NY-P_Spirit_of_St_Louis_(53957736917).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 1,
+    "rarityProposal": "Légendaire",
+    "imageKey": "eddd0283-692e-4d0e-b89a-d0d5d739434f.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "ff421a0fb11a831012c04eee6945402768260262e7a8210d3ac24a704623017a"
+  },
+  {
+    "code": "AVI-007",
+    "name": "Lockheed Vega 5B",
+    "universe": "Aviation",
+    "category": "Avion de tourisme",
+    "description": "Le Vega 5B est un monomoteur à aile haute et fuselage en bois, associé aux grands vols d’Amelia Earhart. Il illustre l’essor des avions rapides utilisés pour les voyages, les records et l’exploration aérienne.",
+    "imageCredit": "Sergio Caltagirone — CC BY-SA 3.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Lockheed_Vega_5b_Smithsonian.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 1,
+    "rarityProposal": "Inhabituelle",
+    "imageKey": "d42d7434-f56f-4443-8d27-daa359fff541.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "476dffea6e498085c8b8b081886c2db84781c865e56bbaf476431bfbf2449264"
+  },
+  {
+    "code": "AVI-008",
+    "name": "de Havilland DH.88 Comet",
+    "universe": "Aviation",
+    "category": "Avion de course",
+    "description": "Ce bimoteur de course britannique aux lignes épurées est conçu pour la compétition MacRobertson de 1934. Sa structure en bois et son train escamotable incarnent la recherche de vitesse et d’autonomie des années 1930.",
+    "imageCredit": "Woldere — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:De_Havilland_DH88_Comet.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 1,
+    "rarityProposal": "Précieuse",
+    "imageKey": "fc7682d5-e1b5-460e-b201-aeb2317d3b00.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "0f0df0b91bd84b6301c6764a29303900da0bd6b93bb876afe7d04bd0e82f904e"
+  },
+  {
+    "code": "AVI-009",
+    "name": "Caudron C.460 Rafale",
+    "universe": "Aviation",
+    "category": "Avion de course",
+    "description": "Ce monoplace français de course porte le nom Rafale bien avant le chasseur de Dassault. Son moteur Renault et sa silhouette très fine illustrent la quête de vitesse menée par Caudron dans les années 1930.",
+    "imageCredit": "Laangmo — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Caudron_460_Le_Bourget_2009.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 1,
+    "rarityProposal": "Rare",
+    "imageKey": "837801fc-d651-4a86-8553-43aa50474ac6.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "f949a8746356b67a4956f3130a0c540f7535545542ef550e6236a021320fc0a7"
+  },
+  {
+    "code": "AVI-010",
+    "name": "Morane-Saulnier MS.230",
+    "universe": "Aviation",
+    "category": "Avion d’entraînement",
+    "description": "Reconnaissable à son aile parasol et à ses deux postes ouverts, le MS.230 est un avion français d’entraînement. Il accompagne la formation des pilotes et les démonstrations de voltige pendant l’entre-deux-guerres.",
+    "imageCredit": "PpPachy — CC BY-SA 3.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Morane-Saulnier_MS.230_La_Ferte.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 1,
+    "rarityProposal": "Inhabituelle",
+    "imageKey": "f5b0e6ee-606c-43ae-9a69-65477a2e27a9.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "768d82dd78c703e7d3a3ddedf8aab24e3e49682514e49d2d0858dba6b0542e0a"
+  },
+  {
+    "code": "AVI-011",
+    "name": "Douglas DC-3",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Robuste bimoteur à hélices, le DC-3 transforme le transport aérien commercial dans les années 1930. Sa cabine, son autonomie et son économie d’exploitation contribuent à rendre les lignes régulières plus viables.",
+    "imageCredit": "Towpilot — CC BY-SA 3.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Douglas_DC-3,_SE-CFP.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 1,
+    "rarityProposal": "Légendaire",
+    "imageKey": "28621bfc-a6c9-4f14-969c-821fdf7d89db.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "5229d5d5e839611e4d8bf4f89b88e6d50852e4537e1b1511c0b7f09f29f34e86"
+  },
+  {
+    "code": "AVI-012",
+    "name": "de Havilland DH.106 Comet",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Le Comet ouvre l’ère du transport commercial à réaction. Son entrée en service dans les années 1950 marque une rupture avec les avions à hélices et s’accompagne d’importantes leçons sur la fatigue des structures pressurisées.",
+    "imageCredit": "simon butler from halesowen, uk — CC BY 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:RAF_FAIRFORD_21_JUL_1991_ROYAL_AIRCRAFT_ESTABLISHMENT_DE_HAVILLAND_COMET_4C_XS235_(8568689038).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 1,
+    "rarityProposal": "Rare",
+    "imageKey": "991a15e7-323f-400e-82bd-5d8d5b788ec0.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "31172bf92f39e888f85c0b6e1f02cb81fad798217835d6e731fbfed7a112f099"
+  },
+  {
+    "code": "AVI-013",
+    "name": "Sud Aviation Caravelle",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Avion de ligne français, la Caravelle se distingue par ses deux réacteurs placés à l’arrière du fuselage. Sa silhouette élégante symbolise l’arrivée du transport à réaction sur les liaisons européennes.",
+    "imageCredit": "Swissair Photo AG — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:HB-ICZ_Swissair_Caravelle.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 2,
+    "rarityProposal": "Précieuse",
+    "imageKey": "4fe0bb5a-0234-4d7f-940d-54e472269282.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "2a5a3b11eb88af6f9289f2dc71766ac73b11d03f8950ecee44cb6c913dae9342"
+  },
+  {
+    "code": "AVI-014",
+    "name": "Boeing 707",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Avec ses quatre réacteurs et son aile en flèche, le Boeing 707 accompagne l’expansion du transport aérien à réaction. Il contribue à rapprocher les continents et à transformer durablement les voyages longue distance.",
+    "imageCredit": "https://www.flickr.com/photos/boeingdreamscape/ — CC BY 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:CAAC_Boeing_707.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 2,
+    "rarityProposal": "Légendaire",
+    "imageKey": "38ff366a-6d0a-4d31-8fa6-122630b26bc7.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "f40a2e69c54fe093dba80b209f59119a87ee4c137f8cc04631e52a28b354f60e"
+  },
+  {
+    "code": "AVI-015",
+    "name": "Boeing 727-200",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Version allongée du triréacteur Boeing 727, le 727-200 associe une capacité accrue à un empennage en T caractéristique. Ses dispositifs hypersustentateurs lui permettent de desservir des aéroports très variés.",
+    "imageCredit": "Iberia Airlines — CC BY 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:B-727_Iberia_(cropped).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 2,
+    "rarityProposal": "Rare",
+    "imageKey": "6688b500-5a33-4476-8844-83a68a134121.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "919d799dd6745f6e4a81aad4d9a5f9c3dfe4f3e968533fc92e16822fbe43ee2b"
+  },
+  {
+    "code": "AVI-016",
+    "name": "Boeing 737-800",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Le 737-800 appartient à la génération Next Generation du célèbre biréacteur Boeing. Répandu sur les liaisons court et moyen-courriers, il associe un fuselage monocouloir à une voilure modernisée.",
+    "imageCredit": "4300streetcar — CC BY 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Delta_Boeing_737-800_N371DA_departing_Boston_June_2025.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 2,
+    "rarityProposal": "Rare",
+    "imageKey": "37fb6e84-29d5-4784-9827-6114b6af3621.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "a5122b7289903e554156f1f6c2ab67c0f39cf6d5a1b3d5b91ad47be5b2662b99"
+  },
+  {
+    "code": "AVI-018",
+    "name": "Britten-Norman BN-2 Islander",
+    "universe": "Aviation",
+    "category": "Avion utilitaire",
+    "description": "Petit bimoteur britannique à aile haute, l’Islander dessert les îles, les terrains courts et les régions isolées. Sa conception simple et sa cabine utilitaire privilégient la polyvalence et l’accès aux petites pistes.",
+    "imageCredit": "BrittenNorman2024 — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Britten-Norman_BN-2_Islander_over_forest.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 2,
+    "rarityProposal": "Inhabituelle",
+    "imageKey": "4b506eb5-23a0-4b33-8e62-4f574a2cd926.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "89f878323fa90cc62adf0c54bcf5941717af8a5d48d663febec64ee20c87fc77"
+  },
+  {
+    "code": "AVI-019",
+    "name": "Short 360",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Ce biturbopropulseur régional britannique se reconnaît à son fuselage presque rectangulaire et à son aile haute. Développé à partir du Short 330, il assure des liaisons de proximité avec une cabine allongée.",
+    "imageCredit": "Biggerben — CC BY-SA 3.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Pacific_Coastal_Airlines_Short_360-300_C-GPCF_in_CYVR.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 2,
+    "rarityProposal": "Inhabituelle",
+    "imageKey": "cb9b9400-3364-4b1e-ba34-39b7296590d0.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "f32e6fef7afe293a40aba2fe1febc93ccaa7da0457c15ef57a2dfafeb2335f8b"
+  },
+  {
+    "code": "AVI-020",
+    "name": "Boeing 777-300ER",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Le 777-300ER associe un long fuselage à deux puissants réacteurs pour les grandes liaisons intercontinentales. Ses extrémités d’ailes effilées et son autonomie en font une version majeure de la famille Triple Seven.",
+    "imageCredit": "Matti Blume — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Boeing_777-300ER,_Geneva_Airport,_Le_Grand-Saconnex_(BL7C0540).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 2,
+    "rarityProposal": "Précieuse",
+    "imageKey": "c6528a12-0b21-4b9f-8d81-d652657a8f8e.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "0a534c19f2434d8c9c75780f6ab9862576984d0ef64a1e979992f3d331c1b1ad"
+  },
+  {
+    "code": "AVI-021",
+    "name": "Dornier 228",
+    "universe": "Aviation",
+    "category": "Avion utilitaire",
+    "description": "Le Dornier 228 est un bimoteur utilitaire à aile haute, conçu pour les liaisons régionales et les missions spécialisées. Ses capacités sur pistes courtes lui ouvrent l’accès à des terrains difficiles ou isolés.",
+    "imageCredit": "Airwolfhound from Hertfordshire, UK — CC BY-SA 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Do228NG_-_RIAT_2012_(18649688613).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 2,
+    "rarityProposal": "Inhabituelle",
+    "imageKey": "52f1f7bd-c4d4-4a8c-a986-d0b2eb6d7ef2.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "0702e8afd4ff941791bc940f45e876089e5e01aba388de1cf5f63ff38493daa6"
+  },
+  {
+    "code": "AVI-022",
+    "name": "Airbus A300B2",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Première version de série de la famille A300, l’A300B2 inaugure le gros-porteur biréacteur d’Airbus. Sa cabine à deux couloirs et son architecture contribuent à établir le constructeur européen sur le marché des avions de ligne.",
+    "imageCredit": "Pedro Aragão — CC BY-SA 3.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Airbus_A300B2-203,_VASP_AN0323756.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 2,
+    "rarityProposal": "Rare",
+    "imageKey": "ed6c37ba-0b4b-4cd5-8abd-abb73bc61175.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "ebc75aa144cc6b0319a2be767b45e81c327aac0afae324d4758c03cb1f9c9ef7"
+  },
+  {
+    "code": "AVI-023",
+    "name": "Airbus A320-200",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "L’A320-200 est un biréacteur monocouloir destiné aux liaisons court et moyen-courriers. Sa famille généralise chez Airbus les commandes de vol électriques et le pilotage par minimanche dans le transport commercial.",
+    "imageCredit": "Pedro Aragão — CC BY-SA 3.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Airbus_A320-214,_Airbus_Industrie_JP7617615.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 2,
+    "rarityProposal": "Rare",
+    "imageKey": "fe48ee17-18c9-474c-ac41-ba87ad64e59b.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "b05bd10de67a44451bef988826898f85ca9f76bbbad18ffc5d5dbccf4c9b6aed"
+  },
+  {
+    "code": "AVI-024",
+    "name": "Airbus A330-300",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Le long fuselage de l’A330-300 abrite une cabine à deux couloirs, propulsée par deux réacteurs. Cet avion gros-porteur polyvalent dessert aussi bien des routes régionales très fréquentées que des lignes intercontinentales.",
+    "imageCredit": "4300streetcar — CC BY 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Delta_Air_Lines_Airbus_A330-300_N830NW_departing_Boston_July_2026_1.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 2,
+    "rarityProposal": "Rare",
+    "imageKey": "b1c45329-a65a-489e-aa4a-de0768389fef.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "a03465c20e1366ff1eea3903d1895bef3b0c56020fbf22b49e0063a1bdb9dc6e"
+  },
+  {
+    "code": "AVI-025",
+    "name": "Airbus A350-900",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "L’A350-900 est un gros-porteur biréacteur conçu pour les vols long-courriers. Sa cellule fait largement appel aux matériaux composites, tandis que ses ailes courbes et ses grands hublots distinguent sa silhouette.",
+    "imageCredit": "Steve Lynes — CC BY 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:EGLF_-_Airbus_A350-941_-_F-WZNW.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 2,
+    "rarityProposal": "Précieuse",
+    "imageKey": "4c547d68-272b-4873-93b6-056d8cc75a7c.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "c8faf296c46a4ff9612d6a9c4dac2604e068d1a3d8ea9521e730620b9f213dbd"
+  },
+  {
+    "code": "AVI-028",
+    "name": "Tupolev Tu-144",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Le Tu-144 est un avion de ligne supersonique soviétique à aile delta. Rival du Concorde, il se distingue notamment par ses plans canards escamotables sur les versions de série et par l’ambition technologique de son programme.",
+    "imageCredit": "clipperarctic — CC BY-SA 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Tupolev_TU-144_(6060104119).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 2,
+    "rarityProposal": "Suprême",
+    "imageKey": "395ca389-584f-49fd-9f69-0db5013e5dda.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "7a80202b09a84be5b21139049195fc8cabcbf8d7fff01f01e76b926265f83fd8"
+  },
+  {
+    "code": "AVI-029",
+    "name": "ATR 72-600",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Version modernisée du biturbopropulseur franco-italien ATR 72, le 72-600 dessert les lignes régionales. Son aile haute et son cockpit numérique associent les qualités d’un avion à hélices à une avionique contemporaine.",
+    "imageCredit": "Laurent ERRERA from L'Union, France — CC BY-SA 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:ATR_72-600_(Azul)_F-WWED_-_MSN_1115_(10515838574).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 2,
+    "rarityProposal": "Rare",
+    "imageKey": "45a808ee-46f7-4529-8fdb-e8ac77274d0a.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "a14cca85cea347c027778a98e63ca2d07702f000570aa69e92c3efb99815f831"
+  },
+  {
+    "code": "AVI-030",
+    "name": "Embraer E190",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Le biréacteur brésilien E190 relie les marchés régionaux aux grandes lignes aériennes. Sa cabine à quatre sièges de front et ses réacteurs sous les ailes illustrent le positionnement intermédiaire de la famille E-Jets.",
+    "imageCredit": "Richard Vandervord — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:KLM_Cityhopper_-_Embraer_190LR_-_AN2571563.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 3,
+    "rarityProposal": "Rare",
+    "imageKey": "e6a5f47a-f2f0-4a18-91dd-c47b3472449f.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "d41d143055296798dd31a315e24be94a3597a6274ac6f81d76c49347ba8bb61b"
+  },
+  {
+    "code": "AVI-031",
+    "name": "Fokker 100",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Le Fokker 100 est un biréacteur néerlandais à moteurs arrière et empennage en T. Conçu pour les lignes régionales et les dessertes de taille intermédiaire, il prolonge l’héritage du Fokker F28.",
+    "imageCredit": "Laurent ERRERA from L'Union, France — CC BY-SA 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Fokker_100_(KLM)_PH-OFN_(10676665315).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 3,
+    "rarityProposal": "Inhabituelle",
+    "imageKey": "38789dd1-ddd8-4010-a351-77e8a592bb5e.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "54679b829271c388d1e2bff34301252aea63895e230231e12fcdb7fdb436ba6b"
+  },
+  {
+    "code": "AVI-032",
+    "name": "Yakovlev Yak-40",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Petit triréacteur soviétique à aile droite, le Yak-40 est conçu pour les liaisons régionales. Ses moteurs placés à l’arrière et son accès intégré facilitent son exploitation sur des aérodromes modestement équipés.",
+    "imageCredit": "Muzeum Sił Powietrznych — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Jak-40_Wiki.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 3,
+    "rarityProposal": "Inhabituelle",
+    "imageKey": "c4468465-0e6d-4c0d-83f3-93c289b9d381.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "d4cee7b3ffbcb875b9d4d14cdcb360f450b4bba2de4511ca02ad4bef2970cc53"
+  },
+  {
+    "code": "AVI-033",
+    "name": "Iliouchine Il-62",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "L’Il-62 est un avion de ligne soviétique long-courrier à quatre réacteurs regroupés à l’arrière. Son empennage en T et sa grande voilure accompagnent l’ouverture de nombreuses liaisons internationales.",
+    "imageCredit": "Sergey Lysenko — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Air-to-air_with_a_Russian_Air_Force_Ilyushin_Il-62M_(retouched).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 3,
+    "rarityProposal": "Rare",
+    "imageKey": "13ba8562-67c7-4e25-ab07-3f167fa528c6.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "548bab3ed2696f8f0080c78eb487c6d88d4013564a28bb7134cd4b50a41fff97"
+  },
+  {
+    "code": "AVI-035",
+    "name": "Airbus A220-300",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Issu du programme canadien CSeries, l’A220-300 est un biréacteur monocouloir à cabine de cinq sièges de front. Il combine une capacité intermédiaire à une conception pensée pour réduire la consommation et le bruit.",
+    "imageCredit": "Romain COUPY — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Airbus_A220-300.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 3,
+    "rarityProposal": "Rare",
+    "imageKey": "561ab970-3296-4b0e-b0e7-d136043eddb4.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "9b49c70053a62a67c4617e05b9ab1968ac8f6b2289e4c7cec2ba53005813b483"
+  },
+  {
+    "code": "AVI-036",
+    "name": "Comac C919",
+    "universe": "Aviation",
+    "category": "Avion de ligne",
+    "description": "Le C919 est un avion de ligne monocouloir développé par le constructeur chinois COMAC. Ce biréacteur destiné au moyen-courrier marque une étape importante dans la construction d’une industrie aéronautique commerciale chinoise.",
+    "imageCredit": "N509FZ — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:B-919A@PEK_(20221226151722).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 3,
+    "rarityProposal": "Rare",
+    "imageKey": "b4a49af7-5d33-4cf0-9442-826fc75754a3.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "335e95c3d40cf9c6e04cfb7f484909ad9dcac6a1a1e8677d4f3769114eab68e1"
+  },
+  {
+    "code": "AVI-037",
+    "name": "SPAD S.XIII",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le SPAD S.XIII est un chasseur biplan français de la Première Guerre mondiale. Son moteur en ligne, sa vitesse et sa robustesse en font l’un des appareils emblématiques des as de l’aviation alliée.",
+    "imageCredit": "U.S. Air Force photo — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:SPAD_XIII_040510-F-1234P-019.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 3,
+    "rarityProposal": "Précieuse",
+    "imageKey": "4bc8c291-79da-486c-9637-188c941c0204.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "be60aecc5f5727183f2de388a539216f3dfd450d68f1c66bebadd12288a40663"
+  },
+  {
+    "code": "AVI-038",
+    "name": "Fokker Dr.I",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le Fokker Dr.I est un chasseur triplan allemand de la Première Guerre mondiale. Compact et très maniable, il reste associé à Manfred von Richthofen et à la silhouette célèbre de l’avion du Baron rouge.",
+    "imageCredit": "Collectie Van Beek — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Fokker_Dr.I_driedekker_2161_026221.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 3,
+    "rarityProposal": "Précieuse",
+    "imageKey": "7fe68826-6b32-45a2-88d2-517b2cbfff20.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "375585d0b5af2c74b8049cc1721e3b026e7237ca2bbffcb5e06dfdd2e6683c2e"
+  },
+  {
+    "code": "AVI-040",
+    "name": "Messerschmitt Bf 109 G",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "La série G du Bf 109, surnommée Gustav, est une évolution majeure du chasseur allemand. Son moteur en ligne et ses nombreuses variantes lui permettent de remplir des missions de chasse et d’interception pendant la Seconde Guerre mondiale.",
+    "imageCredit": "Hebenstreit — CC BY-SA 3.0 de ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-662-6659-37,_Flugzeug_Messerschmitt_Me_109.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 3,
+    "rarityProposal": "Légendaire",
+    "imageKey": "a839154f-1b95-4519-925a-e5bbf40a88fc.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "6dc6f3e035552ff1289949a71c197d7ec1b9b35964b2e7404d0ae95cbdeabc74"
+  },
+  {
+    "code": "AVI-041",
+    "name": "North American P-51D Mustang",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le P-51D Mustang est un chasseur américain à long rayon d’action, reconnaissable à sa verrière en bulle. Il accompagne les bombardiers alliés en Europe et devient l’un des grands symboles de la chasse de la Seconde Guerre mondiale.",
+    "imageCredit": "USAAF/361st FG Association (via Al Richards) — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:P-51-361.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 3,
+    "rarityProposal": "Suprême",
+    "imageKey": "a4fc1a2c-c7e7-466f-af7d-b9623de5fa95.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "638b347bf83e7292d86d1b1305f003632bc08116eaf5b560da3e9c9f6c87add2"
+  },
+  {
+    "code": "AVI-042",
+    "name": "Mitsubishi A6M Zero",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le Zero est un chasseur embarqué japonais de la Seconde Guerre mondiale. Sa légèreté, sa maniabilité et son autonomie en font un appareil majeur des premières campagnes aéronavales dans le Pacifique.",
+    "imageCredit": "Like tears in rain — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Mitsubishi_A6M_at_Air_Legend_2025_(1).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 3,
+    "rarityProposal": "Précieuse",
+    "imageKey": "55ff5dde-87ca-4595-a509-3bbb8426d844.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "3f42eb10c18ad58f87facdedd6aa9196a4a6fc134daa22e96c4f58efa8c9ffbf"
+  },
+  {
+    "code": "AVI-043",
+    "name": "Yakovlev Yak-3",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le Yak-3 est un chasseur soviétique léger de la Seconde Guerre mondiale. Agile à basse et moyenne altitude, il équipe notamment le régiment Normandie-Niémen et reste lié à l’histoire des aviateurs français sur le front de l’Est.",
+    "imageCredit": "Alan Wilson from Stilton, Peterborough, Cambs, UK — CC BY-SA 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Yakolev_Yak-3_(115450123)_(25073819848).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 3,
+    "rarityProposal": "Précieuse",
+    "imageKey": "15f2539f-2dbd-43d9-bf31-3aab495122cd.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "ef60f598fd286aaf56d2ba34f488b75bd1573234e4695227e3b79d898a1d68e7"
+  },
+  {
+    "code": "AVI-044",
+    "name": "Republic P-47D Thunderbolt",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Imposant chasseur américain à moteur en étoile, le P-47D Thunderbolt se distingue par sa robustesse. Il assure l’escorte des bombardiers et l’appui au sol, où sa puissance de feu et sa résistance sont particulièrement appréciées.",
+    "imageCredit": "Tim Felce — CC BY-SA 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:P47_Thunderbolt_-_Chino_2014_(cropped).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 4,
+    "rarityProposal": "Précieuse",
+    "imageKey": "bd60469c-cb0a-483d-b03c-f3b2e03b9206.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "33605bf4bcd049f418c9236780a1e5fe063539d1cf401d18b8e1af8dcf9c273f"
+  },
+  {
+    "code": "AVI-045",
+    "name": "Focke-Wulf Fw 190 A",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le Fw 190 A est un chasseur allemand à moteur en étoile, utilisé pendant la Seconde Guerre mondiale. Sa silhouette ramassée et sa grande polyvalence lui permettent d’assurer la chasse, l’interception et l’attaque au sol.",
+    "imageCredit": "RAF — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Fw_190A-3_JG_2_in_Britain_1942.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 4,
+    "rarityProposal": "Précieuse",
+    "imageKey": "57dfcf5f-a78c-48c2-9d64-67f97eb07075.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "8c0a43644e145759d395b40232a4d60dd5559b7cc0640aa9d7bc6c8d59525314"
+  },
+  {
+    "code": "AVI-046",
+    "name": "Messerschmitt Me 262 A-1a",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le Me 262 A-1a est la version de chasse du célèbre biréacteur allemand. Ses moteurs sous les ailes et son aile en flèche annoncent une nouvelle époque, alors que l’avion apparaît à la fin de la Seconde Guerre mondiale.",
+    "imageCredit": "USAF museum — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_(cropped).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 4,
+    "rarityProposal": "Précieuse",
+    "imageKey": "78366b1b-5646-4e1a-9a14-fbeb313f5c8b.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "5f91a91be6f86a068173b746336138f6d9f1c3abd4b53b19a49b4188519e0528"
+  },
+  {
+    "code": "AVI-047",
+    "name": "North American F-86 Sabre",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le F-86 Sabre est un chasseur américain à réaction et à aile en flèche. Figure des combats aériens de la guerre de Corée, il illustre la transition entre les chasseurs à hélices et l’aviation de combat moderne.",
+    "imageCredit": "U.S. Air Force photo by J.M. Eddins Jr. — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:F-86_Sabre_hertiage_flight.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 4,
+    "rarityProposal": "Rare",
+    "imageKey": "b0c93c57-e32c-40fe-a2d3-f8168a02a433.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "006daeee2ae8f3a3a924071817dfed285fe353b746b82db62d52827ba2007dae"
+  },
+  {
+    "code": "AVI-048",
+    "name": "Mikoyan-Gourevitch MiG-15",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le MiG-15 est un chasseur soviétique à réaction, doté d’une aile en flèche et d’une entrée d’air frontale. Très largement diffusé, il affronte notamment le F-86 Sabre dans le ciel de la péninsule coréenne.",
+    "imageCredit": "slezo — CC BY 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:MiG-15_(52544074366).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 4,
+    "rarityProposal": "Précieuse",
+    "imageKey": "1dfbc90a-aab5-4c6e-ae5d-15f6c3377ebc.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "e61a00a16022f5db5f645abd1325fccfd61bf06e650e772ba2eb4c1615a20dbc"
+  },
+  {
+    "code": "AVI-050",
+    "name": "Dassault Mirage 2000",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le Mirage 2000 reprend la formule de l’aile delta dans un chasseur français doté de commandes de vol électriques. Ses versions monoplaces et biplaces assurent la défense aérienne, la frappe et des missions spécialisées.",
+    "imageCredit": "SRA GREG L. DAVIS, USAF — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Mirage_2000C_in-flight_2_(cropped).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 4,
+    "rarityProposal": "Précieuse",
+    "imageKey": "3894ed29-286f-4751-91d6-60ec9d3ccae5.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "16ec2a9201c86873e4b68a62338aef847bbf7176822f3b93820486b6dd343c02"
+  },
+  {
+    "code": "AVI-052",
+    "name": "Grumman F-14 Tomcat",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le F-14 Tomcat est un chasseur embarqué américain à deux réacteurs et ailes à géométrie variable. Son radar et ses missiles à longue portée sont conçus pour protéger les groupes aéronavals contre les menaces aériennes.",
+    "imageCredit": "U.S. Navy photo — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:US_Navy_051105-F-5480T-005_An_F-14D_Tomcat_conducts_a_mission_over_the_Persian_Gulf-region.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 4,
+    "rarityProposal": "Précieuse",
+    "imageKey": "57aaf8c6-b30f-4980-beeb-e614158dd001.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "1f0e65735a47a76ba3ce8cf722c1f0f3b1bc290331a7beb15540863c3d5ecd72"
+  },
+  {
+    "code": "AVI-053",
+    "name": "McDonnell Douglas F-15 Eagle",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le F-15 Eagle est un chasseur biréacteur américain développé pour la supériorité aérienne. Ses deux dérives, sa grande voilure et son rapport poussée-poids élevé soulignent sa vocation au combat aérien.",
+    "imageCredit": "Airman 1st Class Matthew Seefeldt — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:F-15C_Eagle_from_the_44th_Fighter_Squadron_flies_during_a_routine_training_exercise_April_15,_2019.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 4,
+    "rarityProposal": "Précieuse",
+    "imageKey": "e421d00e-e52b-47e6-8435-744fc9983017.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "70ae16b8abb4adf6118f5095d3d0e89c5883bc65558294231e0272c80a3d29b7"
+  },
+  {
+    "code": "AVI-055",
+    "name": "McDonnell Douglas F/A-18 Hornet",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le F/A-18 Hornet est un chasseur-bombardier embarqué américain à deux réacteurs. Sa polyvalence lui permet d’alterner entre interception et attaque au sol au cours des opérations des aéronavales qui l’emploient.",
+    "imageCredit": "US Air Force — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:FA-18C_desert_refueling.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 4,
+    "rarityProposal": "Précieuse",
+    "imageKey": "1ed73f09-b092-49a6-8f42-0eaa20b9fb77.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "513139f65576fad89ae49648e3141640bdd73c551ce90c268651a3261ef44195"
+  },
+  {
+    "code": "AVI-056",
+    "name": "Lockheed Martin F-22 Raptor",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le F-22 Raptor est un chasseur américain furtif conçu pour la supériorité aérienne. Il associe une cellule à faible signature radar, une grande agilité et la capacité de voler en supersonique sans postcombustion.",
+    "imageCredit": "F-22_Raptor.JPG: Master Sgt. Andy Dunaway — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:F-22_Raptor_edit1_(cropped).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 4,
+    "rarityProposal": "Suprême",
+    "imageKey": "1ae5d2b8-17f3-4f87-aeaa-5548c28bb03b.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "6b4dc3af3c61ea95b7f884737516b7acedfa9b62925fab1c07a9e4b66a4b1c8d"
+  },
+  {
+    "code": "AVI-057",
+    "name": "Lockheed Martin F-35 Lightning II",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le F-35 Lightning II est un avion de combat furtif multirôle décliné en trois versions. Son système de capteurs et son architecture en réseau occupent une place centrale dans sa conception et ses missions.",
+    "imageCredit": "U.S. Air Force photo by Master Sgt. Donald R. Allen — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:F-35A_flight_(cropped).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 4,
+    "rarityProposal": "Légendaire",
+    "imageKey": "567b19b1-0949-4b48-921d-5df72a6a117c.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "faa491b8036d533f78c1cc2b8a8e9b3aa481339ee57c58a4818d6a97f386a83b"
+  },
+  {
+    "code": "AVI-058",
+    "name": "Eurofighter Typhoon",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Issu d’une coopération européenne, le Typhoon est un chasseur biréacteur à aile delta et plans canards. Pensé pour la supériorité aérienne, il développe aussi des capacités de frappe et d’emploi multirôle.",
+    "imageCredit": "Julian Herzog (Website) — CC BY 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:30%2B68_German_Air_Force_Eurofighter_Typhoon_EF2000_ILA_Berlin_2016_06.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 4,
+    "rarityProposal": "Précieuse",
+    "imageKey": "6a979d08-5d6a-4380-8b1c-e3b761172922.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "c82da40ee67bb1889a0f92ebd6e888e5b7aab18f2720b7fb9812003788817c1f"
+  },
+  {
+    "code": "AVI-059",
+    "name": "Saab JAS 39 Gripen",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le Gripen est un chasseur suédois monoréacteur à aile delta et plans canards. Sa conception met l’accent sur la polyvalence, la maintenance et l’exploitation depuis des bases dispersées ou des portions de route adaptées.",
+    "imageCredit": "Tuomo Salonen / SIMFinnish Aviation Museum — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Saab_JAS_39_Gripen_at_Kaivopuisto_Air_Show,_June_2017_(altered)_copy.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 4,
+    "rarityProposal": "Précieuse",
+    "imageKey": "5f448da0-b852-4771-bcad-897a06fba49a.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "9fc2e55090ab6db0ac29dc4cc065aaa8df121039862af30e267129999955befd"
+  },
+  {
+    "code": "AVI-060",
+    "name": "Mikoyan-Gourevitch MiG-21",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Reconnaissable à son aile delta et à son entrée d’air frontale, le MiG-21 est l’un des chasseurs supersoniques les plus diffusés. Sa silhouette compacte accompagne de nombreuses forces aériennes pendant la guerre froide.",
+    "imageCredit": "Gojanovic123456789 — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Croatian_MiG-21_(cropped).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 5,
+    "rarityProposal": "Précieuse",
+    "imageKey": "62d40154-31eb-4c2f-a056-8082b0f00149.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "836c241fa5c9b7702ba79dde28d99616aea505763db79ef926769b282ad351ad"
+  },
+  {
+    "code": "AVI-061",
+    "name": "Sukhoi Su-27",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le Su-27 est un grand chasseur soviétique biréacteur conçu pour la supériorité aérienne. Sa cellule intégrée, ses deux dérives et son autonomie donnent naissance à une vaste famille d’avions de combat.",
+    "imageCredit": "Vitaly V. Kuzmin — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Su-27SM3_in_flight,_Celebration_of_the_100th_anniversary_of_Russian_Air_Force.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 5,
+    "rarityProposal": "Précieuse",
+    "imageKey": "d69ca1d0-7622-4148-a69e-d892d282647b.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "67cd0570f1da2d166bb89b5fe6e32f9c10525abf668a055bb5e5dcf2c089beca"
+  },
+  {
+    "code": "AVI-062",
+    "name": "Sukhoi Su-57",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le Su-57 est un avion de combat russe de nouvelle génération, doté de deux réacteurs et de soutes internes. Son programme associe la recherche d’une faible signature radar à la manœuvrabilité et aux missions multirôles.",
+    "imageCredit": "Anna Zvereva from Tallinn, Estonia — CC BY-SA 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Sukhoi_Design_Bureau,_054,_Sukhoi_T-50_(Su-57_prototype)_(49581303977).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 5,
+    "rarityProposal": "Rare",
+    "imageKey": "8e43f6d4-7b65-4c8f-8049-bbba7105c0e5.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "cd80d5448af5e0c83f8ec7a3b796804f3f9a3104893370d583890ac75d2ffb21"
+  },
+  {
+    "code": "AVI-063",
+    "name": "Chengdu J-20",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le J-20 est un grand avion de combat chinois à deux réacteurs, plans canards et soutes internes. Sa silhouette anguleuse traduit la recherche d’une faible signature radar pour des missions de combat à longue portée.",
+    "imageCredit": "N509FZ — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:J-20_at_CCAS2022_(20220827103424).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 5,
+    "rarityProposal": "Précieuse",
+    "imageKey": "760ee3bc-fd11-4385-943a-3268c7d04d3e.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "53e8f6a90731c86d9678ed7d4823848ec8897fcfd8b1a72eae43b55a34bcfad9"
+  },
+  {
+    "code": "AVI-064",
+    "name": "HAL Tejas Mk 1",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le Tejas Mk 1 est un chasseur léger indien monoréacteur à aile delta. Développé autour du programme national Light Combat Aircraft, il contribue à l’autonomie industrielle de l’Inde dans l’aviation de combat.",
+    "imageCredit": "Goverrnment of India — GODL-India ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Tejas_MK1_in_service_for_7_years.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 5,
+    "rarityProposal": "Rare",
+    "imageKey": "c84fc5f2-e06b-448e-93be-dfb3b270f6dd.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "da5fc8465c20af74e5c68c9b3dca0884de568b8825ab51a326b262f83db0117e"
+  },
+  {
+    "code": "AVI-065",
+    "name": "Northrop F-5E Tiger II",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Le F-5E Tiger II est un chasseur léger américain bimoteur, dérivé du F-5 initial. Compact et largement exporté, il est aussi employé pour l’entraînement avancé et la simulation d’adversaires en combat aérien.",
+    "imageCredit": "Peng Chen — CC BY-SA 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:J-3005.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 5,
+    "rarityProposal": "Rare",
+    "imageKey": "4bd71da6-e45a-4c43-9224-61a43495bd59.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "3165740177faf8f59a492238549abcc532bc0c62af4daa03ab792a9617917060"
+  },
+  {
+    "code": "AVI-066",
+    "name": "Boeing B-17G Flying Fortress",
+    "universe": "Aviation",
+    "category": "Bombardier",
+    "description": "Le B-17G est un bombardier lourd américain quadrimoteur de la Seconde Guerre mondiale. Sa tourelle sous le nez renforce la défense de la Forteresse volante, engagée dans les campagnes de bombardement en Europe.",
+    "imageCredit": "Airwolfhound — CC BY-SA 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:B17_-_Chino_Airshow_2014_(framed).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 5,
+    "rarityProposal": "Précieuse",
+    "imageKey": "e5e469aa-22f5-40df-a107-cbe628444b79.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "dac83d298dc5239983f1bfa8ce3f17784dd0f79564b02b01a167ace9fdf10560"
+  },
+  {
+    "code": "AVI-067",
+    "name": "Boeing B-29 Superfortress",
+    "universe": "Aviation",
+    "category": "Bombardier",
+    "description": "Le B-29 Superfortress est un bombardier lourd américain à quatre moteurs, utilisé dans le Pacifique pendant la Seconde Guerre mondiale. Sa cabine pressurisée et ses tourelles télécommandées témoignent d’une conception ambitieuse.",
+    "imageCredit": "Alan Wilson — CC BY-SA 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Boeing_TB-29-70-BW_Superfortress_%E2%80%98469972%E2%80%99_%E2%80%9CDoc%E2%80%9D_(N69972)_(50871638276).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 5,
+    "rarityProposal": "Suprême",
+    "imageKey": "c9bf0998-225a-49b5-9286-ca929d221f0e.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "5adae6b61bf8bad27eeb927bab0c1e34e32c839753f94123023c5ba0c489008e"
+  },
+  {
+    "code": "AVI-068",
+    "name": "Avro Lancaster",
+    "universe": "Aviation",
+    "category": "Bombardier",
+    "description": "Le Lancaster est un bombardier lourd britannique quadrimoteur de la Seconde Guerre mondiale. Sa vaste soute lui permet d’emporter des charges très variées, et il occupe une place majeure dans l’histoire du Bomber Command.",
+    "imageCredit": "Cpl Phil Major ABIPP — OGL v1.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Battle_of_Britain_Memorial_flight_Avro_Lancaster_(cropped).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 5,
+    "rarityProposal": "Précieuse",
+    "imageKey": "b6f14c68-a1b6-4c2f-85db-6387cc7aadbb.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "2f1f3c1c97c6aef5e969b3944989ab31eddc824e5e1dac79a55c0e0ace15e8f3"
+  },
+  {
+    "code": "AVI-069",
+    "name": "Heinkel He 111",
+    "universe": "Aviation",
+    "category": "Bombardier",
+    "description": "Le He 111 est un bombardier bimoteur allemand employé pendant la Seconde Guerre mondiale. Son nez largement vitré sur les versions les plus connues et sa voilure caractéristique en font une silhouette immédiatement identifiable.",
+    "imageCredit": "Schödl (e) — CC BY-SA 3.0 de ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-343-0694-21,_Belgien-Frankreich,_Flugzeug_Heinkel_He_111.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 5,
+    "rarityProposal": "Rare",
+    "imageKey": "cc40af1d-7352-46b0-a6ee-6158a943f969.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "d2cba4f3c4cc138044220a03eb3cb6f2ec16c166c6dc13606406e20ab3e997b0"
+  },
+  {
+    "code": "AVI-070",
+    "name": "Junkers Ju 87 Stuka",
+    "universe": "Aviation",
+    "category": "Bombardier",
+    "description": "Le Ju 87 Stuka est un bombardier en piqué allemand à train fixe. Ses ailes en W et ses attaques plongeantes en font un appareil emblématique de l’appui aérien rapproché au début de la Seconde Guerre mondiale.",
+    "imageCredit": "PK-Kriegsberichter Karnerth — CC BY-SA 3.0 de ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Junkers_Ju_87Ds_in_flight_Oct_1943.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 5,
+    "rarityProposal": "Rare",
+    "imageKey": "b04ce52a-021d-4f10-be99-9374733ece08.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "fe2df7b771abe483b786179bc4899f0319e5d1d1b6ef2c2f2673651b8baaa5b7"
+  },
+  {
+    "code": "AVI-071",
+    "name": "Handley Page Halifax",
+    "universe": "Aviation",
+    "category": "Bombardier",
+    "description": "Le Halifax est un bombardier lourd britannique à quatre moteurs de la Seconde Guerre mondiale. Il remplit également des missions de transport, de remorquage de planeurs et de soutien aux opérations spéciales.",
+    "imageCredit": "British official photographer — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Halifax-mk3.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 5,
+    "rarityProposal": "Rare",
+    "imageKey": "75f6a27b-3d5e-4f51-a373-1103aa149b6a.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "d117ed63a1e63cf1b707b316bbd6b3a6e74508bdb3ae28dfefd75fd41f918ac0"
+  },
+  {
+    "code": "AVI-073",
+    "name": "Northrop B-2 Spirit",
+    "universe": "Aviation",
+    "category": "Bombardier",
+    "description": "Le B-2 Spirit est un bombardier stratégique américain furtif en forme d’aile volante. Sa cellule sans empennage et ses soutes internes sont conçues pour pénétrer les défenses aériennes à grande distance.",
+    "imageCredit": "Royal Air Force — OGL v1.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:RAF_F-35B_integration_flying_training_with_USAF_B-2_30092019_-_4.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 5,
+    "rarityProposal": "Suprême",
+    "imageKey": "f74b6a62-c2c7-4b55-aab8-dd4578de2998.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "a6a2ac3d6bd104f7fad68e4cb92ddf977246492d2f483d23e1a2b7d5f89625cf"
+  },
+  {
+    "code": "AVI-074",
+    "name": "Tupolev Tu-95",
+    "universe": "Aviation",
+    "category": "Bombardier",
+    "description": "Le Tu-95 est un bombardier stratégique soviétique puis russe, propulsé par quatre turbopropulseurs à hélices contrarotatives. Sa voilure en flèche et sa grande autonomie lui donnent une silhouette et une sonorité uniques.",
+    "imageCredit": "Sergey Kustov — CC BY-SA 3.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Tupolev_Tu-95_over_Moscow_Kustov_(cropped).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 5,
+    "rarityProposal": "Précieuse",
+    "imageKey": "64488a14-2ea8-4a7c-ac2c-4f1f045e29fc.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "03141d11468ea988578bd4f42c2fc0d3ada1336bbaee1f941af3968dafe19d44"
+  },
+  {
+    "code": "AVI-075",
+    "name": "Tupolev Tu-160",
+    "universe": "Aviation",
+    "category": "Bombardier",
+    "description": "Le Tu-160 est un bombardier stratégique supersonique à quatre réacteurs et ailes à géométrie variable. Conçu en Union soviétique, ce grand appareil est destiné aux missions de longue portée et à l’emport de missiles de croisière.",
+    "imageCredit": "Alex Beltyukov — CC BY-SA 3.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Tupolev_Tu-160_RF-94109.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 5,
+    "rarityProposal": "Précieuse",
+    "imageKey": "d62081bd-e5a7-4a9c-8308-1472e1a97104.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "9aab1b6340af17f13a8631f373cec7798a9dd5f21eba45b7e12bedcdfab17876"
+  },
+  {
+    "code": "AVI-076",
+    "name": "Avro Vulcan",
+    "universe": "Aviation",
+    "category": "Bombardier",
+    "description": "Le Vulcan est un bombardier britannique à aile delta, développé pendant la guerre froide. Membre de la force des V-bombers, il associe une silhouette spectaculaire à des missions initialement liées à la dissuasion nucléaire.",
+    "imageCredit": "Alastair Barbour — CC BY 2.5 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:XH558_(G-VLCN)_Avro_Vulcan_-_Last_Flight_over_Farnborough_(cropped).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 5,
+    "rarityProposal": "Précieuse",
+    "imageKey": "c1a22e92-8f2c-4ad9-aa33-6f6053015363.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "ac36f8bf210fb68bb54116b22cc10bf54b3d5ab3abbceb523c22867f9a82cee2"
+  },
+  {
+    "code": "AVI-077",
+    "name": "Dassault Mirage IV",
+    "universe": "Aviation",
+    "category": "Bombardier",
+    "description": "Le Mirage IV est un bombardier stratégique français biréacteur à aile delta. Il joue un rôle fondateur dans la composante aéroportée de la dissuasion française avant d’assurer également des missions de reconnaissance.",
+    "imageCredit": "Jerry Gunner from Lincoln, UK — CC BY 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:61_CH_AMD_Mirage_IVP_ERS_1_91_GASCOGNE_from_BA118_Mont_de_Marsan_(3114194268).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 6,
+    "rarityProposal": "Précieuse",
+    "imageKey": "766871a7-984d-478d-a382-b87d310c31da.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "9fa8f93e3f778c289ba1f79fb3eba74572a051f0602577ee3acf33dd2bbffd37"
+  },
+  {
+    "code": "AVI-078",
+    "name": "Douglas C-47 Skytrain",
+    "universe": "Aviation",
+    "category": "Avion de transport militaire",
+    "description": "Version militaire dérivée du DC-3, le C-47 Skytrain transporte soldats, fret et parachutistes. Il devient l’un des avions de transport les plus emblématiques de la Seconde Guerre mondiale et des opérations aéroportées alliées.",
+    "imageCredit": "Airwolfhound — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:C47_Skytrain_-_Duxford_D-Day_Show_2014_(cropped).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 6,
+    "rarityProposal": "Rare",
+    "imageKey": "a54d5a1c-a0ad-439f-a5b5-53e01d237860.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "d852c651f6ec85ca21ee18e2824df75af125255b84a9b2804cccef1eae1b97fb"
+  },
+  {
+    "code": "AVI-079",
+    "name": "Lockheed C-130 Hercules",
+    "universe": "Aviation",
+    "category": "Avion de transport militaire",
+    "description": "Le C-130 Hercules est un avion de transport militaire à quatre turbopropulseurs. Sa rampe arrière et ses capacités sur terrains sommaires lui permettent d’assurer le fret, le parachutage et de nombreuses missions spécialisées.",
+    "imageCredit": "U.S. Air Force photo by Tech. Sgt. Howard Blair — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Lockheed_C-130_Hercules.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 6,
+    "rarityProposal": "Précieuse",
+    "imageKey": "1b0430a2-a36e-4d9f-b310-7fee7a596c38.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "e14ce1631a6ad440a7c55bd49fd53d7191fe59f9d5a0b623be8c6497a4908572"
+  },
+  {
+    "code": "AVI-080",
+    "name": "Boeing C-17 Globemaster III",
+    "universe": "Aviation",
+    "category": "Avion de transport militaire",
+    "description": "Le C-17 Globemaster III est un avion de transport militaire américain à quatre réacteurs. Il associe un grand volume de fret à la capacité d’utiliser des pistes relativement courtes pour acheminer hommes et matériels.",
+    "imageCredit": "U.S. Air Force — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:C-17_test_sortie.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 6,
+    "rarityProposal": "Précieuse",
+    "imageKey": "125fd401-910e-4911-a7c6-b46aca0f2807.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "58a7c4f51003b81c7ed06597e5892e92ed66947e549e48922a8b462cde4001e6"
+  },
+  {
+    "code": "AVI-081",
+    "name": "Airbus A400M Atlas",
+    "universe": "Aviation",
+    "category": "Avion de transport militaire",
+    "description": "L’A400M Atlas est un avion de transport militaire européen à quatre turbopropulseurs. Il combine des missions logistiques à longue distance avec le parachutage et l’emploi sur des terrains sommairement aménagés.",
+    "imageCredit": "Peng Chen — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:German_Air_Force_Airbus_A400M_(out_cropped).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 6,
+    "rarityProposal": "Précieuse",
+    "imageKey": "4fb98961-9c30-41d9-8b2e-eb70571e1b55.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "d250e8e1d84833f277272ba6d0315bace5ef771dbd8c8bcc5e98d96f5b2d0f99"
+  },
+  {
+    "code": "AVI-082",
+    "name": "Transall C-160",
+    "universe": "Aviation",
+    "category": "Avion de transport militaire",
+    "description": "Issu d’une coopération franco-allemande, le C-160 Transall est un avion de transport militaire à deux turbopropulseurs. Sa rampe arrière, sa robustesse et son adaptation aux terrains difficiles accompagnent de nombreuses opérations extérieures.",
+    "imageCredit": "bomberpilot — CC BY-SA 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:C-160_Transall_Germany_50%2B95_Neubrandenburg_2013_(9965209624).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 6,
+    "rarityProposal": "Rare",
+    "imageKey": "c3ae5122-6b35-40ec-a87d-6549253a9586.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "4bbb632aca4782afb37233cdcb7dabad2ef254c86c35ea36ae73190cafe587b2"
+  },
+  {
+    "code": "AVI-083",
+    "name": "Antonov An-124 Rouslan",
+    "universe": "Aviation",
+    "category": "Avion de transport militaire",
+    "description": "L’An-124 Rouslan est un avion de transport lourd à quatre réacteurs, développé en Union soviétique par Antonov. Son immense soute et ses accès de chargement facilitent l’acheminement de matériels particulièrement volumineux.",
+    "imageCredit": "Alex Beltyukov — CC BY-SA 3.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D0%BE%D0%B2_%D0%90%D0%BD-124_9773054055093,_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0_-_%D0%94%D0%BE%D0%BC%D0%BE%D0%B4%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE_RP2297.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 6,
+    "rarityProposal": "Précieuse",
+    "imageKey": "e06527a6-e471-4c71-a628-f5fa13fea07c.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "7e94872e2bfc7db015f927955d6f7d2688c3e401a0c704cbd3c9656818e2f2bb"
+  },
+  {
+    "code": "AVI-084",
+    "name": "Lockheed C-5 Galaxy",
+    "universe": "Aviation",
+    "category": "Avion de transport militaire",
+    "description": "Le C-5 Galaxy est un avion de transport stratégique américain à quatre réacteurs. Sa soute traversante, accessible par l’avant et par l’arrière, permet de déplacer véhicules, équipements lourds et charges hors gabarit.",
+    "imageCredit": "U.S. Air Force photo by Brett Snow — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:USAF_C-5_Galaxy_in_flight.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 6,
+    "rarityProposal": "Précieuse",
+    "imageKey": "a8747e27-e5b1-4362-ac1d-df37d4081b62.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "b08071e01dd9c6f10f5b6f6d71449d81e81d4b1d1813f1ea90c25896428cecac"
+  },
+  {
+    "code": "AVI-085",
+    "name": "Iliouchine Il-76",
+    "universe": "Aviation",
+    "category": "Avion de transport militaire",
+    "description": "L’Il-76 est un avion de transport à quatre réacteurs, aile haute et rampe arrière. Développé en Union soviétique, il assure des missions logistiques, humanitaires et militaires sur une grande variété de terrains.",
+    "imageCredit": "Ministry of Defence (Russia) — CC BY 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Il-76MD-90A_RF-78653.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 6,
+    "rarityProposal": "Rare",
+    "imageKey": "ee0d457c-941e-4305-8d93-2a7fac550bd0.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "b9c85791ab6e3de0ecfe3f10d893932b1c7f1f674233d0ac879d769aa07c63d8"
+  },
+  {
+    "code": "AVI-086",
+    "name": "Bell UH-1 Iroquois",
+    "universe": "Aviation",
+    "category": "Hélicoptère de transport",
+    "description": "Le UH-1 Iroquois, souvent appelé Huey, est un hélicoptère utilitaire américain à turbine. Il devient une figure de la guerre du Vietnam, où il transporte les troupes et assure notamment l’évacuation sanitaire.",
+    "imageCredit": "Airwolfhound from Hertfordshire, UK — CC BY-SA 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:UH1_Huey_-_Fly_Navy_2017_(26938005897).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 6,
+    "rarityProposal": "Légendaire",
+    "imageKey": "7bed7dee-632a-4c7a-a7ba-872ef42eb27c.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "b14293f2cd483672c1e1e64c44f3f90eba6a1e5c1d2a49cf5189a8ad7610ec36"
+  },
+  {
+    "code": "AVI-087",
+    "name": "Boeing CH-47 Chinook",
+    "universe": "Aviation",
+    "category": "Hélicoptère de transport",
+    "description": "Le CH-47 Chinook est un hélicoptère de transport lourd à deux rotors en tandem. Cette architecture libère l’appareil d’un rotor anticouple et favorise l’emport de charges dans la cabine ou sous élingue.",
+    "imageCredit": "Sgt. Steven Galimore — CC0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:CH-47_assigned_to_3rd_General_Support_Aviation_Battalion,_82nd_Combat_Aviation_Brigade.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 6,
+    "rarityProposal": "Rare",
+    "imageKey": "39b97cac-47e5-4b09-8eac-9de698c830a1.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "b725a8ef9d01005e7ae6e0252bdd8515423063ee762b3b665b506973df50f7e5"
+  },
+  {
+    "code": "AVI-088",
+    "name": "Sikorsky UH-60 Black Hawk",
+    "universe": "Aviation",
+    "category": "Hélicoptère de transport",
+    "description": "Le UH-60 Black Hawk est un hélicoptère utilitaire militaire américain à deux turbines. Conçu pour le transport tactique, il se décline aussi pour le secours au combat, l’évacuation sanitaire et les opérations spécialisées.",
+    "imageCredit": "147th Aviation Regiment — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:National-Guard-UH-60-Black-Hawk-operations-at-Fort-McCoy.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 6,
+    "rarityProposal": "Rare",
+    "imageKey": "2ee471c9-d1f6-45b8-b49a-af5602c35336.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "164a7c0033f014eee2b09447dc66a1c0f8cd34e9964728f400ae674ee840d85e"
+  },
+  {
+    "code": "AVI-089",
+    "name": "Boeing AH-64 Apache",
+    "universe": "Aviation",
+    "category": "Hélicoptère d’attaque",
+    "description": "L’AH-64 Apache est un hélicoptère d’attaque américain à deux turbines et équipage en tandem. Son canon sous le nez et ses capteurs sont conçus pour l’appui des forces terrestres et la lutte contre les blindés.",
+    "imageCredit": "\"Photo Courtesy of U.S. Army\" - by Tech. Sgt. Andy Dunaway — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:AH-64D_Apache_Longbow.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 6,
+    "rarityProposal": "Précieuse",
+    "imageKey": "baa0eee7-749c-4a65-af90-6d5a8d28165a.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "625bd1aa8a91608a12eec9acc6650b271fac37e2b8d02b7155a08a5b3fbc2d5f"
+  },
+  {
+    "code": "AVI-090",
+    "name": "Aérospatiale SA 316 Alouette III",
+    "universe": "Aviation",
+    "category": "Hélicoptère utilitaire",
+    "description": "L’Alouette III est un hélicoptère léger français à turbine et grande cabine vitrée. Polyvalente et largement exportée, la version SA 316 accomplit des missions de transport, de liaison, de secours et d’observation.",
+    "imageCredit": "Arnaud Gaillard (arnaud () amarys.com) — CC BY-SA 1.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Alouette_ag1.JPG",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 6,
+    "rarityProposal": "Rare",
+    "imageKey": "cf135d34-3401-4a9b-a0d6-2cf397b76288.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "5a713517849569b8a0aa210f3fa56d5b038e167c9de370f95519273c86bfd818"
+  },
+  {
+    "code": "AVI-091",
+    "name": "Airbus Helicopters H225M Caracal",
+    "universe": "Aviation",
+    "category": "Hélicoptère de transport",
+    "description": "Le H225M Caracal est un hélicoptère militaire de transport à deux turbines, issu de la famille Super Puma. Son autonomie et ses équipements le destinent notamment à la recherche et au sauvetage au combat ainsi qu’aux opérations spéciales.",
+    "imageCredit": "Dylan Agbagni — CC0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:French_Air_Force_EC725_lift_off.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 7,
+    "rarityProposal": "Précieuse",
+    "imageKey": "6f84dbc0-12bf-4fd4-90e6-abeb05fb4286.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "7813599a79ec564b22001c7a4a5f1e311e13f6a7b14eea2f0c21f2babf2ca098"
+  },
+  {
+    "code": "AVI-092",
+    "name": "Mil Mi-24 Hind",
+    "universe": "Aviation",
+    "category": "Hélicoptère d’attaque",
+    "description": "Le Mi-24 Hind est un hélicoptère soviétique combinant une forte capacité d’armement et une cabine de transport de troupes. Ses petites ailes et ses deux turbines lui donnent une silhouette particulière parmi les hélicoptères de combat.",
+    "imageCredit": "File:Mi24CP (modified).jpg: Cezary Piwowarskimodified by FOX 52 derivative work: Georgfotoart — CC BY-SA 4.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Mi24CP_(modified)_b.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 7,
+    "rarityProposal": "Précieuse",
+    "imageKey": "8c19df16-1f19-4aa9-b812-2e85bb0b05f9.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "8b08a87fc2e38d9ec931025e9e3567b8339279ea475e4bdac232fa78e2bb7d70"
+  },
+  {
+    "code": "AVI-093",
+    "name": "NHIndustries NH90",
+    "universe": "Aviation",
+    "category": "Hélicoptère de transport",
+    "description": "Le NH90 est un hélicoptère militaire européen à deux turbines, développé en coopération. Ses versions terrestre et navale assurent le transport tactique, la lutte maritime et des missions de soutien ou de sauvetage.",
+    "imageCredit": "Airwolfhound from Hertfordshire, UK — CC BY-SA 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:NH90_-_RIAT_2018_(45206723701).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 7,
+    "rarityProposal": "Rare",
+    "imageKey": "1f39ece1-8fd9-4f47-ad37-a9099ac2c1a3.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "53a73074b27f29207060da2507ce2de2c2c3a355dd2c9b50464800866df2c692"
+  },
+  {
+    "code": "AVI-095",
+    "name": "Lockheed U-2",
+    "universe": "Aviation",
+    "category": "Avion de reconnaissance",
+    "description": "Le U-2 est un avion américain de reconnaissance à très haute altitude. Son aile de grande envergure, proche de celle d’un planeur, favorise les vols prolongés destinés à recueillir des informations au-dessus de vastes territoires.",
+    "imageCredit": "United States Department of the Air Force — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Usaf.u2.750pix.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 7,
+    "rarityProposal": "Précieuse",
+    "imageKey": "7f75a340-7770-4393-b9f3-d5571a0f9cf0.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "d01b69eb55278005fd2f20e54ba0a68f0da89c78ae1409e23eb2a96ba7027af6"
+  },
+  {
+    "code": "AVI-096",
+    "name": "Boeing E-3 Sentry",
+    "universe": "Aviation",
+    "category": "Avion de détection et de commandement",
+    "description": "Dérivé du Boeing 707, l’E-3 Sentry est un avion de détection et de commandement aéroporté. Son grand radar monté sur le fuselage permet de surveiller l’espace aérien et de coordonner les opérations d’autres appareils.",
+    "imageCredit": "Senior Airman Roslyn Ward — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:E-3_Sentry_Airborne_Warning_and_Control_System_(AWACS)_conducts_a_mission.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 7,
+    "rarityProposal": "Précieuse",
+    "imageKey": "98da9857-fdb7-42d0-8e4d-675e441f6aa8.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "e8bef824266dddd6185ed1fe9a27cb34cba895c91522403dc0bf11cf634bef53"
+  },
+  {
+    "code": "AVI-097",
+    "name": "General Atomics MQ-9 Reaper",
+    "universe": "Aviation",
+    "category": "Drone de reconnaissance et d’attaque",
+    "description": "Le MQ-9 Reaper est un drone américain télépiloté à grande endurance. Son hélice propulsive et ses capteurs lui permettent d’assurer des missions prolongées de surveillance, de reconnaissance et, selon sa configuration, de frappe.",
+    "imageCredit": "Lt. Col. Leslie Pratt — Public domain ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:MQ-9_Reaper_UAV_(cropped).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 7,
+    "rarityProposal": "Rare",
+    "imageKey": "9d08ba9f-17f6-4cac-8ffe-c344e2fdbb64.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "5aa1092ea68d4cf1a7cffc1b4ba6012ba58246f033cbaad63b8969e7d77765be"
+  },
+  {
+    "code": "AVI-099",
+    "name": "Cessna 172 Skyhawk",
+    "universe": "Aviation",
+    "category": "Avion de tourisme",
+    "description": "Le Cessna 172 Skyhawk est un avion léger américain monomoteur à aile haute et train tricycle. Sa stabilité et sa polyvalence en font un appareil familier des écoles de pilotage et de l’aviation de loisir.",
+    "imageCredit": "Alan Wilson from Stilton, Peterborough, Cambs, UK — CC BY-SA 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Cessna_172S_Skyhawk_%E2%80%98G-JMKE%E2%80%99_(45077563364).jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 7,
+    "rarityProposal": "Inhabituelle",
+    "imageKey": "84338fa3-0969-4a81-b08b-da8145282303.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "e664fcb3fc6e12eb036e027fd7f23b6fa5236c667bf2767947147bdbfe774e90"
+  },
+  {
+    "code": "AVI-100",
+    "name": "Piper PA-28 Cherokee",
+    "universe": "Aviation",
+    "category": "Avion de tourisme",
+    "description": "Le Piper PA-28 Cherokee est une famille d’avions légers américains à aile basse et train tricycle. Destinés à l’apprentissage et au voyage, ces monomoteurs occupent une place durable dans les aéroclubs et les écoles de pilotage.",
+    "imageCredit": "Mike Burdett — CC BY-SA 2.0 ; via Wikimedia Commons.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:G-AVRZ_Piper_PA-28-180_Cherokee_C_at_Northrepps.jpg",
+    "albumIds": [
+      "aviation"
+    ],
+    "batchNumber": 7,
+    "rarityProposal": "Inhabituelle",
+    "imageKey": "dadbc8b3-47c0-4465-a491-c07bc9dfe671.jpg",
+    "mimeType": "image/jpeg",
+    "sha256": "3af331d9f2f401bdfed67e62614c486593bebfe684e83b427db9b9ffe8324755"
+  }
+]

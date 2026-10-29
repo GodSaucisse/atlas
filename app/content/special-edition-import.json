@@ -1,0 +1,321 @@
+[
+  {
+    "code": "ESP-001",
+    "name": "Tim Duncan — The Big Fundamental",
+    "universe": "NBA",
+    "category": "Ancien joueur NBA",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-duncan/d64a23eb3a7904345ad92670bee2595d.jpg",
+    "sourceFilename": "SupremeDuncan.dc.html",
+    "imageKey": "03efdbeb-e8c9-5d72-8c6d-14705b223e78.jpg",
+    "editionCode": "EDS-001",
+    "albumNames": [
+      "Anciens joueurs NBA",
+      "Ailiers forts",
+      "Pivots"
+    ]
+  },
+  {
+    "code": "ESP-002",
+    "name": "Winston Churchill — MI6",
+    "universe": "Histoire",
+    "category": "Dirigeant",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-churchill/f458af419717ce7bc3ed44474dc7b977.jpg",
+    "sourceFilename": "SupremeChurchill.dc.html",
+    "imageKey": "c506604b-a2f0-5a05-860b-bbbc6db724a2.jpg",
+    "editionCode": "EDS-002",
+    "albumNames": [
+      "Époque contemporaine",
+      "Souverains et dirigeants"
+    ]
+  },
+  {
+    "code": "ESP-003",
+    "name": "UH-60 Black Hawk — Splinter Cell",
+    "universe": "Aviation",
+    "category": "Hélicoptère militaire",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-black-hawk/4035c25b5eb9b7ad8a92bf78528d7a8d.jpg",
+    "sourceFilename": "SupremeBlackHawk.dc.html",
+    "imageKey": "0afddf02-c555-52cc-9ad3-cbaf49a90f96.jpg",
+    "editionCode": "EDS-003",
+    "albumNames": [
+      "Hélicoptères",
+      "Avions américains"
+    ]
+  },
+  {
+    "code": "ESP-004",
+    "name": "Zion Williamson — Vaudou",
+    "universe": "NBA",
+    "category": "Joueur NBA actuel",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-zion/7a59312a7165be4818684c9cd8cdd5ac.png",
+    "sourceFilename": "SupremeZion.dc.html",
+    "imageKey": "f99233e8-1059-59ea-98e9-a88e77269380.png",
+    "editionCode": "EDS-004",
+    "albumNames": [
+      "Joueurs actuels NBA",
+      "Ailiers forts"
+    ]
+  },
+  {
+    "code": "ESP-005",
+    "name": "Notre-Dame de Paris — Halloween",
+    "universe": "Histoire",
+    "category": "Bâtiment religieux",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-notre-dame/4b8d12969e8cce400a806e2af737146a.png",
+    "sourceFilename": "SupremeNotreDame.dc.html",
+    "imageKey": "fafd6196-98ca-5629-9bc4-091512f226e1.png",
+    "editionCode": "EDS-005",
+    "albumNames": [
+      "Moyen Âge",
+      "Monuments historiques"
+    ]
+  },
+  {
+    "code": "ESP-006",
+    "name": "Abraham Lincoln — Halloween",
+    "universe": "Histoire",
+    "category": "Dirigeant",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-lincoln/bfd0ed0412c37b44ce8da7eacf6b4732.png",
+    "sourceFilename": "SupremeLincoln.dc.html",
+    "imageKey": "ebf2a2d0-62b1-5c8e-afbf-5555dae355c0.png",
+    "editionCode": "EDS-006",
+    "albumNames": [
+      "Époque contemporaine",
+      "Souverains et dirigeants"
+    ]
+  },
+  {
+    "code": "ESP-007",
+    "name": "Éruption du Vésuve en 79 — Halloween",
+    "universe": "Histoire",
+    "category": "Événement antique",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-vesuve/7571a07605990402f68e5730dfc5866a.jpg",
+    "sourceFilename": "SupremeVesuve.dc.html",
+    "imageKey": "9914a022-8906-504e-9bc7-048375e790a7.jpg",
+    "editionCode": "EDS-007",
+    "albumNames": [
+      "Antiquité"
+    ]
+  },
+  {
+    "code": "ESP-008",
+    "name": "Dassault Mirage III — Givre",
+    "universe": "Aviation",
+    "category": "Avion de chasse",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-mirage/8373214a3742ddfa0a19df2b3969cac2.jpg",
+    "sourceFilename": "SupremeMirage.dc.html",
+    "imageKey": "6db07f19-449a-52d9-b025-0c33277ba6f5.jpg",
+    "editionCode": "EDS-008",
+    "albumNames": [
+      "Avions de chasse",
+      "Avions français"
+    ]
+  },
+  {
+    "code": "ESP-009",
+    "name": "Saint Pierre — Édition spéciale",
+    "universe": "Chrétienté",
+    "category": "Catholicisme",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-pierre/22a9928ade0797b545aef179f82c3293.png",
+    "sourceFilename": "SupremePierre.dc.html",
+    "imageKey": "7d6643c0-f429-5c2b-8edd-049d788151bc.png",
+    "editionCode": "EDS-009",
+    "albumNames": [
+      "Figures bibliques",
+      "Saints et saintes",
+      "Saints"
+    ]
+  },
+  {
+    "code": "ESP-010",
+    "name": "LeBron James — The Chosen One",
+    "universe": "NBA",
+    "category": "Joueur NBA actuel",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-lebron/f77a37fb97843a788313435388867ab9.png",
+    "sourceFilename": "SupremeLebron.dc.html",
+    "imageKey": "a8f10b14-999a-5c74-8d9a-601ac9ea9fea.png",
+    "editionCode": "EDS-010",
+    "albumNames": [
+      "Joueurs actuels NBA",
+      "Ailiers",
+      "Ailiers forts"
+    ]
+  },
+  {
+    "code": "ESP-011",
+    "name": "Team USA — USA Edition",
+    "universe": "NBA",
+    "category": "Équipe nationale",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-u-s-a2/b697e29c7556bf5ae68b2063a02e19b5.jpg",
+    "sourceFilename": "SupremeUSA2.dc.html",
+    "imageKey": "eb2e070d-67e6-57c6-a8e3-c33811271265.jpg",
+    "editionCode": "EDS-011",
+    "albumNames": [
+      "Équipes NBA"
+    ]
+  },
+  {
+    "code": "ESP-012",
+    "name": "Nikola Jokić — The Joker",
+    "universe": "NBA",
+    "category": "Joueur NBA actuel",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-jokic/dab552d6e3cef0d69066b4d488b303a7.png",
+    "sourceFilename": "SupremeJokic.dc.html",
+    "imageKey": "dbaac4c3-311c-5d51-a1ca-59c76295eb1b.png",
+    "editionCode": "EDS-012",
+    "albumNames": [
+      "Joueurs actuels NBA",
+      "Pivots"
+    ]
+  },
+  {
+    "code": "ESP-013",
+    "name": "Giannis Antetokounmpo — Greek Freak",
+    "universe": "NBA",
+    "category": "Joueur NBA actuel",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-giannis3/0cf8a31312475b67b3e238a27b6f0863.jpg",
+    "sourceFilename": "SupremeGiannis3.dc.html",
+    "imageKey": "bddb19e0-b854-5c74-adfc-96b1b11f6dda.jpg",
+    "editionCode": "EDS-013",
+    "albumNames": [
+      "Joueurs actuels NBA",
+      "Ailiers forts"
+    ]
+  },
+  {
+    "code": "ESP-014",
+    "name": "Shai Gilgeous-Alexander — Champion Edition",
+    "universe": "NBA",
+    "category": "Joueur NBA actuel",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-shai-champion/4ff7a7b5d2fbb05e0a2c9a1e3c99e46e.jpg",
+    "sourceFilename": "SupremeShaiChampion.dc.html",
+    "imageKey": "984140ea-a03e-581a-92ac-ba626688f76b.jpg",
+    "editionCode": "EDS-014",
+    "albumNames": [
+      "Joueurs actuels NBA",
+      "Meneurs",
+      "Arrières"
+    ]
+  },
+  {
+    "code": "ESP-015",
+    "name": "Shai Gilgeous-Alexander — The MVP",
+    "universe": "NBA",
+    "category": "Joueur NBA actuel",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-shai/28695c0961537f821fb129270c44c1d8.jpg",
+    "sourceFilename": "SupremeShai.dc.html",
+    "imageKey": "1e5ee445-e484-5e99-9bb5-acda919a907f.jpg",
+    "editionCode": "EDS-015",
+    "albumNames": [
+      "Joueurs actuels NBA",
+      "Meneurs",
+      "Arrières"
+    ]
+  },
+  {
+    "code": "ESP-016",
+    "name": "Shaquille O’Neal — The Diesel",
+    "universe": "NBA",
+    "category": "Ancien joueur NBA",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-shaq/d38b853093ce3ca2191cf94bb67c0d32.jpg",
+    "sourceFilename": "SupremeShaq.dc.html",
+    "imageKey": "e53272a0-5853-547b-bfc8-6242e30a814a.jpg",
+    "editionCode": "EDS-016",
+    "albumNames": [
+      "Anciens joueurs NBA",
+      "Pivots"
+    ]
+  },
+  {
+    "code": "ESP-017",
+    "name": "Michael Jordan — His Airness",
+    "universe": "NBA",
+    "category": "Ancien joueur NBA",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-jordan/033524c3a9f1db41249039bf800882d1.jpg",
+    "sourceFilename": "SupremeJordan.dc.html",
+    "imageKey": "0cbc0cf7-876a-5127-a68f-538b908fadb5.jpg",
+    "editionCode": "EDS-017",
+    "albumNames": [
+      "Anciens joueurs NBA",
+      "Arrières"
+    ]
+  },
+  {
+    "code": "ESP-018",
+    "name": "Larry Bird — Larry Legend",
+    "universe": "NBA",
+    "category": "Ancien joueur NBA",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-bird/4007e2e2cc4ce2d28464958df8945fcd.jpg",
+    "sourceFilename": "SupremeBird.dc.html",
+    "imageKey": "7af8bfd8-ae51-5e98-8ccf-eacf45ef6dbc.jpg",
+    "editionCode": "EDS-018",
+    "albumNames": [
+      "Anciens joueurs NBA",
+      "Ailiers",
+      "Ailiers forts"
+    ]
+  },
+  {
+    "code": "ESP-019",
+    "name": "Magic Johnson — Showtime",
+    "universe": "NBA",
+    "category": "Ancien joueur NBA",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-magic/3447eb11e0a962bec32e62b136222f47.jpg",
+    "sourceFilename": "SupremeMagic.dc.html",
+    "imageKey": "79aa9f24-9343-5b85-8430-ebc85a8d1fc8.jpg",
+    "editionCode": "EDS-019",
+    "albumNames": [
+      "Anciens joueurs NBA",
+      "Meneurs"
+    ]
+  },
+  {
+    "code": "ESP-020",
+    "name": "Kareem Abdul-Jabbar — The Skyhook",
+    "universe": "NBA",
+    "category": "Ancien joueur NBA",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-kareem/2ef3317c76273b4280cd1b2b97ed2da1.jpg",
+    "sourceFilename": "SupremeKareem.dc.html",
+    "imageKey": "97d85555-4bae-5ce1-aade-7d284050c04f.jpg",
+    "editionCode": "EDS-020",
+    "albumNames": [
+      "Anciens joueurs NBA",
+      "Pivots"
+    ]
+  },
+  {
+    "code": "ESP-021",
+    "name": "Bill Russell — Eleven Rings",
+    "universe": "NBA",
+    "category": "Ancien joueur NBA",
+    "description": "Une édition spéciale au modèle visuel exclusif.",
+    "asset": "/designs/edition-russell/baac85c286a939f9d0e67eb1e3cd9feb.jpg",
+    "sourceFilename": "SupremeRussell.dc.html",
+    "imageKey": "70899535-9bbd-526f-b519-b58015d67ded.jpg",
+    "editionCode": "EDS-021",
+    "albumNames": [
+      "Anciens joueurs NBA",
+      "Pivots"
+    ]
+  }
+]

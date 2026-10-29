@@ -1,0 +1,702 @@
+[
+  {
+    "id": "AVI-001",
+    "code": "AVI-001",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": "Légendaire",
+    "expectedProposal": "Suprême"
+  },
+  {
+    "id": "16a5f429-6eff-4ee1-b0a6-d1fd72ffb5ba",
+    "code": "AVI-002",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "dec25938-fae5-4da6-a67a-bd47fcba3951",
+    "code": "AVI-003",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Inhabituelle"
+  },
+  {
+    "id": "63f1d4fd-cb1c-4445-9ca0-c25ba4e8cc21",
+    "code": "AVI-004",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Inhabituelle"
+  },
+  {
+    "id": "1ae9d9ba-c821-4d14-b7cc-804911ba0e02",
+    "code": "AVI-005",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Courante"
+  },
+  {
+    "id": "c2df81a5-48b7-4c75-879d-33bce13d716f",
+    "code": "AVI-006",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Légendaire"
+  },
+  {
+    "id": "89fc76f4-7b2a-4a58-a903-bc802637b9cc",
+    "code": "AVI-007",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Courante"
+  },
+  {
+    "id": "9c85ee32-b9d1-438e-8725-380ed2374459",
+    "code": "AVI-008",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Inhabituelle"
+  },
+  {
+    "id": "16513509-d24f-41e3-aea6-2a5b8c9b6441",
+    "code": "AVI-009",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Inhabituelle"
+  },
+  {
+    "id": "afe11813-33d6-466f-9d07-033c1349c3d0",
+    "code": "AVI-010",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Courante"
+  },
+  {
+    "id": "75a6f8a0-1ab3-4e23-86c3-55e8f707d89d",
+    "code": "AVI-011",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Légendaire"
+  },
+  {
+    "id": "25e309db-d6a5-4b20-b7ac-a28211793611",
+    "code": "AVI-012",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "ff102a5b-3010-47e2-a0e1-37f737262fc8",
+    "code": "AVI-013",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "09214f5c-4445-4e60-afff-42a4d54b12cc",
+    "code": "AVI-014",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "8c358931-1b3c-4a0f-8984-638a27c00d19",
+    "code": "AVI-015",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "33c59239-37c7-4763-a48e-c9b2909d3613",
+    "code": "AVI-016",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "AVI-017",
+    "code": "AVI-017",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": "Suprême",
+    "expectedProposal": null
+  },
+  {
+    "id": "bddbda10-8a6a-4cc7-a47b-fddfdd567af2",
+    "code": "AVI-018",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Courante"
+  },
+  {
+    "id": "62d7bbf2-0be6-4cb5-8dd5-9c60d87ce155",
+    "code": "AVI-019",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Courante"
+  },
+  {
+    "id": "2acc3dde-804e-46d6-93eb-c30c7641862d",
+    "code": "AVI-020",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Inhabituelle"
+  },
+  {
+    "id": "ba75715a-124d-4fc6-8c62-1e8f3f02b3da",
+    "code": "AVI-021",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Inhabituelle"
+  },
+  {
+    "id": "ac242e9c-2193-4636-94a2-6245515990ea",
+    "code": "AVI-022",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "79d15150-a87b-4aa7-aadb-1dcc6a283abd",
+    "code": "AVI-023",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "033e4dbe-84b3-442b-938d-5c88724be04f",
+    "code": "AVI-024",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "152e95ee-aebb-4b01-bae1-ef69467b0511",
+    "code": "AVI-025",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "AVI-026",
+    "code": "AVI-026",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": "Suprême",
+    "expectedProposal": null
+  },
+  {
+    "id": "AVI-027",
+    "code": "AVI-027",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": "Suprême",
+    "expectedProposal": null
+  },
+  {
+    "id": "9759e773-2aa2-4a42-82fb-bbc0ae335baf",
+    "code": "AVI-028",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Légendaire"
+  },
+  {
+    "id": "3b6b8c6a-4c5e-42ad-924e-39137d39d1a8",
+    "code": "AVI-029",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Inhabituelle"
+  },
+  {
+    "id": "c5cdde00-f745-4379-9c30-fbb108adea23",
+    "code": "AVI-030",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "33bf9aba-e4ea-4a3a-9f70-74a10b0e2b2b",
+    "code": "AVI-031",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Courante"
+  },
+  {
+    "id": "dd011fe6-42d7-4171-b909-9c76f8199d48",
+    "code": "AVI-032",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Courante"
+  },
+  {
+    "id": "8d92d756-5f4f-4258-b32a-c20741bb4737",
+    "code": "AVI-033",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "AVI-034",
+    "code": "AVI-034",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": "Courante",
+    "expectedProposal": null
+  },
+  {
+    "id": "02f3716f-2d94-49f1-935a-519b0a6edd31",
+    "code": "AVI-035",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Inhabituelle"
+  },
+  {
+    "id": "e6412899-6605-418d-9df6-27cf9ffcaceb",
+    "code": "AVI-036",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Inhabituelle"
+  },
+  {
+    "id": "58000af6-0c58-4b40-aa3e-be50d2c6965e",
+    "code": "AVI-037",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "ab31d835-2b80-4d20-9f53-e1a4cd2470ab",
+    "code": "AVI-038",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "AVI-039",
+    "code": "AVI-039",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": "Suprême",
+    "expectedProposal": null
+  },
+  {
+    "id": "6cb6cdee-fecb-4360-b93a-8c725c2fef29",
+    "code": "AVI-040",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": null,
+    "expectedProposal": "Légendaire"
+  },
+  {
+    "id": "b8770ffc-a0be-49a9-8258-ee462c908015",
+    "code": "AVI-041",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": null,
+    "expectedProposal": "Suprême"
+  },
+  {
+    "id": "b4f97450-c13c-406b-9eff-eeb55289bbe5",
+    "code": "AVI-042",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "617881b9-64c9-4f88-a76b-f0977c66b901",
+    "code": "AVI-043",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "68d83761-d2c2-40aa-b2a6-7255a96e5f10",
+    "code": "AVI-044",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "c8b46f5c-19f3-4036-b11a-00b7139ab9cf",
+    "code": "AVI-045",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "bbc08d7d-0951-4520-864b-22ef46d85f02",
+    "code": "AVI-046",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "698457a4-b8b3-44b7-bcd3-19871512bac2",
+    "code": "AVI-047",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": null,
+    "expectedProposal": "Inhabituelle"
+  },
+  {
+    "id": "86621744-3124-4d53-9bd9-43ffe3737a1b",
+    "code": "AVI-048",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "AVI-049",
+    "code": "AVI-049",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": "Précieuse",
+    "expectedProposal": null
+  },
+  {
+    "id": "da622fa8-2319-4548-b606-6dfa061f14a7",
+    "code": "AVI-050",
+    "expectedUpdatedAt": "2026-10-22T22:16:11.435Z",
+    "expectedRarity": null,
+    "expectedProposal": "Légendaire"
+  },
+  {
+    "id": "AVI-051",
+    "code": "AVI-051",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": "Suprême",
+    "expectedProposal": null
+  },
+  {
+    "id": "6bc5e0f3-0b52-4472-94e2-5196e39f3130",
+    "code": "AVI-052",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "e3ec6b3b-4023-4bff-b835-a889c49fc648",
+    "code": "AVI-053",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "AVI-054",
+    "code": "AVI-054",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": "Légendaire",
+    "expectedProposal": null
+  },
+  {
+    "id": "26df466f-28cc-4831-b2b2-9fd4e22c50db",
+    "code": "AVI-055",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "23654da3-4d6b-4d72-bbe3-209672403ea5",
+    "code": "AVI-056",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Suprême"
+  },
+  {
+    "id": "626a48bb-10f2-42f3-b05a-6c5602768925",
+    "code": "AVI-057",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Légendaire"
+  },
+  {
+    "id": "a0891265-c6c3-482f-a9c2-b2873a77a011",
+    "code": "AVI-058",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "72712d84-ac6a-4364-be07-80d35df35a46",
+    "code": "AVI-059",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "404f4b29-b3a9-4356-8225-ea3d4156b9fd",
+    "code": "AVI-060",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "fb2b8a7a-40d9-42a0-b368-43d981f135b5",
+    "code": "AVI-061",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "dd6b9efb-d410-41db-a71b-e1c388e96417",
+    "code": "AVI-062",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "b74c55a3-3eb4-42fa-96e1-97f568a0e441",
+    "code": "AVI-063",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Inhabituelle"
+  },
+  {
+    "id": "22b36b40-abc0-4a75-ac4c-01c56de53896",
+    "code": "AVI-064",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Courante"
+  },
+  {
+    "id": "2512aa42-157f-47b2-a0e5-52a055fa930b",
+    "code": "AVI-065",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Inhabituelle"
+  },
+  {
+    "id": "3f59a586-4aef-4555-b984-388e3148ee11",
+    "code": "AVI-066",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": null,
+    "expectedProposal": "Légendaire"
+  },
+  {
+    "id": "ab6fe84b-142f-4bcb-976b-0ea8fc75b5be",
+    "code": "AVI-067",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": null,
+    "expectedProposal": "Suprême"
+  },
+  {
+    "id": "aef5c9fb-c319-4e7d-97d5-d5c7d1475adb",
+    "code": "AVI-068",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "76f14a00-7970-4947-9e1a-04d18d2a4bed",
+    "code": "AVI-069",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Inhabituelle"
+  },
+  {
+    "id": "40870511-9828-4f05-b606-ac015cdcfc5f",
+    "code": "AVI-070",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": null,
+    "expectedProposal": "Suprême"
+  },
+  {
+    "id": "26384f81-5638-4e6e-ba97-d6b67101b7c9",
+    "code": "AVI-071",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Inhabituelle"
+  },
+  {
+    "id": "AVI-072",
+    "code": "AVI-072",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": "Suprême",
+    "expectedProposal": null
+  },
+  {
+    "id": "a67e1c95-82ef-492b-9b78-1cc025b9eb57",
+    "code": "AVI-073",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Suprême"
+  },
+  {
+    "id": "47501011-1c3a-4940-b4be-aaa3a2f18a99",
+    "code": "AVI-074",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "ceb5d2be-2a2a-4cd0-bafb-4ea39bf8de3b",
+    "code": "AVI-075",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "80c5d57e-fbe4-41d6-afc2-10c0a87bf853",
+    "code": "AVI-076",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "70a73770-daa6-4d1b-9cb8-13576b5e2dae",
+    "code": "AVI-077",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "3ebd8203-1733-4a37-988d-edf428e55f9e",
+    "code": "AVI-078",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Inhabituelle"
+  },
+  {
+    "id": "02eb79d4-f26b-4a7d-a2a7-927a1f546499",
+    "code": "AVI-079",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "5082813c-5f8a-4741-aff3-a2c3d138a6e6",
+    "code": "AVI-080",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "814f0d6b-414b-4bf6-a11a-220053c4339c",
+    "code": "AVI-081",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Suprême"
+  },
+  {
+    "id": "a07737b2-f309-49ed-84a0-2332f8994091",
+    "code": "AVI-082",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "98105d67-c203-427a-ac23-47413b23d48c",
+    "code": "AVI-083",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "33ad3d7b-b6cc-4365-9f19-7693dfd46f59",
+    "code": "AVI-084",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "741e5b66-6610-4cb5-9fda-23f18d4d2839",
+    "code": "AVI-085",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Courante"
+  },
+  {
+    "id": "f2cc9c35-3b71-4d8d-82fa-5d59090a9840",
+    "code": "AVI-086",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Légendaire"
+  },
+  {
+    "id": "b70f39a4-135b-4e8b-ad83-1f562d116467",
+    "code": "AVI-087",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Légendaire"
+  },
+  {
+    "id": "7798db33-6759-44c1-b564-d3d46d1d7a45",
+    "code": "AVI-088",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Légendaire"
+  },
+  {
+    "id": "e0ea53df-7434-4219-b90a-300fb1226967",
+    "code": "AVI-089",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "963467d4-fb8d-4a2b-a35d-5bb2d4c5dda0",
+    "code": "AVI-090",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Inhabituelle"
+  },
+  {
+    "id": "8034955b-7bfd-42b6-8571-8769b6acebbf",
+    "code": "AVI-091",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "ad430d0a-0789-4caa-b078-306a9337c6bd",
+    "code": "AVI-092",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "760ee937-0345-4707-8df9-1248ef970059",
+    "code": "AVI-093",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "AVI-094",
+    "code": "AVI-094",
+    "expectedUpdatedAt": "2026-10-22T22:24:06.284Z",
+    "expectedRarity": "Suprême",
+    "expectedProposal": null
+  },
+  {
+    "id": "b5d5a126-7787-41fe-8ffb-848e9e498e50",
+    "code": "AVI-095",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Légendaire"
+  },
+  {
+    "id": "d890423b-38fc-48a9-956b-acd16f71dab6",
+    "code": "AVI-096",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Précieuse"
+  },
+  {
+    "id": "a8c0d028-44f6-4392-9acb-7b86a131f201",
+    "code": "AVI-097",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Rare"
+  },
+  {
+    "id": "AVI-098",
+    "code": "AVI-098",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": "Courante",
+    "expectedProposal": null
+  },
+  {
+    "id": "9496e0ec-4445-4405-a9f9-c1fe3ee9975d",
+    "code": "AVI-099",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Courante"
+  },
+  {
+    "id": "8114edb7-e8cc-429b-83ed-a77080993325",
+    "code": "AVI-100",
+    "expectedUpdatedAt": "2026-10-22T22:16:18.208Z",
+    "expectedRarity": null,
+    "expectedProposal": "Courante"
+  }
+]

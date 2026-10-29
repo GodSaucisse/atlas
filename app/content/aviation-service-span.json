@@ -1,0 +1,165 @@
+[
+  {
+    "code": "AVI-037",
+    "expectedDescription": "Le SPAD S.XIII est un chasseur biplan français de la Première Guerre mondiale. Son moteur en ligne, sa vitesse et sa robustesse en font l’un des appareils emblématiques des as de l’aviation alliée. (1917 – aujourd’hui)",
+    "description": "Le SPAD S.XIII est un chasseur biplan français de la Première Guerre mondiale. Son moteur en ligne, sa vitesse et sa robustesse en font l’un des appareils emblématiques des as de l’aviation alliée. (1917 – 1930)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/SPAD_S.XIII"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-038",
+    "expectedDescription": "Le Fokker Dr.I est un chasseur triplan allemand de la Première Guerre mondiale. Compact et très maniable, il reste associé à Manfred von Richthofen et à la silhouette célèbre de l’avion du Baron rouge. (1917 – dernier vol à confirmer)",
+    "description": "Le Fokker Dr.I est un chasseur triplan allemand de la Première Guerre mondiale. Compact et très maniable, il reste associé à Manfred von Richthofen et à la silhouette célèbre de l’avion du Baron rouge. (1917 – 1918)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fokker_Dr.I"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-039",
+    "expectedDescription": "Reconnaissable à ses ailes elliptiques, le Spitfire est l’un des chasseurs emblématiques de la Seconde Guerre mondiale. Aux côtés du Hurricane, il participe à la défense du ciel britannique pendant la bataille d’Angleterre. (1936 – aujourd’hui)",
+    "description": "Reconnaissable à ses ailes elliptiques, le Spitfire est l’un des chasseurs emblématiques de la Seconde Guerre mondiale. Aux côtés du Hurricane, il participe à la défense du ciel britannique pendant la bataille d’Angleterre. (1936 – 1961)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Supermarine_Spitfire"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-040",
+    "expectedDescription": "La série G du Bf 109, surnommée Gustav, est une évolution majeure du chasseur allemand. Son moteur en ligne et ses nombreuses variantes lui permettent de remplir des missions de chasse et d’interception pendant la Seconde Guerre mondiale. (1941 – aujourd’hui)",
+    "description": "La série G du Bf 109, surnommée Gustav, est une évolution majeure du chasseur allemand. Son moteur en ligne et ses nombreuses variantes lui permettent de remplir des missions de chasse et d’interception pendant la Seconde Guerre mondiale. (1941 – retrait du service à confirmer)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Messerschmitt_Bf_109"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-041",
+    "expectedDescription": "Le P-51D Mustang est un chasseur américain à long rayon d’action, reconnaissable à sa verrière en bulle. Il accompagne les bombardiers alliés en Europe et devient l’un des grands symboles de la chasse de la Seconde Guerre mondiale. (1943 – aujourd’hui)",
+    "description": "Le P-51D Mustang est un chasseur américain à long rayon d’action, reconnaissable à sa verrière en bulle. Il accompagne les bombardiers alliés en Europe et devient l’un des grands symboles de la chasse de la Seconde Guerre mondiale. (1943 – 1984)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_P-51_Mustang"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-042",
+    "expectedDescription": "Le Zero est un chasseur embarqué japonais de la Seconde Guerre mondiale. Sa légèreté, sa maniabilité et son autonomie en font un appareil majeur des premières campagnes aéronavales dans le Pacifique. (1939 – aujourd’hui)",
+    "description": "Le Zero est un chasseur embarqué japonais de la Seconde Guerre mondiale. Sa légèreté, sa maniabilité et son autonomie en font un appareil majeur des premières campagnes aéronavales dans le Pacifique. (1939 – 1945)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mitsubishi_A6M_Zero"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-043",
+    "expectedDescription": "Le Yak-3 est un chasseur soviétique léger de la Seconde Guerre mondiale. Agile à basse et moyenne altitude, il équipe notamment le régiment Normandie-Niémen et reste lié à l’histoire des aviateurs français sur le front de l’Est. (1943 – aujourd’hui)",
+    "description": "Le Yak-3 est un chasseur soviétique léger de la Seconde Guerre mondiale. Agile à basse et moyenne altitude, il équipe notamment le régiment Normandie-Niémen et reste lié à l’histoire des aviateurs français sur le front de l’Est. (1943 – 1952)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yakovlev_Yak-3"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-044",
+    "expectedDescription": "Imposant chasseur américain à moteur en étoile, le P-47D Thunderbolt se distingue par sa robustesse. Il assure l’escorte des bombardiers et l’appui au sol, où sa puissance de feu et sa résistance sont particulièrement appréciées. (1942 – aujourd’hui)",
+    "description": "Imposant chasseur américain à moteur en étoile, le P-47D Thunderbolt se distingue par sa robustesse. Il assure l’escorte des bombardiers et l’appui au sol, où sa puissance de feu et sa résistance sont particulièrement appréciées. (1942 – 1966)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Republic_P-47_Thunderbolt"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-045",
+    "expectedDescription": "Le Fw 190 A est un chasseur allemand à moteur en étoile, utilisé pendant la Seconde Guerre mondiale. Sa silhouette ramassée et sa grande polyvalence lui permettent d’assurer la chasse, l’interception et l’attaque au sol. (1940 – aujourd’hui)",
+    "description": "Le Fw 190 A est un chasseur allemand à moteur en étoile, utilisé pendant la Seconde Guerre mondiale. Sa silhouette ramassée et sa grande polyvalence lui permettent d’assurer la chasse, l’interception et l’attaque au sol. (1940 – 1949)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Focke-Wulf_Fw_190"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-046",
+    "expectedDescription": "Le Me 262 A-1a est la version de chasse du célèbre biréacteur allemand. Ses moteurs sous les ailes et son aile en flèche annoncent une nouvelle époque, alors que l’avion apparaît à la fin de la Seconde Guerre mondiale. (1941 – dernier vol à confirmer)",
+    "description": "Le Me 262 A-1a est la version de chasse du célèbre biréacteur allemand. Ses moteurs sous les ailes et son aile en flèche annoncent une nouvelle époque, alors que l’avion apparaît à la fin de la Seconde Guerre mondiale. (1941 – retrait du service à confirmer)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Messerschmitt_Me_262"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-047",
+    "expectedDescription": "Le F-86 Sabre est un chasseur américain à réaction et à aile en flèche. Figure des combats aériens de la guerre de Corée, il illustre la transition entre les chasseurs à hélices et l’aviation de combat moderne. (1947 – aujourd’hui)",
+    "description": "Le F-86 Sabre est un chasseur américain à réaction et à aile en flèche. Figure des combats aériens de la guerre de Corée, il illustre la transition entre les chasseurs à hélices et l’aviation de combat moderne. (1947 – 1994)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/North_American_F-86_Sabre"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-066",
+    "expectedDescription": "Le B-17G est un bombardier lourd américain quadrimoteur de la Seconde Guerre mondiale. Sa tourelle sous le nez renforce la défense de la Forteresse volante, engagée dans les campagnes de bombardement en Europe. (1943 – aujourd’hui)",
+    "description": "Le B-17G est un bombardier lourd américain quadrimoteur de la Seconde Guerre mondiale. Sa tourelle sous le nez renforce la défense de la Forteresse volante, engagée dans les campagnes de bombardement en Europe. (1943 – 1968)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boeing_B-17_Flying_Fortress"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-067",
+    "expectedDescription": "Le B-29 Superfortress est un bombardier lourd américain à quatre moteurs, utilisé dans le Pacifique pendant la Seconde Guerre mondiale. Sa cabine pressurisée et ses tourelles télécommandées témoignent d’une conception ambitieuse. (1942 – aujourd’hui)",
+    "description": "Le B-29 Superfortress est un bombardier lourd américain à quatre moteurs, utilisé dans le Pacifique pendant la Seconde Guerre mondiale. Sa cabine pressurisée et ses tourelles télécommandées témoignent d’une conception ambitieuse. (1942 – 1960)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boeing_B-29_Superfortress"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-068",
+    "expectedDescription": "Le Lancaster est un bombardier lourd britannique quadrimoteur de la Seconde Guerre mondiale. Sa vaste soute lui permet d’emporter des charges très variées, et il occupe une place majeure dans l’histoire du Bomber Command. (1941 – aujourd’hui)",
+    "description": "Le Lancaster est un bombardier lourd britannique quadrimoteur de la Seconde Guerre mondiale. Sa vaste soute lui permet d’emporter des charges très variées, et il occupe une place majeure dans l’histoire du Bomber Command. (1941 – 1964)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Avro_Lancaster"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-070",
+    "expectedDescription": "Le Ju 87 Stuka est un bombardier en piqué allemand à train fixe. Ses ailes en W et ses attaques plongeantes en font un appareil emblématique de l’appui aérien rapproché au début de la Seconde Guerre mondiale. (1935 – dernier vol à confirmer)",
+    "description": "Le Ju 87 Stuka est un bombardier en piqué allemand à train fixe. Ses ailes en W et ses attaques plongeantes en font un appareil emblématique de l’appui aérien rapproché au début de la Seconde Guerre mondiale. (1935 – retrait du service à confirmer)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Junkers_Ju_87"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-076",
+    "expectedDescription": "Le Vulcan est un bombardier britannique à aile delta, développé pendant la guerre froide. Membre de la force des V-bombers, il associe une silhouette spectaculaire à des missions initialement liées à la dissuasion nucléaire. (1952 – 2015)",
+    "description": "Le Vulcan est un bombardier britannique à aile delta, développé pendant la guerre froide. Membre de la force des V-bombers, il associe une silhouette spectaculaire à des missions initialement liées à la dissuasion nucléaire. (1952 – 1984)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Avro_Vulcan"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-082",
+    "expectedDescription": "Issu d’une coopération franco-allemande, le C-160 Transall est un avion de transport militaire à deux turbopropulseurs. Sa rampe arrière, sa robustesse et son adaptation aux terrains difficiles accompagnent de nombreuses opérations extérieures. (1963 – aujourd’hui)",
+    "description": "Issu d’une coopération franco-allemande, le C-160 Transall est un avion de transport militaire à deux turbopropulseurs. Sa rampe arrière, sa robustesse et son adaptation aux terrains difficiles accompagnent de nombreuses opérations extérieures. (1963 – 2026)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Transall_C-160",
+      "https://www.c160.au/clarification-of-facts-regarding-casa-public-comments-on-the-transall-c-160-program/"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  },
+  {
+    "code": "AVI-094",
+    "expectedDescription": "Le Blackbird est conçu pour la reconnaissance stratégique à très haute altitude et à plus de Mach 3. Sa cellule largement en titane et sa silhouette noire répondent aux contraintes extrêmes du vol à grande vitesse. (1964 – 1999)",
+    "description": "Le Blackbird est conçu pour la reconnaissance stratégique à très haute altitude et à plus de Mach 3. Sa cellule largement en titane et sa silhouette noire répondent aux contraintes extrêmes du vol à grande vitesse. (1964 – 1998)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird"
+    ],
+    "criterion": "Premier vol – retrait définitif du service militaire, tous pays confondus ; vols patrimoniaux exclus."
+  }
+]

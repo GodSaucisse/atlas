@@ -1,0 +1,927 @@
+[
+  {
+    "code": "MIL-001",
+    "name": "CPA 10",
+    "wikiTitle": "Commando parachutiste de l'air n° 10",
+    "rarityProposal": "Suprême",
+    "category": "Unité militaire",
+    "description": "Le commando parachutiste de l’air n° 10 est une unité des forces spéciales françaises. Il associe action au sol et intégration de moyens aériens au profit des opérations spéciales.",
+    "imageFile": "Écusson Commando Parachutiste de l'Air n° 10.svg",
+    "summary": "Commando français spécialisé dans les opérations spéciales aériennes."
+  },
+  {
+    "code": "MIL-002",
+    "name": "CPA 20",
+    "wikiTitle": "Commando parachutiste de l'air n° 20",
+    "rarityProposal": "Rare",
+    "category": "Unité militaire",
+    "description": "Le commando parachutiste de l’air n° 20 appartient à l’Armée de l’air et de l’espace. Il contribue notamment à la protection des forces et à des missions spécialisées de sécurité et d’intervention.",
+    "summary": "Commando français de protection et d’intervention spécialisée."
+  },
+  {
+    "code": "MIL-003",
+    "name": "CPA 30",
+    "wikiTitle": "Commando parachutiste de l'air n° 30",
+    "rarityProposal": "Légendaire",
+    "category": "Unité militaire",
+    "description": "Le commando parachutiste de l’air n° 30 est une unité des forces spéciales Air. Il développe notamment des capacités de récupération de personnel et d’intégration des moyens aériens.",
+    "summary": "Commando français spécialisé dans la récupération de personnel."
+  },
+  {
+    "code": "MIL-004",
+    "name": "1er RPIMa",
+    "wikiTitle": "1st Marine Infantry Parachute Regiment",
+    "rarityProposal": "Suprême",
+    "category": "Unité militaire",
+    "description": "Le 1er régiment de parachutistes d’infanterie de marine est une unité des forces spéciales de l’armée de Terre. Héritier des parachutistes français du SAS, il est spécialisé dans l’action spéciale.",
+    "summary": "Régiment français spécialisé dans l’action des forces spéciales."
+  },
+  {
+    "code": "MIL-005",
+    "name": "13e RDP",
+    "wikiTitle": "13th Parachute Dragoon Regiment",
+    "rarityProposal": "Légendaire",
+    "category": "Unité militaire",
+    "description": "Le 13e régiment de dragons parachutistes appartient aux forces spéciales Terre. Sa spécialité est la recherche du renseignement par des moyens humains, dans des milieux et des contextes variés.",
+    "summary": "Régiment français spécialisé dans le renseignement humain."
+  },
+  {
+    "code": "MIL-006",
+    "name": "2e REP",
+    "wikiTitle": "2nd Foreign Parachute Regiment",
+    "rarityProposal": "Précieuse",
+    "category": "Unité militaire",
+    "description": "Le 2e régiment étranger de parachutistes est une unité d’infanterie parachutiste de la Légion étrangère. Il associe les traditions légionnaires aux capacités d’intervention aéroportée.",
+    "summary": "Régiment parachutiste de la Légion étrangère française."
+  },
+  {
+    "code": "MIL-007",
+    "name": "1er RCP",
+    "wikiTitle": "1st Parachute Chasseur Regiment",
+    "rarityProposal": "Rare",
+    "category": "Unité militaire",
+    "description": "Le 1er régiment de chasseurs parachutistes est une unité d’infanterie parachutiste française. Il appartient aux troupes aéroportées et peut être engagé dans des opérations terrestres ou aéroportées.",
+    "summary": "Régiment français d’infanterie destiné à l’intervention aéroportée."
+  },
+  {
+    "code": "MIL-008",
+    "name": "3e RPIMa",
+    "wikiTitle": "3rd Marine Infantry Parachute Regiment",
+    "rarityProposal": "Rare",
+    "category": "Unité militaire",
+    "description": "Le 3e régiment de parachutistes d’infanterie de marine appartient aux troupes de marine. Cette unité d’infanterie parachutiste est destinée à l’intervention et au combat terrestre.",
+    "imageFile": "Insigne régimentaire du 3e RPIMA.JPG",
+    "summary": "Régiment parachutiste français appartenant aux troupes de marine."
+  },
+  {
+    "code": "MIL-009",
+    "name": "8e RPIMa",
+    "wikiTitle": "8th Marine Infantry Parachute Regiment",
+    "rarityProposal": "Rare",
+    "category": "Unité militaire",
+    "description": "Le 8e régiment de parachutistes d’infanterie de marine est une unité d’infanterie aéroportée française. Il combine les savoir-faire des parachutistes et les traditions des troupes de marine.",
+    "summary": "Unité parachutiste française des troupes de marine."
+  },
+  {
+    "code": "MIL-010",
+    "name": "27e BCA",
+    "wikiTitle": "27th Battalion of Alpine Hunters",
+    "rarityProposal": "Rare",
+    "category": "Unité militaire",
+    "description": "Le 27e bataillon de chasseurs alpins est une unité d’infanterie de montagne française. Ses soldats sont formés au déplacement et au combat en terrain montagneux et par grand froid.",
+    "summary": "Bataillon français spécialisé dans le combat en montagne."
+  },
+  {
+    "code": "MIL-011",
+    "name": "2e REG",
+    "wikiTitle": "2nd Foreign Engineer Regiment",
+    "rarityProposal": "Inhabituelle",
+    "category": "Unité militaire",
+    "description": "Le 2e régiment étranger de génie est une unité de la Légion étrangère spécialisée dans le génie de montagne. Il soutient la mobilité, la protection et l’aménagement du terrain au profit des forces.",
+    "imageFile": "Insigne 2e régiment étranger de génie.jpg",
+    "summary": "Régiment légionnaire français du génie de montagne."
+  },
+  {
+    "code": "MIL-012",
+    "name": "1er REC",
+    "wikiTitle": "1st Foreign Cavalry Regiment",
+    "rarityProposal": "Rare",
+    "category": "Unité militaire",
+    "description": "Le 1er régiment étranger de cavalerie est l’unité de cavalerie blindée de la Légion étrangère. Il assure des missions de reconnaissance et de combat avec des engins blindés.",
+    "imageFile": "Insigne du 1er REC.jpg",
+    "summary": "Régiment français de cavalerie de la Légion étrangère."
+  },
+  {
+    "code": "MIL-013",
+    "name": "501e RCC",
+    "wikiTitle": "501st Tank Regiment",
+    "rarityProposal": "Rare",
+    "category": "Unité militaire",
+    "description": "Le 501e régiment de chars de combat est une unité blindée de l’armée de Terre. Son histoire et ses traditions sont étroitement liées au développement des chars français.",
+    "summary": "Régiment blindé français spécialisé dans les chars."
+  },
+  {
+    "code": "MIL-014",
+    "name": "35e RAP",
+    "wikiTitle": "35th Parachute Artillery Regiment",
+    "rarityProposal": "Inhabituelle",
+    "category": "Unité militaire",
+    "description": "Le 35e régiment d’artillerie parachutiste fournit des appuis d’artillerie aux troupes aéroportées françaises. Sa capacité de projection accompagne les unités parachutistes dans leurs engagements.",
+    "summary": "Régiment français d’artillerie au service des parachutistes."
+  },
+  {
+    "code": "MIL-015",
+    "name": "17e RGP",
+    "wikiTitle": "17th Parachute Engineer Regiment",
+    "rarityProposal": "Inhabituelle",
+    "category": "Unité militaire",
+    "description": "Le 17e régiment du génie parachutiste soutient les forces aéroportées françaises. Il apporte les capacités du génie, notamment pour la mobilité et la protection des unités.",
+    "summary": "Régiment français du génie des troupes aéroportées."
+  },
+  {
+    "code": "MIL-016",
+    "name": "Commando Hubert",
+    "wikiTitle": "Commando Hubert",
+    "rarityProposal": "Suprême",
+    "category": "Unité militaire",
+    "description": "Le commando Hubert est une unité des forces spéciales de la Marine nationale. Il est particulièrement associé aux nageurs de combat et aux opérations spéciales en milieu maritime.",
+    "imageFile": "Blason hubert.jpg",
+    "summary": "Commando français spécialisé dans les opérations subaquatiques."
+  },
+  {
+    "code": "MIL-017",
+    "name": "Commando Jaubert",
+    "wikiTitle": "Commando Jaubert",
+    "rarityProposal": "Précieuse",
+    "category": "Unité militaire",
+    "description": "Le commando Jaubert est l’un des commandos Marine français. Il conduit des missions d’action spéciale et d’intervention, notamment dans l’environnement maritime.",
+    "imageFile": "Insigne commando Jaubert.jpg",
+    "summary": "Commando Marine français spécialisé dans l’action spéciale."
+  },
+  {
+    "code": "MIL-018",
+    "name": "Commando de Montfort",
+    "wikiTitle": "Commando de Montfort",
+    "rarityProposal": "Rare",
+    "category": "Unité militaire",
+    "description": "Le commando de Montfort appartient aux forces spéciales de la Marine nationale. Il contribue aux opérations spéciales et à leurs appuis spécialisés.",
+    "summary": "Commando Marine français d’action et d’appui spécialisé."
+  },
+  {
+    "code": "MIL-019",
+    "name": "Commando Trépel",
+    "wikiTitle": "Commando Trépel",
+    "rarityProposal": "Précieuse",
+    "category": "Unité militaire",
+    "description": "Le commando Trépel est une unité des commandos Marine. Il est orienté vers l’action spéciale et l’intervention dans des environnements maritimes et terrestres.",
+    "summary": "Commando français d’intervention des forces spéciales maritimes."
+  },
+  {
+    "code": "MIL-020",
+    "name": "Commando de Penfentenyo",
+    "wikiTitle": "Commando de Penfentenyo",
+    "rarityProposal": "Rare",
+    "category": "Unité militaire",
+    "description": "Le commando de Penfentenyo est une unité des forces spéciales de la Marine nationale. Il contribue notamment à la reconnaissance et au renseignement dans le cadre des opérations spéciales.",
+    "summary": "Commando Marine français de reconnaissance et de renseignement."
+  },
+  {
+    "code": "MIL-021",
+    "name": "Commando Kieffer",
+    "wikiTitle": "Commando Kieffer",
+    "rarityProposal": "Rare",
+    "category": "Unité militaire",
+    "description": "Le commando Kieffer est une unité des commandos Marine créée en 2008. Il fournit des capacités d’appui spécialisé aux opérations spéciales de la Marine nationale.",
+    "imageFile": "Kieff10.jpg",
+    "summary": "Commando français d’appui spécialisé aux opérations spéciales."
+  },
+  {
+    "code": "MIL-022",
+    "name": "Commando Ponchardier",
+    "wikiTitle": "Commando Ponchardier",
+    "rarityProposal": "Rare",
+    "category": "Unité militaire",
+    "description": "Le commando Ponchardier appartient à la force des fusiliers marins et commandos. Il apporte des moyens d’appui et de soutien aux opérations spéciales de la Marine nationale.",
+    "summary": "Commando français de soutien aux opérations spéciales maritimes."
+  },
+  {
+    "code": "MIL-023",
+    "name": "SAS",
+    "wikiTitle": "Special Air Service",
+    "rarityProposal": "Légendaire",
+    "category": "Unité militaire",
+    "description": "Le Special Air Service est une unité des forces spéciales britanniques née pendant la Seconde Guerre mondiale. Il est associé à la reconnaissance spéciale, à l’action directe et au contre-terrorisme.",
+    "summary": "Unité britannique emblématique des forces spéciales terrestres."
+  },
+  {
+    "code": "MIL-024",
+    "name": "SBS",
+    "wikiTitle": "Special Boat Service",
+    "rarityProposal": "Précieuse",
+    "category": "Unité militaire",
+    "description": "Le Special Boat Service appartient aux forces spéciales britanniques. Il est particulièrement associé aux opérations spéciales maritimes et amphibies.",
+    "imageFile": "Insigne Special Boat Service (SBS).svg",
+    "summary": "Unité britannique spécialisée dans les opérations spéciales maritimes."
+  },
+  {
+    "code": "MIL-025",
+    "name": "75th Ranger Regiment",
+    "wikiTitle": "75th Ranger Regiment",
+    "rarityProposal": "Précieuse",
+    "category": "Unité militaire",
+    "description": "Le 75th Ranger Regiment est une unité d’infanterie légère des opérations spéciales de l’US Army. Il est notamment conçu pour des interventions rapides et des opérations aéroportées.",
+    "imageFile": "75th Ranger Regiment insignia.png",
+    "summary": "Régiment américain d’infanterie des forces d’opérations spéciales."
+  },
+  {
+    "code": "MIL-026",
+    "name": "FAMAS F1",
+    "wikiTitle": "FAMAS",
+    "rarityProposal": "Légendaire",
+    "category": "Arme à feu",
+    "description": "Le FAMAS F1 est un fusil d’assaut français à architecture bullpup, où le mécanisme et le chargeur se trouvent derrière la poignée. Sa silhouette est devenue emblématique de l’équipement du soldat français à la fin du XXe siècle.",
+    "summary": "Fusil d’assaut français reconnaissable à son architecture bullpup."
+  },
+  {
+    "code": "MIL-027",
+    "name": "HK416",
+    "wikiTitle": "Heckler & Koch HK416",
+    "rarityProposal": "Précieuse",
+    "category": "Arme à feu",
+    "description": "Le HK416 est une famille de fusils d’assaut allemands développée par Heckler & Koch. Elle équipe de nombreuses forces armées et comprend la version HK416F choisie pour l’armée française.",
+    "imageFile": "HK416N.png",
+    "summary": "Famille allemande de fusils d’assaut modernes."
+  },
+  {
+    "code": "MIL-028",
+    "name": "AK-47",
+    "wikiTitle": "AK-47",
+    "rarityProposal": "Légendaire",
+    "category": "Arme à feu",
+    "description": "L’AK-47 est un fusil d’assaut soviétique devenu l’un des modèles les plus reconnaissables au monde. Sa conception a donné naissance à une vaste famille d’armes et de productions sous licence.",
+    "summary": "Fusil d’assaut soviétique emblématique de la famille Kalachnikov."
+  },
+  {
+    "code": "MIL-029",
+    "name": "AK-74",
+    "wikiTitle": "AK-74",
+    "rarityProposal": "Rare",
+    "category": "Arme à feu",
+    "description": "L’AK-74 est un fusil d’assaut soviétique développé dans le prolongement de la famille Kalachnikov. Il se distingue notamment de l’AK-47 par l’emploi d’une munition de plus petit calibre.",
+    "summary": "Fusil d’assaut soviétique succédant aux premiers Kalachnikov."
+  },
+  {
+    "code": "MIL-030",
+    "name": "M16",
+    "wikiTitle": "M16 rifle",
+    "rarityProposal": "Précieuse",
+    "category": "Arme à feu",
+    "description": "Le M16 est une famille de fusils d’assaut américains issue de la plateforme AR-15. Il a profondément marqué l’équipement de l’infanterie américaine à partir des années 1960.",
+    "summary": "Famille américaine de fusils d’assaut issue de l’AR-15."
+  },
+  {
+    "code": "MIL-031",
+    "name": "M4 Carbine",
+    "wikiTitle": "M4 carbine",
+    "rarityProposal": "Rare",
+    "category": "Arme à feu",
+    "description": "La M4 est une carabine américaine dérivée de la famille M16. Plus compacte que le fusil dont elle est issue, elle est largement associée à l’équipement des forces américaines contemporaines.",
+    "summary": "Carabine américaine compacte dérivée de la famille M16."
+  },
+  {
+    "code": "MIL-032",
+    "name": "FN SCAR",
+    "wikiTitle": "FN SCAR",
+    "rarityProposal": "Précieuse",
+    "category": "Arme à feu",
+    "description": "Le FN SCAR est une famille de fusils conçue par FN Herstal pour répondre aux besoins des forces armées. Elle comprend plusieurs versions, dont les SCAR-L et SCAR-H.",
+    "imageFile": "FN SCAR-L noBG.png",
+    "summary": "Famille belge de fusils conçue pour les militaires."
+  },
+  {
+    "code": "MIL-033",
+    "name": "HK G36",
+    "wikiTitle": "Heckler & Koch G36",
+    "rarityProposal": "Rare",
+    "category": "Arme à feu",
+    "description": "Le G36 est un fusil d’assaut allemand développé par Heckler & Koch. Sa construction utilise largement les polymères et il est associé à la modernisation de l’infanterie allemande des années 1990.",
+    "summary": "Fusil d’assaut allemand à construction largement polymère."
+  },
+  {
+    "code": "MIL-034",
+    "name": "Steyr AUG",
+    "wikiTitle": "Steyr AUG",
+    "rarityProposal": "Rare",
+    "category": "Arme à feu",
+    "description": "Le Steyr AUG est un fusil d’assaut autrichien à architecture bullpup. Son dessin compact et sa poignée avant lui donnent une silhouette caractéristique.",
+    "summary": "Fusil d’assaut autrichien à architecture compacte bullpup."
+  },
+  {
+    "code": "MIL-035",
+    "name": "FN FAL",
+    "wikiTitle": "FN FAL",
+    "rarityProposal": "Précieuse",
+    "category": "Arme à feu",
+    "description": "Le FN FAL est un fusil de combat belge développé par FN Herstal après la Seconde Guerre mondiale. Son adoption par de nombreux pays en a fait une arme majeure de la guerre froide.",
+    "summary": "Fusil de combat belge emblématique de l’après-guerre."
+  },
+  {
+    "code": "MIL-036",
+    "name": "SIG SG 550",
+    "wikiTitle": "SIG SG 550",
+    "rarityProposal": "Rare",
+    "category": "Arme à feu",
+    "description": "Le SIG SG 550 est un fusil d’assaut suisse. Il est notamment connu sous la désignation de fusil d’assaut 90 dans l’armée suisse.",
+    "summary": "Fusil d’assaut suisse également désigné F ass 90."
+  },
+  {
+    "code": "MIL-037",
+    "name": "HK MP5",
+    "wikiTitle": "Heckler & Koch MP5",
+    "rarityProposal": "Précieuse",
+    "category": "Arme à feu",
+    "description": "Le MP5 est un pistolet-mitrailleur allemand développé par Heckler & Koch. Sa famille de variantes est devenue emblématique de nombreuses unités militaires et d’intervention.",
+    "summary": "Pistolet-mitrailleur allemand emblématique des unités d’intervention."
+  },
+  {
+    "code": "MIL-038",
+    "name": "FN P90",
+    "wikiTitle": "FN P90",
+    "rarityProposal": "Rare",
+    "category": "Arme à feu",
+    "description": "Le P90 est une arme compacte belge conçue par FN Herstal. Son architecture bullpup et son chargeur placé au-dessus de l’arme constituent ses traits visuels les plus distinctifs.",
+    "summary": "Arme compacte belge au chargeur supérieur caractéristique."
+  },
+  {
+    "code": "MIL-039",
+    "name": "Uzi",
+    "wikiTitle": "Uzi",
+    "rarityProposal": "Rare",
+    "category": "Arme à feu",
+    "description": "L’Uzi est une famille de pistolets-mitrailleurs israéliens apparue après la Seconde Guerre mondiale. Son chargeur logé dans la poignée contribue à sa silhouette compacte.",
+    "imageFile": "UZI Submachine Gun (7414624230).jpg",
+    "summary": "Pistolet-mitrailleur israélien reconnaissable à sa silhouette compacte."
+  },
+  {
+    "code": "MIL-040",
+    "name": "Glock 17",
+    "wikiTitle": "Glock 17",
+    "rarityProposal": "Inhabituelle",
+    "category": "Arme à feu",
+    "description": "Le Glock 17 est un pistolet autrichien dont la carcasse fait largement appel aux polymères. Il a contribué à diffuser ce type de construction dans les armes de poing militaires et de service.",
+    "summary": "Pistolet autrichien de service à carcasse polymère."
+  },
+  {
+    "code": "MIL-041",
+    "name": "Beretta 92",
+    "wikiTitle": "Beretta 92",
+    "rarityProposal": "Inhabituelle",
+    "category": "Arme à feu",
+    "description": "Le Beretta 92 est une famille de pistolets italiens. Elle est notamment connue pour la version M9 adoptée par les forces armées américaines.",
+    "summary": "Famille italienne de pistolets militaires et de service."
+  },
+  {
+    "code": "MIL-042",
+    "name": "Colt M1911",
+    "wikiTitle": "M1911 pistol",
+    "rarityProposal": "Précieuse",
+    "category": "Arme à feu",
+    "description": "Le M1911 est un pistolet américain adopté au début du XXe siècle. Sa longue carrière militaire et ses nombreuses variantes lui ont donné une place importante dans l’histoire des armes de poing.",
+    "summary": "Pistolet américain emblématique du début du XXe siècle."
+  },
+  {
+    "code": "MIL-043",
+    "name": "FN Minimi",
+    "wikiTitle": "FN Minimi",
+    "rarityProposal": "Rare",
+    "category": "Arme à feu",
+    "description": "La FN Minimi est une mitrailleuse légère belge conçue pour l’appui du groupe d’infanterie. Plusieurs armées l’utilisent sous des désignations nationales, dont la M249 aux États-Unis.",
+    "summary": "Mitrailleuse légère belge d’appui aux groupes d’infanterie."
+  },
+  {
+    "code": "MIL-044",
+    "name": "FN MAG",
+    "wikiTitle": "FN MAG",
+    "rarityProposal": "Rare",
+    "category": "Arme à feu",
+    "description": "La FN MAG est une mitrailleuse polyvalente belge. Elle est utilisée sur trépied, avec l’infanterie ou intégrée à différents véhicules militaires.",
+    "summary": "Mitrailleuse polyvalente belge employée sur de nombreuses plateformes."
+  },
+  {
+    "code": "MIL-045",
+    "name": "Browning M2",
+    "wikiTitle": "M2 Browning",
+    "rarityProposal": "Légendaire",
+    "category": "Arme à feu",
+    "description": "La Browning M2 est une mitrailleuse lourde américaine développée au XXe siècle. Sa longévité et son installation sur de nombreux véhicules en ont fait un équipement militaire emblématique.",
+    "summary": "Mitrailleuse lourde américaine à la remarquable longévité."
+  },
+  {
+    "code": "MIL-046",
+    "name": "PKM",
+    "wikiTitle": "PK machine gun",
+    "rarityProposal": "Rare",
+    "category": "Arme à feu",
+    "description": "La PKM est une mitrailleuse polyvalente soviétique dérivée de la PK. Elle a été largement diffusée et peut être employée par l’infanterie ou sur différents affûts.",
+    "imageFile": "PK machine gun.jpg",
+    "summary": "Mitrailleuse polyvalente soviétique largement diffusée dans le monde."
+  },
+  {
+    "code": "MIL-047",
+    "name": "FR-F2",
+    "wikiTitle": "FR F2 sniper rifle",
+    "rarityProposal": "Rare",
+    "category": "Arme à feu",
+    "description": "Le FR-F2 est un fusil de précision français à répétition manuelle. Il succède au FR-F1 et a longtemps équipé les tireurs de précision des forces françaises.",
+    "summary": "Fusil français de précision à répétition manuelle."
+  },
+  {
+    "code": "MIL-048",
+    "name": "Accuracy International Arctic Warfare",
+    "wikiTitle": "Accuracy International Arctic Warfare",
+    "rarityProposal": "Précieuse",
+    "category": "Arme à feu",
+    "description": "L’Arctic Warfare est une famille de fusils de précision britannique développée par Accuracy International. Sa conception prend notamment en compte l’emploi dans des conditions climatiques difficiles.",
+    "summary": "Famille britannique de fusils de précision militaires."
+  },
+  {
+    "code": "MIL-049",
+    "name": "Barrett M82",
+    "wikiTitle": "Barrett M82",
+    "rarityProposal": "Précieuse",
+    "category": "Arme à feu",
+    "description": "Le Barrett M82 est un fusil américain de gros calibre. Il est associé à la catégorie des fusils antimatériels et possède une silhouette caractéristique avec un important frein de bouche.",
+    "summary": "Fusil antimatériel américain de gros calibre."
+  },
+  {
+    "code": "MIL-050",
+    "name": "SVD Dragunov",
+    "wikiTitle": "SVD (rifle)",
+    "rarityProposal": "Rare",
+    "category": "Arme à feu",
+    "description": "Le SVD est un fusil de précision semi-automatique soviétique apparu dans les années 1960. Il a été conçu pour étendre la capacité de tir de précision au sein des unités d’infanterie.",
+    "summary": "Fusil soviétique semi-automatique destiné aux tireurs de précision."
+  },
+  {
+    "code": "MIL-051",
+    "name": "VAB",
+    "wikiTitle": "Véhicule de l'Avant Blindé",
+    "rarityProposal": "Rare",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le véhicule de l’avant blindé est un transport de troupes français à roues. Décliné en de nombreuses versions, il a accompagné pendant plusieurs décennies les déploiements de l’armée de Terre.",
+    "summary": "Transport blindé français à roues aux multiples versions."
+  },
+  {
+    "code": "MIL-052",
+    "name": "VBL",
+    "wikiTitle": "Véhicule Blindé Léger",
+    "rarityProposal": "Rare",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le véhicule blindé léger est un engin français compact à quatre roues motrices. Il est notamment associé aux missions de reconnaissance, de liaison et d’accompagnement des unités.",
+    "summary": "Véhicule blindé français compact destiné à la reconnaissance."
+  },
+  {
+    "code": "MIL-053",
+    "name": "VBCI",
+    "wikiTitle": "VBCI",
+    "rarityProposal": "Précieuse",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le véhicule blindé de combat d’infanterie est un blindé français à huit roues motrices. Il transporte et protège un groupe de combat tout en lui apportant un appui-feu.",
+    "imageFile": "VBCI, nouvelles couleurs Armée de Terre (14 juillet 2021) (4).jpg",
+    "summary": "Blindé français à huit roues destiné à l’infanterie."
+  },
+  {
+    "code": "MIL-054",
+    "name": "Griffon",
+    "wikiTitle": "VBMR Griffon",
+    "rarityProposal": "Précieuse",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le Griffon est un véhicule blindé multirôle français du programme Scorpion. Il est conçu pour renouveler une partie des fonctions assurées par le VAB, avec plusieurs versions spécialisées.",
+    "summary": "Véhicule blindé multirôle français du programme Scorpion."
+  },
+  {
+    "code": "MIL-055",
+    "name": "Jaguar",
+    "wikiTitle": "EBRC Jaguar",
+    "rarityProposal": "Précieuse",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le Jaguar est un engin blindé français de reconnaissance et de combat du programme Scorpion. Ce véhicule à six roues renouvelle les moyens de la cavalerie légère blindée.",
+    "summary": "Blindé français de reconnaissance et de combat."
+  },
+  {
+    "code": "MIL-056",
+    "name": "Serval",
+    "wikiTitle": "VBMR-L Serval",
+    "rarityProposal": "Rare",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le Serval est un véhicule blindé multirôle léger français à quatre roues motrices. Il complète les autres véhicules du programme Scorpion dans différentes fonctions de transport et de soutien.",
+    "summary": "Véhicule blindé multirôle léger du programme Scorpion."
+  },
+  {
+    "code": "MIL-057",
+    "name": "AMX-10 RC",
+    "wikiTitle": "AMX-10 RC",
+    "rarityProposal": "Légendaire",
+    "category": "Véhicule militaire motorisé",
+    "description": "L’AMX-10 RC est un engin blindé français de reconnaissance à six roues, doté d’un canon de 105 mm. Malgré son armement, il appartient à la cavalerie de reconnaissance et ne constitue pas un char de bataille.",
+    "summary": "Engin français de reconnaissance blindée à six roues."
+  },
+  {
+    "code": "MIL-058",
+    "name": "ERC-90 Sagaie",
+    "wikiTitle": "ERC 90 Sagaie",
+    "rarityProposal": "Rare",
+    "category": "Véhicule militaire motorisé",
+    "description": "L’ERC-90 Sagaie est un véhicule blindé français à six roues. Son canon de 90 mm et sa mobilité l’ont associé aux missions de reconnaissance et d’appui des forces légères.",
+    "summary": "Automitrailleuse française à six roues et canon."
+  },
+  {
+    "code": "MIL-059",
+    "name": "Panhard AML",
+    "wikiTitle": "Panhard AML",
+    "rarityProposal": "Inhabituelle",
+    "category": "Véhicule militaire motorisé",
+    "description": "L’AML est une automitrailleuse légère française à quatre roues. Produite en plusieurs versions d’armement, elle a connu une large diffusion internationale.",
+    "summary": "Automitrailleuse légère française largement diffusée à l’étranger."
+  },
+  {
+    "code": "MIL-060",
+    "name": "CAESAR",
+    "wikiTitle": "CAESAR self-propelled howitzer",
+    "rarityProposal": "Légendaire",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le CAESAR est un système français d’artillerie de 155 mm monté sur camion. Il associe la mobilité routière d’un véhicule à roues aux capacités d’un canon d’artillerie.",
+    "summary": "Canon d’artillerie français de 155 mm sur camion."
+  },
+  {
+    "code": "MIL-061",
+    "name": "PzH 2000",
+    "wikiTitle": "Panzerhaubitze 2000",
+    "rarityProposal": "Précieuse",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le Panzerhaubitze 2000 est un obusier automoteur allemand de 155 mm sur châssis chenillé. Il appartient à la catégorie des véhicules d’artillerie, distincte de celle des chars de bataille.",
+    "summary": "Obusier automoteur allemand sur un châssis chenillé."
+  },
+  {
+    "code": "MIL-062",
+    "name": "M142 HIMARS",
+    "wikiTitle": "M142 HIMARS",
+    "rarityProposal": "Précieuse",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le HIMARS est un système américain de lance-roquettes multiple monté sur camion. Son module de lancement est intégré à un véhicule à roues conçu pour la mobilité et la projection.",
+    "summary": "Lance-roquettes multiple américain installé sur un camion."
+  },
+  {
+    "code": "MIL-063",
+    "name": "M270 MLRS",
+    "wikiTitle": "M270 Multiple Launch Rocket System",
+    "rarityProposal": "Rare",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le M270 est un lance-roquettes multiple sur châssis chenillé. Développé dans un cadre occidental, il a donné lieu à plusieurs versions nationales et modernisations.",
+    "summary": "Lance-roquettes multiple occidental sur un châssis chenillé."
+  },
+  {
+    "code": "MIL-064",
+    "name": "M2 Bradley",
+    "wikiTitle": "M2 Bradley",
+    "rarityProposal": "Rare",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le M2 Bradley est un véhicule de combat d’infanterie américain à chenilles. Il transporte des fantassins et leur apporte protection et appui-feu.",
+    "summary": "Véhicule américain de combat d’infanterie à chenilles."
+  },
+  {
+    "code": "MIL-065",
+    "name": "BMP-2",
+    "wikiTitle": "BMP-2",
+    "rarityProposal": "Rare",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le BMP-2 est un véhicule de combat d’infanterie soviétique à chenilles. Il succède au BMP-1 avec une tourelle et un armement principal différents.",
+    "summary": "Blindé soviétique chenillé de combat d’infanterie."
+  },
+  {
+    "code": "MIL-066",
+    "name": "CV90",
+    "wikiTitle": "Combat Vehicle 90",
+    "rarityProposal": "Précieuse",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le CV90 est une famille de véhicules blindés chenillés développée en Suède. Ses versions couvrent notamment le combat d’infanterie et différentes fonctions de soutien.",
+    "summary": "Famille suédoise de véhicules de combat chenillés."
+  },
+  {
+    "code": "MIL-067",
+    "name": "Stryker",
+    "wikiTitle": "Stryker",
+    "rarityProposal": "Rare",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le Stryker est une famille américaine de véhicules blindés à huit roues. Elle comprend des versions de transport, de reconnaissance, de commandement et d’appui spécialisé.",
+    "summary": "Famille américaine de blindés à huit roues."
+  },
+  {
+    "code": "MIL-068",
+    "name": "Boxer",
+    "wikiTitle": "Boxer (armoured fighting vehicle)",
+    "rarityProposal": "Précieuse",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le Boxer est un véhicule blindé à huit roues développé dans un cadre européen. Sa conception modulaire associe une plateforme de conduite à différents modules de mission.",
+    "imageFile": "GTK Boxer side.jpg",
+    "summary": "Blindé européen modulaire à huit roues motrices."
+  },
+  {
+    "code": "MIL-069",
+    "name": "Humvee",
+    "wikiTitle": "Humvee",
+    "rarityProposal": "Inhabituelle",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le HMMWV, couramment appelé Humvee, est une famille américaine de véhicules militaires légers à roues. Elle couvre des fonctions de transport, de liaison et de soutien.",
+    "summary": "Famille américaine de véhicules militaires légers tout-terrain."
+  },
+  {
+    "code": "MIL-070",
+    "name": "JLTV",
+    "wikiTitle": "Joint Light Tactical Vehicle",
+    "rarityProposal": "Rare",
+    "category": "Véhicule militaire motorisé",
+    "description": "Le Joint Light Tactical Vehicle est une famille américaine de véhicules militaires légers protégés. Il vise à associer mobilité tout-terrain et protection dans différentes missions tactiques.",
+    "imageFile": "M1278 JLTV Heavy Guns Carrier (JLTV-HGC).jpg",
+    "summary": "Véhicule militaire américain associant mobilité et protection."
+  },
+  {
+    "code": "MIL-071",
+    "name": "Leclerc",
+    "wikiTitle": "Leclerc tank",
+    "rarityProposal": "Suprême",
+    "category": "Char",
+    "description": "Le Leclerc est un char de bataille français entré en service dans les années 1990. Il se distingue notamment par son équipage de trois personnes et le chargement automatique de son canon principal.",
+    "imageFile": "Leclerc-IMG 1744-b.jpg",
+    "summary": "Char français de bataille à chargement automatique."
+  },
+  {
+    "code": "MIL-072",
+    "name": "AMX-30",
+    "wikiTitle": "AMX-30",
+    "rarityProposal": "Légendaire",
+    "category": "Char",
+    "description": "L’AMX-30 est un char de bataille français de la guerre froide. Sa conception a privilégié la mobilité et la puissance de feu, et son châssis a servi de base à plusieurs engins spécialisés.",
+    "summary": "Char français emblématique de la guerre froide."
+  },
+  {
+    "code": "MIL-073",
+    "name": "M1 Abrams",
+    "wikiTitle": "M1 Abrams",
+    "rarityProposal": "Légendaire",
+    "category": "Char",
+    "description": "Le M1 Abrams est une famille de chars de bataille américains. Son moteur à turbine et ses nombreuses évolutions de protection et d’équipement constituent des caractéristiques marquantes du programme.",
+    "summary": "Famille américaine de chars de bataille à turbine."
+  },
+  {
+    "code": "MIL-074",
+    "name": "Leopard 2",
+    "wikiTitle": "Leopard 2",
+    "rarityProposal": "Légendaire",
+    "category": "Char",
+    "description": "Le Leopard 2 est un char de bataille allemand apparu à la fin des années 1970. Ses différentes versions ont été adoptées par de nombreuses armées européennes et étrangères.",
+    "imageFile": "Leopard 2 A7.JPG",
+    "summary": "Char de bataille allemand largement adopté à l’étranger."
+  },
+  {
+    "code": "MIL-075",
+    "name": "Challenger 2",
+    "wikiTitle": "Challenger 2",
+    "rarityProposal": "Précieuse",
+    "category": "Char",
+    "description": "Le Challenger 2 est un char de bataille britannique. Il se distingue des principaux chars occidentaux de sa génération par son canon principal rayé de 120 mm.",
+    "imageFile": "Challenger 2 tank.JPEG",
+    "summary": "Char britannique de bataille au canon rayé."
+  },
+  {
+    "code": "MIL-076",
+    "name": "T-72",
+    "wikiTitle": "T-72",
+    "rarityProposal": "Précieuse",
+    "category": "Char",
+    "description": "Le T-72 est une famille de chars de bataille soviétiques à équipage de trois personnes. Très largement diffusé, il a donné lieu à de nombreuses variantes et modernisations nationales.",
+    "summary": "Char de bataille soviétique largement diffusé et modernisé."
+  },
+  {
+    "code": "MIL-077",
+    "name": "T-80",
+    "wikiTitle": "T-80",
+    "rarityProposal": "Rare",
+    "category": "Char",
+    "description": "Le T-80 est un char de bataille soviétique dont plusieurs versions utilisent une turbine à gaz. Certaines branches de la famille emploient toutefois une motorisation diesel.",
+    "summary": "Famille soviétique de chars à différentes motorisations."
+  },
+  {
+    "code": "MIL-078",
+    "name": "T-90",
+    "wikiTitle": "T-90",
+    "rarityProposal": "Précieuse",
+    "category": "Char",
+    "description": "Le T-90 est une famille de chars de bataille russes issue de l’évolution des blindés soviétiques. Elle associe un canon principal à chargement automatique et des configurations de protection variables selon les versions.",
+    "imageFile": "Modern T-90 tank of the Russian Army.jpg",
+    "summary": "Famille russe de chars de bataille modernes."
+  },
+  {
+    "code": "MIL-079",
+    "name": "Merkava",
+    "wikiTitle": "Merkava",
+    "rarityProposal": "Légendaire",
+    "category": "Char",
+    "description": "Le Merkava est une famille de chars de bataille israéliens. L’installation du moteur à l’avant constitue l’un des choix de conception qui caractérisent sa silhouette et son organisation interne.",
+    "imageFile": "Merkava-4-tank-67.jpg",
+    "summary": "Famille israélienne de chars au moteur avant."
+  },
+  {
+    "code": "MIL-080",
+    "name": "Type 99",
+    "wikiTitle": "Type 99 tank",
+    "rarityProposal": "Précieuse",
+    "category": "Char",
+    "description": "Le Type 99 est un char de bataille chinois. Il appartient aux générations de blindés qui ont accompagné la modernisation des forces terrestres chinoises.",
+    "summary": "Char de bataille chinois issu des programmes modernes."
+  },
+  {
+    "code": "MIL-081",
+    "name": "K2 Black Panther",
+    "wikiTitle": "K2 Black Panther",
+    "rarityProposal": "Précieuse",
+    "category": "Char",
+    "description": "Le K2 Black Panther est un char de bataille sud-coréen. Il associe un canon de 120 mm à chargement automatique et une suspension conçue pour s’adapter à des terrains variés.",
+    "summary": "Char sud-coréen moderne à chargement automatique."
+  },
+  {
+    "code": "MIL-082",
+    "name": "Type 10",
+    "wikiTitle": "Type 10",
+    "rarityProposal": "Rare",
+    "category": "Char",
+    "description": "Le Type 10 est un char de bataille japonais. Sa conception accorde une place importante à la mobilité, à la protection modulaire et aux échanges d’informations.",
+    "summary": "Char de bataille japonais à protection modulaire."
+  },
+  {
+    "code": "MIL-083",
+    "name": "Stridsvagn 103",
+    "wikiTitle": "Stridsvagn 103",
+    "rarityProposal": "Précieuse",
+    "category": "Char",
+    "description": "Le Stridsvagn 103 est un char suédois de la guerre froide dépourvu de tourelle. Son canon fixe et l’orientation de l’ensemble du véhicule lui donnent une architecture inhabituelle.",
+    "imageFile": "Stridsvagn 103.JPG",
+    "summary": "Char suédois sans tourelle à l’architecture singulière."
+  },
+  {
+    "code": "MIL-084",
+    "name": "M4 Sherman",
+    "wikiTitle": "M4 Sherman",
+    "rarityProposal": "Légendaire",
+    "category": "Char",
+    "description": "Le M4 Sherman est un char moyen américain de la Seconde Guerre mondiale. Produit en grand nombre et décliné en nombreuses versions, il a équipé les États-Unis et plusieurs armées alliées.",
+    "imageFile": "M4 Sherman tank.jpg",
+    "summary": "Char moyen américain emblématique de la Seconde Guerre."
+  },
+  {
+    "code": "MIL-085",
+    "name": "T-34",
+    "wikiTitle": "T-34",
+    "rarityProposal": "Légendaire",
+    "category": "Char",
+    "description": "Le T-34 est un char moyen soviétique de la Seconde Guerre mondiale. Il est devenu emblématique de cette période grâce à sa production massive et à l’évolution de ses différentes versions.",
+    "summary": "Char moyen soviétique emblématique de la Seconde Guerre."
+  },
+  {
+    "code": "MIL-086",
+    "name": "SAMP/T Mamba",
+    "wikiTitle": "SAMP/T",
+    "rarityProposal": "Légendaire",
+    "category": "Système sol-air",
+    "description": "Le SAMP/T est un système franco-italien de défense sol-air fondé sur le missile Aster 30. Appelé Mamba dans l’armée française, il associe radars, commandement et lanceurs terrestres.",
+    "summary": "Système franco-italien de défense sol-air utilisant l’Aster 30."
+  },
+  {
+    "code": "MIL-087",
+    "name": "Mistral",
+    "wikiTitle": "Mistral (missile)",
+    "rarityProposal": "Précieuse",
+    "category": "Système sol-air",
+    "description": "Le Mistral est une famille française de missiles sol-air à très courte portée. Elle peut être intégrée à différents postes et véhicules de lancement pour la défense antiaérienne rapprochée.",
+    "summary": "Missile français antiaérien à très courte portée."
+  },
+  {
+    "code": "MIL-088",
+    "name": "VL MICA",
+    "wikiTitle": "VL MICA",
+    "rarityProposal": "Précieuse",
+    "category": "Système sol-air",
+    "description": "Le VL MICA est un système de défense antiaérienne utilisant des missiles MICA à lancement vertical. Il existe notamment en version terrestre pour la protection d’unités et de sites.",
+    "summary": "Défense antiaérienne utilisant des missiles à lancement vertical."
+  },
+  {
+    "code": "MIL-089",
+    "name": "Patriot",
+    "wikiTitle": "MIM-104 Patriot",
+    "rarityProposal": "Légendaire",
+    "category": "Système sol-air",
+    "description": "Le Patriot est une famille américaine de systèmes de défense sol-air. Selon ses versions et ses intercepteurs, il contribue à la défense contre les aéronefs et certaines menaces balistiques.",
+    "summary": "Famille américaine de systèmes de défense sol-air."
+  },
+  {
+    "code": "MIL-090",
+    "name": "NASAMS",
+    "wikiTitle": "NASAMS",
+    "rarityProposal": "Précieuse",
+    "category": "Système sol-air",
+    "description": "Le NASAMS est un système de défense sol-air développé par la Norvège et les États-Unis. Son architecture met en réseau des capteurs, des centres de commandement et des lanceurs dispersés.",
+    "summary": "Système sol-air en réseau développé par deux nations."
+  },
+  {
+    "code": "MIL-091",
+    "name": "IRIS-T SLM",
+    "wikiTitle": "IRIS-T SLM launcher",
+    "rarityProposal": "Précieuse",
+    "category": "Système sol-air",
+    "description": "L’IRIS-T SLM est un système allemand de défense sol-air de moyenne portée. Il utilise une adaptation terrestre du missile IRIS-T au sein d’un ensemble comprenant radar et conduite de tir.",
+    "imageFile": "IRIS-T SLM launcher at ILA-2024.JPG",
+    "summary": "Système allemand de défense antiaérienne de moyenne portée."
+  },
+  {
+    "code": "MIL-092",
+    "name": "FIM-92 Stinger",
+    "wikiTitle": "FIM-92 Stinger",
+    "rarityProposal": "Rare",
+    "category": "Système sol-air",
+    "description": "Le Stinger est un missile sol-air américain portable à courte portée. Il peut aussi être intégré à des lanceurs montés sur véhicules.",
+    "summary": "Missile sol-air américain portable de courte portée."
+  },
+  {
+    "code": "MIL-093",
+    "name": "RBS 70",
+    "wikiTitle": "RBS 70",
+    "rarityProposal": "Rare",
+    "category": "Système sol-air",
+    "description": "Le RBS 70 est un système suédois de défense sol-air à courte portée. Il se distingue de nombreux missiles portables par son principe de guidage sur faisceau laser.",
+    "summary": "Système sol-air suédois à guidage laser."
+  },
+  {
+    "code": "MIL-094",
+    "name": "Starstreak",
+    "wikiTitle": "Starstreak",
+    "rarityProposal": "Rare",
+    "category": "Système sol-air",
+    "description": "Le Starstreak est un missile sol-air britannique à très courte portée. Il est proposé sur différents types de postes de tir et de plateformes terrestres.",
+    "summary": "Missile sol-air britannique destiné à la défense rapprochée."
+  },
+  {
+    "code": "MIL-095",
+    "name": "Crotale",
+    "wikiTitle": "Crotale (missile)",
+    "rarityProposal": "Rare",
+    "category": "Système sol-air",
+    "description": "Le Crotale est une famille française de systèmes sol-air à courte portée. Elle associe moyens de détection, conduite de tir et missiles pour la protection de forces ou de sites.",
+    "summary": "Famille française de systèmes antiaériens de courte portée."
+  },
+  {
+    "code": "MIL-096",
+    "name": "Roland",
+    "wikiTitle": "Roland (missile)",
+    "rarityProposal": "Rare",
+    "category": "Système sol-air",
+    "description": "Le Roland est un système de défense antiaérienne franco-allemand à courte portée. Ses missiles ont été intégrés à différentes plateformes terrestres, notamment chenillées.",
+    "imageFile": "AMX-30 Roland img 2306.jpg",
+    "summary": "Système antiaérien franco-allemand sur différentes plateformes terrestres."
+  },
+  {
+    "code": "MIL-097",
+    "name": "S-300",
+    "wikiTitle": "S-300 missile system",
+    "rarityProposal": "Légendaire",
+    "category": "Système sol-air",
+    "description": "Le S-300 désigne une famille soviétique puis russe de systèmes de défense sol-air. Ses versions, ses missiles et ses configurations sont variés et ne doivent pas être confondus avec un modèle unique.",
+    "summary": "Famille soviétique puis russe de systèmes sol-air."
+  },
+  {
+    "code": "MIL-098",
+    "name": "S-400",
+    "wikiTitle": "S-400 missile system",
+    "rarityProposal": "Légendaire",
+    "category": "Système sol-air",
+    "description": "Le S-400 est un système russe de défense sol-air associant radars, postes de commandement et lanceurs mobiles. Il peut employer différents missiles selon la configuration de la batterie.",
+    "summary": "Système russe de défense sol-air à lanceurs mobiles."
+  },
+  {
+    "code": "MIL-099",
+    "name": "Buk",
+    "wikiTitle": "Buk missile system",
+    "rarityProposal": "Précieuse",
+    "category": "Système sol-air",
+    "description": "Le Buk est une famille soviétique puis russe de systèmes sol-air mobiles de moyenne portée. Ses véhicules chenillés accompagnent une défense antiaérienne organisée autour de plusieurs moyens complémentaires.",
+    "summary": "Famille de systèmes antiaériens mobiles de moyenne portée."
+  },
+  {
+    "code": "MIL-100",
+    "name": "Tor",
+    "wikiTitle": "Tor missile system",
+    "rarityProposal": "Rare",
+    "category": "Système sol-air",
+    "description": "Le Tor est une famille soviétique puis russe de systèmes sol-air mobiles à courte portée. Il réunit sur une plateforme des équipements de détection, de suivi et de lancement.",
+    "summary": "Système sol-air mobile dédié à la défense rapprochée."
+  }
+]
