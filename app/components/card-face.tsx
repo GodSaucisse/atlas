@@ -38,7 +38,7 @@ export default function CardFace({card,imageHref,side='front'}:{card:Card;imageH
  const supreme=v.token==='supreme',gold=v.token==='legendary',luxury=supreme||gold,back=side==='back';
  const height=back&&(rarity==='Légendaire'||rarity==='Inhabituelle'||rarity==='Courante'||rarity==='Rare'||rarity==='Précieuse')?972*360/630:504,extra=height-504;
  const url=(n:string)=>`url(#${uid}${n})`,dark=mixHex(v.shadow,'#070b15',.4),ink=mixHex(v.light,'#ffffff',.88);
- const title=cardTitle(card.name||'Nom de la carte'),description=cardDescription(card.description||'La description de cette découverte apparaîtra ici.');
+ const title=cardTitle(card.name||'Nom de la carte'),description=cardDescription(card.illustrationOnly?'':card.description||'La description de cette découverte apparaîtra ici.');
  const photo=imageHref||(card.imageKey?`/api/media/${card.imageKey}`:'');
  const rim=supreme?'M17 3H343L357 17V487L343 501H17L3 487V17Z':`M16 3H344Q357 3 357 16V${488+extra}Q357 ${501+extra} 344 ${501+extra}H16Q3 ${501+extra} 3 ${488+extra}V16Q3 3 16 3Z`;
  const px=14,py=supreme?12:gold?48:80,pw=332,ph=supreme?480:gold?378:206.45;

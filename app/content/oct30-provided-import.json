@@ -1,0 +1,46 @@
+[
+  {
+    "code": "FIC-135",
+    "name": "Le Joker",
+    "universe": "Personnages fictifs",
+    "category": "Personnage de bande dessinée",
+    "rarity": "Suprême",
+    "imageKey": "0cddd17b-3d4d-4540-9bbc-208769dcb489.jpg",
+    "asset": "/designs/provided-joker-supreme/eb7460166253952b9090616ea6875209.jpg",
+    "sourceHash": "4049b018f60d862f45bba9ad859821f8dc7e915e329656f59ec4a121623c044c",
+    "imageHash": "dcb3479d899e768c30c253886e53a39cdbec77c0b01bdb5b651f27b05008c1a3"
+  },
+  {
+    "code": "FIC-130",
+    "name": "Iron Man",
+    "universe": "Personnages fictifs",
+    "category": "Personnage de bande dessinée",
+    "rarity": "Suprême",
+    "imageKey": "1fee001a-0abc-4c97-93c4-fceb93142dfe.jpg",
+    "asset": "/designs/provided-iron-man-supreme/0d3a8b932d94138b37226f032eb4ddb4.jpg",
+    "sourceHash": "a7b46893aa577f84191986ff1ff5fb8c9febb40bd2785594a126d62fc3a59c0d",
+    "imageHash": "90c677fa379a70c42711521b57dee6e8bb54c277f104b828361d531dbbbe9ce2"
+  },
+  {
+    "code": "ANI-101",
+    "name": "Éléphant de savane d’Afrique",
+    "universe": "Animaux",
+    "category": "Mammifères",
+    "rarity": "Suprême",
+    "imageKey": "23c4f99b-168c-49af-9c8f-3617d80f957e.jpg",
+    "asset": "/designs/provided-elephant-supreme/7d25e9f61a4dce33adbe1d9031f9e018.jpg",
+    "sourceHash": "08dd9af66018a1adf7c6d75f79dd40822d880111fd280c8a2a5a0beaee5e36f5",
+    "imageHash": "579731f5d7e6aec9cad6a03d82153ca05c3dd5a566fce5724b7c2ae0231b7126"
+  },
+  {
+    "code": "EDS-032",
+    "name": "Le Joker — Halloween",
+    "universe": "Editions spéciales",
+    "category": "Personnage de comics",
+    "rarity": "Editions spéciales",
+    "imageKey": "f8f526ef-aa95-4263-95e9-508b852205a0.jpg",
+    "asset": "/designs/provided-joker-halloween/d131f0f1fef6f510259bd1854b88cad6.jpg",
+    "sourceHash": "8125a699e543d662859a4683f8d51d9ccf6fbd7286f0f76d14f9b1cb847a2c36",
+    "imageHash": "a26a5a92b81064b0deba76478d8ff84e893f8b7a0912d6a8a8838358ca378f22"
+  }
+]

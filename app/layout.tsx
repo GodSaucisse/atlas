@@ -1,3 +1,8 @@
+import './components/oct31-provided-card.css';
+import './components/oct30-provided-card.css';
+import './components/comics-edition-card.css';
+import './components/champion-jaylen-card.css';
+import './components/fauna-history-card.css';
 import './components/remaining-supreme-card.css';
 import './components/october-supreme-card.css';
 import './components/saint-pierre-card.css';

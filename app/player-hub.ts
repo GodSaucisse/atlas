@@ -1,8 +1,9 @@
+import {recordRecycling} from './progression';
 import type {PublicProfile} from './player-profile';
 import type {Card} from './model';
 import type {TestGame} from './test-game-engine';
 export const SALE_DURATIONS=[10,30,45,60,180,360] as const;
-export const RECYCLE:Record<string,number>={Courante:1,Inhabituelle:5,Rare:10,Précieuse:25,Légendaire:50,Suprême:100,'Editions spéciales':100};
+export const RECYCLE:Record<string,number>={Courante:3,Inhabituelle:6,Rare:15,Précieuse:30,Légendaire:60,Suprême:150,'Editions spéciales':200};
 export type Listing={id:string;seller:string;card:Card;price:number;kind:'sale'|'auction';end:number;bidder?:string;buyer?:string;watchers?:string[];reminded?:boolean;remindedUsers?:string[];status:'open'|'sold'|'cancelled';};
 export type Offer={id:string;from:string;to:string;card:Card;cards?:Card[];wanted?:string;wantedIds?:string[];end:number;status:'open'|'accepted'|'declined'};
 export type SiteNotice={id:string;user:string;text:string;at:number;read?:boolean;deleted?:boolean;messageId?:string;conversationFrom?:string};
@@ -13,7 +14,7 @@ export const emptyHub=():Hub=>({token:crypto.randomUUID(),listings:[],offers:[],
 export function operate(h:Hub,games:Map<string,TestGame>,who:string,input:any,players:Player[],now:number){
  const before=JSON.stringify(h);h.notifications??=[];const name=(id:string)=>players.find(p=>p.id===id)?.name||'Un joueur';const notify=(user:string,text:string,extra:Partial<SiteNotice>={})=>{h.notifications!.push({id:crypto.randomUUID(),user,text,at:now,...extra});};const g=games.get(who)!;if(!g)throw Error('Partie introuvable');
  const get=(id:string)=>{const p=games.get(id);if(!p)throw Error('Partie du destinataire indisponible');return p};
- const take=(p:TestGame,id:string)=>{const i=p.inventory.findIndex(c=>c.id===id);if(i<0)throw Error('Carte indisponible dans la collection');return p.inventory.splice(i,1)[0]};
+ const take=(p:TestGame,id:string)=>{const i=p.inventory.findIndex(c=>(c.instanceId===id||c.id===id)&&!c.locked);if(i<0)throw Error('Exemplaire indisponible ou verrouillé');return p.inventory.splice(i,1)[0]};
  const amount=(n:unknown)=>{if(!Number.isSafeInteger(n)||Number(n)<1||Number(n)>1000000000)throw Error('Montant invalide');return Number(n)};
  const debit=(p:TestGame,n:number)=>{if(p.shards<n)throw Error('Éclats insuffisants');p.shards-=n};
  for(const l of h.listings.filter(l=>l.status==='open'&&l.kind==='sale'&&l.end>0&&l.end<=now)){get(l.seller).inventory.push(l.card);l.status='cancelled';notify(l.seller,`La vente directe de ${l.card.name} est terminée ; votre carte est revenue dans votre collection.`)}
@@ -24,19 +25,20 @@ export function operate(h:Hub,games:Map<string,TestGame>,who:string,input:any,pl
  const action=input.action;
  if(action==='list') {const price=amount(input.price);const kind=input.kind==='auction'?'auction':'sale';const minutes=Number(input.minutes);if(!SALE_DURATIONS.includes(minutes as typeof SALE_DURATIONS[number]))throw Error('Durée invalide');h.listings.push({id:crypto.randomUUID(),seller:who,card:take(g,input.cardId),price,kind,end:now+minutes*60000,status:'open'});}
  else if(action==='buy'||action==='bid'||action==='cancel') {const l=h.listings.find(l=>l.id===input.id&&l.status==='open');if(!l)throw Error('Annonce terminée');if(action==='cancel'){if(l.seller!==who||l.bidder)throw Error('Annulation impossible');g.inventory.push(l.card);l.status='cancelled'}else{if(l.seller===who)throw Error('Vous ne pouvez pas acheter votre propre carte');if(action==='buy'){if(l.kind!=='sale')throw Error('Cette carte est aux enchères');debit(g,l.price);get(l.seller).shards+=l.price;g.inventory.push(l.card);l.buyer=who;l.status='sold';notify(l.seller,`${name(who)} vous a acheté ${l.card.name} pour ${l.price} éclats.`);notify(who,`Vous avez acheté ${l.card.name} à ${name(l.seller)} pour ${l.price} éclats.`)}else{if(l.kind!=='auction'||l.end<=now)throw Error('Enchère terminée');const bid=amount(input.price);if(bid<l.price+(l.bidder?1:0))throw Error('Enchère trop faible');if(l.bidder===who)g.shards+=l.price;debit(g,bid);if(l.bidder&&l.bidder!==who){get(l.bidder).shards+=l.price;notify(l.bidder,`${name(who)} a surenchéri sur ${l.card.name} : ${bid} éclats. Votre mise a été remboursée.`)}notify(l.seller,`${name(who)} a enchéri ${bid} éclats sur ${l.card.name}.`);l.watchers=[...new Set([...(l.watchers||[]),who])];l.price=bid;l.bidder=who;if(l.end-now<=10000&&l.end-now>0)l.end+=30000;}}}
- else if(action==='recycle'){if(input.confirm!==true)throw Error('Confirmez le recyclage');const c=take(g,input.cardId);const reward=RECYCLE[c.rarity||'']||1;g.shards+=reward;notify(who,`${c.name} recyclée : +${reward} éclats.`);}
+ else if(action==='recycle'){if(input.confirm!==true)throw Error('Confirmez le recyclage');const model=g.inventory.find(c=>c.instanceId===input.cardId||c.id===input.cardId);const duplicate=!!model&&g.inventory.filter(c=>c.id===model.id).length>1;const c=take(g,input.cardId);recordRecycling(g,c,duplicate,now);const reward=RECYCLE[c.rarity||'']||1;g.shards+=reward;notify(who,`${c.name} recyclée : +${reward} éclats.`);}
+ else if(action==='lock'){const c=g.inventory.find(c=>c.instanceId===input.instanceId);if(!c||typeof input.locked!=='boolean')throw Error('Exemplaire invalide.');c.locked=input.locked;}
  else if(action==='offer'){
  if(input.to===who||!h.friends.some(f=>f.status==='accepted'&&((f.from===who&&f.to===input.to)||(f.to===who&&f.from===input.to))))throw Error('Choisissez un ami ajouté.');
  const ids=input.cardIds??[input.cardId],wanted=input.wantedIds??(input.wanted?[input.wanted]:[]);
  if(!Array.isArray(ids)||ids.length<1||ids.length>5||!ids.every(id=>typeof id==='string')||!Array.isArray(wanted)||wanted.length>5||!wanted.every(id=>typeof id==='string'))throw Error('Choisissez de 1 à 5 cartes à proposer et 5 cartes maximum à recevoir.');
- const check=(inventory:Card[],ids:string[])=>{const available=inventory.slice();for(const id of ids){const i=available.findIndex(c=>c.id===id);if(i<0)throw Error('Une carte ou un exemplaire est indisponible.');available.splice(i,1)}};
+ const check=(inventory:Card[],ids:string[])=>{const available=inventory.filter(c=>!c.locked);for(const id of ids){const i=available.findIndex(c=>c.id===id);if(i<0)throw Error('Une carte ou un exemplaire est indisponible.');available.splice(i,1)}};
  check(g.inventory,ids);check(get(input.to).inventory,wanted);
  const cards=ids.map(id=>take(g,id));h.offers.push({id:crypto.randomUUID(),from:who,to:input.to,card:cards[0],cards,wanted:wanted[0],wantedIds:wanted,end:now+48*3600000,status:'open'});
  notify(input.to,`${name(who)} vous propose ${wanted.length?'un échange':'un don'} : ${cards.map(c=>c.name).join(', ')}.`);notify(who,`Proposition envoyée à ${name(input.to)}.`);
  }
  else if(action==='accept'||action==='decline'){
  const o=h.offers.find(o=>o.id===input.id&&o.status==='open');if(!o||o.to!==who)throw Error('Proposition indisponible');
- if(action==='accept'){const wanted=o.wantedIds??(o.wanted?[o.wanted]:[]);const available=g.inventory.slice();for(const id of wanted){const i=available.findIndex(c=>c.id===id);if(i<0)throw Error('Une carte demandée est indisponible.');available.splice(i,1)}const received=wanted.map(id=>take(g,id));get(o.from).inventory.push(...received);g.inventory.push(...(o.cards||[o.card]));o.status='accepted';}
+ if(action==='accept'){const wanted=o.wantedIds??(o.wanted?[o.wanted]:[]);const available=g.inventory.filter(c=>!c.locked);for(const id of wanted){const i=available.findIndex(c=>c.id===id);if(i<0)throw Error('Une carte demandée est indisponible.');available.splice(i,1)}const received=wanted.map(id=>take(g,id));get(o.from).inventory.push(...received);g.inventory.push(...(o.cards||[o.card]));o.status='accepted';}
  else{get(o.from).inventory.push(...(o.cards||[o.card]));o.status='declined'}
  notify(o.from,`${name(who)} a ${action==='accept'?'accepté':'refusé'} votre proposition pour ${o.card.name}.`);notify(who,`Proposition ${action==='accept'?'acceptée':'refusée'} : ${o.card.name}.`);
  }

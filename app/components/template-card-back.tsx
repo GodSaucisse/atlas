@@ -12,7 +12,7 @@ export function hasTemplateBack(rarity:string|null){return Boolean(rarity&&THEME
 // Reuse the recto artwork in edge slices, without its photograph or caption layout.
 export default function TemplateCardBack({card}:{card:Card}){
  const rarity=displayRarity(card)||'Courante',theme=THEMES[rarity];const id='back'+useId().replace(/[^a-zA-Z0-9]/g,'');
- const height=972*360/630,title=cardTitle(card.name||'Nom de la carte'),description=cardDescription(card.description||'La description de cette découverte apparaîtra ici.');
+ const height=972*360/630,title=cardTitle(card.name||'Nom de la carte'),description=cardDescription(card.illustrationOnly?'':card.description||'La description de cette découverte apparaîtra ici.');
  const asset=`/templates/${theme.asset}-v1.png`,url=(s:string)=>`url(#${id}${s})`;
  const slice=(box:string,x:number,y:number,width:number,h:number)=><svg x={x} y={y} width={width} height={h} viewBox={box} preserveAspectRatio="none" overflow="hidden"><image href={asset} width="630" height="972"/></svg>;
  return <svg className="atlas-card-face atlas-template-back" viewBox={`0 0 360 ${height}`} xmlns="http://www.w3.org/2000/svg" role="img" data-side="back" data-layout="text" data-rarity={rarity} aria-labelledby={`${id}title ${id}desc`} fontFamily={CARD_FONT}>

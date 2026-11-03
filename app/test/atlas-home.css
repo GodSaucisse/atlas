@@ -19,3 +19,11 @@
 .test-game .album-art-native .album-count-pill{bottom:0;right:9px;font-size:11px;line-height:1.4;padding:2px 8px}
 
 .market-nav-count{display:inline-grid;place-items:center;margin-left:7px;min-width:22px;height:22px;padding:0 5px;border-radius:20px;background:#b649cf;color:#fff;font-size:12px}.album-hidden{cursor:pointer;padding:0;border:0;background:none;font:inherit;color:inherit}.album-hidden:focus-visible{outline:3px solid #6de5ff;outline-offset:4px}.opening-recycle{position:relative;z-index:12;text-align:center}.opening-recycle p{font-size:13px}
+
+/* Compact navigation keeps every destination, including Roues, visible. */
+.test-game .atlas-header{gap:clamp(12px,1.5vw,24px)}
+.test-game .atlas-header nav[aria-label="Navigation principale"]{min-width:0;display:flex;flex-wrap:wrap;justify-content:flex-start;gap:0 10px;overflow:visible}
+.test-game .atlas-header nav[aria-label="Navigation principale"] button{flex:0 0 auto;white-space:nowrap;font-size:11.5px;letter-spacing:.65px;line-height:1.3;padding:12px 0;min-height:40px}
+.test-game .atlas-header nav[aria-label="Navigation principale"] .active:after{bottom:3px;height:2px}
+@media(min-width:761px) and (max-width:1100px){.test-game .atlas-header nav[aria-label="Navigation principale"]{gap:0 8px}.test-game .atlas-header nav[aria-label="Navigation principale"] button{font-size:10.5px;letter-spacing:.35px}}
+@media(max-width:760px){.test-game .atlas-header{height:auto;min-height:145px;padding:15px 0 10px;gap:8px 0}.test-game .atlas-header nav[aria-label="Navigation principale"]{order:3;width:100%;flex-basis:100%;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0 4px}.test-game .atlas-header nav[aria-label="Navigation principale"] button{min-width:0;min-height:40px;font-size:10.5px;letter-spacing:.2px;white-space:normal;line-height:1.25;padding:9px 2px;text-align:center}.test-game .atlas-header nav[aria-label="Navigation principale"] .active:after{left:8%;right:8%;bottom:2px}}

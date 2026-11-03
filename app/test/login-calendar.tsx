@@ -1,0 +1,13 @@
+'use client';
+import {useEffect,useState} from 'react';
+import {LOGIN_REWARDS,type Progression} from '../progression';
+export function LoginCalendar({login}:{login:Progression['login']}){
+ const [celebrate,setCelebrate]=useState(false),latest=login?.history.at(-1);
+ useEffect(()=>{if(!latest)return;const key='atlas-login-reward:'+latest.at;if(sessionStorage.getItem(key))return;sessionStorage.setItem(key,'1');if(Date.now()-latest.at<120000){setCelebrate(true);const t=setTimeout(()=>setCelebrate(false),6000);return()=>clearTimeout(t)}},[latest?.at]);
+ return <section className="login-rewards" aria-labelledby="login-rewards-title"><header><div><span className="xp-eyebrow">LE RENDEZ-VOUS ATLAS</span><h2 id="login-rewards-title">Récompenses de connexion</h2><p>7 jours consécutifs · 875 Éclats et deux boosters par cycle.</p></div><strong>{login?.day||0} / 7 jours</strong></header>
+ <div className="login-calendar">{LOGIN_REWARDS.map((reward,i)=>{const day=i+1,received=!!login&&day<=login.day,current=day===login?.day;return <article key={day} className={`${received?'received':''} ${current?'current':''} ${day===7?'final-day':''}`} aria-current={current?'step':undefined}><span>JOUR {day}</span>{'pack' in reward?<img src={`/boosters/premium-${reward.pack==='evenement'?'epique':'classique'}.png`} alt={`Booster ${reward.pack==='evenement'?'Épique':'Classique'}`} width={92} height={120}/>:<b className="login-coin" aria-hidden="true">É</b>}<strong>{'pack' in reward?`1 booster ${reward.pack==='evenement'?'Épique':'Classique'}`:`${reward.shards} Éclats`}</strong>{'pack' in reward&&reward.shards>0&&<strong>+ {reward.shards} Éclats</strong>}<small>{received?'✓ Reçu':day===7?'Le grand rendez-vous':'À atteindre'}</small></article>})}</div>
+ <p className="xp-note">Attribution automatique à la première activité de la journée, à l’heure de Paris. Un jour manqué ramène au jour 1. Après le jour 7, un nouveau cycle commence. Les boosters attendent dans « Mes boosters ».</p>
+ {celebrate&&latest&&<div className="login-celebration" role="status"><strong>Jour {latest.day} · Récompense reçue !</strong><span>{latest.shards>0?`+${latest.shards} Éclats`:''}{latest.packIds.length?`${latest.shards?' · ':''}1 booster en réserve`:''}</span></div>}
+ {login&&<details className="xp-history"><summary>Historique des connexions récompensées</summary>{login.history.slice().reverse().map(r=><article key={r.id}><span>{r.date} · Jour {r.day} · Cycle {r.cycle}</span><strong>{r.shards>0?`+${r.shards} Éclats`:''}{r.packIds.length?' · 1 booster en réserve':''}</strong></article>)}</details>}
+ </section>;
+}

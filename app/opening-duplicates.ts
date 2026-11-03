@@ -1,3 +1,4 @@
+import {recordRecycling} from './progression';
 import {RECYCLE} from './player-hub';
 import type {TestGame} from './test-game-engine';
 // A new model's first copy is new; later copies in the same pack are duplicates.
@@ -19,7 +20,8 @@ export function openingDuplicateSlots(game:TestGame,openingId:string){
 export function openingDuplicates(game:TestGame,openingId:string){
  if(!game.lastOpening||game.lastOpening.id!==openingId||game.lastOpening.recycled)return [];
  const counts=new Map<string,number>();for(const c of game.inventory)counts.set(c.id,(counts.get(c.id)||0)+1);
+ const unlocked=new Map<string,number>();for(const c of game.inventory)if(!c.locked)unlocked.set(c.id,(unlocked.get(c.id)||0)+1);
  const opened=new Map<string,{card:TestGame['inventory'][number];count:number}>();for(const card of game.lastOpening.cards){const item=opened.get(card.id);if(item)item.count++;else opened.set(card.id,{card,count:1});}
- return [...opened.values()].map(({card,count})=>({card,count:Math.min(count,Math.max(0,(counts.get(card.id)||0)-1)),shards:RECYCLE[card.rarity||'']||1})).filter(c=>c.count>0);
+ return [...opened.values()].map(({card,count})=>({card,count:Math.min(count,unlocked.get(card.id)||0,Math.max(0,(counts.get(card.id)||0)-1)),shards:RECYCLE[card.rarity||'']||1})).filter(c=>c.count>0);
 }
-export function recycleOpeningDuplicates(game:TestGame,openingId:string){const items=openingDuplicates(game,openingId);if(!items.length)throw Error('Aucun doublon de cette ouverture à recycler.');let total=0;const slots:number[]=[];for(const item of items){slots.push(...game.lastOpening!.cards.map((c,i)=>c.id===item.card.id?i:-1).filter(i=>i>=0).slice(-item.count));}for(const item of items)for(let i=0;i<item.count;i++){const index=game.inventory.findIndex(c=>c.id===item.card.id);game.inventory.splice(index,1);total+=item.shards;}game.shards+=total;game.lastOpening!.recycled=true;game.lastOpening!.recycledSlots=slots.sort((a,b)=>a-b);return total;}
+export function recycleOpeningDuplicates(game:TestGame,openingId:string,now=Date.now()){const items=openingDuplicates(game,openingId);if(!items.length)throw Error('Aucun doublon de cette ouverture à recycler.');let total=0;const slots:number[]=[];for(const item of items){slots.push(...game.lastOpening!.cards.map((c,i)=>c.id===item.card.id?i:-1).filter(i=>i>=0).slice(-item.count));}for(const item of items)for(let i=0;i<item.count;i++){const index=game.inventory.findIndex(c=>c.id===item.card.id&&!c.locked);if(index<0)throw Error('Exemplaire verrouillé ou indisponible.');const [removed]=game.inventory.splice(index,1);recordRecycling(game,removed,true,now);total+=item.shards;}game.shards+=total;game.lastOpening!.recycled=true;game.lastOpening!.recycledSlots=slots.sort((a,b)=>a-b);return total;}

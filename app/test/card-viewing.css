@@ -7,13 +7,40 @@ dialog.card-lightbox::backdrop{background:rgba(3,6,20,.94);backdrop-filter:blur(
 .card-lightbox-close{position:absolute;top:max(14px,env(safe-area-inset-top));right:max(14px,env(safe-area-inset-right));z-index:2;width:44px;height:44px;display:grid;place-items:center;padding:0;border:1px solid #c9d2ff66;border-radius:50%;background:#161c38e6;color:white;font:600 22px var(--font-atlas);cursor:pointer}
 .card-lightbox-close:hover{background:#333c66}
 .card-lightbox-close:focus-visible{outline:3px solid #9bdcff;outline-offset:3px}
-/* The scroll container stays the reader backdrop. The left column sticks in it. */
+/* Large album reader; the artwork opens a full-viewport card on tap. */
+.test-game .card-reader{width:min(1240px,100%);grid-template-columns:minmax(220px,330px) minmax(0,1fr);gap:44px}
 .test-game .card-reader>.reader-left{position:sticky;top:24px;align-self:start;min-width:0}
-.test-game .card-reader>.reader-left>.atlas-card{width:min(100%,calc(max(120px,90dvh - 180px)*.6481481481));margin-left:auto;margin-right:auto}
-@media(max-width:620px){
- .test-game .card-reader>.reader-left{top:12px;z-index:2;display:grid;grid-template-columns:minmax(0,140px) minmax(0,1fr);align-items:center;gap:12px;width:100%;max-width:none;margin:0 0 24px;padding:12px;border:1px solid #626c9955;border-radius:14px;background:#141a36;box-shadow:0 12px 24px #05091d66}
- .test-game .card-reader>.reader-left>.atlas-card{width:min(140px,calc(28dvh*.6481481481));max-width:100%;justify-self:center}
- .test-game .card-reader>.reader-left>.reader-actions{flex-direction:column;gap:8px;margin:0;align-self:center}
- .test-game .card-reader>.reader-left>.reader-actions>button{flex:none;width:100%;height:38px}
- .test-game .card-reader>.reader-left>.reader-form,.test-game .card-reader>.reader-left>[role=alert]{grid-column:1/-1}
+.reader-artwork{position:relative;display:block;width:100%;margin:0 auto;padding:0;border:0;border-radius:14px;background:transparent;color:inherit;cursor:zoom-in}
+.reader-artwork>.atlas-card{width:100%;max-width:none}
+.reader-artwork:focus-visible{outline:3px solid #9bdcff;outline-offset:6px}
+.reader-enlarge-hint{position:absolute;bottom:12px;right:12px;z-index:80;padding:7px 11px;border:1px solid #c9d2ff66;border-radius:20px;background:#10162fe6;color:#fff;font:600 12px var(--font-atlas);pointer-events:none}
+@media(max-width:900px){
+ .test-game .card-reader{grid-template-columns:minmax(210px,40%) minmax(0,1fr);gap:25px;padding:65px 24px 28px}
 }
+@media(max-width:620px){
+ .test-game .reader-backdrop{padding:12px}
+ .test-game .card-reader{grid-template-columns:minmax(0,1fr);gap:28px;padding:65px 16px 28px}
+ .test-game .card-reader>.reader-left{position:relative;top:auto;width:100%;max-width:none;margin:0;display:block}
+ .test-game .reader-artwork{width:min(100%,calc(46svh * .6481481481));max-width:250px}
+ .test-game .reader-actions{justify-content:center;gap:8px;margin-top:20px}
+ .test-game .reader-actions>button{flex:1;max-width:150px;min-width:0}
+}
+
+/* Reduce the displayed card, never the source artwork or its native canvas. */
+.test-game .test-collection .inspect-card>.atlas-card:is([data-rarity="Suprême"],[data-rarity="Editions spéciales"]){width:85%;max-width:280px}
+
+.album-rarity-groups{display:grid;gap:32px}
+.album-rarity-group{min-width:0}
+.album-rarity-heading{display:flex;align-items:center;gap:14px;margin:0 0 18px;padding:11px 0;border-bottom:1px solid #65749b55;color:var(--album-rarity-color);font-size:16px;line-height:1.4;font-weight:650}
+.album-rarity-heading:before{content:"";width:4px;height:20px;flex:none;border-radius:3px;background:var(--album-rarity-color)}
+.album-rarity-heading small{margin-left:auto;color:#b7c4e5;font-size:12px;font-weight:500;font-variant-numeric:tabular-nums;white-space:nowrap}
+@media(max-width:620px){.album-rarity-groups{gap:24px}.album-rarity-heading{font-size:14px;margin-bottom:14px}.album-rarity-heading small{font-size:11px}}
+
+/* Wishes remain legible over every back illustration. */
+.test-game .album-hidden{position:relative}
+.test-game .album-hidden .wishlist-star{position:absolute;top:8px;right:8px;width:30px;height:30px;margin:0;display:grid;place-items:center;border-radius:50%;background:#101c32e8;color:#f4ce68;font-size:22px;box-shadow:0 2px 12px #0008;pointer-events:none}
+.test-game .wishlist-filter,.wishlist-toggle{padding:10px 16px;min-height:44px;border:1px solid #64748b;border-radius:12px;background:#13233c;color:#edf4ff;cursor:pointer;margin:8px 0 16px}
+.test-game .wishlist-filter[aria-pressed=true],.wishlist-toggle[aria-pressed=true]{color:#f4ce68;border-color:#c8a456;background:#28251d}
+.wishlist-toggle:disabled{opacity:.6;cursor:wait}
+.card-friends{padding:14px;margin:14px 0;border:1px solid #ffffff24;border-radius:14px;background:#ffffff08;color:inherit}
+.card-friends h3{font-size:14px;margin:8px 0}.card-friends p{font-size:13px;opacity:.8}.card-friends ul{padding-left:18px}.card-friends button{background:none;border:0;color:inherit;text-decoration:underline;cursor:pointer;padding:5px 0}

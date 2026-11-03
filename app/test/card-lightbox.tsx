@@ -15,8 +15,8 @@ export default function CardLightbox({card,onClose}:{card:Card;onClose:()=>void}
  },[]);
  function close(){dialog.current?.close();onClose();}
  if(typeof document==='undefined')return null;
- return createPortal(<dialog ref={dialog} className="card-lightbox" aria-label={`Agrandissement de ${card.name}`} onCancel={event=>{event.preventDefault();close();}} onClick={event=>{if(event.target===event.currentTarget)close();}}>
+ return createPortal(<dialog ref={dialog} className="card-lightbox" aria-label={`Agrandissement de ${card.name}`} onCancel={event=>{event.preventDefault();event.stopPropagation();close();}} onClick={event=>{if(event.target===event.currentTarget)close();}}>
   <button autoFocus type="button" className="card-lightbox-close" aria-label="Fermer l’agrandissement" onClick={close}>✕</button>
-  <div className="card-lightbox-stage"><CardVisual card={card} effects="interactive"/></div>
+  <div className="card-lightbox-stage"><CardVisual card={card} effects="animated"/></div>
  </dialog>,document.body);
 }

@@ -1,11 +1,13 @@
 declare namespace Cloudflare {
   interface Env {
+  ATLAS_FAUNA_HISTORY_IMPORT_KEY?: string;
     ATLAS_PUSH_PRIVATE_KEY?: string;
     ATLAS_PUSH_PUBLIC_KEY?: string;
     DB?: D1Database;
     BUCKET?: R2Bucket;
     ATLAS_OWNER_EMAIL?: string;
     ATLAS_WORKSHOP_EMAILS?: string;
+    ATLAS_LOTTERY_SERVICE_TOKEN?: string;
     ATLAS_POLICY_UPDATE_KEY?: string;
     ATLAS_CONCORDE_UPDATE_KEY?: string;
     ATLAS_AVIATION_CONTENT_KEY?: string;

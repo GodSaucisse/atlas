@@ -1,3 +1,6 @@
+import {applyComicsEditionMigration} from './comics-edition-migration';
+import {applyChampionJaylenMigration} from './champion-jaylen-migration';
+import {applyFaunaHistoryMigration} from './fauna-history-migration';
 import {applyAnimalsFictionImagesMigration} from './animals-fiction-images-migration';
 import {applyHalloweenWalterRickMigration} from './halloween-walter-rick-migration';
 import {applyAnimalChristianDraftsMigration} from './animal-christian-drafts-migration';
@@ -38,7 +41,7 @@ export type AtlasPlayer={userId:string;name:string;email:string;slot:'player'};
 /** Player sessions are separate from ChatGPT administrator identities. */
 export async function authorizePlayer(request?:Request):Promise<AtlasPlayer>{
   const {playerFromRequest}=await import('./player-auth');
-  return playerFromRequest(request);
+  const actor=await playerFromRequest(request);const {visitEconomy}=await import('./economy-store');await visitEconomy(db(),actor.userId);return actor;
 }
 export async function playerCanAccessWorkshop(actor:AtlasPlayer){if(!isWorkshopPlayer(actor.email,env.ATLAS_OWNER_EMAIL||'',env.ATLAS_WORKSHOP_EMAILS||''))return false;const admin=await db().prepare('SELECT slot FROM admins WHERE lower(email)=?').bind(actor.email.trim().toLowerCase()).first<{slot:string}>();return !!admin&&canManageAtlas(admin.slot);}
 export async function playerState(){
@@ -115,6 +118,9 @@ export async function stateFor(admin:Admin & {userId:string},allLogs=false):Prom
   await applyAnimalChristianDraftsMigration(admin);
   await applyHalloweenWalterRickMigration(admin);
   await applyAnimalsFictionImagesMigration(admin);
+  await applyFaunaHistoryMigration(admin);
+  await applyChampionJaylenMigration(admin);
+  await applyComicsEditionMigration(admin);
   const results=await db().batch([
     db().prepare("SELECT revision FROM catalog_meta WHERE id='catalog'"),db().prepare("SELECT data FROM cards ORDER BY code"),db().prepare("SELECT data FROM albums ORDER BY rowid"),
     db().prepare("SELECT slot,email,user_id AS userId,name,updated_at AS updatedAt FROM admins ORDER BY slot DESC"),
@@ -145,7 +151,7 @@ export function validateCard(raw:any,previous:Card|undefined,admin:Admin,albums:
   const imageKey=txt(raw.imageKey||"",160);if(imageKey&&!/^[a-f0-9-]{36}\.(png|jpg|webp|gif)$/.test(imageKey))throw new HttpError(400,"L’illustration est invalide.");
   const imageSource=txt(raw.imageSource||"",1000);if(imageSource){let url:URL;try{url=new URL(imageSource);}catch{throw new HttpError(400,"L’URL de la source est invalide.");}if(url.protocol!=="https:")throw new HttpError(400,"La source doit être une adresse HTTPS.");}
   const imageFit=choice(raw.imageFit??previous?.imageFit??"cover",["cover","contain"] as const);
-  const c:Card={...metadata,id:previous?.id||crypto.randomUUID(),code,name:txt(raw.name,140,true),universe,...(previous?.editionSubjectUniverse?{editionSubjectUniverse:previous.editionSubjectUniverse}:{}),category,description:txt(raw.description,700),learningText:txt(raw.learningText??previous?.learningText??"",40000),rarity,imageKey,imageFit,imageCredit:txt(raw.imageCredit||"",300),imageSource,albumIds,status,updatedAt:now()};
+  const c:Card={...metadata,id:previous?.id||crypto.randomUUID(),code,name:txt(raw.name,140,true),universe,...(previous?.editionSubjectUniverse?{editionSubjectUniverse:previous.editionSubjectUniverse}:{}),category,...(previous?.illustrationOnly?{illustrationOnly:true}:{}),description:txt(raw.description,700),learningText:txt(raw.learningText??previous?.learningText??"",40000),rarity,imageKey,imageFit,imageCredit:txt(raw.imageCredit||"",300),imageSource,albumIds,status,updatedAt:now()};
   if(status==="ready"&&c.rarityStatus!=="validated")throw new HttpError(400,"La rareté doit être validée avant de marquer la carte prête.");
   if(status==="ready"&&missing(c).length)throw new HttpError(400,`À compléter avant validation : ${missing(c).join(", ")}.`);return c;
 }
@@ -235,3 +241,4 @@ export async function commitCatalog(input:{onceKey?:string;revision:number;actor
 
 export function protectWrite(request:Request){const origin=request.headers.get("origin");const site=request.headers.get("sec-fetch-site");if(site==="cross-site"||(origin&&new URL(origin).host!==new URL(request.url).host))throw new HttpError(403,"Origine de la requête refusée.");}
 export function errorResponse(error:unknown){if(error instanceof HttpError)return Response.json({error:error.message},{status:error.status,headers:{"Cache-Control":"no-store"}});console.error("ATLAS request failed",error instanceof Error?error.message:"Unknown error");return Response.json({error:"L’enregistrement a échoué. Vos champs sont conservés ; réessayez."},{status:500,headers:{"Cache-Control":"no-store"}});}
+

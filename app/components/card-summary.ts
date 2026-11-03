@@ -1,4 +1,5 @@
 import {type Card} from '../model';
+import added from '../content/added-card-mini-descriptions.json';
 import recent from '../content/recent-card-mini-descriptions.json';
 import history from '../content/history-mini-descriptions.json';
 import geopolitics from '../content/geopolitics-mini-descriptions.json';
@@ -108,6 +109,6 @@ const byCategory=new Map(Object.entries(profiles).map(([k,v])=>[normalize(k),v])
 const byName=new Map(Object.entries(names).map(([k,v])=>[normalize(k),v]));
 const fallback:Record<string,string>={Aviation:'Aéronef conçu pour évoluer dans les airs.',Fromages:'Fromage traditionnel élaboré à partir de lait.','Géographie':'Lieu naturel remarquable de la planète Terre.','Chrétienté':'Figure ou symbole de la tradition catholique.',Histoire:'Sujet marquant de l’histoire et du patrimoine.',Militaire:'Équipement ou unité destiné aux opérations militaires.',Maritime:'Bâtiment ou équipement conçu pour la navigation.',Plats:'Préparation culinaire issue des traditions gastronomiques.','Géopolitique':'Acteur ou territoire des relations internationales contemporaines.'};
 // Scope new captions to their universe: the animal Jaguar is not the EBRC Jaguar.
-const recentByCode=new Map(recent.map(item=>[`${item.universe}:${item.code}`,item.summary]));
-const recentByName=new Map(recent.map(item=>[`${item.universe}:${normalize(item.name)}`,item.summary]));
-export function cardSummary(card:Pick<Card,'name'|'category'|'universe'>&Partial<Pick<Card,'code'>>){return recentByCode.get(`${card.universe}:${card.code}`)||recentByName.get(`${card.universe}:${normalize(card.name)}`)||byName.get(normalize(card.name))||byCategory.get(normalize(card.category))||fallback[card.universe]||'Élément remarquable présenté dans les collections ATLAS.';}
+const recentByCode=new Map([...recent,...added].map(item=>[`${item.universe}:${item.code}`,item.summary]));
+const recentByName=new Map([...recent,...added].map(item=>[`${item.universe}:${normalize(item.name)}`,item.summary]));
+export function cardSummary(card:Pick<Card,'name'|'category'|'universe'>&Partial<Pick<Card,'code'|'illustrationOnly'>>){if(card.illustrationOnly)return '';return recentByCode.get(`${card.universe}:${card.code}`)||recentByName.get(`${card.universe}:${normalize(card.name)}`)||byName.get(normalize(card.name))||byCategory.get(normalize(card.category))||fallback[card.universe]||`${card.category?.trim()||card.name} · ${card.universe}.`;}

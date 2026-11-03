@@ -1,0 +1,656 @@
+[
+  {
+    "code": "ANI-101",
+    "name": "Éléphant de savane d’Afrique",
+    "universe": "Animaux",
+    "summary": "Grand herbivore africain aux oreilles largement déployées."
+  },
+  {
+    "code": "ANI-102",
+    "name": "Éléphant d’Asie",
+    "universe": "Animaux",
+    "summary": "Éléphant asiatique aux oreilles plus petites."
+  },
+  {
+    "code": "ANI-103",
+    "name": "Hippopotame commun",
+    "universe": "Animaux",
+    "summary": "Grand mammifère semi-aquatique des rivières africaines."
+  },
+  {
+    "code": "ANI-104",
+    "name": "Zèbre de Grévy",
+    "universe": "Animaux",
+    "summary": "Zèbre d’Afrique orientale aux fines rayures."
+  },
+  {
+    "code": "ANI-105",
+    "name": "Okapi",
+    "universe": "Animaux",
+    "summary": "Parent forestier de la girafe aux pattes rayées."
+  },
+  {
+    "code": "ANI-106",
+    "name": "Tapir terrestre",
+    "universe": "Animaux",
+    "summary": "Herbivore sud-américain doté d’une courte trompe."
+  },
+  {
+    "code": "ANI-107",
+    "name": "Capybara",
+    "universe": "Animaux",
+    "summary": "Plus grand rongeur vivant, amateur de baignades."
+  },
+  {
+    "code": "ANI-108",
+    "name": "Fourmilier géant",
+    "universe": "Animaux",
+    "summary": "Mammifère sud-américain au museau long et étroit."
+  },
+  {
+    "code": "ANI-109",
+    "name": "Paresseux à gorge brune",
+    "universe": "Animaux",
+    "summary": "Mammifère arboricole aux mouvements particulièrement lents."
+  },
+  {
+    "code": "ANI-110",
+    "name": "Tatou géant",
+    "universe": "Animaux",
+    "summary": "Grand mammifère fouisseur protégé par une carapace."
+  },
+  {
+    "code": "ANI-111",
+    "name": "Pangolin géant",
+    "universe": "Animaux",
+    "summary": "Mammifère africain couvert d’écailles de kératine."
+  },
+  {
+    "code": "ANI-112",
+    "name": "Fennec",
+    "universe": "Animaux",
+    "summary": "Petit renard saharien aux très grandes oreilles."
+  },
+  {
+    "code": "ANI-113",
+    "name": "Lycaon",
+    "universe": "Animaux",
+    "summary": "Canidé africain chassant en meutes coopératives."
+  },
+  {
+    "code": "ANI-114",
+    "name": "Hyène tachetée",
+    "universe": "Animaux",
+    "summary": "Carnivore africain vivant en clans organisés."
+  },
+  {
+    "code": "ANI-115",
+    "name": "Lémur catta",
+    "universe": "Animaux",
+    "summary": "Lémurien malgache à longue queue annelée."
+  },
+  {
+    "code": "ANI-116",
+    "name": "Tarsier des Philippines",
+    "universe": "Animaux",
+    "summary": "Petit primate nocturne aux yeux très volumineux."
+  },
+  {
+    "code": "ANI-117",
+    "name": "Kangourou roux",
+    "universe": "Animaux",
+    "summary": "Grand marsupial australien se déplaçant par bonds."
+  },
+  {
+    "code": "ANI-118",
+    "name": "Diable de Tasmanie",
+    "universe": "Animaux",
+    "summary": "Marsupial carnivore vivant sur l’île de Tasmanie."
+  },
+  {
+    "code": "ANI-119",
+    "name": "Wombat commun",
+    "universe": "Animaux",
+    "summary": "Marsupial australien fouisseur au corps trapu."
+  },
+  {
+    "code": "ANI-120",
+    "name": "Serval",
+    "universe": "Animaux",
+    "summary": "Félin africain élancé aux grandes oreilles."
+  },
+  {
+    "code": "ANI-121",
+    "name": "Ara bleu",
+    "universe": "Animaux",
+    "summary": "Grand perroquet sud-américain au plumage bleu et jaune."
+  },
+  {
+    "code": "ANI-122",
+    "name": "Toucan toco",
+    "universe": "Animaux",
+    "summary": "Oiseau tropical reconnaissable à son immense bec."
+  },
+  {
+    "code": "ANI-123",
+    "name": "Quetzal resplendissant",
+    "universe": "Animaux",
+    "summary": "Oiseau d’Amérique centrale au plumage vert irisé."
+  },
+  {
+    "code": "ANI-124",
+    "name": "Paon bleu",
+    "universe": "Animaux",
+    "summary": "Oiseau dont le mâle déploie une roue colorée."
+  },
+  {
+    "code": "ANI-125",
+    "name": "Colibri d’Anna",
+    "universe": "Animaux",
+    "summary": "Petit oiseau américain pratiquant le vol stationnaire."
+  },
+  {
+    "code": "ANI-126",
+    "name": "Grue royale",
+    "universe": "Animaux",
+    "summary": "Oiseau africain coiffé d’une couronne de plumes."
+  },
+  {
+    "code": "ANI-127",
+    "name": "Albatros hurleur",
+    "universe": "Animaux",
+    "summary": "Grand oiseau marin aux ailes exceptionnellement longues."
+  },
+  {
+    "code": "ANI-128",
+    "name": "Macareux moine",
+    "universe": "Animaux",
+    "summary": "Oiseau marin nord-atlantique au bec coloré."
+  },
+  {
+    "code": "ANI-129",
+    "name": "Merle noir",
+    "universe": "Animaux",
+    "summary": "Passereau dont le mâle porte un bec jaune."
+  },
+  {
+    "code": "ANI-130",
+    "name": "Rougegorge familier",
+    "universe": "Animaux",
+    "summary": "Petit passereau à la poitrine rouge orangé."
+  },
+  {
+    "code": "ANI-131",
+    "name": "Pie bavarde",
+    "universe": "Animaux",
+    "summary": "Corvidé noir et blanc à longue queue."
+  },
+  {
+    "code": "ANI-132",
+    "name": "Perroquet gris",
+    "universe": "Animaux",
+    "summary": "Perroquet africain gris à la queue rouge."
+  },
+  {
+    "code": "ANI-133",
+    "name": "Caméléon panthère",
+    "universe": "Animaux",
+    "summary": "Lézard malgache aux couleurs vives et changeantes."
+  },
+  {
+    "code": "ANI-134",
+    "name": "Basilic vert",
+    "universe": "Animaux",
+    "summary": "Lézard tropical capable de courir sur l’eau."
+  },
+  {
+    "code": "ANI-135",
+    "name": "Agame barbu",
+    "universe": "Animaux",
+    "summary": "Lézard australien doté d’une gorge épineuse."
+  },
+  {
+    "code": "ANI-136",
+    "name": "Anaconda vert",
+    "universe": "Animaux",
+    "summary": "Grand serpent constricteur des zones humides sud-américaines."
+  },
+  {
+    "code": "ANI-137",
+    "name": "Boa constricteur",
+    "universe": "Animaux",
+    "summary": "Serpent américain tuant ses proies par constriction."
+  },
+  {
+    "code": "ANI-138",
+    "name": "Cobra royal",
+    "universe": "Animaux",
+    "summary": "Grand serpent venimeux se nourrissant d’autres serpents."
+  },
+  {
+    "code": "ANI-139",
+    "name": "Vipère aspic",
+    "universe": "Animaux",
+    "summary": "Serpent venimeux européen à la tête triangulaire."
+  },
+  {
+    "code": "ANI-140",
+    "name": "Tortue géante des Seychelles",
+    "universe": "Animaux",
+    "summary": "Tortue géante terrestre originaire des Seychelles."
+  },
+  {
+    "code": "ANI-141",
+    "name": "Dendrobate bleu",
+    "universe": "Animaux",
+    "summary": "Grenouille tropicale bleue à la peau toxique."
+  },
+  {
+    "code": "ANI-142",
+    "name": "Grenouille tomate",
+    "universe": "Animaux",
+    "summary": "Grenouille malgache à la vive coloration rouge."
+  },
+  {
+    "code": "ANI-143",
+    "name": "Salamandre géante du Japon",
+    "universe": "Animaux",
+    "summary": "Grand amphibien des cours d’eau du Japon."
+  },
+  {
+    "code": "ANI-144",
+    "name": "Protée anguillard",
+    "universe": "Animaux",
+    "summary": "Amphibien cavernicole européen aveugle et dépigmenté."
+  },
+  {
+    "code": "ANI-145",
+    "name": "Rainette aux yeux rouges",
+    "universe": "Animaux",
+    "summary": "Rainette tropicale verte aux grands yeux rouges."
+  },
+  {
+    "code": "ANI-146",
+    "name": "Brochet",
+    "universe": "Animaux",
+    "summary": "Poisson prédateur d’eau douce au museau allongé."
+  },
+  {
+    "code": "ANI-147",
+    "name": "Perche commune",
+    "universe": "Animaux",
+    "summary": "Poisson d’eau douce rayé à nageoires épineuses."
+  },
+  {
+    "code": "ANI-148",
+    "name": "Discus",
+    "universe": "Animaux",
+    "summary": "Poisson amazonien au corps haut et aplati."
+  },
+  {
+    "code": "ANI-149",
+    "name": "Escargot de Bourgogne",
+    "universe": "Animaux",
+    "summary": "Gastéropode terrestre européen à grande coquille arrondie."
+  },
+  {
+    "code": "ANI-150",
+    "name": "Scorpion empereur",
+    "universe": "Animaux",
+    "summary": "Grand scorpion africain aux puissantes pinces."
+  },
+  {
+    "code": "FIC-101",
+    "name": "Han Solo",
+    "universe": "Personnages fictifs",
+    "summary": "Contrebandier et pilote du Faucon Millenium."
+  },
+  {
+    "code": "FIC-102",
+    "name": "Chewbacca",
+    "universe": "Personnages fictifs",
+    "summary": "Wookiee et copilote fidèle de Han Solo."
+  },
+  {
+    "code": "FIC-103",
+    "name": "Obi-Wan Kenobi",
+    "universe": "Personnages fictifs",
+    "summary": "Maître Jedi, mentor d’Anakin puis de Luke."
+  },
+  {
+    "code": "FIC-104",
+    "name": "R2-D2",
+    "universe": "Personnages fictifs",
+    "summary": "Droïde astromécano au service des héros rebelles."
+  },
+  {
+    "code": "FIC-105",
+    "name": "C-3PO",
+    "universe": "Personnages fictifs",
+    "summary": "Droïde de protocole parlant de nombreuses langues."
+  },
+  {
+    "code": "FIC-106",
+    "name": "James Bond",
+    "universe": "Personnages fictifs",
+    "summary": "Agent secret britannique portant le matricule 007."
+  },
+  {
+    "code": "FIC-107",
+    "name": "Sarah Connor",
+    "universe": "Personnages fictifs",
+    "summary": "Combattante protégeant son fils des machines Terminator."
+  },
+  {
+    "code": "FIC-108",
+    "name": "Peter Venkman",
+    "universe": "Personnages fictifs",
+    "summary": "Chasseur de fantômes à l’humour irrévérencieux."
+  },
+  {
+    "code": "FIC-109",
+    "name": "Beatrix Kiddo",
+    "universe": "Personnages fictifs",
+    "summary": "Ancienne tueuse cherchant vengeance dans Kill Bill."
+  },
+  {
+    "code": "FIC-110",
+    "name": "Willy Wonka",
+    "universe": "Personnages fictifs",
+    "summary": "Chocolatier excentrique à la fabrique extraordinaire."
+  },
+  {
+    "code": "FIC-111",
+    "name": "Michael Scott",
+    "universe": "Personnages fictifs",
+    "summary": "Directeur régional maladroit de Dunder Mifflin."
+  },
+  {
+    "code": "FIC-112",
+    "name": "Dwight Schrute",
+    "universe": "Personnages fictifs",
+    "summary": "Employé ambitieux et excentrique de Dunder Mifflin."
+  },
+  {
+    "code": "FIC-113",
+    "name": "Sheldon Cooper",
+    "universe": "Personnages fictifs",
+    "summary": "Physicien surdoué aux habitudes particulièrement rigides."
+  },
+  {
+    "code": "FIC-114",
+    "name": "Buffy Summers",
+    "universe": "Personnages fictifs",
+    "summary": "Lycéenne choisie pour combattre les vampires."
+  },
+  {
+    "code": "FIC-115",
+    "name": "Dana Scully",
+    "universe": "Personnages fictifs",
+    "summary": "Médecin et agente du FBI, partenaire de Mulder."
+  },
+  {
+    "code": "FIC-116",
+    "name": "Fox Mulder",
+    "universe": "Personnages fictifs",
+    "summary": "Agent du FBI enquêtant sur le paranormal."
+  },
+  {
+    "code": "FIC-117",
+    "name": "Homelander",
+    "universe": "Personnages fictifs",
+    "summary": "Super-héros tyrannique à la tête des Sept."
+  },
+  {
+    "code": "FIC-118",
+    "name": "Tony Soprano",
+    "universe": "Personnages fictifs",
+    "summary": "Chef mafieux du New Jersey en thérapie."
+  },
+  {
+    "code": "FIC-119",
+    "name": "Donkey Kong",
+    "universe": "Personnages fictifs",
+    "summary": "Gorille de Nintendo, amateur de bananes."
+  },
+  {
+    "code": "FIC-120",
+    "name": "Kirby",
+    "universe": "Personnages fictifs",
+    "summary": "Héros rose absorbant les pouvoirs de ses ennemis."
+  },
+  {
+    "code": "FIC-121",
+    "name": "Yoshi",
+    "universe": "Personnages fictifs",
+    "summary": "Compagnon dinosaure de Mario à longue langue."
+  },
+  {
+    "code": "FIC-122",
+    "name": "Princesse Peach",
+    "universe": "Personnages fictifs",
+    "summary": "Princesse régnant sur le Royaume Champignon."
+  },
+  {
+    "code": "FIC-123",
+    "name": "Bowser",
+    "universe": "Personnages fictifs",
+    "summary": "Roi des Koopas et adversaire de Mario."
+  },
+  {
+    "code": "FIC-124",
+    "name": "Mega Man",
+    "universe": "Personnages fictifs",
+    "summary": "Robot bleu copiant les armes de ses adversaires."
+  },
+  {
+    "code": "FIC-125",
+    "name": "Leon S. Kennedy",
+    "universe": "Personnages fictifs",
+    "summary": "Survivant de Raccoon City devenu agent gouvernemental."
+  },
+  {
+    "code": "FIC-126",
+    "name": "Jill Valentine",
+    "universe": "Personnages fictifs",
+    "summary": "Membre des S.T.A.R.S. combattant les armes biologiques."
+  },
+  {
+    "code": "FIC-127",
+    "name": "Agent 47",
+    "universe": "Personnages fictifs",
+    "summary": "Tueur professionnel génétiquement conçu, maître du déguisement."
+  },
+  {
+    "code": "FIC-128",
+    "name": "Ryu",
+    "universe": "Personnages fictifs",
+    "summary": "Combattant de Street Fighter maîtrisant le Hadoken."
+  },
+  {
+    "code": "FIC-129",
+    "name": "Wonder Woman",
+    "universe": "Personnages fictifs",
+    "summary": "Princesse amazone et héroïne de l’univers DC."
+  },
+  {
+    "code": "FIC-130",
+    "name": "Iron Man",
+    "universe": "Personnages fictifs",
+    "summary": "Tony Stark, inventeur protégé par une armure."
+  },
+  {
+    "code": "FIC-131",
+    "name": "Captain America",
+    "universe": "Personnages fictifs",
+    "summary": "Steve Rogers, super-soldat portant un bouclier étoilé."
+  },
+  {
+    "code": "FIC-132",
+    "name": "Hulk",
+    "universe": "Personnages fictifs",
+    "summary": "Bruce Banner transformé en colosse vert surpuissant."
+  },
+  {
+    "code": "FIC-133",
+    "name": "Deadpool",
+    "universe": "Personnages fictifs",
+    "summary": "Mercenaire masqué doté d’une régénération exceptionnelle."
+  },
+  {
+    "code": "FIC-134",
+    "name": "Wolverine",
+    "universe": "Personnages fictifs",
+    "summary": "Mutant aux griffes rétractiles et squelette renforcé."
+  },
+  {
+    "code": "FIC-135",
+    "name": "Le Joker",
+    "universe": "Personnages fictifs",
+    "summary": "Criminel de Gotham et ennemi emblématique de Batman."
+  },
+  {
+    "code": "FIC-136",
+    "name": "Harley Quinn",
+    "universe": "Personnages fictifs",
+    "summary": "Ancienne psychiatre devenue criminelle de Gotham."
+  },
+  {
+    "code": "FIC-137",
+    "name": "Bilbo Sacquet",
+    "universe": "Personnages fictifs",
+    "summary": "Hobbit entraîné dans une aventure avec les nains."
+  },
+  {
+    "code": "FIC-138",
+    "name": "Sam Gamegie",
+    "universe": "Personnages fictifs",
+    "summary": "Hobbit et compagnon fidèle de Frodon Sacquet."
+  },
+  {
+    "code": "FIC-139",
+    "name": "Legolas",
+    "universe": "Personnages fictifs",
+    "summary": "Archer elfe membre de la Communauté de l’Anneau."
+  },
+  {
+    "code": "FIC-140",
+    "name": "Aslan",
+    "universe": "Personnages fictifs",
+    "summary": "Lion souverain et protecteur du monde de Narnia."
+  },
+  {
+    "code": "FIC-141",
+    "name": "Créature de Frankenstein",
+    "universe": "Personnages fictifs",
+    "summary": "Être vivant créé par le savant Victor Frankenstein."
+  },
+  {
+    "code": "FIC-142",
+    "name": "Capitaine Nemo",
+    "universe": "Personnages fictifs",
+    "summary": "Commandant du Nautilus, explorateur des profondeurs marines."
+  },
+  {
+    "code": "FIC-143",
+    "name": "Sailor Moon",
+    "universe": "Personnages fictifs",
+    "summary": "Usagi Tsukino, guerrière liée aux pouvoirs lunaires."
+  },
+  {
+    "code": "FIC-144",
+    "name": "Edward Elric",
+    "universe": "Personnages fictifs",
+    "summary": "Jeune alchimiste recherchant la pierre philosophale."
+  },
+  {
+    "code": "FIC-145",
+    "name": "Alphonse Elric",
+    "universe": "Personnages fictifs",
+    "summary": "Alchimiste dont l’âme habite une armure."
+  },
+  {
+    "code": "FIC-146",
+    "name": "Gon Freecss",
+    "universe": "Personnages fictifs",
+    "summary": "Jeune Hunter parti retrouver son père."
+  },
+  {
+    "code": "FIC-147",
+    "name": "Killua Zoldyck",
+    "universe": "Personnages fictifs",
+    "summary": "Jeune assassin devenu le compagnon de Gon."
+  },
+  {
+    "code": "FIC-148",
+    "name": "Sakura Haruno",
+    "universe": "Personnages fictifs",
+    "summary": "Ninja de Konoha formée à la médecine."
+  },
+  {
+    "code": "FIC-149",
+    "name": "Itachi Uchiwa",
+    "universe": "Personnages fictifs",
+    "summary": "Ninja Uchiwa aux puissantes techniques oculaires."
+  },
+  {
+    "code": "FIC-150",
+    "name": "Jotaro Kujo",
+    "universe": "Personnages fictifs",
+    "summary": "Héritier des Joestar maîtrisant le Stand Star Platinum."
+  },
+  {
+    "code": "EDS-022",
+    "name": "CPA 10 — Halloween",
+    "universe": "Editions spéciales",
+    "summary": "Commando de l’air revisité pour Halloween."
+  },
+  {
+    "code": "EDS-023",
+    "name": "Commando Kieffer — Halloween",
+    "universe": "Editions spéciales",
+    "summary": "Commando français du Débarquement en édition Halloween."
+  },
+  {
+    "code": "EDS-024",
+    "name": "Kevin Durant — Halloween",
+    "universe": "Editions spéciales",
+    "summary": "Ailier vedette de la NBA, version Halloween."
+  },
+  {
+    "code": "EDS-025",
+    "name": "Mimolette — Halloween",
+    "universe": "Editions spéciales",
+    "summary": "Fromage orangé métamorphosé pour la fête d’Halloween."
+  },
+  {
+    "code": "EDS-026",
+    "name": "Voldemort — Halloween",
+    "universe": "Editions spéciales",
+    "summary": "Mage noir de Harry Potter, édition Halloween."
+  },
+  {
+    "code": "EDS-028",
+    "name": "Walter White — Halloween",
+    "universe": "Editions spéciales",
+    "summary": "Professeur de chimie de Breaking Bad, version Halloween."
+  },
+  {
+    "code": "EDS-029",
+    "name": "Rick Grimes — Halloween",
+    "universe": "Editions spéciales",
+    "summary": "Ancien policier de The Walking Dead, version Halloween."
+  },
+  {
+    "code": "EDS-030",
+    "name": "Lion — Halloween",
+    "universe": "Editions spéciales",
+    "summary": "Lion métamorphosé en roi des ombres."
+  },
+  {
+    "code": "EDS-031",
+    "name": "Crocodile du Nil — Halloween",
+    "universe": "Editions spéciales",
+    "summary": "Crocodile spectral tapi dans les marais."
+  }
+]

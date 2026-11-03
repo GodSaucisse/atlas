@@ -1,0 +1,42 @@
+[
+  {
+    "code": "EDS-300001",
+    "name": "Spider-Man — Comics Edition",
+    "universe": "Editions spéciales",
+    "category": "Personnage de comics",
+    "imageKey": "ebfd5e7b-0715-44a6-9675-f260e938580a.jpg",
+    "asset": "/designs/comics-spider-man/988ba0d14999e041127f39d22ec3ae8c.jpg"
+  },
+  {
+    "code": "EDS-300002",
+    "name": "Wolverine — Comics Edition",
+    "universe": "Editions spéciales",
+    "category": "Personnage de comics",
+    "imageKey": "1f48811f-3958-42d2-8e4a-4a808ed5664f.jpg",
+    "asset": "/designs/comics-wolverine/b6092935a5d2facad83cd706ef175899.jpg"
+  },
+  {
+    "code": "EDS-300003",
+    "name": "Hulk — Comics Edition",
+    "universe": "Editions spéciales",
+    "category": "Personnage de comics",
+    "imageKey": "2171bd41-c734-416f-b9dd-1d486f73101c.jpg",
+    "asset": "/designs/comics-hulk/1f586f3d6721a0557ba415cfcc42f2b7.jpg"
+  },
+  {
+    "code": "EDS-300004",
+    "name": "Captain America — Comics Edition",
+    "universe": "Editions spéciales",
+    "category": "Personnage de comics",
+    "imageKey": "fce8b98e-8dc2-40ca-b3b7-dfaa15aab3be.jpg",
+    "asset": "/designs/comics-captain-america/394d1e092b5e020e724d2e6a928f8a35.jpg"
+  },
+  {
+    "code": "EDS-300005",
+    "name": "Iron Man — Comics Edition",
+    "universe": "Editions spéciales",
+    "category": "Personnage de comics",
+    "imageKey": "bb04ad36-ce49-42f8-b6bd-49c8ceabd39f.jpg",
+    "asset": "/designs/comics-iron-man/102062ded54b466f79d97c53a806315d.jpg"
+  }
+]

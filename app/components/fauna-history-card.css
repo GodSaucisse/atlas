@@ -1,0 +1,406 @@
+
+
+.fauna-history-lion-ln-sp{position:relative;width:630px;height:972px;border-radius:22px;overflow:hidden;background:#140a03;font-family:var(--font-atlas)}
+.fauna-history-lion-ln-st,.fauna-history-lion-ln-ed{position:absolute;left:0;top:0;width:630px;height:972px;pointer-events:none}
+.fauna-history-lion-ln-st{z-index:10}.fauna-history-lion-ln-ed{z-index:10;animation:fauna-history-lion-ln-o1 3s ease-in-out infinite}
+@keyframes fauna-history-lion-ln-o1{0%,100%{opacity:.35}50%{opacity:1}}
+.fauna-history-lion-ln-ph{position:absolute;left:38px;top:38px;width:554px;height:896px;overflow:hidden;z-index:2;background:#000}
+.fauna-history-lion-ln-bw{position:absolute;left:-12px;top:-12px;width:578px;height:920px;transform-origin:300px 420px;animation:fauna-history-lion-ln-br 9s ease-in-out infinite,fauna-history-lion-ln-shk 12s linear infinite}
+@keyframes fauna-history-lion-ln-br{0%,100%{scale:1}50%{scale:1.03}}
+@keyframes fauna-history-lion-ln-shk{0%,80%{translate:0 0}80.5%{translate:-4px 2px}81%{translate:4px -2px}81.5%{translate:-3px 1px}82%{translate:3px 0}82.5%{translate:-2px 1px}83%,100%{translate:0 0}}
+.fauna-history-lion-ln-im{position:absolute;left:0;top:0;width:578px;height:920px}
+.fauna-history-lion-ln-ey{position:absolute;width:16px;height:16px;margin:-8px;background:radial-gradient(circle,#fff 0,#ffe08a 25%,rgba(255,180,40,0) 65%);opacity:0;animation:fauna-history-lion-ln-eyg 6s linear infinite}
+@keyframes fauna-history-lion-ln-eyg{0%,72%{opacity:0;transform:scale(.4)}76%{opacity:1;transform:scale(1.3) rotate(45deg)}82%,100%{opacity:0;transform:scale(.4)}}
+.fauna-history-lion-ln-sun{position:absolute;left:-160px;top:-180px;width:460px;height:460px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,220,140,.55),rgba(255,160,60,.18) 55%,rgba(0,0,0,0));animation:fauna-history-lion-ln-snp 6s ease-in-out infinite}
+@keyframes fauna-history-lion-ln-snp{0%,100%{opacity:.7;transform:scale(1)}50%{opacity:1;transform:scale(1.08)}}
+.fauna-history-lion-ln-bm{position:absolute;top:-60px;width:var(--w);height:1100px;transform-origin:50% 0;transform:rotate(var(--r));clip-path:polygon(40% 0,60% 0,100% 100%,0 100%);background:linear-gradient(180deg,rgba(255,226,150,.28),rgba(255,190,90,.08) 55%,rgba(0,0,0,0));animation:fauna-history-lion-ln-bmo 8s ease-in-out infinite}
+@keyframes fauna-history-lion-ln-bmo{0%,100%{opacity:.3}50%{opacity:1}}
+.fauna-history-lion-ln-bdw{position:absolute;left:-60px;animation:fauna-history-lion-ln-bdm var(--d) linear infinite}
+.fauna-history-lion-ln-bdw img{display:block;animation:fauna-history-lion-ln-flp .45s ease-in-out infinite alternate}
+@keyframes fauna-history-lion-ln-bdm{0%{transform:translate(0,0)}50%{transform:translate(330px,-14px)}100%{transform:translate(680px,8px)}}
+@keyframes fauna-history-lion-ln-flp{from{transform:scaleY(1)}to{transform:scaleY(.3)}}
+.fauna-history-lion-ln-sw{position:absolute;top:0;left:-260px;width:220px;height:896px;background:linear-gradient(100deg,rgba(255,220,140,0),rgba(255,220,140,.16) 50%,rgba(255,220,140,0));animation:fauna-history-lion-ln-swm 7s ease-in-out infinite}
+@keyframes fauna-history-lion-ln-swm{0%{transform:translateX(0)}60%,100%{transform:translateX(1100px)}}
+.fauna-history-lion-ln-roar{position:absolute;left:298px;top:420px;width:0;height:0}
+.fauna-history-lion-ln-rr{position:absolute;left:-60px;top:-60px;width:120px;height:120px;border-radius:50%;border:3px solid rgba(255,214,120,.85);box-shadow:0 0 18px rgba(255,190,80,.7),inset 0 0 18px rgba(255,190,80,.5);opacity:0;animation:fauna-history-lion-ln-rrm 12s ease-out infinite}
+@keyframes fauna-history-lion-ln-rrm{0%,80%{opacity:0;transform:scale(.2)}80.5%{opacity:1;transform:scale(.3)}86%{opacity:0;transform:scale(5)}100%{opacity:0;transform:scale(5)}}
+.fauna-history-lion-ln-mo{position:absolute;border-radius:50%;background:#ffe2a0;box-shadow:0 0 6px 2px rgba(255,200,90,.6);animation:fauna-history-lion-ln-mom var(--d) ease-in-out infinite}
+@keyframes fauna-history-lion-ln-mom{0%{transform:translate(0,0);opacity:0}20%{opacity:.9}60%{opacity:.4}80%{opacity:.9}100%{transform:translate(var(--x),var(--y));opacity:0}}
+.fauna-history-lion-ln-gr{position:absolute;left:0;bottom:-6px;transform-origin:50% 100%;animation:fauna-history-lion-ln-grs 4.5s ease-in-out infinite}
+@keyframes fauna-history-lion-ln-grs{0%,100%{transform:skewX(-3deg)}50%{transform:skewX(4deg)}}
+.fauna-history-lion-ln-dw{position:absolute;left:0;top:740px;width:554px;height:0}
+.fauna-history-lion-ln-du{position:absolute;top:0;width:60px;height:40px;margin:-20px -30px;border-radius:50%;background:radial-gradient(closest-side,rgba(210,160,90,.55),rgba(0,0,0,0));opacity:0;animation:fauna-history-lion-ln-dum 12s ease-out infinite}
+@keyframes fauna-history-lion-ln-dum{0%,80%{opacity:0;transform:translate(0,0) scale(.4)}81%{opacity:.9}90%{opacity:0;transform:translate(var(--x),var(--y)) scale(2)}100%{opacity:0}}
+.fauna-history-lion-ln-vg{position:absolute;inset:0;box-shadow:inset 0 0 120px 30px rgba(20,8,0,.75)}
+.fauna-history-lion-ln-gl{position:absolute;inset:0;box-shadow:inset 0 0 90px 14px rgba(255,180,60,.5);opacity:.15;animation:fauna-history-lion-ln-glp 12s ease-out infinite}
+@keyframes fauna-history-lion-ln-glp{0%,80%,100%{opacity:.15}81%{opacity:.9}88%{opacity:.2}}
+.fauna-history-lion-ln-tp{position:absolute;left:235px;top:-16px;width:160px;height:160px;z-index:20;pointer-events:none}
+.fauna-history-lion-ln-tgl{position:absolute;inset:-20px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,210,110,.6),rgba(255,160,50,.18) 60%,rgba(0,0,0,0));animation:fauna-history-lion-ln-o1 3.4s ease-in-out infinite}
+.fauna-history-lion-ln-ry{position:absolute;left:0;top:0;animation:fauna-history-lion-ln-spn 24s linear infinite}
+@keyframes fauna-history-lion-ln-spn{to{transform:rotate(360deg)}}
+.fauna-history-lion-ln-ds{position:absolute;left:25px;top:12px;animation:fauna-history-lion-ln-dsb 4s ease-in-out infinite}
+@keyframes fauna-history-lion-ln-dsb{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+.fauna-history-lion-ln-pw{position:absolute;top:800px;z-index:12;animation:fauna-history-lion-ln-pws 3.8s ease-in-out infinite}
+@keyframes fauna-history-lion-ln-pws{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+.fauna-history-lion-ln-nm{position:absolute;left:136px;top:792px;width:358px;height:76px;z-index:13;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
+.fauna-history-lion-ln-nt{font-weight:900;font-size:34px;letter-spacing:8px;text-transform:uppercase;margin-left:8px;background:linear-gradient(180deg,#fff6d0 0,#ffd970 45%,#c88a12 62%,#fff0c0 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#ffd970;filter:drop-shadow(0 2px 1px #000) drop-shadow(0 0 8px rgba(255,190,60,.55))}
+.fauna-history-lion-ln-sbw{display:flex;align-items:center;gap:8px}.fauna-history-lion-ln-sbw i{width:34px;height:2px;background:linear-gradient(90deg,#c8231e,#f2c94c,#1f4e9e)}
+.fauna-history-lion-ln-sb{font-weight:800;font-size:10px;letter-spacing:3.4px;color:#f8e7c0;text-shadow:0 0 6px rgba(255,190,60,.7),0 1px 2px #000;white-space:nowrap}
+.fauna-history-lion-ln-shw{position:absolute;inset:0;z-index:30;border-radius:22px;overflow:hidden;pointer-events:none}
+.fauna-history-lion-ln-sh{position:absolute;top:0;left:-300px;width:300px;height:972px;background:linear-gradient(105deg,rgba(255,255,255,0),rgba(255,236,190,.09) 50%,rgba(255,255,255,0));animation:fauna-history-lion-ln-shm 7s linear infinite}
+@keyframes fauna-history-lion-ln-shm{from{transform:translateX(0)}to{transform:translateX(1230px)}}
+
+
+
+.fauna-history-halloween-lion-lh-sp{position:relative;width:630px;height:972px;border-radius:22px;overflow:hidden;background:#050302;font-family:var(--font-atlas)}
+.fauna-history-halloween-lion-lh-st,.fauna-history-halloween-lion-lh-ed{position:absolute;left:0;top:0;width:630px;height:972px;pointer-events:none}
+.fauna-history-halloween-lion-lh-st{z-index:10}.fauna-history-halloween-lion-lh-ed{z-index:10;animation:fauna-history-halloween-lion-lh-o1 3s ease-in-out infinite}
+@keyframes fauna-history-halloween-lion-lh-o1{0%,100%{opacity:.25}50%{opacity:1}}
+.fauna-history-halloween-lion-lh-ph{position:absolute;left:38px;top:38px;width:554px;height:896px;overflow:hidden;z-index:2;background:#000}
+.fauna-history-halloween-lion-lh-bw{position:absolute;left:-12px;top:-12px;width:578px;height:920px;transform-origin:272px 320px;animation:fauna-history-halloween-lion-lh-brt 8s ease-in-out infinite,fauna-history-halloween-lion-lh-zm 12s ease-in-out infinite,fauna-history-halloween-lion-lh-shk 12s linear infinite}
+@keyframes fauna-history-halloween-lion-lh-brt{0%,100%{scale:1}50%{scale:1.03}}
+@keyframes fauna-history-halloween-lion-lh-zm{0%,82%{transform:scale(1)}83%{transform:scale(1.45)}88%{transform:scale(1.5)}90%,100%{transform:scale(1)}}
+@keyframes fauna-history-halloween-lion-lh-shk{0%,82.5%{translate:0 0}83%{translate:-5px 2px}83.5%{translate:5px -2px}84%{translate:-3px 1px}84.5%{translate:3px 0}85%,100%{translate:0 0}}
+.fauna-history-halloween-lion-lh-im{position:absolute;left:0;top:0;width:578px;height:920px}
+.fauna-history-halloween-lion-lh-ea{position:absolute;left:325px;top:238px;width:34px;height:34px;margin:-17px;border-radius:50%;background:radial-gradient(circle,#fff6d0 0,#ffb040 22%,rgba(255,110,20,.55) 45%,rgba(255,80,0,0) 72%);animation:fauna-history-halloween-lion-lh-eam 2.6s ease-in-out infinite}
+@keyframes fauna-history-halloween-lion-lh-eam{0%,100%{opacity:.55;transform:scale(.85)}40%{opacity:1;transform:scale(1.25)}46%{opacity:.45}52%{opacity:1;transform:scale(1.1)}}
+.fauna-history-halloween-lion-lh-eb{position:absolute;left:215px;top:234px;width:26px;height:26px;margin:-13px;border-radius:50%;background:radial-gradient(circle,#f4fbff 0,#b8d8ff 30%,rgba(140,180,255,0) 70%);animation:fauna-history-halloween-lion-lh-ebm 4s ease-in-out infinite}
+@keyframes fauna-history-halloween-lion-lh-ebm{0%,100%{opacity:.35}50%{opacity:.95}}
+.fauna-history-halloween-lion-lh-mo{position:absolute;left:270px;top:400px;width:0;height:0}
+.fauna-history-halloween-lion-lh-br{position:absolute;left:-40px;top:-30px;width:80px;height:60px;border-radius:50%;background:radial-gradient(closest-side,rgba(220,220,230,.35),rgba(200,200,210,0));opacity:0;animation:fauna-history-halloween-lion-lh-brm 5.2s ease-out infinite}
+@keyframes fauna-history-halloween-lion-lh-brm{0%{opacity:0;transform:translate(0,0) scale(.4)}12%{opacity:.8}100%{opacity:0;transform:translate(var(--x),70px) scale(2.4)}}
+.fauna-history-halloween-lion-lh-hy{position:absolute;width:24px;height:8px;z-index:3}
+.fauna-history-halloween-lion-lh-hy i{position:absolute;top:0;width:7px;height:5px;border-radius:50%;background:radial-gradient(circle,#fff4d0 0,#ffb040 40%,rgba(255,120,20,0) 75%);box-shadow:0 0 6px 2px rgba(255,140,30,.5);animation:fauna-history-halloween-lion-lh-blk var(--d) linear infinite;animation-delay:inherit}
+.fauna-history-halloween-lion-lh-hy i:first-child{left:0}.fauna-history-halloween-lion-lh-hy i:last-child{left:15px}
+@keyframes fauna-history-halloween-lion-lh-blk{0%,30%{opacity:0;transform:scaleY(.1)}34%,60%{opacity:1;transform:scaleY(1)}62%{transform:scaleY(.1)}64%,78%{opacity:1;transform:scaleY(1)}82%,100%{opacity:0;transform:scaleY(.1)}}
+.fauna-history-halloween-lion-lh-fog{position:absolute;left:-200px;width:960px;height:220px;border-radius:50%;background:radial-gradient(closest-side,rgba(150,140,170,.2),rgba(120,110,140,.07) 60%,rgba(0,0,0,0));animation:fauna-history-halloween-lion-lh-fgm var(--d) linear infinite}
+.fauna-history-halloween-lion-lh-fog1{top:620px;--d:30s}.fauna-history-halloween-lion-lh-fog2{top:720px;--d:24s;animation-direction:reverse}.fauna-history-halloween-lion-lh-fog3{top:420px;--d:40s;opacity:.6}
+@keyframes fauna-history-halloween-lion-lh-fgm{0%,100%{transform:translateX(-120px)}50%{transform:translateX(120px)}}
+.fauna-history-halloween-lion-lh-em{position:absolute;bottom:0;width:3px;height:3px;border-radius:50%;background:#ffb060;box-shadow:0 0 6px 2px rgba(255,110,20,.7);animation:fauna-history-halloween-lion-lh-emm var(--d) linear infinite}
+@keyframes fauna-history-halloween-lion-lh-emm{0%{transform:translate(0,0);opacity:0}10%{opacity:1}80%{opacity:.7}100%{transform:translate(var(--x),-700px);opacity:0}}
+.fauna-history-halloween-lion-lh-gr{position:absolute;left:0;bottom:-6px;transform-origin:50% 100%;animation:fauna-history-halloween-lion-lh-grs 5s ease-in-out infinite}
+@keyframes fauna-history-halloween-lion-lh-grs{0%,100%{transform:skewX(-3deg)}50%{transform:skewX(4deg)}}
+.fauna-history-halloween-lion-lh-scr{position:absolute;left:0;top:0;opacity:0;animation:fauna-history-halloween-lion-lh-scm 12s linear infinite}
+@keyframes fauna-history-halloween-lion-lh-scm{0%,82.5%{opacity:0;transform:scale(1.2)}83%{opacity:1;transform:scale(1)}88%{opacity:.85}91%,100%{opacity:0}}
+.fauna-history-halloween-lion-lh-flash{position:absolute;inset:0;background:rgba(255,110,20,.5);opacity:0;animation:fauna-history-halloween-lion-lh-fls 12s linear infinite}
+@keyframes fauna-history-halloween-lion-lh-fls{0%,82.6%{opacity:0}83%{opacity:.85}84%{opacity:0}84.6%{opacity:.45}85.6%,100%{opacity:0}}
+.fauna-history-halloween-lion-lh-vg{position:absolute;inset:0;box-shadow:inset 0 0 140px 40px rgba(0,0,0,.9)}
+.fauna-history-halloween-lion-lh-hb{position:absolute;inset:0;box-shadow:inset 0 0 110px 22px rgba(150,20,0,.6);opacity:.1;animation:fauna-history-halloween-lion-lh-hbm 2s ease-in-out infinite}
+@keyframes fauna-history-halloween-lion-lh-hbm{0%,40%,100%{opacity:.1}10%{opacity:.9}22%{opacity:.2}30%{opacity:.7}}
+.fauna-history-halloween-lion-lh-tp{position:absolute;left:230px;top:-4px;width:170px;height:170px;z-index:20;pointer-events:none}
+.fauna-history-halloween-lion-lh-tgl{position:absolute;inset:-10px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,110,20,.45),rgba(200,60,0,.12) 60%,rgba(0,0,0,0));animation:fauna-history-halloween-lion-lh-o1 3s ease-in-out infinite}
+.fauna-history-halloween-lion-lh-rg{position:absolute;left:0;top:0;animation:fauna-history-halloween-lion-lh-spn 30s linear infinite}
+@keyframes fauna-history-halloween-lion-lh-spn{to{transform:rotate(360deg)}}
+.fauna-history-halloween-lion-lh-sk{position:absolute;left:24px;top:12px;filter:drop-shadow(0 3px 4px #000);animation:fauna-history-halloween-lion-lh-skb 4s ease-in-out infinite}
+@keyframes fauna-history-halloween-lion-lh-skb{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+.fauna-history-halloween-lion-lh-mg{position:absolute;left:62px;top:60px;width:56px;height:56px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,140,30,.8),rgba(255,80,0,0));animation:fauna-history-halloween-lion-lh-o1 2.4s ease-in-out infinite}
+.fauna-history-halloween-lion-lh-se{position:absolute;width:20px;height:16px;margin:-8px -10px;border-radius:50%;background:radial-gradient(circle,#fff4c8 0,#ff9a2a 30%,rgba(255,80,0,0) 70%);animation:fauna-history-halloween-lion-lh-eam 2.2s ease-in-out infinite}
+.fauna-history-halloween-lion-lh-nm{position:absolute;left:150px;top:792px;width:330px;height:76px;z-index:13;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
+.fauna-history-halloween-lion-lh-nt{font-weight:900;font-size:36px;letter-spacing:10px;margin-left:10px;text-transform:uppercase;color:#ffb060;text-shadow:0 0 3px #000,0 0 14px rgba(255,100,10,.85),0 2px 0 #3a1404;animation:fauna-history-halloween-lion-lh-ntf 6s steps(1) infinite}
+@keyframes fauna-history-halloween-lion-lh-ntf{0%,70%,73%,100%{opacity:1}71%{opacity:.4}72%{opacity:.9}}
+.fauna-history-halloween-lion-lh-sbw{display:flex;align-items:center;gap:8px}.fauna-history-halloween-lion-lh-sbw i{width:30px;height:1.5px;background:#d8ccb4;opacity:.7}
+.fauna-history-halloween-lion-lh-sb{font-weight:800;font-size:10px;letter-spacing:3.4px;color:#e8dcc4;text-shadow:0 1px 2px #000,0 0 6px rgba(255,120,30,.5);white-space:nowrap}
+.fauna-history-halloween-lion-lh-tag{position:absolute;left:215px;top:943px;width:200px;height:20px;z-index:14;display:flex;align-items:center;justify-content:center;background:#0a0605;border:1px solid #ff7a1a;border-radius:3px;box-shadow:0 0 8px rgba(255,110,20,.5)}
+.fauna-history-halloween-lion-lh-tag span{font-weight:800;font-size:9.5px;letter-spacing:4px;color:#ff9a3a;text-shadow:0 0 6px rgba(255,110,20,.9);animation:fauna-history-halloween-lion-lh-ntf 4s steps(1) infinite}
+.fauna-history-halloween-lion-lh-dp{animation:fauna-history-halloween-lion-lh-dpm 8s ease-in infinite}
+@keyframes fauna-history-halloween-lion-lh-dpm{0%{transform:scaleY(.1);opacity:1}70%{transform:scaleY(1);opacity:1}90%{transform:scaleY(1.05);opacity:1}100%{transform:scaleY(1.06);opacity:0}}
+.fauna-history-halloween-lion-lh-shw{position:absolute;inset:0;z-index:30;border-radius:22px;overflow:hidden;pointer-events:none}
+.fauna-history-halloween-lion-lh-sh{position:absolute;top:0;left:-300px;width:300px;height:972px;background:linear-gradient(105deg,rgba(255,255,255,0),rgba(255,200,150,.05) 50%,rgba(255,255,255,0));animation:fauna-history-halloween-lion-lh-shm 8s linear infinite}
+@keyframes fauna-history-halloween-lion-lh-shm{from{transform:translateX(0)}to{transform:translateX(1230px)}}
+
+
+
+.fauna-history-orque-oq-sp{position:relative;width:630px;height:972px;border-radius:22px;overflow:hidden;background:#02070c;font-family:var(--font-atlas)}
+.fauna-history-orque-oq-st,.fauna-history-orque-oq-ed{position:absolute;left:0;top:0;width:630px;height:972px;pointer-events:none}
+.fauna-history-orque-oq-st{z-index:10}.fauna-history-orque-oq-ed{z-index:10;animation:fauna-history-orque-oq-o1 4s ease-in-out infinite}
+@keyframes fauna-history-orque-oq-o1{0%,100%{opacity:.3}50%{opacity:1}}
+.fauna-history-orque-oq-ph{position:absolute;left:38px;top:38px;width:554px;height:896px;overflow:hidden;z-index:2;background:#000}
+.fauna-history-orque-oq-bw{position:absolute;left:-12px;top:-12px;width:578px;height:920px;animation:fauna-history-orque-oq-drift 14s ease-in-out infinite}
+@keyframes fauna-history-orque-oq-drift{0%,100%{transform:translateY(0) scale(1.02)}50%{transform:translateY(-8px) scale(1.04)}}
+.fauna-history-orque-oq-im{position:absolute;left:0;top:0;width:578px;height:920px}
+.fauna-history-orque-oq-ca{position:absolute;left:0;top:-20px;opacity:.55}
+.fauna-history-orque-oq-ca1{animation:fauna-history-orque-oq-cam 9s ease-in-out infinite}.fauna-history-orque-oq-ca2{animation:fauna-history-orque-oq-cam 12s ease-in-out infinite reverse;opacity:.35}
+@keyframes fauna-history-orque-oq-cam{0%,100%{transform:translate(-20px,0) scale(1.05)}50%{transform:translate(20px,8px) scale(1.12)}}
+.fauna-history-orque-oq-ray{position:absolute;top:150px;width:var(--w);height:760px;transform-origin:50% 0;transform:rotate(var(--r));clip-path:polygon(38% 0,62% 0,100% 100%,0 100%);background:linear-gradient(180deg,rgba(200,240,255,.11),rgba(150,210,240,.03) 55%,rgba(0,0,0,0));animation:fauna-history-orque-oq-rym 7s ease-in-out infinite}
+@keyframes fauna-history-orque-oq-rym{0%,100%{opacity:.3}50%{opacity:1}}
+.fauna-history-orque-oq-bbw{position:absolute;left:0;top:206px;width:554px;height:0}
+.fauna-history-orque-oq-bb{position:absolute;top:0;border-radius:50%;border:1px solid rgba(230,250,255,.9);background:rgba(200,240,255,.2);animation:fauna-history-orque-oq-bbm var(--d) ease-in infinite}
+@keyframes fauna-history-orque-oq-bbm{0%{transform:translateY(40px);opacity:0}20%{opacity:1}100%{transform:translateY(-30px);opacity:0}}
+.fauna-history-orque-oq-ecw{position:absolute;left:340px;top:210px;width:0;height:0}
+.fauna-history-orque-oq-ec{position:absolute;left:-40px;top:-40px;width:80px;height:80px;border-radius:50%;border:2px solid rgba(160,230,255,.8);box-shadow:0 0 12px rgba(120,210,255,.6);opacity:0;animation:fauna-history-orque-oq-ecm 9s ease-out infinite}
+@keyframes fauna-history-orque-oq-ecm{0%,60%{opacity:0;transform:scale(.3)}61%{opacity:.9;transform:scale(.4)}75%{opacity:0;transform:scale(5)}100%{opacity:0}}
+.fauna-history-orque-oq-shd{position:absolute;left:-320px;top:650px;opacity:.85;animation:fauna-history-orque-oq-shm2 26s linear infinite}
+@keyframes fauna-history-orque-oq-shm2{0%{transform:translate(0,0)}45%{transform:translate(900px,-30px)}45.1%,100%{transform:translate(900px,-30px);opacity:0}}
+.fauna-history-orque-oq-eye{position:absolute;left:330px;top:198px;width:14px;height:14px;margin:-7px;border-radius:50%;background:radial-gradient(circle,#fff 0,#bff0ff 30%,rgba(120,210,255,0) 70%);opacity:0;animation:fauna-history-orque-oq-eyg 7s linear infinite}
+@keyframes fauna-history-orque-oq-eyg{0%,74%{opacity:0;transform:scale(.4)}78%{opacity:1;transform:scale(1.4)}84%,100%{opacity:0;transform:scale(.4)}}
+.fauna-history-orque-oq-sn{position:absolute;border-radius:50%;background:#dff4ff;opacity:.7;animation:fauna-history-orque-oq-snm var(--d) linear infinite}
+@keyframes fauna-history-orque-oq-snm{0%{transform:translate(0,0);opacity:0}15%{opacity:.8}85%{opacity:.6}100%{transform:translate(var(--x),120px);opacity:0}}
+.fauna-history-orque-oq-fog{position:absolute;left:-200px;top:700px;width:960px;height:240px;border-radius:50%;background:radial-gradient(closest-side,rgba(140,190,220,.13),rgba(0,0,0,0));animation:fauna-history-orque-oq-fgm 34s linear infinite}
+@keyframes fauna-history-orque-oq-fgm{0%,100%{transform:translateX(-120px)}50%{transform:translateX(120px)}}
+.fauna-history-orque-oq-vg{position:absolute;inset:0;box-shadow:inset 0 0 140px 40px rgba(0,6,12,.9)}
+.fauna-history-orque-oq-dk{position:absolute;inset:0;background:#000;opacity:0;animation:fauna-history-orque-oq-dkm 26s ease-in-out infinite}
+@keyframes fauna-history-orque-oq-dkm{0%,15%,45%,100%{opacity:0}25%,35%{opacity:.35}}
+.fauna-history-orque-oq-frz{position:absolute;inset:0;box-shadow:inset 0 0 70px 6px rgba(190,240,255,.45);opacity:.25;animation:fauna-history-orque-oq-o1 5s ease-in-out infinite}
+.fauna-history-orque-oq-tp{position:absolute;left:225px;top:-26px;width:180px;height:180px;z-index:20;pointer-events:none;transform:scale(.82)}
+.fauna-history-orque-oq-tgl{position:absolute;inset:0;border-radius:50%;background:radial-gradient(closest-side,rgba(140,220,255,.55),rgba(80,170,230,.15) 60%,rgba(0,0,0,0));animation:fauna-history-orque-oq-o1 4s ease-in-out infinite}
+.fauna-history-orque-oq-rg{position:absolute;left:0;top:0;animation:fauna-history-orque-oq-spn 40s linear infinite reverse}
+.fauna-history-orque-oq-fl{position:absolute;left:10px;top:10px;animation:fauna-history-orque-oq-spn 26s linear infinite}
+@keyframes fauna-history-orque-oq-spn{to{transform:rotate(360deg)}}
+.fauna-history-orque-oq-nm{position:absolute;left:150px;top:792px;width:330px;height:78px;z-index:13;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px}
+.fauna-history-orque-oq-nt{font-weight:900;font-size:34px;letter-spacing:9px;margin-left:9px;text-transform:uppercase;color:#f2fcff;text-shadow:0 0 4px #7fdcff,0 0 16px rgba(120,210,255,.9),0 2px 2px #02121e}
+.fauna-history-orque-oq-sbw{display:flex;align-items:center;gap:8px}.fauna-history-orque-oq-sbw i{width:26px;height:1.5px;background:#bfefff;opacity:.8}
+.fauna-history-orque-oq-sb{font-weight:800;font-size:9.6px;letter-spacing:3px;color:#cdefff;text-shadow:0 1px 2px #000,0 0 6px rgba(120,210,255,.7);white-space:nowrap}
+.fauna-history-orque-oq-shw{position:absolute;inset:0;z-index:30;border-radius:22px;overflow:hidden;pointer-events:none}
+.fauna-history-orque-oq-sh{position:absolute;top:0;left:-300px;width:300px;height:972px;background:linear-gradient(105deg,rgba(255,255,255,0),rgba(210,245,255,.1) 50%,rgba(255,255,255,0));animation:fauna-history-orque-oq-shm 8s linear infinite}
+@keyframes fauna-history-orque-oq-shm{from{transform:translateX(0)}to{transform:translateX(1230px)}}
+
+
+
+.fauna-history-gorille-ga-sp{position:relative;width:630px;height:972px;border-radius:22px;overflow:hidden;background:#0a1208;font-family:var(--font-atlas)}
+.fauna-history-gorille-ga-st,.fauna-history-gorille-ga-ed{position:absolute;left:0;top:0;width:630px;height:972px;pointer-events:none}
+.fauna-history-gorille-ga-st{z-index:10}.fauna-history-gorille-ga-ed{z-index:10;animation:fauna-history-gorille-ga-o1 4s ease-in-out infinite}
+@keyframes fauna-history-gorille-ga-o1{0%,100%{opacity:.3}50%{opacity:1}}
+.fauna-history-gorille-ga-ph{position:absolute;left:38px;top:38px;width:554px;height:896px;overflow:hidden;z-index:2;background:#000}
+.fauna-history-gorille-ga-bw{position:absolute;left:-12px;top:-12px;width:578px;height:920px;transform-origin:345px 420px;animation:fauna-history-gorille-ga-br 9s ease-in-out infinite}
+@keyframes fauna-history-gorille-ga-br{0%,100%{transform:scale(1)}50%{transform:scale(1.035)}}
+.fauna-history-gorille-ga-im{position:absolute;left:0;top:0;width:578px;height:920px}
+.fauna-history-gorille-ga-ey{position:absolute;width:14px;height:14px;margin:-7px;border-radius:50%;background:radial-gradient(circle,#fff6d0 0,#ffb84a 30%,rgba(255,150,40,0) 70%);opacity:0;animation:fauna-history-gorille-ga-eyg 8s linear infinite}
+@keyframes fauna-history-gorille-ga-eyg{0%,74%{opacity:0;transform:scale(.4)}78%{opacity:1;transform:scale(1.3)}84%,100%{opacity:0;transform:scale(.4)}}
+.fauna-history-gorille-ga-ray{position:absolute;top:-40px;width:var(--w);height:900px;transform-origin:50% 0;transform:rotate(var(--r));clip-path:polygon(40% 0,60% 0,100% 100%,0 100%);background:linear-gradient(180deg,rgba(200,255,190,.16),rgba(150,220,140,.04) 55%,rgba(0,0,0,0));animation:fauna-history-gorille-ga-rym 8s ease-in-out infinite}
+@keyframes fauna-history-gorille-ga-rym{0%,100%{opacity:.3}50%{opacity:1}}
+.fauna-history-gorille-ga-fog{position:absolute;left:-220px;width:1000px;height:240px;border-radius:50%;background:radial-gradient(closest-side,rgba(200,230,210,.22),rgba(160,200,170,.07) 60%,rgba(0,0,0,0));animation:fauna-history-gorille-ga-fgm var(--d) linear infinite}
+.fauna-history-gorille-ga-f1{top:120px;--d:36s}.fauna-history-gorille-ga-f2{top:560px;--d:28s;animation-direction:reverse}.fauna-history-gorille-ga-f3{top:760px;--d:32s}
+@keyframes fauna-history-gorille-ga-fgm{0%,100%{transform:translateX(-130px)}50%{transform:translateX(130px)}}
+.fauna-history-gorille-ga-ff{position:absolute;width:4px;height:4px;border-radius:50%;background:#f4ff9a;box-shadow:0 0 8px 3px rgba(220,255,90,.7);animation:fauna-history-gorille-ga-ffm var(--d) ease-in-out infinite}
+@keyframes fauna-history-gorille-ga-ffm{0%,100%{transform:translate(0,0);opacity:.1}30%{opacity:1}50%{transform:translate(var(--x),var(--y));opacity:.2}70%{opacity:.9}}
+.fauna-history-gorille-ga-lf{position:absolute;top:-30px;animation:fauna-history-gorille-ga-lfm var(--d) linear infinite}
+@keyframes fauna-history-gorille-ga-lfm{0%{transform:translate(0,0) rotate(0)}25%{transform:translate(calc(var(--x)*.5),230px) rotate(120deg)}50%{transform:translate(0,460px) rotate(200deg)}75%{transform:translate(calc(var(--x)*.6),690px) rotate(320deg)}100%{transform:translate(var(--x),940px) rotate(400deg)}}
+.fauna-history-gorille-ga-vg{position:absolute;inset:0;box-shadow:inset 0 0 130px 34px rgba(4,12,4,.85)}
+.fauna-history-gorille-ga-tp{position:absolute;left:230px;top:-20px;width:170px;height:170px;z-index:20;pointer-events:none}
+.fauna-history-gorille-ga-tgl{position:absolute;inset:0;border-radius:50%;background:radial-gradient(closest-side,rgba(160,230,110,.45),rgba(100,180,70,.12) 60%,rgba(0,0,0,0));animation:fauna-history-gorille-ga-o1 4s ease-in-out infinite}
+.fauna-history-gorille-ga-wr{position:absolute;left:0;top:0;animation:fauna-history-gorille-ga-spn 34s linear infinite}
+@keyframes fauna-history-gorille-ga-spn{to{transform:rotate(360deg)}}
+.fauna-history-gorille-ga-ds{position:absolute;left:30px;top:30px}
+.fauna-history-gorille-ga-nm{position:absolute;left:150px;top:796px;width:330px;height:76px;z-index:13;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px}
+.fauna-history-gorille-ga-nt{font-weight:900;font-size:24px;letter-spacing:2px;text-transform:uppercase;color:#e8f2c8;text-shadow:0 2px 2px #000,0 0 12px rgba(150,220,90,.6);white-space:nowrap}
+.fauna-history-gorille-ga-sbw{display:flex;align-items:center;gap:8px}.fauna-history-gorille-ga-sbw i{width:26px;height:1.5px;background:#9ac46a}
+.fauna-history-gorille-ga-sb{font-weight:800;font-size:9.6px;letter-spacing:3px;color:#c8e09a;text-shadow:0 1px 2px #000;white-space:nowrap}
+.fauna-history-gorille-ga-shw{position:absolute;inset:0;z-index:30;border-radius:22px;overflow:hidden;pointer-events:none}
+.fauna-history-gorille-ga-sh{position:absolute;top:0;left:-300px;width:300px;height:972px;background:linear-gradient(105deg,rgba(255,255,255,0),rgba(220,255,200,.07) 50%,rgba(255,255,255,0));animation:fauna-history-gorille-ga-shm 8s linear infinite}
+@keyframes fauna-history-gorille-ga-shm{from{transform:translateX(0)}to{transform:translateX(1230px)}}
+
+
+
+.fauna-history-newton-nw-sp{position:relative;width:630px;height:972px;border-radius:22px;overflow:hidden;background:#140e06;font-family:var(--font-atlas)}
+.fauna-history-newton-nw-st,.fauna-history-newton-nw-ed,.fauna-history-newton-nw-bm{position:absolute;left:0;top:0;width:630px;height:972px;pointer-events:none}
+.fauna-history-newton-nw-st{z-index:10}.fauna-history-newton-nw-ed{z-index:10;animation:fauna-history-newton-nw-o1 4s ease-in-out infinite}
+@keyframes fauna-history-newton-nw-o1{0%,100%{opacity:.3}50%{opacity:1}}
+.fauna-history-newton-nw-ph{position:absolute;left:38px;top:38px;width:554px;height:896px;overflow:hidden;z-index:2;background:#000}
+.fauna-history-newton-nw-bw{position:absolute;left:-12px;top:-12px;width:578px;height:920px;transform-origin:380px 300px;animation:fauna-history-newton-nw-br 10s ease-in-out infinite}
+@keyframes fauna-history-newton-nw-br{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}
+.fauna-history-newton-nw-im{position:absolute;left:0;top:0;width:578px;height:920px}
+.fauna-history-newton-nw-cl{position:absolute;left:180px;top:-80px;width:420px;height:420px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,220,150,.25),rgba(0,0,0,0));animation:fauna-history-newton-nw-o1 6s ease-in-out infinite}
+.fauna-history-newton-nw-mo{position:absolute;width:3px;height:3px;border-radius:50%;background:#ffe2a0;box-shadow:0 0 6px 2px rgba(255,200,90,.5);animation:fauna-history-newton-nw-mom var(--d) ease-in-out infinite}
+@keyframes fauna-history-newton-nw-mom{0%{transform:translate(0,0);opacity:0}25%{opacity:.9}75%{opacity:.5}100%{transform:translate(var(--x),-140px);opacity:0}}
+.fauna-history-newton-nw-vg{position:absolute;inset:0;box-shadow:inset 0 0 120px 30px rgba(10,6,0,.8)}
+.fauna-history-newton-nw-bm{z-index:12;animation:fauna-history-newton-nw-bmp 3s ease-in-out infinite}
+@keyframes fauna-history-newton-nw-bmp{0%,100%{opacity:.85;filter:brightness(1)}50%{opacity:1;filter:brightness(1.25)}}
+.fauna-history-newton-nw-spk{position:absolute;left:450px;top:816px;width:48px;height:48px;z-index:13;border-radius:50%;background:radial-gradient(circle,#fff 0,rgba(255,255,255,.4) 30%,rgba(255,255,255,0) 65%);animation:fauna-history-newton-nw-spm 2.2s ease-in-out infinite}
+@keyframes fauna-history-newton-nw-spm{0%,100%{opacity:.4;transform:scale(.8)}50%{opacity:1;transform:scale(1.2)}}
+.fauna-history-newton-nw-nm{position:absolute;left:134px;top:790px;width:330px;height:82px;z-index:14;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:4px 0 6px}
+.fauna-history-newton-nw-nt{font-weight:900;font-size:23px;letter-spacing:3px;text-transform:uppercase;color:#f7e6c0;text-shadow:0 2px 2px #000,0 0 10px rgba(255,200,110,.6);white-space:nowrap}
+.fauna-history-newton-nw-sbw{display:flex;align-items:center;gap:8px}.fauna-history-newton-nw-sbw i{width:0;height:0}
+.fauna-history-newton-nw-sb{font-weight:800;font-size:9px;letter-spacing:2.6px;color:#e8d4a8;text-shadow:0 1px 2px #000;white-space:nowrap}
+.fauna-history-newton-nw-aw{position:absolute;left:96px;top:-70px;z-index:25;pointer-events:none;animation:fauna-history-newton-nw-fall 5.5s cubic-bezier(.55,0,1,.45) infinite}
+.fauna-history-newton-nw-ap{display:block;animation:fauna-history-newton-nw-spin 5.5s linear infinite}
+@keyframes fauna-history-newton-nw-fall{0%{transform:translateY(0);opacity:1}62%{transform:translateY(780px);opacity:1}68%{transform:translateY(748px)}74%{transform:translateY(780px)}78%{transform:translateY(772px)}82%{transform:translateY(780px);opacity:1}92%,100%{transform:translateY(780px);opacity:0}}
+@keyframes fauna-history-newton-nw-spin{0%{transform:rotate(-20deg)}62%{transform:rotate(220deg)}82%,100%{transform:rotate(250deg)}}
+.fauna-history-newton-nw-thud{position:absolute;left:96px;top:760px;width:60px;height:20px;z-index:24;border-radius:50%;border:2px solid rgba(255,220,150,.8);opacity:0;animation:fauna-history-newton-nw-thm 5.5s ease-out infinite}
+@keyframes fauna-history-newton-nw-thm{0%,61%{opacity:0;transform:scale(.3)}62%{opacity:1;transform:scale(.5)}75%,100%{opacity:0;transform:scale(2.6)}}
+.fauna-history-newton-nw-shw{position:absolute;inset:0;z-index:30;border-radius:22px;overflow:hidden;pointer-events:none}
+.fauna-history-newton-nw-sh{position:absolute;top:0;left:-300px;width:300px;height:972px;background:linear-gradient(105deg,rgba(255,255,255,0),rgba(255,236,190,.08) 50%,rgba(255,255,255,0));animation:fauna-history-newton-nw-shm 8s linear infinite}
+@keyframes fauna-history-newton-nw-shm{from{transform:translateX(0)}to{transform:translateX(1230px)}}
+
+
+
+.fauna-history-louis-ix-l9-sp{position:relative;width:630px;height:972px;border-radius:22px;overflow:hidden;background:#0e2470;font-family:var(--font-atlas)}
+.fauna-history-louis-ix-l9-st,.fauna-history-louis-ix-l9-ed{position:absolute;left:0;top:0;width:630px;height:972px;pointer-events:none}
+.fauna-history-louis-ix-l9-st{z-index:10}.fauna-history-louis-ix-l9-ed{z-index:10;animation:fauna-history-louis-ix-l9-o1 3.4s ease-in-out infinite}
+@keyframes fauna-history-louis-ix-l9-o1{0%,100%{opacity:.3}50%{opacity:1}}
+.fauna-history-louis-ix-l9-ph{position:absolute;left:38px;top:38px;width:554px;height:896px;overflow:hidden;z-index:2;background:#000}
+.fauna-history-louis-ix-l9-bw{position:absolute;left:-12px;top:-12px;width:578px;height:920px;transform-origin:260px 200px;animation:fauna-history-louis-ix-l9-br 10s ease-in-out infinite}
+@keyframes fauna-history-louis-ix-l9-br{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}
+.fauna-history-louis-ix-l9-im{position:absolute;left:0;top:0;width:578px;height:920px}
+.fauna-history-louis-ix-l9-sun{position:absolute;left:330px;top:150px;width:420px;height:420px;margin:-210px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,236,170,.5),rgba(255,200,100,.12) 55%,rgba(0,0,0,0));animation:fauna-history-louis-ix-l9-o1 5s ease-in-out infinite}
+.fauna-history-louis-ix-l9-ray{position:absolute;left:0;top:0;width:554px;height:896px;background:repeating-conic-gradient(from 0deg at 72% 22%,rgba(255,230,160,.10) 0 4deg,rgba(0,0,0,0) 4deg 12deg);-webkit-mask:radial-gradient(circle at 72% 22%,#000 0,rgba(0,0,0,.6) 30%,rgba(0,0,0,0) 60%);mask:radial-gradient(circle at 72% 22%,#000 0,rgba(0,0,0,.6) 30%,rgba(0,0,0,0) 60%);animation:fauna-history-louis-ix-l9-o1 7s ease-in-out infinite}
+.fauna-history-louis-ix-l9-crown{position:absolute;left:174px;top:94px;width:90px;height:60px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,230,140,.7),rgba(255,200,80,0));animation:fauna-history-louis-ix-l9-o1 2.6s ease-in-out infinite}
+.fauna-history-louis-ix-l9-blade{position:absolute;left:20px;top:250px;width:30px;height:110px;transform:rotate(38deg);background:linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255,.7) 50%,rgba(255,255,255,0));opacity:0;animation:fauna-history-louis-ix-l9-bl 5s ease-in-out infinite}
+@keyframes fauna-history-louis-ix-l9-bl{0%,60%{opacity:0;transform:rotate(38deg) translateY(-60px)}70%{opacity:.9}85%,100%{opacity:0;transform:rotate(38deg) translateY(90px)}}
+.fauna-history-louis-ix-l9-sk{position:absolute;width:16px;height:16px;margin:-8px;background:radial-gradient(circle,#fff 0,#ffe9a8 25%,rgba(255,220,120,0) 60%);opacity:0;animation:fauna-history-louis-ix-l9-skm 3.2s linear infinite}
+@keyframes fauna-history-louis-ix-l9-skm{0%,80%{opacity:0;transform:scale(.3)}86%{opacity:1;transform:scale(1.2) rotate(45deg)}94%,100%{opacity:0;transform:scale(.3)}}
+.fauna-history-louis-ix-l9-mo{position:absolute;width:3px;height:3px;border-radius:50%;background:#ffe2a0;box-shadow:0 0 6px 2px rgba(255,200,90,.5);animation:fauna-history-louis-ix-l9-mom var(--d) ease-in-out infinite}
+@keyframes fauna-history-louis-ix-l9-mom{0%{transform:translate(0,0);opacity:0}25%{opacity:.9}75%{opacity:.5}100%{transform:translate(var(--x),-150px);opacity:0}}
+.fauna-history-louis-ix-l9-dust{position:absolute;left:-200px;top:700px;width:960px;height:220px;border-radius:50%;background:radial-gradient(closest-side,rgba(240,200,140,.22),rgba(0,0,0,0));animation:fauna-history-louis-ix-l9-fg 28s linear infinite}
+@keyframes fauna-history-louis-ix-l9-fg{0%,100%{transform:translateX(-120px)}50%{transform:translateX(120px)}}
+.fauna-history-louis-ix-l9-vg{position:absolute;inset:0;box-shadow:inset 0 0 110px 26px rgba(6,14,50,.75)}
+.fauna-history-louis-ix-l9-plw{position:absolute;left:114px;top:788px;width:402px;height:84px;z-index:11;pointer-events:none;-webkit-mask:url(#none);clip-path:polygon(9% 0,91% 0,100% 50%,91% 100%,9% 100%,0 50%);overflow:hidden}
+.fauna-history-louis-ix-l9-pls{position:absolute;top:0;left:-140px;width:110px;height:84px;background:linear-gradient(100deg,rgba(255,255,255,0),rgba(255,255,240,.85) 50%,rgba(255,255,255,0));mix-blend-mode:overlay;animation:fauna-history-louis-ix-l9-plm 3.6s ease-in-out infinite}
+@keyframes fauna-history-louis-ix-l9-plm{0%{transform:translateX(0)}60%,100%{transform:translateX(680px)}}
+.fauna-history-louis-ix-l9-tp{position:absolute;left:220px;top:-22px;width:190px;height:190px;z-index:20;pointer-events:none;perspective:500px}
+.fauna-history-louis-ix-l9-ha{position:absolute;left:0;top:0;animation:fauna-history-louis-ix-l9-spn 30s linear infinite}
+@keyframes fauna-history-louis-ix-l9-spn{to{transform:rotate(360deg)}}
+.fauna-history-louis-ix-l9-tgl{position:absolute;inset:30px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,230,150,.6),rgba(255,200,80,.15) 60%,rgba(0,0,0,0));animation:fauna-history-louis-ix-l9-o1 3s ease-in-out infinite}
+.fauna-history-louis-ix-l9-ly3{position:absolute;left:59px;top:44px;width:72px;height:102px;transform-style:preserve-3d;animation:fauna-history-louis-ix-l9-ry 5s linear infinite;filter:drop-shadow(0 3px 4px #000) drop-shadow(0 0 10px rgba(255,210,90,.7))}
+.fauna-history-louis-ix-l9-ly3 img{display:block}
+@keyframes fauna-history-louis-ix-l9-ry{to{transform:rotateY(360deg)}}
+.fauna-history-louis-ix-l9-nm{position:absolute;left:134px;top:798px;width:362px;height:64px;z-index:14;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
+.fauna-history-louis-ix-l9-nt{font-weight:900;font-size:32px;letter-spacing:6px;margin-left:6px;text-transform:uppercase;color:#1a2a7a;text-shadow:0 1px 0 rgba(255,250,220,.9),0 -1px 0 rgba(80,50,0,.6)}
+.fauna-history-louis-ix-l9-sb{font-weight:800;font-size:9.6px;letter-spacing:3px;color:#24307e;text-shadow:0 1px 0 rgba(255,250,220,.8);white-space:nowrap}
+.fauna-history-louis-ix-l9-shw{position:absolute;inset:0;z-index:30;border-radius:22px;overflow:hidden;pointer-events:none}
+.fauna-history-louis-ix-l9-sh{position:absolute;top:0;left:-300px;width:300px;height:972px;background:linear-gradient(105deg,rgba(255,255,255,0),rgba(255,240,200,.08) 50%,rgba(255,255,255,0));animation:fauna-history-louis-ix-l9-shm 8s linear infinite}
+@keyframes fauna-history-louis-ix-l9-shm{from{transform:translateX(0)}to{transform:translateX(1230px)}}
+
+
+
+.fauna-history-pygargue-eg-sp{position:relative;width:630px;height:972px;border-radius:22px;overflow:hidden;background:#2a1206;font-family:var(--font-atlas)}
+.fauna-history-pygargue-eg-st,.fauna-history-pygargue-eg-ed{position:absolute;left:0;top:0;width:630px;height:972px;pointer-events:none}
+.fauna-history-pygargue-eg-st{z-index:10}.fauna-history-pygargue-eg-ed{z-index:10;animation:fauna-history-pygargue-eg-o1 3.6s ease-in-out infinite}
+@keyframes fauna-history-pygargue-eg-o1{0%,100%{opacity:.3}50%{opacity:1}}
+.fauna-history-pygargue-eg-ph{position:absolute;left:38px;top:38px;width:554px;height:896px;overflow:hidden;z-index:2;background:#000}
+.fauna-history-pygargue-eg-bw{position:absolute;left:-12px;top:-12px;width:578px;height:920px;transform-origin:300px 330px;animation:fauna-history-pygargue-eg-br 10s ease-in-out infinite}
+@keyframes fauna-history-pygargue-eg-br{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}
+.fauna-history-pygargue-eg-im{position:absolute;left:0;top:0;width:578px;height:920px}
+.fauna-history-pygargue-eg-ey{position:absolute;left:263px;top:313px;width:16px;height:16px;margin:-8px;border-radius:50%;background:radial-gradient(circle,#fff 0,#ffe9a8 30%,rgba(255,220,120,0) 70%);opacity:0;animation:fauna-history-pygargue-eg-eyg 6s linear infinite}
+@keyframes fauna-history-pygargue-eg-eyg{0%,74%{opacity:0;transform:scale(.4)}78%{opacity:1;transform:scale(1.3) rotate(45deg)}84%,100%{opacity:0;transform:scale(.4)}}
+.fauna-history-pygargue-eg-glow{position:absolute;left:420px;top:-40px;width:380px;height:380px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,200,110,.4),rgba(255,150,50,.1) 55%,rgba(0,0,0,0));animation:fauna-history-pygargue-eg-o1 6s ease-in-out infinite}
+.fauna-history-pygargue-eg-ray{position:absolute;top:-60px;height:1000px;transform-origin:50% 0;clip-path:polygon(40% 0,60% 0,100% 100%,0 100%);background:linear-gradient(180deg,rgba(255,210,140,.16),rgba(255,180,90,.04) 55%,rgba(0,0,0,0));animation:fauna-history-pygargue-eg-o1 8s ease-in-out infinite}
+.fauna-history-pygargue-eg-r1{left:420px;width:120px;transform:rotate(26deg)}.fauna-history-pygargue-eg-r2{left:470px;width:90px;transform:rotate(34deg);animation-delay:-4s}
+.fauna-history-pygargue-eg-mo{position:absolute;width:3px;height:3px;border-radius:50%;background:#ffe2a0;box-shadow:0 0 6px 2px rgba(255,180,80,.55);animation:fauna-history-pygargue-eg-mom var(--d) ease-in-out infinite}
+@keyframes fauna-history-pygargue-eg-mom{0%{transform:translate(0,0);opacity:0}25%{opacity:.9}75%{opacity:.5}100%{transform:translate(var(--x),-140px);opacity:0}}
+.fauna-history-pygargue-eg-fog{position:absolute;left:-200px;top:720px;width:960px;height:220px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,190,120,.18),rgba(0,0,0,0));animation:fauna-history-pygargue-eg-fg 30s linear infinite}
+@keyframes fauna-history-pygargue-eg-fg{0%,100%{transform:translateX(-120px)}50%{transform:translateX(120px)}}
+.fauna-history-pygargue-eg-vg{position:absolute;inset:0;box-shadow:inset 0 0 120px 30px rgba(30,10,0,.7)}
+.fauna-history-pygargue-eg-fw{position:absolute;left:0;top:0;width:630px;height:972px;z-index:12;pointer-events:none;overflow:hidden;border-radius:22px}
+.fauna-history-pygargue-eg-fl{position:absolute;top:-60px;animation:fauna-history-pygargue-eg-fall var(--d) linear infinite}
+.fauna-history-pygargue-eg-fl img{display:block;animation:fauna-history-pygargue-eg-flut ease-in-out infinite alternate;filter:drop-shadow(0 3px 3px rgba(0,0,0,.5))}
+@keyframes fauna-history-pygargue-eg-fall{0%{transform:translate(0,0)}25%{transform:translate(calc(var(--x)*.3 + var(--sw)),270px)}50%{transform:translate(calc(var(--x)*.5),540px)}75%{transform:translate(calc(var(--x)*.8 + var(--sw)),810px)}100%{transform:translate(var(--x),1080px)}}
+@keyframes fauna-history-pygargue-eg-flut{from{transform:rotate(-40deg) rotateX(0deg)}to{transform:rotate(60deg) rotateX(60deg)}}
+.fauna-history-pygargue-eg-tp{position:absolute;left:230px;top:-24px;width:170px;height:170px;z-index:20;pointer-events:none}
+.fauna-history-pygargue-eg-tgl{position:absolute;inset:0;border-radius:50%;background:radial-gradient(closest-side,rgba(255,180,80,.5),rgba(255,140,40,.12) 60%,rgba(0,0,0,0));animation:fauna-history-pygargue-eg-o1 3.4s ease-in-out infinite}
+.fauna-history-pygargue-eg-em{position:absolute;left:0;top:0;animation:fauna-history-pygargue-eg-spn 30s linear infinite}
+@keyframes fauna-history-pygargue-eg-spn{to{transform:rotate(360deg)}}
+.fauna-history-pygargue-eg-nm{position:absolute;left:134px;top:802px;width:362px;height:58px;z-index:14;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
+.fauna-history-pygargue-eg-nt{font-weight:900;font-size:19px;letter-spacing:1.6px;text-transform:uppercase;color:#ffe2b0;text-shadow:0 2px 2px #000,0 0 10px rgba(255,160,60,.7);white-space:nowrap}
+.fauna-history-pygargue-eg-sb{font-weight:800;font-size:9.4px;letter-spacing:3px;color:#f2c27a;text-shadow:0 1px 2px #000;white-space:nowrap}
+.fauna-history-pygargue-eg-shw{position:absolute;inset:0;z-index:30;border-radius:22px;overflow:hidden;pointer-events:none}
+.fauna-history-pygargue-eg-sh{position:absolute;top:0;left:-300px;width:300px;height:972px;background:linear-gradient(105deg,rgba(255,255,255,0),rgba(255,220,170,.08) 50%,rgba(255,255,255,0));animation:fauna-history-pygargue-eg-shm 8s linear infinite}
+@keyframes fauna-history-pygargue-eg-shm{from{transform:translateX(0)}to{transform:translateX(1230px)}}
+
+
+
+.fauna-history-tortue-verte-tt-sp{position:relative;width:630px;height:972px;border-radius:22px;overflow:hidden;background:#063a5a;font-family:var(--font-atlas)}
+.fauna-history-tortue-verte-tt-st,.fauna-history-tortue-verte-tt-ed{position:absolute;left:0;top:0;width:630px;height:972px;pointer-events:none}
+.fauna-history-tortue-verte-tt-st{z-index:10}.fauna-history-tortue-verte-tt-ed{z-index:10;animation:fauna-history-tortue-verte-tt-o1 3.4s ease-in-out infinite}
+@keyframes fauna-history-tortue-verte-tt-o1{0%,100%{opacity:.3}50%{opacity:1}}
+.fauna-history-tortue-verte-tt-ph{position:absolute;left:38px;top:38px;width:554px;height:896px;overflow:hidden;z-index:2;background:#000}
+.fauna-history-tortue-verte-tt-bw{position:absolute;left:-12px;top:-12px;width:578px;height:920px;animation:fauna-history-tortue-verte-tt-sw 10s ease-in-out infinite}
+@keyframes fauna-history-tortue-verte-tt-sw{0%,100%{transform:translate(0,0) scale(1.02)}50%{transform:translate(-6px,-5px) scale(1.04)}}
+.fauna-history-tortue-verte-tt-im{position:absolute;left:0;top:0;width:578px;height:920px}
+.fauna-history-tortue-verte-tt-ca{position:absolute;left:0;top:0;opacity:.3;animation:fauna-history-tortue-verte-tt-cam 8s ease-in-out infinite}
+@keyframes fauna-history-tortue-verte-tt-cam{0%,100%{transform:translate(-20px,0) scale(1.06)}50%{transform:translate(20px,8px) scale(1.14)}}
+.fauna-history-tortue-verte-tt-ray{position:absolute;top:-20px;width:var(--w);height:700px;transform-origin:50% 0;transform:rotate(var(--r));clip-path:polygon(38% 0,62% 0,100% 100%,0 100%);background:linear-gradient(180deg,rgba(220,255,255,.24),rgba(180,240,255,.05) 60%,rgba(0,0,0,0));animation:fauna-history-tortue-verte-tt-rym 7s ease-in-out infinite}
+@keyframes fauna-history-tortue-verte-tt-rym{0%,100%{opacity:.3}50%{opacity:1}}
+.fauna-history-tortue-verte-tt-fi{position:absolute;left:-60px;animation:fauna-history-tortue-verte-tt-swim var(--d) linear infinite}
+.fauna-history-tortue-verte-tt-fi img{display:block}
+@keyframes fauna-history-tortue-verte-tt-swim{0%{transform:translate(0,0)}25%{transform:translate(170px,-12px)}50%{transform:translate(340px,6px)}75%{transform:translate(510px,-8px)}100%{transform:translate(680px,0)}}
+.fauna-history-tortue-verte-tt-nose{position:absolute;left:150px;top:530px;width:0;height:0}
+.fauna-history-tortue-verte-tt-nb{position:absolute;top:0;width:5px;height:5px;border-radius:50%;border:1px solid rgba(240,255,255,.9);animation:fauna-history-tortue-verte-tt-nbm var(--d) ease-in infinite}
+@keyframes fauna-history-tortue-verte-tt-nbm{0%{transform:translateY(0);opacity:0}15%{opacity:1}100%{transform:translate(-8px,-120px) scale(1.6);opacity:0}}
+.fauna-history-tortue-verte-tt-bb{position:absolute;bottom:-10px;border-radius:50%;border:1px solid rgba(240,255,255,.85);background:rgba(220,255,255,.15);animation:fauna-history-tortue-verte-tt-bbm var(--d) ease-in infinite}
+@keyframes fauna-history-tortue-verte-tt-bbm{0%{transform:translate(0,0);opacity:0}10%{opacity:1}100%{transform:translate(var(--x),-900px);opacity:.2}}
+.fauna-history-tortue-verte-tt-vg{position:absolute;inset:0;box-shadow:inset 0 0 110px 24px rgba(0,30,60,.6)}
+.fauna-history-tortue-verte-tt-tp{position:absolute;left:230px;top:-24px;width:170px;height:170px;z-index:20;pointer-events:none}
+.fauna-history-tortue-verte-tt-tgl{position:absolute;inset:0;border-radius:50%;background:radial-gradient(closest-side,rgba(160,250,255,.55),rgba(100,220,240,.15) 60%,rgba(0,0,0,0));animation:fauna-history-tortue-verte-tt-o1 3.4s ease-in-out infinite}
+.fauna-history-tortue-verte-tt-em{position:absolute;left:0;top:0;animation:fauna-history-tortue-verte-tt-bob 5s ease-in-out infinite}
+@keyframes fauna-history-tortue-verte-tt-bob{0%,100%{transform:translateY(0) rotate(-6deg)}50%{transform:translateY(5px) rotate(6deg)}}
+.fauna-history-tortue-verte-tt-nm{position:absolute;left:134px;top:798px;width:362px;height:66px;z-index:14;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
+.fauna-history-tortue-verte-tt-nt{font-weight:900;font-size:28px;letter-spacing:4px;text-transform:uppercase;color:#f2ffff;text-shadow:0 2px 2px #002a40,0 0 12px rgba(120,230,255,.8)}
+.fauna-history-tortue-verte-tt-sb{font-weight:800;font-size:9.6px;letter-spacing:3px;color:#ffe0b0;text-shadow:0 1px 2px #002a40;white-space:nowrap}
+.fauna-history-tortue-verte-tt-shw{position:absolute;inset:0;z-index:30;border-radius:22px;overflow:hidden;pointer-events:none}
+.fauna-history-tortue-verte-tt-sh{position:absolute;top:0;left:-300px;width:300px;height:972px;background:linear-gradient(105deg,rgba(255,255,255,0),rgba(200,250,255,.1) 50%,rgba(255,255,255,0));animation:fauna-history-tortue-verte-tt-shm 7s linear infinite}
+@keyframes fauna-history-tortue-verte-tt-shm{from{transform:translateX(0)}to{transform:translateX(1230px)}}
+
+
+
+.fauna-history-crocodile-nil-cs-sp{position:relative;width:630px;height:972px;border-radius:22px;overflow:hidden;background:#2a2a10;font-family:var(--font-atlas)}
+.fauna-history-crocodile-nil-cs-st,.fauna-history-crocodile-nil-cs-ed{position:absolute;left:0;top:0;width:630px;height:972px;pointer-events:none}
+.fauna-history-crocodile-nil-cs-st{z-index:10}.fauna-history-crocodile-nil-cs-ed{z-index:10;animation:fauna-history-crocodile-nil-cs-o1 3.4s ease-in-out infinite}
+@keyframes fauna-history-crocodile-nil-cs-o1{0%,100%{opacity:.3}50%{opacity:1}}
+.fauna-history-crocodile-nil-cs-ph{position:absolute;left:38px;top:38px;width:554px;height:896px;overflow:hidden;z-index:2;background:#000}
+.fauna-history-crocodile-nil-cs-bw{position:absolute;left:-12px;top:-12px;width:578px;height:920px;animation:fauna-history-crocodile-nil-cs-mv 9s ease-in-out infinite}
+@keyframes fauna-history-crocodile-nil-cs-mv{0%,100%{transform:translateY(0) scale(1.02)}50%{transform:translateY(-10px) scale(1.03)}}
+.fauna-history-crocodile-nil-cs-im{position:absolute;left:0;top:0;width:578px;height:920px}
+.fauna-history-crocodile-nil-cs-ey{position:absolute;width:12px;height:12px;margin:-6px;border-radius:50%;background:radial-gradient(circle,#fff6b0 0,#ffc83a 35%,rgba(255,180,40,0) 70%);animation:fauna-history-crocodile-nil-cs-eyp 3s ease-in-out infinite}
+@keyframes fauna-history-crocodile-nil-cs-eyp{0%,100%{opacity:.3}50%{opacity:1}}
+.fauna-history-crocodile-nil-cs-wk{position:absolute;width:40px;height:3px;border-radius:2px;background:linear-gradient(90deg,rgba(220,255,160,0),rgba(230,255,180,.75),rgba(220,255,160,0));transform:rotate(calc(var(--s)*-38deg));opacity:0;animation:fauna-history-crocodile-nil-cs-wkm 3.2s ease-out infinite}
+@keyframes fauna-history-crocodile-nil-cs-wkm{0%{opacity:0;translate:0 0}20%{opacity:.9}100%{opacity:0;translate:calc(var(--s)*40px) 30px}}
+.fauna-history-crocodile-nil-cs-gl{position:absolute;width:14px;height:14px;margin:-7px;background:radial-gradient(circle,#fff 0,#f4ffb0 25%,rgba(240,255,160,0) 60%);opacity:0;animation:fauna-history-crocodile-nil-cs-glm 4s linear infinite}
+@keyframes fauna-history-crocodile-nil-cs-glm{0%,82%{opacity:0;transform:scale(.3)}88%{opacity:1;transform:scale(1.2) rotate(45deg)}96%,100%{opacity:0;transform:scale(.3)}}
+.fauna-history-crocodile-nil-cs-sun{position:absolute;left:-120px;top:-140px;width:420px;height:420px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,240,170,.35),rgba(0,0,0,0));animation:fauna-history-crocodile-nil-cs-o1 6s ease-in-out infinite}
+.fauna-history-crocodile-nil-cs-vg{position:absolute;inset:0;box-shadow:inset 0 0 110px 24px rgba(10,20,0,.6)}
+.fauna-history-crocodile-nil-cs-plw{position:absolute;left:168px;top:802px;width:300px;height:58px;z-index:11;border-radius:29px;overflow:hidden;pointer-events:none}
+.fauna-history-crocodile-nil-cs-pls{position:absolute;top:0;left:-120px;width:90px;height:58px;background:linear-gradient(100deg,rgba(255,255,255,0),rgba(255,255,240,.85) 50%,rgba(255,255,255,0));mix-blend-mode:overlay;animation:fauna-history-crocodile-nil-cs-plm 3.4s ease-in-out infinite}
+@keyframes fauna-history-crocodile-nil-cs-plm{0%{transform:translateX(0)}60%,100%{transform:translateX(520px)}}
+.fauna-history-crocodile-nil-cs-tp{position:absolute;left:230px;top:-40px;width:170px;height:170px;z-index:20;pointer-events:none;transform:scale(.78)}
+.fauna-history-crocodile-nil-cs-tgl{position:absolute;inset:0;border-radius:50%;background:radial-gradient(closest-side,rgba(255,220,120,.5),rgba(255,180,60,.12) 60%,rgba(0,0,0,0));animation:fauna-history-crocodile-nil-cs-o1 3.4s ease-in-out infinite}
+.fauna-history-crocodile-nil-cs-em{position:absolute;left:0;top:0;animation:fauna-history-crocodile-nil-cs-spn 28s linear infinite}
+@keyframes fauna-history-crocodile-nil-cs-spn{to{transform:rotate(360deg)}}
+.fauna-history-crocodile-nil-cs-nm{position:absolute;left:168px;top:802px;width:294px;height:58px;z-index:14;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px}
+.fauna-history-crocodile-nil-cs-nt{font-weight:900;font-size:22px;letter-spacing:2px;text-transform:uppercase;color:#1a2a6a;text-shadow:0 1px 0 rgba(255,250,220,.9);white-space:nowrap}
+.fauna-history-crocodile-nil-cs-sb{font-weight:800;font-size:9.4px;letter-spacing:3px;color:#5a3a06;text-shadow:0 1px 0 rgba(255,250,220,.7);white-space:nowrap}
+.fauna-history-crocodile-nil-cs-shw{position:absolute;inset:0;z-index:30;border-radius:22px;overflow:hidden;pointer-events:none}
+.fauna-history-crocodile-nil-cs-sh{position:absolute;top:0;left:-300px;width:300px;height:972px;background:linear-gradient(105deg,rgba(255,255,255,0),rgba(255,240,190,.08) 50%,rgba(255,255,255,0));animation:fauna-history-crocodile-nil-cs-shm 8s linear infinite}
+@keyframes fauna-history-crocodile-nil-cs-shm{from{transform:translateX(0)}to{transform:translateX(1230px)}}
+
+
+
+.fauna-history-halloween-crocodile-ch-sp{position:relative;width:630px;height:972px;border-radius:22px;overflow:hidden;background:#05080f;font-family:var(--font-atlas)}
+.fauna-history-halloween-crocodile-ch-st,.fauna-history-halloween-crocodile-ch-ed{position:absolute;left:0;top:0;width:630px;height:972px;pointer-events:none}
+.fauna-history-halloween-crocodile-ch-st{z-index:10}.fauna-history-halloween-crocodile-ch-ed{z-index:10;animation:fauna-history-halloween-crocodile-ch-o1 2.8s ease-in-out infinite}
+@keyframes fauna-history-halloween-crocodile-ch-o1{0%,100%{opacity:.25}50%{opacity:1}}
+.fauna-history-halloween-crocodile-ch-ph{position:absolute;left:38px;top:38px;width:554px;height:896px;overflow:hidden;z-index:2;background:#000}
+.fauna-history-halloween-crocodile-ch-bw{position:absolute;left:-12px;top:-12px;width:578px;height:920px;transform-origin:298px 420px;animation:fauna-history-halloween-crocodile-ch-br 8s ease-in-out infinite,fauna-history-halloween-crocodile-ch-zm 12s ease-in-out infinite}
+@keyframes fauna-history-halloween-crocodile-ch-br{0%,100%{translate:0 0}50%{translate:0 -6px}}
+@keyframes fauna-history-halloween-crocodile-ch-zm{0%,82%{transform:scale(1)}83%{transform:scale(1.35)}88%{transform:scale(1.4)}90%,100%{transform:scale(1)}}
+.fauna-history-halloween-crocodile-ch-im{position:absolute;left:0;top:0;width:578px;height:920px}
+.fauna-history-halloween-crocodile-ch-ey{position:absolute;width:56px;height:56px;margin:-28px;border-radius:50%;background:radial-gradient(circle,#fff0c0 0,#ff4a1a 18%,rgba(255,40,10,.45) 40%,rgba(255,20,0,0) 70%);animation:fauna-history-halloween-crocodile-ch-eyp 2.4s ease-in-out infinite}
+@keyframes fauna-history-halloween-crocodile-ch-eyp{0%,100%{opacity:.55;transform:scale(.85)}40%{opacity:1;transform:scale(1.2)}46%{opacity:.3}52%{opacity:1;transform:scale(1.1)}}
+.fauna-history-halloween-crocodile-ch-rf{position:absolute;top:676px;width:14px;height:200px;background:linear-gradient(180deg,rgba(255,80,30,.6),rgba(255,60,20,0));filter:blur(2px);animation:fauna-history-halloween-crocodile-ch-rfm 1.2s ease-in-out infinite alternate}
+@keyframes fauna-history-halloween-crocodile-ch-rfm{from{transform:scaleX(1) skewX(-4deg);opacity:.5}to{transform:scaleX(1.6) skewX(4deg);opacity:1}}
+.fauna-history-halloween-crocodile-ch-rw{position:absolute;left:298px;top:640px;width:0;height:0}
+.fauna-history-halloween-crocodile-ch-rp{position:absolute;left:-150px;top:-14px;width:300px;height:28px;border-radius:50%;border:1.5px solid rgba(160,190,255,.5);opacity:0;animation:fauna-history-halloween-crocodile-ch-rpm 4s ease-out infinite}
+@keyframes fauna-history-halloween-crocodile-ch-rpm{0%{opacity:.8;transform:scale(.5)}100%{opacity:0;transform:scale(1.8)}}
+.fauna-history-halloween-crocodile-ch-fog{position:absolute;left:-220px;width:1000px;height:220px;border-radius:50%;background:radial-gradient(closest-side,rgba(140,160,220,.2),rgba(0,0,0,0));animation:fauna-history-halloween-crocodile-ch-fgm var(--d) linear infinite}
+@keyframes fauna-history-halloween-crocodile-ch-fgm{0%,100%{transform:translateX(-130px)}50%{transform:translateX(130px)}}
+.fauna-history-halloween-crocodile-ch-ff{position:absolute;width:4px;height:4px;border-radius:50%;background:#ff9a5a;box-shadow:0 0 8px 3px rgba(255,90,30,.6);animation:fauna-history-halloween-crocodile-ch-ffm var(--d) ease-in-out infinite}
+@keyframes fauna-history-halloween-crocodile-ch-ffm{0%,100%{transform:translate(0,0);opacity:.1}30%{opacity:1}50%{transform:translate(var(--x),var(--y));opacity:.2}70%{opacity:.9}}
+.fauna-history-halloween-crocodile-ch-vg{position:absolute;inset:0;box-shadow:inset 0 0 140px 40px rgba(0,0,10,.9)}
+.fauna-history-halloween-crocodile-ch-hb{position:absolute;inset:0;box-shadow:inset 0 0 110px 22px rgba(170,0,0,.6);opacity:.1;animation:fauna-history-halloween-crocodile-ch-hbm 2s ease-in-out infinite}
+@keyframes fauna-history-halloween-crocodile-ch-hbm{0%,40%,100%{opacity:.1}10%{opacity:.9}22%{opacity:.2}30%{opacity:.7}}
+.fauna-history-halloween-crocodile-ch-flash{position:absolute;inset:0;background:rgba(200,0,0,.5);opacity:0;animation:fauna-history-halloween-crocodile-ch-fls 12s linear infinite}
+@keyframes fauna-history-halloween-crocodile-ch-fls{0%,82.6%{opacity:0}83%{opacity:.85}84%{opacity:0}84.6%{opacity:.45}85.6%,100%{opacity:0}}
+.fauna-history-halloween-crocodile-ch-tp{position:absolute;left:271px;top:6px;width:87px;height:170px;z-index:20;pointer-events:none}
+.fauna-history-halloween-crocodile-ch-nsk{display:block;filter:drop-shadow(0 0 2px #fff) drop-shadow(0 0 6px #ff2a1a) drop-shadow(0 0 16px #ff1a0a) drop-shadow(0 0 30px rgba(255,20,0,.8));animation:fauna-history-halloween-crocodile-ch-neon 1.1s steps(1) infinite}
+@keyframes fauna-history-halloween-crocodile-ch-neon{0%{opacity:1}7%{opacity:.15}10%{opacity:1}18%{opacity:.4}21%{opacity:1}33%{opacity:.05}36%{opacity:1}48%{opacity:.7}52%{opacity:1}60%{opacity:.1}62%{opacity:.9}66%{opacity:.2}69%{opacity:1}82%{opacity:.35}85%{opacity:1}93%{opacity:.1}95%,100%{opacity:1}}
+.fauna-history-halloween-crocodile-ch-tl{position:absolute;left:176px;top:770px;z-index:9;transform:rotate(-8deg);transform-origin:0 20px;pointer-events:none;filter:drop-shadow(0 3px 3px #000) drop-shadow(0 0 6px rgba(255,40,20,.35))}
+.fauna-history-halloween-crocodile-ch-sg{position:absolute;left:0;top:0;width:64px;height:40px;transform-origin:2px 20px;animation:fauna-history-halloween-crocodile-ch-wag 1.6s ease-in-out infinite alternate}
+.fauna-history-halloween-crocodile-ch-sg .fauna-history-halloween-crocodile-ch-sg{left:58px}
+.fauna-history-halloween-crocodile-ch-sg img{display:block}
+@keyframes fauna-history-halloween-crocodile-ch-wag{from{transform:rotate(-11deg)}to{transform:rotate(11deg)}}
+.fauna-history-halloween-crocodile-ch-nm{position:absolute;left:150px;top:794px;width:320px;height:72px;z-index:14;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
+.fauna-history-halloween-crocodile-ch-nt{font-weight:900;font-size:24px;letter-spacing:2.4px;text-transform:uppercase;color:#ff5a3a;text-shadow:0 0 3px #000,0 0 14px rgba(255,40,20,.85);white-space:nowrap;animation:fauna-history-halloween-crocodile-ch-ntf 6s steps(1) infinite}
+@keyframes fauna-history-halloween-crocodile-ch-ntf{0%,70%,73%,100%{opacity:1}71%{opacity:.4}72%{opacity:.9}}
+.fauna-history-halloween-crocodile-ch-sb{font-weight:800;font-size:9.6px;letter-spacing:3.2px;color:#cfd8ff;text-shadow:0 1px 2px #000;white-space:nowrap}
+.fauna-history-halloween-crocodile-ch-tag{position:absolute;left:215px;top:943px;width:200px;height:20px;z-index:14;display:flex;align-items:center;justify-content:center;background:#05070f;border:1px solid #ff2a1a;border-radius:3px;box-shadow:0 0 8px rgba(255,40,20,.5)}
+.fauna-history-halloween-crocodile-ch-tag span{font-weight:800;font-size:9.5px;letter-spacing:4px;color:#ff4a2a;text-shadow:0 0 6px rgba(255,40,20,.9);animation:fauna-history-halloween-crocodile-ch-ntf 4s steps(1) infinite}
+

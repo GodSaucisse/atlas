@@ -1,0 +1,122 @@
+[
+  {
+    "code": "ANI-001",
+    "name": "Lion",
+    "universe": "Animaux",
+    "category": "Grand félin",
+    "description": "Roi de la savane.",
+    "rarity": "Suprême",
+    "imageKey": "8ec8b77e-4b7b-54a3-b3e0-b2fb713394b2.webp",
+    "asset": "/designs/fauna-history-lion/3a0256f00b54b7f1517fc5cb.webp",
+    "sourceFilename": "SupremeLion.dc.html",
+    "sourceSha256": "4baa9ceaa4ac0dfbc8bcd1e0b0de20779eac74fcd505f677337fbaee4f27e90f"
+  },
+  {
+    "code": "EDS-030",
+    "name": "Lion — Halloween",
+    "universe": "Editions spéciales",
+    "category": "Félin · Halloween",
+    "description": "Lion métamorphosé en roi des ombres.",
+    "rarity": "Editions spéciales",
+    "imageKey": "3570e2d2-536d-58f3-b48a-15a140c0bdb7.webp",
+    "asset": "/designs/fauna-history-halloween-lion/d55f7fdf7b5474e341a587a6.webp",
+    "sourceFilename": "HalloweenEditionLion.dc.html",
+    "sourceSha256": "dfcbdb417466fd137b8c258c6b5651516c9b16a869a351a6d77ed9b586fde547"
+  },
+  {
+    "code": "ANI-100",
+    "name": "Orque",
+    "universe": "Animaux",
+    "category": "Mammifère marin",
+    "description": "Grand cétacé prédateur vivant en groupes familiaux.",
+    "rarity": "Suprême",
+    "imageKey": "5e1801a1-fdfc-5770-a10d-9f7f487b481a.webp",
+    "asset": "/designs/fauna-history-orque/1465426b7b32d9fd116bb110.webp",
+    "sourceFilename": "SupremeOrque2.dc.html",
+    "sourceSha256": "7046d235201218e31fd0cc0bdd8a9eaaac685a2f8f930573972ba64af3f45209"
+  },
+  {
+    "code": "ANI-021",
+    "name": "Gorille de l’Ouest",
+    "universe": "Animaux",
+    "category": "Primate",
+    "description": "Grand primate des forêts d’Afrique équatoriale.",
+    "rarity": "Suprême",
+    "imageKey": "32780fbb-023d-5859-8b16-552e9a266eb4.webp",
+    "asset": "/designs/fauna-history-gorille/e9af3d8249f407b90cb9a223.webp",
+    "sourceFilename": "SupremeGorille1.dc.html",
+    "sourceSha256": "84512f6bdc99578190e00fbd3d2326cbfc8143bf1f9b0076870b27ba431d31ad"
+  },
+  {
+    "code": "HIS-137",
+    "name": "Isaac Newton",
+    "universe": "Histoire",
+    "category": "Scientifique",
+    "description": "Physicien et mathématicien, auteur des Principia.",
+    "rarity": "Suprême",
+    "imageKey": "b3f67397-09b7-5792-8013-36cbf740a697.webp",
+    "asset": "/designs/fauna-history-newton/fbe954660580f142a7bdadaa.webp",
+    "sourceFilename": "SupremeNewton.dc.html",
+    "sourceSha256": "178c8fcc1c973186969aaea64f71ce7f990ba6fb12dea75a5c3f9d6439383e12"
+  },
+  {
+    "code": "HIS-105",
+    "name": "Louis IX",
+    "universe": "Histoire",
+    "category": "Roi de France",
+    "description": "Roi de France connu sous le nom de Saint Louis.",
+    "rarity": "Suprême",
+    "imageKey": "e45738b9-74d7-563a-b516-9014da3e2b34.webp",
+    "asset": "/designs/fauna-history-louis-ix/0dac996e08e2d75a4019de82.webp",
+    "sourceFilename": "SupremeLouisIX.dc.html",
+    "sourceSha256": "334ab6afc0c4937315aa26c53578a8c44975d770ff3e9c206b27004bc1876104"
+  },
+  {
+    "code": "ANI-031",
+    "name": "Pygargue à tête blanche",
+    "universe": "Animaux",
+    "category": "Rapace",
+    "description": "Grand rapace nord-américain à la tête blanche.",
+    "rarity": "Suprême",
+    "imageKey": "2e34c4f8-769d-535c-865e-1e1391a7c09a.webp",
+    "asset": "/designs/fauna-history-pygargue/6ec2f4e9040cd844f76608a5.webp",
+    "sourceFilename": "SupremePygargue.dc.html",
+    "sourceSha256": "31d0b4da09addcd148edfd1b76a9c9e6226f228539c59cd3cf1367a167954303"
+  },
+  {
+    "code": "ANI-058",
+    "name": "Tortue verte",
+    "universe": "Animaux",
+    "category": "Reptile marin",
+    "description": "Tortue marine fréquentant les herbiers tropicaux.",
+    "rarity": "Suprême",
+    "imageKey": "353e1f0e-44c9-5834-beb1-884015ee6734.webp",
+    "asset": "/designs/fauna-history-tortue-verte/af408882329ced9f87e85325.webp",
+    "sourceFilename": "SupremeTortue.dc.html",
+    "sourceSha256": "11a740a4835c1096bace28d51de3f3603639f58833623b319e932f8bc8cb81a9"
+  },
+  {
+    "code": "ANI-051",
+    "name": "Crocodile du Nil",
+    "universe": "Animaux",
+    "category": "Reptile",
+    "description": "Grand crocodilien des eaux douces africaines.",
+    "rarity": "Suprême",
+    "imageKey": "f022307e-8a99-54e6-b451-051d16dd2542.webp",
+    "asset": "/designs/fauna-history-crocodile-nil/f393566b0b9a5c86961934b6.webp",
+    "sourceFilename": "SupremeCrocodile.dc.html",
+    "sourceSha256": "54fad556c393e2377ac0fcf5ed9cc568bbe75eb1d6ab596d6704cd3496c71cf0"
+  },
+  {
+    "code": "EDS-031",
+    "name": "Crocodile du Nil — Halloween",
+    "universe": "Editions spéciales",
+    "category": "Reptile · Halloween",
+    "description": "Crocodile spectral tapi dans les marais.",
+    "rarity": "Editions spéciales",
+    "imageKey": "f2213a17-3a10-5dcf-9962-46be4ad6bc36.webp",
+    "asset": "/designs/fauna-history-halloween-crocodile/1f3cfe665b72fb2c8feb1546.webp",
+    "sourceFilename": "HalloweenEditionCrocodile.dc.html",
+    "sourceSha256": "27a7c1ee712af28027a7830a78938002650ef329e10a05c4f53537e518e73de8"
+  }
+]
